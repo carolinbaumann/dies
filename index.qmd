@@ -1,0 +1,9 @@
+# Einstieg
+
+Dieses Quarto-Book enthält eine wiederholbare Multiple-Choice-Übung zur internen Validität im Kontext schreibdidaktischer Interventionsstudien.
+
+Die Aufgabe auf der nächsten Seite zieht bei jedem Klick eine neue Frage aus einem Fragenpool. Nach Auswahl einer Antwort erhalten die Lernenden direkt eine kurze Rückmeldung.
+
+## Lernziel
+
+Die Teilnehmenden sollen typische Bedrohungen der internen Validität an schreibdidaktischen Beispielen erkennen und erklären können.

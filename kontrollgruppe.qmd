@@ -1,0 +1,204 @@
+---
+title: "Kontrollgruppen"
+---
+
+## Was ist eine Kontrollgruppe?
+
+Eine Kontrollgruppe ist eine Vergleichsgruppe in einem Experiment, die nicht der experimentellen Intervention ausgesetzt wird. Sie dient als Baseline zur Bewertung der Effekte einer didaktischen Maßnahme.
+
+## Zweck von Kontrollgruppen
+
+- **Kausalschlüsse ermöglichen**: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden
+- **Alternativerklärungen ausschließen**: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse
+- **Baseline etablieren**: Referenzwert für den Lernzuwachs
+
+## Arten von Kontrollgruppen in der Deutschdidaktik
+
+### Keine-Behandlung-Kontrollgruppe
+Erhält keinen speziellen Förderunterricht, sondern regulären Unterricht.
+
+**Beispiel**: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.
+
+### Placebo-Kontrollgruppe
+Erhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.
+
+**Beispiel**: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.
+
+### Warteliste-Kontrollgruppe
+Erhält die Fördermaßnahme zeitverzögert nach Abschluss der Studie.
+
+**Beispiel**: Die Kontrollgruppe erhält das Schreibförderprogramm im nächsten Halbjahr.
+
+### Aktive Kontrollgruppe
+Erhält eine alternative, etablierte Fördermethode zum Vergleich.
+
+**Beispiel**: Vergleich zweier Lesefördermethoden - Lautleseverfahren vs. Vielleseverfahren.
+
+## Beispiele aus der Deutschdidaktik
+
+### Leseförderung
+**Forschungsfrage**: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?
+
+- **Experimentalgruppe**: 3x wöchentlich 20 Min. Lautlese-Tandem
+- **Kontrollgruppe**: Regulärer Leseunterricht
+- **Messung**: Lesetest vorher/nachher
+
+### Schreibförderung
+**Forschungsfrage**: Steigert prozessorientiertes Schreiben die Textqualität?
+
+- **Experimentalgruppe**: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen
+- **Kontrollgruppe**: Traditioneller Aufsatzunterricht
+- **Messung**: Textqualität nach standardisierten Kriterien
+
+### Rechtschreibförderung
+**Forschungsfrage**: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?
+
+- **Experimentalgruppe**: Strategietraining (Wortbausteine, Ableitungen)
+- **Kontrollgruppe**: Regellernen und Übungen
+- **Messung**: Rechtschreibtest
+
+## Wichtige Überlegungen im Schulkontext
+
+### Praktische Herausforderungen
+- **Klassenverbände**: Oft Zuweisung ganzer Klassen statt einzelner Schüler
+- **Unterrichtsrealität**: Kontrollbedingung muss im regulären Unterricht umsetzbar sein
+- **Lehrpersonen**: Verschiedene Lehrkräfte können Ergebnisse beeinflussen
+
+### Ethische Aspekte
+- Ist es vertretbar, einer Gruppe eine potenziell wirksame Förderung vorzuenthalten?
+- Warteliste-Design als Lösung: Alle erhalten die Förderung, nur zeitversetzt
+
+
+## Häufige Probleme
+
+- **Dropout**: Schüler wechseln die Schule oder fehlen bei Nachtestung
+- **Diffusion**: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)
+- **Kompensation**: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung
+- **Demoralisation**: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt
+
+## Übungsaufgabe
+
+Testen Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:
+
+<div id="quiz-kg" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+  <button id="new-question-kg" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Neue Aufgabe</button>
+  <p id="question-kg" style="margin-top: 1rem;"></p>
+  <form id="answers-kg" style="margin-top: 1rem;"></form>
+  <button id="check-answer-kg" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Antwort prüfen</button>
+  <div id="feedback-kg" style="margin-top: 1rem; font-weight: 600;"></div>
+</div>
+
+```{=html}
+<script>
+const questionsKG = [
+  {
+    frage: "Eine Studie untersucht die Wirksamkeit eines neuen Rechtschreibtrainings. Welche Kontrollgruppenvariante ist am ethisch vertretbarsten?",
+    optionen: [
+      "Keine-Behandlung-Kontrollgruppe ohne spätere Förderung",
+      "Warteliste-Kontrollgruppe, die das Training später erhält",
+      "Placebo-Kontrollgruppe mit sinnlosen Übungen",
+      "Gar keine Kontrollgruppe verwenden"
+    ],
+    richtig: 1,
+    erklaerung: "Die Warteliste-Kontrollgruppe ist ethisch am vertretbarsten, da alle Schüler letztlich die Förderung erhalten, nur zeitversetzt."
+  },
+  {
+    frage: "In einem Leseförderexperiment erhält die Experimentalgruppe ein Lautlese-Training. Was wäre eine geeignete aktive Kontrollgruppe?",
+    optionen: [
+      "Eine Gruppe, die gar nicht liest",
+      "Eine Gruppe mit einem alternativen Leseförderprogramm (z.B. Vielleseverfahren)",
+      "Eine Gruppe, die Mathematik übt",
+      "Eine Gruppe ohne jeglichen Unterricht"
+    ],
+    richtig: 1,
+    erklaerung: "Eine aktive Kontrollgruppe erhält eine alternative, etablierte Methode zum Vergleich - hier ein anderes Leseförderprogramm."
+  },
+  {
+    frage: "Welches Problem tritt auf, wenn Schüler der Kontrollgruppe in der Pause von der Experimentalgruppe über die neue Methode informiert werden?",
+    optionen: ["Dropout", "Kompensation", "Diffusion/Kontamination", "Demoralisation"],
+    richtig: 2,
+    erklaerung: "Diffusion oder Kontamination liegt vor, wenn Inhalte der Intervention unbeabsichtigt zur Kontrollgruppe gelangen."
+  },
+  {
+    frage: "Warum ist eine Kontrollgruppe in didaktischen Experimenten wichtig?",
+    optionen: [
+      "Um die Stichprobe zu vergrößern",
+      "Um Kausalschlüsse über die Wirkung der Intervention zu ermöglichen",
+      "Um Kosten zu reduzieren",
+      "Um die Schüler zu motivieren"
+    ],
+    richtig: 1,
+    erklaerung: "Die Kontrollgruppe ermöglicht es, Unterschiede kausal auf die Intervention zurückzuführen und nicht auf andere Faktoren."
+  },
+  {
+    frage: "Eine Studie vergleicht zwei Schreibfördermethoden. Die Experimentalgruppe arbeitet prozessorientiert, die Kontrollgruppe traditionell. Welche Art von Kontrollgruppe ist das?",
+    optionen: [
+      "Keine-Behandlung-Kontrollgruppe",
+      "Placebo-Kontrollgruppe",
+      "Aktive Kontrollgruppe",
+      "Warteliste-Kontrollgruppe"
+    ],
+    richtig: 2,
+    erklaerung: "Eine aktive Kontrollgruppe erhält eine alternative Behandlung (hier: traditionelle Methode) statt keiner Behandlung."
+  },
+  {
+    frage: "Bei der Auswertung eines Leseförderexperiments soll das unterschiedliche Ausgangsniveau der Gruppen statistisch kontrolliert werden. Welches Verfahren ist geeignet?",
+    optionen: [
+      "Chi-Quadrat-Test",
+      "ANCOVA (mit Pretest als Kovariate)",
+      "Korrelation nach Pearson",
+      "Einfache Häufigkeitsauszählung"
+    ],
+    richtig: 1,
+    erklaerung: "ANCOVA (Kovarianzanalyse) ermöglicht die statistische Kontrolle des Ausgangsniveaus durch Einbezug des Pretests als Kovariate."
+  }
+];
+
+let currentQuestionKG = null;
+
+function loadRandomQuestionKG() {
+  const idx = Math.floor(Math.random() * questionsKG.length);
+  currentQuestionKG = questionsKG[idx];
+  
+  document.getElementById('question-kg').textContent = currentQuestionKG.frage;
+  
+  const form = document.getElementById('answers-kg');
+  form.innerHTML = '';
+  currentQuestionKG.optionen.forEach((opt, i) => {
+    const label = document.createElement('label');
+    label.style.display = 'block';
+    label.style.marginBottom = '.5rem';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = 'answer-kg';
+    radio.value = i;
+    label.appendChild(radio);
+    label.appendChild(document.createTextNode(' ' + opt));
+    form.appendChild(label);
+  });
+  
+  document.getElementById('feedback-kg').innerHTML = '';
+}
+
+function checkAnswerKG() {
+  const selected = document.querySelector('input[name="answer-kg"]:checked');
+  if (!selected) return;
+  
+  const selectedValue = parseInt(selected.value);
+  const isCorrect = selectedValue === currentQuestion
+
+KG.richtig;
+  
+  const feedback = document.getElementById('feedback-kg');
+  if (isCorrect) {
+    feedback.innerHTML = '<div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 5px;"><h4 style="color: #155724;">✓ RICHTIG!</h4><p style="color: #155724;"><strong>Erklärung:</strong> ' + currentQuestionKG.erklaerung + '</p></div>';
+  } else {
+    feedback.innerHTML = '<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 5px;"><h4 style="color: #721c24;">✗ FALSCH!</h4><p style="color: #721c24;"><strong>Die richtige Antwort wäre:</strong> ' + currentQuestionKG.optionen[currentQuestionKG.richtig] + '</p><p style="color: #721c24;"><strong>Erklärung:</strong> ' + currentQuestionKG.erklaerung + '</p></div>';
+  }
+}
+
+document.getElementById('new-question-kg').addEventListener('click', loadRandomQuestionKG);
+document.getElementById('check-answer-kg').addEventListener('click', checkAnswerKG);
+
+loadRandomQuestionKG();
+</script>

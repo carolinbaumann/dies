@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mein Projekt",
+    "section": "",
+    "text": "Dieses Quarto-Book enthält eine wiederholbare Multiple-Choice-Übung zur internen Validität im Kontext schreibdidaktischer Interventionsstudien.\nDie Aufgabe auf der nächsten Seite zieht bei jedem Klick eine neue Frage aus einem Fragenpool. Nach Auswahl einer Antwort erhalten die Lernenden direkt eine kurze Rückmeldung.\n\n\nDie Teilnehmenden sollen typische Bedrohungen der internen Validität an schreibdidaktischen Beispielen erkennen und erklären können."
+  },
+  {
+    "objectID": "design.html",
+    "href": "design.html",
+    "title": "2  Experimentelles Design",
+    "section": "",
+    "text": "In diesem Kapitel beschäftigen wir uns mit dem experimentellen Design und den grundlegenden Prinzipien der Versuchsplanung."
+  },
+  {
+    "objectID": "design.html#arten-von-designs",
+    "href": "design.html#arten-von-designs",
+    "title": "2  Experimentelles Design",
+    "section": "2.2 Arten von Designs",
+    "text": "2.2 Arten von Designs\n\n2.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n2.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
+  },
+  {
+    "objectID": "design.html#wichtige-designprinzipien",
+    "href": "design.html#wichtige-designprinzipien",
+    "title": "2  Experimentelles Design",
+    "section": "2.3 Wichtige Designprinzipien",
+    "text": "2.3 Wichtige Designprinzipien\n\nRandomisierung: Zufällige Zuteilung zu Bedingungen\nKontrolle: Konstanthaltung von Störvariablen\nReplikation: Wiederholung unter gleichen Bedingungen"
+  },
+  {
+    "objectID": "design.html#beispiel",
+    "href": "design.html#beispiel",
+    "title": "2  Experimentelles Design",
+    "section": "2.4 Beispiel",
+    "text": "2.4 Beispiel\nEin einfaches experimentelles Design könnte folgendermaßen aussehen:\n\nUV (unabhängige Variable): Trainingsmethode (A vs. B)\nAV (abhängige Variable): Lernleistung\nDesign: Zwischen-Subjekt-Design mit Randomisierung"
+  },
+  {
+    "objectID": "theorie.html",
+    "href": "theorie.html",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "",
+    "text": "In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann."
+  },
+  {
+    "objectID": "theorie.html#unklare-zeitliche-abfolge",
+    "href": "theorie.html#unklare-zeitliche-abfolge",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.1 1. Unklare zeitliche Abfolge",
+    "text": "3.1 1. Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
+  },
+  {
+    "objectID": "theorie.html#selektionseffekte",
+    "href": "theorie.html#selektionseffekte",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.2 2. Selektionseffekte",
+    "text": "3.2 2. Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#externe-zeitliche-einflüsse",
+    "href": "theorie.html#externe-zeitliche-einflüsse",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.3 3. Externe zeitliche Einflüsse",
+    "text": "3.3 3. Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#reifungsprozesse",
+    "href": "theorie.html#reifungsprozesse",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.4 4. Reifungsprozesse",
+    "text": "3.4 4. Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#statistische-regressionseffekte",
+    "href": "theorie.html#statistische-regressionseffekte",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.5 5. Statistische Regressionseffekte",
+    "text": "3.5 5. Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#experimentelle-mortalität",
+    "href": "theorie.html#experimentelle-mortalität",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.6 6. Experimentelle Mortalität",
+    "text": "3.6 6. Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#testübung",
+    "href": "theorie.html#testübung",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.7 7. Testübung",
+    "text": "3.7 7. Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "theorie.html#mangelnde-instrumentelle-reliabilität",
+    "href": "theorie.html#mangelnde-instrumentelle-reliabilität",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.8 8. Mangelnde instrumentelle Reliabilität",
+    "text": "3.8 8. Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
+  },
+  {
+    "objectID": "theorie.html#kombination-mehrerer-bedrohungen",
+    "href": "theorie.html#kombination-mehrerer-bedrohungen",
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.9 9. Kombination mehrerer Bedrohungen",
+    "text": "3.9 9. Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
+  },
+  {
+    "objectID": "aufgaben.html",
+    "href": "aufgaben.html",
+    "title": "8  Wiederholbare MC-Übung",
+    "section": "",
+    "text": "Neue Aufgabe\n\n\n\n\nAntwort prüfen"
+  },
+  {
+    "objectID": "stichprobe.html",
+    "href": "stichprobe.html",
+    "title": "5  Stichprobenziehung",
+    "section": "",
+    "text": "Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird."
+  },
+  {
+    "objectID": "stichprobe.html#ziele-der-stichprobenziehung",
+    "href": "stichprobe.html#ziele-der-stichprobenziehung",
+    "title": "5  Stichprobenziehung",
+    "section": "5.2 Ziele der Stichprobenziehung",
+    "text": "5.2 Ziele der Stichprobenziehung\n\nRepräsentativität für die Grundgesamtheit\nÖkonomische Durchführbarkeit\nGeneralisierbarkeit der Ergebnisse"
+  },
+  {
+    "objectID": "stichprobe.html#stichprobenarten",
+    "href": "stichprobe.html#stichprobenarten",
+    "title": "5  Stichprobenziehung",
+    "section": "5.3 Stichprobenarten",
+    "text": "5.3 Stichprobenarten\n\n5.3.1 Zufallsstichproben (Probabilistische Stichproben)\n\n5.3.1.1 Einfache Zufallsstichprobe\nJedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.\n\n\n5.3.1.2 Geschichtete Stichprobe\nDie Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.\n\n\n5.3.1.3 Klumpenstichprobe\nNatürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.\n\n\n\n5.3.2 Nicht-Zufallsstichproben\n\n5.3.2.1 Gelegenheitsstichprobe\nAuswahl nach Verfügbarkeit und Erreichbarkeit.\n\n\n5.3.2.2 Quota-Stichprobe\nAuswahl nach vorgegebenen Quoten für bestimmte Merkmale."
+  },
+  {
+    "objectID": "stichprobe.html#stichprobengröße",
+    "href": "stichprobe.html#stichprobengröße",
+    "title": "5  Stichprobenziehung",
+    "section": "5.4 Stichprobengröße",
+    "text": "5.4 Stichprobengröße\nDie benötigte Stichprobengröße hängt ab von:\n\nGewünschter statistischer Power (üblicherweise .80)\nErwarteter Effektgröße\nSignifikanzniveau (üblicherweise α = .05)\nVariabilität in der Population"
+  },
+  {
+    "objectID": "kontrollgruppe.html",
+    "href": "kontrollgruppe.html",
+    "title": "4  Kontrollgruppen",
+    "section": "",
+    "text": "Eine Kontrollgruppe ist eine Vergleichsgruppe in einem Experiment, die nicht der experimentellen Intervention ausgesetzt wird. Sie dient als Baseline zur Bewertung der Effekte einer didaktischen Maßnahme."
+  },
+  {
+    "objectID": "kontrollgruppe.html#zweck-von-kontrollgruppen",
+    "href": "kontrollgruppe.html#zweck-von-kontrollgruppen",
+    "title": "4  Kontrollgruppen",
+    "section": "4.2 Zweck von Kontrollgruppen",
+    "text": "4.2 Zweck von Kontrollgruppen\n\nKausalschlüsse ermöglichen: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden\nAlternativerklärungen ausschließen: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse\nBaseline etablieren: Referenzwert für den Lernzuwachs"
+  },
+  {
+    "objectID": "kontrollgruppe.html#arten-von-kontrollgruppen-in-der-deutschdidaktik",
+    "href": "kontrollgruppe.html#arten-von-kontrollgruppen-in-der-deutschdidaktik",
+    "title": "4  Kontrollgruppen",
+    "section": "4.3 Arten von Kontrollgruppen in der Deutschdidaktik",
+    "text": "4.3 Arten von Kontrollgruppen in der Deutschdidaktik\n\n4.3.1 Keine-Behandlung-Kontrollgruppe\nErhält keinen speziellen Förderunterricht, sondern regulären Unterricht.\nBeispiel: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.\n\n\n4.3.2 Placebo-Kontrollgruppe\nErhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.\nBeispiel: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.\n\n\n4.3.3 Warteliste-Kontrollgruppe\nErhält die Fördermaßnahme zeitverzögert nach Abschluss der Studie.\nBeispiel: Die Kontrollgruppe erhält das Schreibförderprogramm im nächsten Halbjahr.\n\n\n4.3.4 Aktive Kontrollgruppe\nErhält eine alternative, etablierte Fördermethode zum Vergleich.\nBeispiel: Vergleich zweier Lesefördermethoden - Lautleseverfahren vs. Vielleseverfahren."
+  },
+  {
+    "objectID": "kontrollgruppe.html#beispiele-aus-der-deutschdidaktik",
+    "href": "kontrollgruppe.html#beispiele-aus-der-deutschdidaktik",
+    "title": "4  Kontrollgruppen",
+    "section": "4.4 Beispiele aus der Deutschdidaktik",
+    "text": "4.4 Beispiele aus der Deutschdidaktik\n\n4.4.1 Leseförderung\nForschungsfrage: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?\n\nExperimentalgruppe: 3x wöchentlich 20 Min. Lautlese-Tandem\nKontrollgruppe: Regulärer Leseunterricht\nMessung: Lesetest vorher/nachher\n\n\n\n4.4.2 Schreibförderung\nForschungsfrage: Steigert prozessorientiertes Schreiben die Textqualität?\n\nExperimentalgruppe: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen\nKontrollgruppe: Traditioneller Aufsatzunterricht\nMessung: Textqualität nach standardisierten Kriterien\n\n\n\n4.4.3 Rechtschreibförderung\nForschungsfrage: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?\n\nExperimentalgruppe: Strategietraining (Wortbausteine, Ableitungen)\nKontrollgruppe: Regellernen und Übungen\nMessung: Rechtschreibtest"
+  },
+  {
+    "objectID": "kontrollgruppe.html#wichtige-überlegungen-im-schulkontext",
+    "href": "kontrollgruppe.html#wichtige-überlegungen-im-schulkontext",
+    "title": "4  Kontrollgruppen",
+    "section": "4.5 Wichtige Überlegungen im Schulkontext",
+    "text": "4.5 Wichtige Überlegungen im Schulkontext\n\n4.5.1 Praktische Herausforderungen\n\nKlassenverbände: Oft Zuweisung ganzer Klassen statt einzelner Schüler\nUnterrichtsrealität: Kontrollbedingung muss im regulären Unterricht umsetzbar sein\nLehrpersonen: Verschiedene Lehrkräfte können Ergebnisse beeinflussen\n\n\n\n4.5.2 Ethische Aspekte\n\nIst es vertretbar, einer Gruppe eine potenziell wirksame Förderung vorzuenthalten?\nWarteliste-Design als Lösung: Alle erhalten die Förderung, nur zeitversetzt"
+  },
+  {
+    "objectID": "kontrollgruppe.html#häufige-probleme",
+    "href": "kontrollgruppe.html#häufige-probleme",
+    "title": "4  Kontrollgruppen",
+    "section": "4.6 Häufige Probleme",
+    "text": "4.6 Häufige Probleme\n\nDropout: Schüler wechseln die Schule oder fehlen bei Nachtestung\nDiffusion: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)\nKompensation: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung\nDemoralisation: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt"
+  },
+  {
+    "objectID": "kontrollgruppe.html#übungsaufgabe",
+    "href": "kontrollgruppe.html#übungsaufgabe",
+    "title": "4  Kontrollgruppen",
+    "section": "4.7 Übungsaufgabe",
+    "text": "4.7 Übungsaufgabe\nTesten Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
+  },
+  {
+    "objectID": "randomisierung.html",
+    "href": "randomisierung.html",
+    "title": "8  Randomisierung",
+    "section": "",
+    "text": "Randomisierung bezeichnet die zufällige Zuweisung von Untersuchungsteilnehmenden zu den verschiedenen Untersuchungsbedingungen einer Studie, beispielsweise einer Experimental- und einer Kontrollgruppe. Sie stellt ein zentrales Merkmal experimenteller Forschungsdesigns dar und dient dazu, systematische Unterschiede zwischen den Gruppen zu minimieren.\nDurch die zufällige Gruppenzuweisung werden sowohl bekannte Merkmale (z. B. Vorwissen, Motivation oder Alter) als auch unbekannte Einflussfaktoren im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.\n\n\n\n\n\n\nWichtig zu beachten\n\n\n\nRandomisierung garantiert keine identischen Gruppen. Insbesondere bei kleinen Stichproben können weiterhin Unterschiede zwischen den Gruppen auftreten. Ihr entscheidender Vorteil besteht jedoch darin, dass diese Unterschiede nicht systematisch durch den Forschungsprozess erzeugt werden.\n\n\nRandomisierung trägt somit wesentlich zur internen Validität einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen."
+  },
+  {
+    "objectID": "randomisierung.html#zentrale-funktionen-der-randomisierung",
+    "href": "randomisierung.html#zentrale-funktionen-der-randomisierung",
+    "title": "8  Randomisierung",
+    "section": "8.2 Zentrale Funktionen der Randomisierung",
+    "text": "8.2 Zentrale Funktionen der Randomisierung\n\nReduktion systematischer Verzerrungen (Bias): Durch zufällige Zuweisung werden systematische Fehler vermieden\nHerstellung vergleichbarer Untersuchungsgruppen: Gruppen sind im Erwartungswert ähnlich\nKontrolle bekannter und unbekannter Einflussfaktoren: Auch nicht gemessene Merkmale werden ausgeglichen\nErhöhung der internen Validität: Kausale Schlussfolgerungen werden plausibler\nVerbesserung der Voraussetzungen für kausale Interpretationen: Interventionseffekte lassen sich besser identifizieren"
+  },
+  {
+    "objectID": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
+    "href": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
+    "title": "8  Randomisierung",
+    "section": "8.3 Beispiel aus der Deutschdidaktik",
+    "text": "8.3 Beispiel aus der Deutschdidaktik\nBei der Evaluation einer Lesefördermaßnahme oder einer Intervention zur Schreibförderung soll durch Randomisierung sichergestellt werden, dass Unterschiede zwischen den Gruppen möglichst nicht bereits vor Beginn der Maßnahme bestehen. Dadurch können Leistungsunterschiede nach der Intervention plausibler auf die Maßnahme selbst zurückgeführt werden.\nStellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, während eine Vergleichsklasse regulären Unterricht erhält. Ohne Randomisierung könnte die Lehrkraft unbewusst die leistungsstärkere Klasse für das Programm auswählen – die späteren Unterschiede wären dann nicht eindeutig dem Programm zuzuschreiben."
+  },
+  {
+    "objectID": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
+    "href": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
+    "title": "8  Randomisierung",
+    "section": "8.4 Interaktives Tool: Randomisierung durchführen",
+    "text": "8.4 Interaktives Tool: Randomisierung durchführen\nMit diesem Tool können Sie eine einfache Randomisierung für Ihre eigene Studie simulieren.\n\nviewof n_participants = Inputs.range([10, 200], {\n  value: 40,\n  step: 1,\n  label: \"Anzahl Teilnehmende\"\n})\n\nviewof n_groups = Inputs.range([2, 4], {\n  value: 2,\n  step: 1,\n  label: \"Anzahl Gruppen\"\n})\n\nviewof group_names = Inputs.text({\n  label: \"Gruppennamen (durch Komma getrennt)\",\n  value: \"Experimentalgruppe, Kontrollgruppe\",\n  placeholder: \"Gruppe 1, Gruppe 2, ...\"\n})\n\nviewof do_randomize = Inputs.button(\"Randomisierung durchführen\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction randomizeParticipants(n, groups) {\n  const groupList = groups.split(',').map(g => g.trim()).slice(0, n_groups);\n  \n  // Erstelle Array von Teilnehmer-IDs\n  const participants = Array.from({length: n}, (_, i) => i + 1);\n  \n  // Fisher-Yates Shuffle\n  for (let i = participants.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [participants[i], participants[j]] = [participants[j], participants[i]];\n  }\n  \n  // Weise Gruppen zu\n  const assignments = participants.map((id, index) => ({\n    id: id,\n    group: groupList[index % groupList.length]\n  }));\n  \n  // Zähle Gruppengröße\n  const groupCounts = {};\n  groupList.forEach(g => groupCounts[g] = 0);\n  assignments.forEach(a => groupCounts[a.group]++);\n  \n  return { assignments, groupCounts, groupList };\n}\n\n// Führe Randomisierung durch\nrandomization = {\n  do_randomize; // Abhängigkeit vom Button\n  return randomizeParticipants(n_participants, group_names);\n}\n\n// Zeige Ergebnisse\nhtml`\n<div style=\"background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;\">\n  <h3 style=\"color: #2c3e50; margin-top: 0;\">📋 Randomisierungsergebnis</h3>\n  \n  ${randomization.groupList.map(group => {\n    const count = randomization.groupCounts[group];\n    const percentage = ((count / n_participants) * 100).toFixed(1);\n    const barWidth = (count / n_participants) * 100;\n    \n    return `\n      <div style=\"margin: 15px 0;\">\n        <div style=\"display: flex; justify-content: space-between; margin-bottom: 5px;\">\n          <strong>${group}</strong>\n          <span>${count} Personen (${percentage}%)</span>\n        </div>\n        <div style=\"background: #e9ecef; border-radius: 10px; overflow: hidden; height: 30px;\">\n          <div style=\"background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); \n                      width: ${barWidth}%; height: 100%; \n                      transition: width 0.3s ease;\n                      display: flex; align-items: center; justify-content: center;\n                      color: white; font-weight: bold;\">\n            ${count > 0 ? count : ''}\n          </div>\n        </div>\n      </div>\n    `;\n  }).join('')}\n  \n  <div style=\"margin-top: 25px; padding: 15px; \n              background: #e3f2fd; border-left: 4px solid #2196f3; border-radius: 5px;\">\n    <p style=\"margin: 0; color: #1565c0;\">\n      <strong>💡 Hinweis:</strong> Jedes Mal, wenn Sie \"Randomisierung durchführen\" klicken, \n      wird eine neue zufällige Zuweisung erstellt. Beachten Sie, wie die Gruppengröße leicht \n      variieren kann, besonders wenn die Teilnehmerzahl nicht durch die Anzahl der Gruppen teilbar ist.\n    </p>\n  </div>\n</div>\n`"
+  },
+  {
+    "objectID": "randomisierung.html#randomisierungsliste-herunterladen",
+    "href": "randomisierung.html#randomisierungsliste-herunterladen",
+    "title": "8  Randomisierung",
+    "section": "8.5 Randomisierungsliste herunterladen",
+    "text": "8.5 Randomisierungsliste herunterladen\n\ncsv_content = {\n  const header = \"Teilnehmer_ID,Gruppe\\n\";\n  const rows = randomization.assignments\n    .map(a => `${a.id},${a.group}`)\n    .join('\\n');\n  return header + rows;\n}\n\nhtml`\n<div style=\"margin: 20px 0;\">\n  <a href=\"${'data:text/csv;charset=utf-8,' + encodeURIComponent(csv_content)}\" \n     download=\"randomisierung.csv\"\n     style=\"display: inline-block; background: #28a745; color: white; \n            padding: 12px 24px; text-decoration: none; border-radius: 6px;\n            font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);\">\n    📥 Randomisierungsliste als CSV herunterladen\n  </a>\n</div>\n`"
+  },
+  {
+    "objectID": "randomisierung.html#arten-der-randomisierung",
+    "href": "randomisierung.html#arten-der-randomisierung",
+    "title": "8  Randomisierung",
+    "section": "8.6 Arten der Randomisierung",
+    "text": "8.6 Arten der Randomisierung\n\n8.6.1 Einfache Randomisierung\nBei der einfachen Randomisierung wird jede Person unabhängig mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen (z. B. durch Münzwurf oder Zufallszahlengenerator).\nVorteil: Einfach durchzuführen\nNachteil: Bei kleinen Stichproben können ungleiche Gruppengrößen entstehen\n\n\n8.6.2 Block-Randomisierung\nBei der Block-Randomisierung werden Teilnehmende in Blöcken randomisiert, um gleiche Gruppengrößen zu garantieren.\nBeispiel: Bei 40 Personen und 2 Gruppen werden 4 Blöcke mit je 10 Personen gebildet. In jedem Block werden 5 Personen der Experimental- und 5 der Kontrollgruppe zugewiesen.\n\n\n8.6.3 Stratifizierte Randomisierung\nBei der stratifizierten Randomisierung werden Teilnehmende zunächst nach wichtigen Merkmalen (z. B. Geschlecht, Alter, Vorwissen) in Schichten (Strata) eingeteilt und dann innerhalb jeder Schicht randomisiert.\nVorteil: Gewährleistet Gleichverteilung wichtiger Kovariaten"
+  },
+  {
+    "objectID": "randomisierung.html#überprüfung-der-randomisierung",
+    "href": "randomisierung.html#überprüfung-der-randomisierung",
+    "title": "8  Randomisierung",
+    "section": "8.7 Überprüfung der Randomisierung",
+    "text": "8.7 Überprüfung der Randomisierung\nNach der Randomisierung sollten die Gruppen auf Baseline-Merkmale verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:\n\nDemografische Merkmale (Alter, Geschlecht)\nRelevante Vortestleistungen\nMotivationale Variablen\n\nDies geschieht typischerweise durch:\n\nDeskriptive Statistiken (Mittelwerte, Standardabweichungen)\nStatistische Tests (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!\n\n\n\n\n\n\n\nZur Interpretation von Baseline-Tests\n\n\n\nSignifikante Unterschiede bei Baseline-Vergleichen bedeuten nicht, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung."
+  },
+  {
+    "objectID": "Poweranalyse.html",
+    "href": "Poweranalyse.html",
+    "title": "6  Poweranalyse für t-Tests",
+    "section": "",
+    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+  },
+  {
+    "objectID": "poweranalyse.html",
+    "href": "poweranalyse.html",
+    "title": "6  Poweranalyse für t-Tests",
+    "section": "",
+    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+  }
+]

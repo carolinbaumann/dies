@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.16">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mein Projekt - 4&nbsp; Kontrollgruppen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./stichprobe.html" rel="next">
+<link href="./design.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Kontrollgruppen</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Mein Projekt</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einstieg</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./theorie.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Bedrohungen der internen Validität</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./design.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Experimentelles Design</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kontrollgruppe.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Kontrollgruppen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./stichprobe.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Stichprobenziehung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poweranalyse.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Poweranalyse für t-Tests</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./randomisierung.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Randomisierung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aufgaben.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Wiederholbare MC-Übung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#was-ist-eine-kontrollgruppe" id="toc-was-ist-eine-kontrollgruppe" class="nav-link active" data-scroll-target="#was-ist-eine-kontrollgruppe"> <span class="header-section-number">4.1</span> Was ist eine Kontrollgruppe?</a></li>
+  <li><a href="#zweck-von-kontrollgruppen" id="toc-zweck-von-kontrollgruppen" class="nav-link" data-scroll-target="#zweck-von-kontrollgruppen"> <span class="header-section-number">4.2</span> Zweck von Kontrollgruppen</a></li>
+  <li><a href="#arten-von-kontrollgruppen-in-der-deutschdidaktik" id="toc-arten-von-kontrollgruppen-in-der-deutschdidaktik" class="nav-link" data-scroll-target="#arten-von-kontrollgruppen-in-der-deutschdidaktik"> <span class="header-section-number">4.3</span> Arten von Kontrollgruppen in der Deutschdidaktik</a>
+  <ul class="collapse">
+  <li><a href="#keine-behandlung-kontrollgruppe" id="toc-keine-behandlung-kontrollgruppe" class="nav-link" data-scroll-target="#keine-behandlung-kontrollgruppe"> <span class="header-section-number">4.3.1</span> Keine-Behandlung-Kontrollgruppe</a></li>
+  <li><a href="#placebo-kontrollgruppe" id="toc-placebo-kontrollgruppe" class="nav-link" data-scroll-target="#placebo-kontrollgruppe"> <span class="header-section-number">4.3.2</span> Placebo-Kontrollgruppe</a></li>
+  <li><a href="#warteliste-kontrollgruppe" id="toc-warteliste-kontrollgruppe" class="nav-link" data-scroll-target="#warteliste-kontrollgruppe"> <span class="header-section-number">4.3.3</span> Warteliste-Kontrollgruppe</a></li>
+  <li><a href="#aktive-kontrollgruppe" id="toc-aktive-kontrollgruppe" class="nav-link" data-scroll-target="#aktive-kontrollgruppe"> <span class="header-section-number">4.3.4</span> Aktive Kontrollgruppe</a></li>
+  </ul></li>
+  <li><a href="#beispiele-aus-der-deutschdidaktik" id="toc-beispiele-aus-der-deutschdidaktik" class="nav-link" data-scroll-target="#beispiele-aus-der-deutschdidaktik"> <span class="header-section-number">4.4</span> Beispiele aus der Deutschdidaktik</a>
+  <ul class="collapse">
+  <li><a href="#leseförderung" id="toc-leseförderung" class="nav-link" data-scroll-target="#leseförderung"> <span class="header-section-number">4.4.1</span> Leseförderung</a></li>
+  <li><a href="#schreibförderung" id="toc-schreibförderung" class="nav-link" data-scroll-target="#schreibförderung"> <span class="header-section-number">4.4.2</span> Schreibförderung</a></li>
+  <li><a href="#rechtschreibförderung" id="toc-rechtschreibförderung" class="nav-link" data-scroll-target="#rechtschreibförderung"> <span class="header-section-number">4.4.3</span> Rechtschreibförderung</a></li>
+  </ul></li>
+  <li><a href="#wichtige-überlegungen-im-schulkontext" id="toc-wichtige-überlegungen-im-schulkontext" class="nav-link" data-scroll-target="#wichtige-überlegungen-im-schulkontext"> <span class="header-section-number">4.5</span> Wichtige Überlegungen im Schulkontext</a>
+  <ul class="collapse">
+  <li><a href="#praktische-herausforderungen" id="toc-praktische-herausforderungen" class="nav-link" data-scroll-target="#praktische-herausforderungen"> <span class="header-section-number">4.5.1</span> Praktische Herausforderungen</a></li>
+  <li><a href="#ethische-aspekte" id="toc-ethische-aspekte" class="nav-link" data-scroll-target="#ethische-aspekte"> <span class="header-section-number">4.5.2</span> Ethische Aspekte</a></li>
+  </ul></li>
+  <li><a href="#häufige-probleme" id="toc-häufige-probleme" class="nav-link" data-scroll-target="#häufige-probleme"> <span class="header-section-number">4.6</span> Häufige Probleme</a></li>
+  <li><a href="#übungsaufgabe" id="toc-übungsaufgabe" class="nav-link" data-scroll-target="#übungsaufgabe"> <span class="header-section-number">4.7</span> Übungsaufgabe</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Kontrollgruppen</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="was-ist-eine-kontrollgruppe" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="was-ist-eine-kontrollgruppe"><span class="header-section-number">4.1</span> Was ist eine Kontrollgruppe?</h2>
+<p>Eine Kontrollgruppe ist eine Vergleichsgruppe in einem Experiment, die nicht der experimentellen Intervention ausgesetzt wird. Sie dient als Baseline zur Bewertung der Effekte einer didaktischen Maßnahme.</p>
+</section>
+<section id="zweck-von-kontrollgruppen" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="zweck-von-kontrollgruppen"><span class="header-section-number">4.2</span> Zweck von Kontrollgruppen</h2>
+<ul>
+<li><strong>Kausalschlüsse ermöglichen</strong>: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden</li>
+<li><strong>Alternativerklärungen ausschließen</strong>: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse</li>
+<li><strong>Baseline etablieren</strong>: Referenzwert für den Lernzuwachs</li>
+</ul>
+</section>
+<section id="arten-von-kontrollgruppen-in-der-deutschdidaktik" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="arten-von-kontrollgruppen-in-der-deutschdidaktik"><span class="header-section-number">4.3</span> Arten von Kontrollgruppen in der Deutschdidaktik</h2>
+<section id="keine-behandlung-kontrollgruppe" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="keine-behandlung-kontrollgruppe"><span class="header-section-number">4.3.1</span> Keine-Behandlung-Kontrollgruppe</h3>
+<p>Erhält keinen speziellen Förderunterricht, sondern regulären Unterricht.</p>
+<p><strong>Beispiel</strong>: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.</p>
+</section>
+<section id="placebo-kontrollgruppe" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="placebo-kontrollgruppe"><span class="header-section-number">4.3.2</span> Placebo-Kontrollgruppe</h3>
+<p>Erhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.</p>
+<p><strong>Beispiel</strong>: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.</p>
+</section>
+<section id="warteliste-kontrollgruppe" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="warteliste-kontrollgruppe"><span class="header-section-number">4.3.3</span> Warteliste-Kontrollgruppe</h3>
+<p>Erhält die Fördermaßnahme zeitverzögert nach Abschluss der Studie.</p>
+<p><strong>Beispiel</strong>: Die Kontrollgruppe erhält das Schreibförderprogramm im nächsten Halbjahr.</p>
+</section>
+<section id="aktive-kontrollgruppe" class="level3" data-number="4.3.4">
+<h3 data-number="4.3.4" class="anchored" data-anchor-id="aktive-kontrollgruppe"><span class="header-section-number">4.3.4</span> Aktive Kontrollgruppe</h3>
+<p>Erhält eine alternative, etablierte Fördermethode zum Vergleich.</p>
+<p><strong>Beispiel</strong>: Vergleich zweier Lesefördermethoden - Lautleseverfahren vs.&nbsp;Vielleseverfahren.</p>
+</section>
+</section>
+<section id="beispiele-aus-der-deutschdidaktik" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="beispiele-aus-der-deutschdidaktik"><span class="header-section-number">4.4</span> Beispiele aus der Deutschdidaktik</h2>
+<section id="leseförderung" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="leseförderung"><span class="header-section-number">4.4.1</span> Leseförderung</h3>
+<p><strong>Forschungsfrage</strong>: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?</p>
+<ul>
+<li><strong>Experimentalgruppe</strong>: 3x wöchentlich 20 Min. Lautlese-Tandem</li>
+<li><strong>Kontrollgruppe</strong>: Regulärer Leseunterricht</li>
+<li><strong>Messung</strong>: Lesetest vorher/nachher</li>
+</ul>
+</section>
+<section id="schreibförderung" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="schreibförderung"><span class="header-section-number">4.4.2</span> Schreibförderung</h3>
+<p><strong>Forschungsfrage</strong>: Steigert prozessorientiertes Schreiben die Textqualität?</p>
+<ul>
+<li><strong>Experimentalgruppe</strong>: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen</li>
+<li><strong>Kontrollgruppe</strong>: Traditioneller Aufsatzunterricht</li>
+<li><strong>Messung</strong>: Textqualität nach standardisierten Kriterien</li>
+</ul>
+</section>
+<section id="rechtschreibförderung" class="level3" data-number="4.4.3">
+<h3 data-number="4.4.3" class="anchored" data-anchor-id="rechtschreibförderung"><span class="header-section-number">4.4.3</span> Rechtschreibförderung</h3>
+<p><strong>Forschungsfrage</strong>: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?</p>
+<ul>
+<li><strong>Experimentalgruppe</strong>: Strategietraining (Wortbausteine, Ableitungen)</li>
+<li><strong>Kontrollgruppe</strong>: Regellernen und Übungen</li>
+<li><strong>Messung</strong>: Rechtschreibtest</li>
+</ul>
+</section>
+</section>
+<section id="wichtige-überlegungen-im-schulkontext" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="wichtige-überlegungen-im-schulkontext"><span class="header-section-number">4.5</span> Wichtige Überlegungen im Schulkontext</h2>
+<section id="praktische-herausforderungen" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="praktische-herausforderungen"><span class="header-section-number">4.5.1</span> Praktische Herausforderungen</h3>
+<ul>
+<li><strong>Klassenverbände</strong>: Oft Zuweisung ganzer Klassen statt einzelner Schüler</li>
+<li><strong>Unterrichtsrealität</strong>: Kontrollbedingung muss im regulären Unterricht umsetzbar sein</li>
+<li><strong>Lehrpersonen</strong>: Verschiedene Lehrkräfte können Ergebnisse beeinflussen</li>
+</ul>
+</section>
+<section id="ethische-aspekte" class="level3" data-number="4.5.2">
+<h3 data-number="4.5.2" class="anchored" data-anchor-id="ethische-aspekte"><span class="header-section-number">4.5.2</span> Ethische Aspekte</h3>
+<ul>
+<li>Ist es vertretbar, einer Gruppe eine potenziell wirksame Förderung vorzuenthalten?</li>
+<li>Warteliste-Design als Lösung: Alle erhalten die Förderung, nur zeitversetzt</li>
+</ul>
+</section>
+</section>
+<section id="häufige-probleme" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="häufige-probleme"><span class="header-section-number">4.6</span> Häufige Probleme</h2>
+<ul>
+<li><strong>Dropout</strong>: Schüler wechseln die Schule oder fehlen bei Nachtestung</li>
+<li><strong>Diffusion</strong>: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)</li>
+<li><strong>Kompensation</strong>: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung</li>
+<li><strong>Demoralisation</strong>: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt</li>
+</ul>
+</section>
+<section id="übungsaufgabe" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="übungsaufgabe"><span class="header-section-number">4.7</span> Übungsaufgabe</h2>
+<p>Testen Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:</p>
+<div id="quiz-kg" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+<button id="new-question-kg" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Neue Aufgabe</button>
+<p id="question-kg" style="margin-top: 1rem;">
+</p>
+<form id="answers-kg" style="margin-top: 1rem;">
+</form>
+<button id="check-answer-kg" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Antwort prüfen</button>
+<div id="feedback-kg" style="margin-top: 1rem; font-weight: 600;">
+
+</div>
+</div>
+<script>
+const questionsKG = [
+  {
+    frage: "Eine Studie untersucht die Wirksamkeit eines neuen Rechtschreibtrainings. Welche Kontrollgruppenvariante ist am ethisch vertretbarsten?",
+    optionen: [
+      "Keine-Behandlung-Kontrollgruppe ohne spätere Förderung",
+      "Warteliste-Kontrollgruppe, die das Training später erhält",
+      "Placebo-Kontrollgruppe mit sinnlosen Übungen",
+      "Gar keine Kontrollgruppe verwenden"
+    ],
+    richtig: 1,
+    erklaerung: "Die Warteliste-Kontrollgruppe ist ethisch am vertretbarsten, da alle Schüler letztlich die Förderung erhalten, nur zeitversetzt."
+  },
+  {
+    frage: "In einem Leseförderexperiment erhält die Experimentalgruppe ein Lautlese-Training. Was wäre eine geeignete aktive Kontrollgruppe?",
+    optionen: [
+      "Eine Gruppe, die gar nicht liest",
+      "Eine Gruppe mit einem alternativen Leseförderprogramm (z.B. Vielleseverfahren)",
+      "Eine Gruppe, die Mathematik übt",
+      "Eine Gruppe ohne jeglichen Unterricht"
+    ],
+    richtig: 1,
+    erklaerung: "Eine aktive Kontrollgruppe erhält eine alternative, etablierte Methode zum Vergleich - hier ein anderes Leseförderprogramm."
+  },
+  {
+    frage: "Welches Problem tritt auf, wenn Schüler der Kontrollgruppe in der Pause von der Experimentalgruppe über die neue Methode informiert werden?",
+    optionen: ["Dropout", "Kompensation", "Diffusion/Kontamination", "Demoralisation"],
+    richtig: 2,
+    erklaerung: "Diffusion oder Kontamination liegt vor, wenn Inhalte der Intervention unbeabsichtigt zur Kontrollgruppe gelangen."
+  },
+  {
+    frage: "Warum ist eine Kontrollgruppe in didaktischen Experimenten wichtig?",
+    optionen: [
+      "Um die Stichprobe zu vergrößern",
+      "Um Kausalschlüsse über die Wirkung der Intervention zu ermöglichen",
+      "Um Kosten zu reduzieren",
+      "Um die Schüler zu motivieren"
+    ],
+    richtig: 1,
+    erklaerung: "Die Kontrollgruppe ermöglicht es, Unterschiede kausal auf die Intervention zurückzuführen und nicht auf andere Faktoren."
+  },
+  {
+    frage: "Eine Studie vergleicht zwei Schreibfördermethoden. Die Experimentalgruppe arbeitet prozessorientiert, die Kontrollgruppe traditionell. Welche Art von Kontrollgruppe ist das?",
+    optionen: [
+      "Keine-Behandlung-Kontrollgruppe",
+      "Placebo-Kontrollgruppe",
+      "Aktive Kontrollgruppe",
+      "Warteliste-Kontrollgruppe"
+    ],
+    richtig: 2,
+    erklaerung: "Eine aktive Kontrollgruppe erhält eine alternative Behandlung (hier: traditionelle Methode) statt keiner Behandlung."
+  },
+  {
+    frage: "Bei der Auswertung eines Leseförderexperiments soll das unterschiedliche Ausgangsniveau der Gruppen statistisch kontrolliert werden. Welches Verfahren ist geeignet?",
+    optionen: [
+      "Chi-Quadrat-Test",
+      "ANCOVA (mit Pretest als Kovariate)",
+      "Korrelation nach Pearson",
+      "Einfache Häufigkeitsauszählung"
+    ],
+    richtig: 1,
+    erklaerung: "ANCOVA (Kovarianzanalyse) ermöglicht die statistische Kontrolle des Ausgangsniveaus durch Einbezug des Pretests als Kovariate."
+  }
+];
+
+let currentQuestionKG = null;
+
+function loadRandomQuestionKG() {
+  const idx = Math.floor(Math.random() * questionsKG.length);
+  currentQuestionKG = questionsKG[idx];
+  
+  document.getElementById('question-kg').textContent = currentQuestionKG.frage;
+  
+  const form = document.getElementById('answers-kg');
+  form.innerHTML = '';
+  currentQuestionKG.optionen.forEach((opt, i) => {
+    const label = document.createElement('label');
+    label.style.display = 'block';
+    label.style.marginBottom = '.5rem';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = 'answer-kg';
+    radio.value = i;
+    label.appendChild(radio);
+    label.appendChild(document.createTextNode(' ' + opt));
+    form.appendChild(label);
+  });
+  
+  document.getElementById('feedback-kg').innerHTML = '';
+}
+
+function checkAnswerKG() {
+  const selected = document.querySelector('input[name="answer-kg"]:checked');
+  if (!selected) return;
+  
+  const selectedValue = parseInt(selected.value);
+  const isCorrect = selectedValue === currentQuestion
+
+KG.richtig;
+  
+  const feedback = document.getElementById('feedback-kg');
+  if (isCorrect) {
+    feedback.innerHTML = '<div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 5px;"><h4 style="color: #155724;">✓ RICHTIG!</h4><p style="color: #155724;"><strong>Erklärung:</strong> ' + currentQuestionKG.erklaerung + '</p></div>';
+  } else {
+    feedback.innerHTML = '<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 5px;"><h4 style="color: #721c24;">✗ FALSCH!</h4><p style="color: #721c24;"><strong>Die richtige Antwort wäre:</strong> ' + currentQuestionKG.optionen[currentQuestionKG.richtig] + '</p><p style="color: #721c24;"><strong>Erklärung:</strong> ' + currentQuestionKG.erklaerung + '</p></div>';
+  }
+}
+
+document.getElementById('new-question-kg').addEventListener('click', loadRandomQuestionKG);
+document.getElementById('check-answer-kg').addEventListener('click', checkAnswerKG);
+
+loadRandomQuestionKG();
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./design.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Experimentelles Design</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./stichprobe.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Stichprobenziehung</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

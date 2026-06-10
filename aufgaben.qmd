@@ -1,0 +1,155 @@
+# Wiederholbare MC-Übung
+
+Klicken Sie auf **Neue Aufgabe**, lesen Sie das beschriebene Forschungsszenario und identifizieren Sie, welches methodische Problem die interne Validität der Studie bedroht.
+
+
+<div id="quiz-container" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+  <button id="new-question" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Neue Aufgabe</button>
+  <p id="scenario" style="margin-top: 1rem;"></p>
+  <form id="answers" style="margin-top: 1rem;"></form>
+  <button id="check-answer" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Antwort prüfen</button>
+  <div id="feedback" style="margin-top: 1rem; font-weight: 600;"></div>
+</div>
+
+```{=html}
+<script>
+const questions = [
+  {
+    scenario: "Eine Studie untersucht die Wirkung eines digitalen Schreibportfolios auf die Textqualität. Die motiviertesten Schüler:innen melden sich freiwillig für die Interventionsgruppe.",
+    options: ["Die Gruppen waren vermutlich schon vor der Intervention unterschiedlich zusammengesetzt.", "Die Schüler:innen wurden durch wiederholtes Testen besser.", "Die Messinstrumente haben sich verändert.", "Die Schüler:innen wurden mit der Zeit automatisch reifer."],
+    correct: 0,
+    explanation: "Richtig: Hier liegt ein Selektionsproblem nahe. Besonders motivierte Schüler:innen könnten ohnehin bessere Ergebnisse erzielen."
+  },
+  {
+    scenario: "Eine Klasse nimmt über ein Schuljahr hinweg an einem Schreibtraining teil. Die Schreibkompetenz verbessert sich deutlich zwischen Prä- und Posttest. Es gibt keine Kontrollgruppe.",
+    options: ["Die Schüler:innen entwickeln sich unabhängig von der Intervention weiter.", "Die Bewertungskriterien haben sich verändert.", "Die Schüler:innen erinnern sich an den Test.", "Nur besonders starke Schüler:innen blieben in der Studie."],
+    correct: 0,
+    explanation: "Richtig: Schüler:innen verbessern ihre sprachlichen Fähigkeiten oft auch über die Zeit hinweg. Ohne Kontrollgruppe bleibt Reifung eine plausible Alternativerklärung."
+  },
+  {
+    scenario: "Während einer Studie zur Förderung argumentativen Schreibens findet parallel eine schulweite Projektwoche zum kreativen Schreiben statt.",
+    options: ["Die Gruppen waren vorher unterschiedlich stark.", "Externe Ereignisse könnten die Ergebnisse beeinflusst haben.", "Die Schüler:innen wurden durch den Prätest trainiert.", "Extreme Werte nähern sich automatisch dem Durchschnitt an."],
+    correct: 1,
+    explanation: "Richtig: Die Verbesserung könnte durch die Projektwoche mitverursacht worden sein. Das ist ein externer zeitlicher Einfluss."
+  },
+  {
+    scenario: "Schüler:innen schreiben im Prä- und Posttest denselben argumentativen Essaytyp. Im Posttest fallen die Ergebnisse besser aus.",
+    options: ["Die Schüler:innen wurden älter und reifer.", "Die Gruppen waren vorher unterschiedlich.", "Die Schüler:innen kennen das Aufgabenformat inzwischen besser.", "Schwache Schüler:innen haben die Studie verlassen."],
+    correct: 2,
+    explanation: "Richtig: Verbesserungen können entstehen, weil die Lernenden durch den ersten Test mit Format und Anforderungen vertrauter sind."
+  },
+  {
+    scenario: "Für ein Schreibförderprogramm werden ausschließlich Schüler:innen mit extrem schwachen Schreibscores ausgewählt. Im Posttest verbessern sich viele deutlich.",
+    options: ["Die Schüler:innen könnten durch den Prätest trainiert worden sein.", "Extreme Werte bewegen sich bei wiederholter Messung oft Richtung Durchschnitt.", "Die Bewertung der Texte war unzuverlässig.", "Die Schüler:innen wurden mit der Zeit reifer."],
+    correct: 1,
+    explanation: "Richtig: Bei Extremgruppen ist Regression zur Mitte eine naheliegende Alternativerklärung."
+  },
+  {
+    scenario: "In einer Studie zu kollaborativem Schreiben brechen besonders leistungsschwache Schüler:innen die Teilnahme ab. Am Ende zeigt die verbleibende Gruppe starke Leistungszuwächse.",
+    options: ["Die Schüler:innen wurden durch den Prätest trainiert.", "Die Gruppen waren zufällig zusammengesetzt.", "Am Ende werden nur noch besonders starke oder motivierte Personen betrachtet.", "Die Schüler:innen wurden mit der Zeit älter."],
+    correct: 2,
+    explanation: "Richtig: Die Ergebnisse können verzerrt sein, weil bestimmte Teilnehmende ausfallen und die Endgruppe dadurch anders zusammengesetzt ist."
+  },
+  {
+    scenario: "Im Prätest bewerten geschulte Rater:innen die Texte. Im Posttest übernehmen studentische Hilfskräfte mit geringerer Erfahrung.",
+    options: ["Die Schüler:innen erinnern sich an den Prätest.", "Die Qualität der Messung verändert sich zwischen den Messzeitpunkten.", "Die Schüler:innen entwickeln sich automatisch weiter.", "Die Gruppen unterscheiden sich bereits vor der Intervention."],
+    correct: 1,
+    explanation: "Richtig: Unterschiedliche Bewertungsqualität kann scheinbare Leistungsunterschiede erzeugen."
+  },
+  {
+    scenario: "Eine Studie zeigt: Schüler:innen mit hoher Schreibmotivation verfassen bessere Texte. Beide Variablen werden gleichzeitig erhoben.",
+    options: ["Die Gruppen wurden nicht zufällig zugeteilt.", "Die Schüler:innen könnten durch Tests trainiert worden sein.", "Es bleibt unklar, was Ursache und was Wirkung ist.", "Schwächere Schüler:innen könnten die Studie verlassen haben."],
+    correct: 2,
+    explanation: "Richtig: Bessere Texte könnten Motivation fördern — oder Motivation könnte bessere Texte fördern. Die zeitliche Abfolge bleibt unklar."
+  },
+  {
+    scenario: "Eine einjährige Schreibintervention arbeitet ohne Kontrollgruppe. Mehrere Schüler:innen brechen ab, parallel wird schulweit Lesen gefördert und dieselben Tests werden mehrfach eingesetzt.",
+    options: ["Es liegt nur ein einzelnes methodisches Problem vor.", "Mehrere Faktoren könnten die Ergebnisse gleichzeitig verzerren.", "Die Ergebnisse sind automatisch ungültig.", "Die Studie kann trotzdem eindeutig Kausalität zeigen."],
+    correct: 1,
+    explanation: "Richtig: Mehrere Bedrohungen der internen Validität können gleichzeitig auftreten und sich gegenseitig verstärken."
+  }
+];
+
+let currentQuestion = null;
+let lastIndex = -1;
+
+function shuffle(arr) {
+  const shuffled = arr.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function showQuestion() {
+  let index;
+  do {
+    index = Math.floor(Math.random() * questions.length);
+  } while (questions.length > 1 && index === lastIndex);
+  lastIndex = index;
+
+  const q = questions[index];
+  const withIndex = q.options.map((text, i) => ({text, i}));
+  const shuffled = shuffle(withIndex);
+  currentQuestion = {...q, shuffled};
+
+  document.getElementById("scenario").textContent = q.scenario;
+  document.getElementById("feedback").textContent = "";
+
+  const form = document.getElementById("answers");
+  form.innerHTML = "";
+
+  shuffled.forEach((opt, idx) => {
+    const div = document.createElement("div");
+    div.style.display = "flex";
+    div.style.alignItems = "flex-start";
+    div.style.margin = ".5rem 0";
+
+    const inp = document.createElement("input");
+    inp.type = "radio";
+    inp.name = "answer";
+    inp.id = "ans" + idx;
+    inp.value = opt.i;
+    inp.style.marginTop = "0.25rem";
+    inp.style.flexShrink = "0";
+
+    const lbl = document.createElement("label");
+    lbl.htmlFor = "ans" + idx;
+    lbl.textContent = opt.text;
+    lbl.style.marginLeft = ".5rem";
+    lbl.style.flex = "1";
+
+    div.appendChild(inp);
+    div.appendChild(lbl);
+    form.appendChild(div);
+  });
+}
+
+function checkAnswer() {
+  const selected = document.querySelector('input[name="answer"]:checked');
+  if (!selected) {
+    alert("Bitte wählen Sie eine Antwort aus.");
+    return;
+  }
+
+  const idx = parseInt(selected.value, 10);
+  const fb = document.getElementById("feedback");
+
+  if (idx === currentQuestion.correct) {
+    fb.textContent = "✓ " + currentQuestion.explanation;
+    fb.style.color = "green";
+  } else {
+    // Bei falscher Antwort "Richtig:" durch "Falsch:" ersetzen
+    const feedbackText = currentQuestion.explanation.replace(/^Richtig:/, "Falsch:");
+    fb.textContent = "✗ " + feedbackText;
+    fb.style.color = "red";
+  }
+}
+
+document.getElementById("new-question").addEventListener("click", showQuestion);
+document.getElementById("check-answer").addEventListener("click", checkAnswer);
+
+showQuestion();
+</script>
+```

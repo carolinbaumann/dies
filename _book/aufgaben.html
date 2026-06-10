@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.16">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mein Projekt - 8&nbsp; Wiederholbare MC-Übung</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./randomisierung.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Wiederholbare MC-Übung</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Mein Projekt</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einstieg</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./theorie.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Bedrohungen der internen Validität</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./design.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Experimentelles Design</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kontrollgruppe.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Kontrollgruppen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./stichprobe.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Stichprobenziehung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poweranalyse.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Poweranalyse für t-Tests</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./randomisierung.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Randomisierung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aufgaben.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Wiederholbare MC-Übung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Wiederholbare MC-Übung</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Klicken Sie auf <strong>Neue Aufgabe</strong>, lesen Sie das beschriebene Forschungsszenario und identifizieren Sie, welches methodische Problem die interne Validität der Studie bedroht.</p>
+<div id="quiz-container" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+<button id="new-question" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Neue Aufgabe</button>
+<p id="scenario" style="margin-top: 1rem;">
+</p>
+<form id="answers" style="margin-top: 1rem;">
+</form>
+<button id="check-answer" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Antwort prüfen</button>
+<div id="feedback" style="margin-top: 1rem; font-weight: 600;">
+
+</div>
+</div>
+<script>
+const questions = [
+  {
+    scenario: "Eine Studie untersucht die Wirkung eines digitalen Schreibportfolios auf die Textqualität. Die motiviertesten Schüler:innen melden sich freiwillig für die Interventionsgruppe.",
+    options: ["Die Gruppen waren vermutlich schon vor der Intervention unterschiedlich zusammengesetzt.", "Die Schüler:innen wurden durch wiederholtes Testen besser.", "Die Messinstrumente haben sich verändert.", "Die Schüler:innen wurden mit der Zeit automatisch reifer."],
+    correct: 0,
+    explanation: "Richtig: Hier liegt ein Selektionsproblem nahe. Besonders motivierte Schüler:innen könnten ohnehin bessere Ergebnisse erzielen."
+  },
+  {
+    scenario: "Eine Klasse nimmt über ein Schuljahr hinweg an einem Schreibtraining teil. Die Schreibkompetenz verbessert sich deutlich zwischen Prä- und Posttest. Es gibt keine Kontrollgruppe.",
+    options: ["Die Schüler:innen entwickeln sich unabhängig von der Intervention weiter.", "Die Bewertungskriterien haben sich verändert.", "Die Schüler:innen erinnern sich an den Test.", "Nur besonders starke Schüler:innen blieben in der Studie."],
+    correct: 0,
+    explanation: "Richtig: Schüler:innen verbessern ihre sprachlichen Fähigkeiten oft auch über die Zeit hinweg. Ohne Kontrollgruppe bleibt Reifung eine plausible Alternativerklärung."
+  },
+  {
+    scenario: "Während einer Studie zur Förderung argumentativen Schreibens findet parallel eine schulweite Projektwoche zum kreativen Schreiben statt.",
+    options: ["Die Gruppen waren vorher unterschiedlich stark.", "Externe Ereignisse könnten die Ergebnisse beeinflusst haben.", "Die Schüler:innen wurden durch den Prätest trainiert.", "Extreme Werte nähern sich automatisch dem Durchschnitt an."],
+    correct: 1,
+    explanation: "Richtig: Die Verbesserung könnte durch die Projektwoche mitverursacht worden sein. Das ist ein externer zeitlicher Einfluss."
+  },
+  {
+    scenario: "Schüler:innen schreiben im Prä- und Posttest denselben argumentativen Essaytyp. Im Posttest fallen die Ergebnisse besser aus.",
+    options: ["Die Schüler:innen wurden älter und reifer.", "Die Gruppen waren vorher unterschiedlich.", "Die Schüler:innen kennen das Aufgabenformat inzwischen besser.", "Schwache Schüler:innen haben die Studie verlassen."],
+    correct: 2,
+    explanation: "Richtig: Verbesserungen können entstehen, weil die Lernenden durch den ersten Test mit Format und Anforderungen vertrauter sind."
+  },
+  {
+    scenario: "Für ein Schreibförderprogramm werden ausschließlich Schüler:innen mit extrem schwachen Schreibscores ausgewählt. Im Posttest verbessern sich viele deutlich.",
+    options: ["Die Schüler:innen könnten durch den Prätest trainiert worden sein.", "Extreme Werte bewegen sich bei wiederholter Messung oft Richtung Durchschnitt.", "Die Bewertung der Texte war unzuverlässig.", "Die Schüler:innen wurden mit der Zeit reifer."],
+    correct: 1,
+    explanation: "Richtig: Bei Extremgruppen ist Regression zur Mitte eine naheliegende Alternativerklärung."
+  },
+  {
+    scenario: "In einer Studie zu kollaborativem Schreiben brechen besonders leistungsschwache Schüler:innen die Teilnahme ab. Am Ende zeigt die verbleibende Gruppe starke Leistungszuwächse.",
+    options: ["Die Schüler:innen wurden durch den Prätest trainiert.", "Die Gruppen waren zufällig zusammengesetzt.", "Am Ende werden nur noch besonders starke oder motivierte Personen betrachtet.", "Die Schüler:innen wurden mit der Zeit älter."],
+    correct: 2,
+    explanation: "Richtig: Die Ergebnisse können verzerrt sein, weil bestimmte Teilnehmende ausfallen und die Endgruppe dadurch anders zusammengesetzt ist."
+  },
+  {
+    scenario: "Im Prätest bewerten geschulte Rater:innen die Texte. Im Posttest übernehmen studentische Hilfskräfte mit geringerer Erfahrung.",
+    options: ["Die Schüler:innen erinnern sich an den Prätest.", "Die Qualität der Messung verändert sich zwischen den Messzeitpunkten.", "Die Schüler:innen entwickeln sich automatisch weiter.", "Die Gruppen unterscheiden sich bereits vor der Intervention."],
+    correct: 1,
+    explanation: "Richtig: Unterschiedliche Bewertungsqualität kann scheinbare Leistungsunterschiede erzeugen."
+  },
+  {
+    scenario: "Eine Studie zeigt: Schüler:innen mit hoher Schreibmotivation verfassen bessere Texte. Beide Variablen werden gleichzeitig erhoben.",
+    options: ["Die Gruppen wurden nicht zufällig zugeteilt.", "Die Schüler:innen könnten durch Tests trainiert worden sein.", "Es bleibt unklar, was Ursache und was Wirkung ist.", "Schwächere Schüler:innen könnten die Studie verlassen haben."],
+    correct: 2,
+    explanation: "Richtig: Bessere Texte könnten Motivation fördern — oder Motivation könnte bessere Texte fördern. Die zeitliche Abfolge bleibt unklar."
+  },
+  {
+    scenario: "Eine einjährige Schreibintervention arbeitet ohne Kontrollgruppe. Mehrere Schüler:innen brechen ab, parallel wird schulweit Lesen gefördert und dieselben Tests werden mehrfach eingesetzt.",
+    options: ["Es liegt nur ein einzelnes methodisches Problem vor.", "Mehrere Faktoren könnten die Ergebnisse gleichzeitig verzerren.", "Die Ergebnisse sind automatisch ungültig.", "Die Studie kann trotzdem eindeutig Kausalität zeigen."],
+    correct: 1,
+    explanation: "Richtig: Mehrere Bedrohungen der internen Validität können gleichzeitig auftreten und sich gegenseitig verstärken."
+  }
+];
+
+let currentQuestion = null;
+let lastIndex = -1;
+
+function shuffle(arr) {
+  const shuffled = arr.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function showQuestion() {
+  let index;
+  do {
+    index = Math.floor(Math.random() * questions.length);
+  } while (questions.length > 1 && index === lastIndex);
+  lastIndex = index;
+
+  const q = questions[index];
+  const withIndex = q.options.map((text, i) => ({text, i}));
+  const shuffled = shuffle(withIndex);
+  currentQuestion = {...q, shuffled};
+
+  document.getElementById("scenario").textContent = q.scenario;
+  document.getElementById("feedback").textContent = "";
+
+  const form = document.getElementById("answers");
+  form.innerHTML = "";
+
+  shuffled.forEach((opt, idx) => {
+    const div = document.createElement("div");
+    div.style.display = "flex";
+    div.style.alignItems = "flex-start";
+    div.style.margin = ".5rem 0";
+
+    const inp = document.createElement("input");
+    inp.type = "radio";
+    inp.name = "answer";
+    inp.id = "ans" + idx;
+    inp.value = opt.i;
+    inp.style.marginTop = "0.25rem";
+    inp.style.flexShrink = "0";
+
+    const lbl = document.createElement("label");
+    lbl.htmlFor = "ans" + idx;
+    lbl.textContent = opt.text;
+    lbl.style.marginLeft = ".5rem";
+    lbl.style.flex = "1";
+
+    div.appendChild(inp);
+    div.appendChild(lbl);
+    form.appendChild(div);
+  });
+}
+
+function checkAnswer() {
+  const selected = document.querySelector('input[name="answer"]:checked');
+  if (!selected) {
+    alert("Bitte wählen Sie eine Antwort aus.");
+    return;
+  }
+
+  const idx = parseInt(selected.value, 10);
+  const fb = document.getElementById("feedback");
+
+  if (idx === currentQuestion.correct) {
+    fb.textContent = "✓ " + currentQuestion.explanation;
+    fb.style.color = "green";
+  } else {
+    // Bei falscher Antwort "Richtig:" durch "Falsch:" ersetzen
+    const feedbackText = currentQuestion.explanation.replace(/^Richtig:/, "Falsch:");
+    fb.textContent = "✗ " + feedbackText;
+    fb.style.color = "red";
+  }
+}
+
+document.getElementById("new-question").addEventListener("click", showQuestion);
+document.getElementById("check-answer").addEventListener("click", checkAnswer);
+
+showQuestion();
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./randomisierung.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Randomisierung</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

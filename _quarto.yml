@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Mein Projekt"
+  author: "Dein Name"
+  chapters:
+    - index.qmd                    # Einleitung
+    - theorie.qmd                  # Theoretische Grundlagen
+    - design.qmd                   # Experimentelles Design
+    - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
+    - stichprobe.qmd               # Stichprobenziehung
+    - poweranalyse.qmd             # Wie groß muss die Stichprobe sein?
+    - randomisierung.qmd           # Wie teile ich die Stichprobe ein?
+    - aufgaben.qmd  
+    
+format:
+  html:
+    toc: true
+    theme: default
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+editor: source

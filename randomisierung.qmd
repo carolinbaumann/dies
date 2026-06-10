@@ -1,0 +1,201 @@
+---
+title: "Randomisierung"
+format: html
+---
+
+## Was ist Randomisierung?
+
+Randomisierung bezeichnet die **zufällige Zuweisung von Untersuchungsteilnehmenden** zu den verschiedenen Untersuchungsbedingungen einer Studie, beispielsweise einer Experimental- und einer Kontrollgruppe. Sie stellt ein zentrales Merkmal experimenteller Forschungsdesigns dar und dient dazu, systematische Unterschiede zwischen den Gruppen zu minimieren.
+
+Durch die zufällige Gruppenzuweisung werden sowohl **bekannte Merkmale** (z. B. Vorwissen, Motivation oder Alter) als auch **unbekannte Einflussfaktoren** im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.
+
+::: {.callout-important}
+## Wichtig zu beachten
+
+Randomisierung **garantiert keine identischen Gruppen**. Insbesondere bei kleinen Stichproben können weiterhin Unterschiede zwischen den Gruppen auftreten. Ihr entscheidender Vorteil besteht jedoch darin, dass diese Unterschiede nicht systematisch durch den Forschungsprozess erzeugt werden.
+:::
+
+Randomisierung trägt somit wesentlich zur **internen Validität** einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen.
+
+## Zentrale Funktionen der Randomisierung
+
+- **Reduktion systematischer Verzerrungen (Bias)**: Durch zufällige Zuweisung werden systematische Fehler vermieden
+- **Herstellung vergleichbarer Untersuchungsgruppen**: Gruppen sind im Erwartungswert ähnlich
+- **Kontrolle bekannter und unbekannter Einflussfaktoren**: Auch nicht gemessene Merkmale werden ausgeglichen
+- **Erhöhung der internen Validität**: Kausale Schlussfolgerungen werden plausibler
+- **Verbesserung der Voraussetzungen für kausale Interpretationen**: Interventionseffekte lassen sich besser identifizieren
+
+## Beispiel aus der Deutschdidaktik
+
+Bei der Evaluation einer **Lesefördermaßnahme** oder einer **Intervention zur Schreibförderung** soll durch Randomisierung sichergestellt werden, dass Unterschiede zwischen den Gruppen möglichst nicht bereits vor Beginn der Maßnahme bestehen. Dadurch können Leistungsunterschiede nach der Intervention plausibler auf die Maßnahme selbst zurückgeführt werden.
+
+Stellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, während eine Vergleichsklasse regulären Unterricht erhält. Ohne Randomisierung könnte die Lehrkraft unbewusst die leistungsstärkere Klasse für das Programm auswählen – die späteren Unterschiede wären dann nicht eindeutig dem Programm zuzuschreiben.
+
+## Interaktives Tool: Randomisierung durchführen
+
+Mit diesem Tool können Sie eine einfache Randomisierung für Ihre eigene Studie simulieren.
+
+```{ojs}
+//| echo: false
+
+viewof n_participants = Inputs.range([10, 200], {
+  value: 40,
+  step: 1,
+  label: "Anzahl Teilnehmende"
+})
+
+viewof n_groups = Inputs.range([2, 4], {
+  value: 2,
+  step: 1,
+  label: "Anzahl Gruppen"
+})
+
+viewof group_names = Inputs.text({
+  label: "Gruppennamen (durch Komma getrennt)",
+  value: "Experimentalgruppe, Kontrollgruppe",
+  placeholder: "Gruppe 1, Gruppe 2, ..."
+})
+
+viewof do_randomize = Inputs.button("Randomisierung durchführen")
+```
+
+```{ojs}
+//| echo: false
+
+// Randomisierungsfunktion
+function randomizeParticipants(n, groups) {
+  const groupList = groups.split(',').map(g => g.trim()).slice(0, n_groups);
+  
+  // Erstelle Array von Teilnehmer-IDs
+  const participants = Array.from({length: n}, (_, i) => i + 1);
+  
+  // Fisher-Yates Shuffle
+  for (let i = participants.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [participants[i], participants[j]] = [participants[j], participants[i]];
+  }
+  
+  // Weise Gruppen zu
+  const assignments = participants.map((id, index) => ({
+    id: id,
+    group: groupList[index % groupList.length]
+  }));
+  
+  // Zähle Gruppengröße
+  const groupCounts = {};
+  groupList.forEach(g => groupCounts[g] = 0);
+  assignments.forEach(a => groupCounts[a.group]++);
+  
+  return { assignments, groupCounts, groupList };
+}
+
+// Führe Randomisierung durch
+randomization = {
+  do_randomize; // Abhängigkeit vom Button
+  return randomizeParticipants(n_participants, group_names);
+}
+
+// Zeige Ergebnisse
+html`
+<div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;">
+  <h3 style="color: #2c3e50; margin-top: 0;">📋 Randomisierungsergebnis</h3>
+  
+  ${randomization.groupList.map(group => {
+    const count = randomization.groupCounts[group];
+    const percentage = ((count / n_participants) * 100).toFixed(1);
+    const barWidth = (count / n_participants) * 100;
+    
+    return `
+      <div style="margin: 15px 0;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <strong>${group}</strong>
+          <span>${count} Personen (${percentage}%)</span>
+        </div>
+        <div style="background: #e9ecef; border-radius: 10px; overflow: hidden; height: 30px;">
+          <div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
+                      width: ${barWidth}%; height: 100%; 
+                      transition: width 0.3s ease;
+                      display: flex; align-items: center; justify-content: center;
+                      color: white; font-weight: bold;">
+            ${count > 0 ? count : ''}
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('')}
+  
+  <div style="margin-top: 25px; padding: 15px; 
+              background: #e3f2fd; border-left: 4px solid #2196f3; border-radius: 5px;">
+    <p style="margin: 0; color: #1565c0;">
+      <strong>💡 Hinweis:</strong> Jedes Mal, wenn Sie "Randomisierung durchführen" klicken, 
+      wird eine neue zufällige Zuweisung erstellt. Beachten Sie, wie die Gruppengröße leicht 
+      variieren kann, besonders wenn die Teilnehmerzahl nicht durch die Anzahl der Gruppen teilbar ist.
+    </p>
+  </div>
+</div>
+`
+```
+
+## Randomisierungsliste herunterladen
+
+```{ojs}
+//| echo: false
+
+// Erstelle CSV-Download
+csv_content = {
+  const header = "Teilnehmer_ID,Gruppe\n";
+  const rows = randomization.assignments
+    .map(a => `${a.id},${a.group}`)
+    .join('\n');
+  return header + rows;
+}
+
+html`
+<div style="margin: 20px 0;">
+  <a href="${'data:text/csv;charset=utf-8,' + encodeURIComponent(csv_content)}" 
+     download="randomisierung.csv"
+     style="display: inline-block; background: #28a745; color: white; 
+            padding: 12px 24px; text-decoration: none; border-radius: 6px;
+            font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+    📥 Randomisierungsliste als CSV herunterladen
+  </a>
+</div>
+`
+```
+
+## Arten der Randomisierung
+
+### Einfache Randomisierung
+Bei der **einfachen Randomisierung** wird jede Person unabhängig mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen (z. B. durch Münzwurf oder Zufallszahlengenerator).
+
+**Vorteil:** Einfach durchzuführen  
+**Nachteil:** Bei kleinen Stichproben können ungleiche Gruppengrößen entstehen
+
+### Block-Randomisierung
+Bei der **Block-Randomisierung** werden Teilnehmende in Blöcken randomisiert, um gleiche Gruppengrößen zu garantieren.
+
+**Beispiel:** Bei 40 Personen und 2 Gruppen werden 4 Blöcke mit je 10 Personen gebildet. In jedem Block werden 5 Personen der Experimental- und 5 der Kontrollgruppe zugewiesen.
+
+### Stratifizierte Randomisierung
+Bei der **stratifizierten Randomisierung** werden Teilnehmende zunächst nach wichtigen Merkmalen (z. B. Geschlecht, Alter, Vorwissen) in Schichten (Strata) eingeteilt und dann innerhalb jeder Schicht randomisiert.
+
+**Vorteil:** Gewährleistet Gleichverteilung wichtiger Kovariaten
+
+## Überprüfung der Randomisierung
+
+Nach der Randomisierung sollten die Gruppen auf **Baseline-Merkmale** verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:
+
+- Demografische Merkmale (Alter, Geschlecht)
+- Relevante Vortestleistungen
+- Motivationale Variablen
+
+Dies geschieht typischerweise durch:
+
+1. **Deskriptive Statistiken** (Mittelwerte, Standardabweichungen)
+2. **Statistische Tests** (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!
+
+::: {.callout-note}
+## Zur Interpretation von Baseline-Tests
+
+Signifikante Unterschiede bei Baseline-Vergleichen bedeuten **nicht**, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung.
+:::

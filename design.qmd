@@ -1,0 +1,47 @@
+---
+title: "Experimentelles Design"
+---
+
+## Überblick
+
+In diesem Kapitel beschäftigen wir uns mit dem experimentellen Design und den grundlegenden Prinzipien der Versuchsplanung.
+
+## Arten von Designs
+
+### Zwischen-Subjekt-Design (Between-Subjects)
+
+Bei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.
+
+**Vorteile:**
+- Keine Übungseffekte
+- Keine Carry-over-Effekte
+
+**Nachteile:**
+- Höherer Stichprobenbedarf
+- Individuelle Unterschiede zwischen Gruppen
+
+### Innerhalb-Subjekt-Design (Within-Subjects)
+
+Bei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.
+
+**Vorteile:**
+- Geringerer Stichprobenbedarf
+- Kontrolle individueller Unterschiede
+
+**Nachteile:**
+- Mögliche Übungseffekte
+- Ermüdungseffekte
+
+## Wichtige Designprinzipien
+
+1. **Randomisierung**: Zufällige Zuteilung zu Bedingungen
+2. **Kontrolle**: Konstanthaltung von Störvariablen
+3. **Replikation**: Wiederholung unter gleichen Bedingungen
+
+## Beispiel
+
+Ein einfaches experimentelles Design könnte folgendermaßen aussehen:
+
+- **UV (unabhängige Variable)**: Trainingsmethode (A vs. B)
+- **AV (abhängige Variable)**: Lernleistung
+- **Design**: Zwischen-Subjekt-Design mit Randomisierung
