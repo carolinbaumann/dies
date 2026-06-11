@@ -10,7 +10,8 @@ book:
     - design.qmd                   # Experimentelles Design
     - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
     - stichprobe.qmd               # Stichprobenziehung
-    - poweranalyse.qmd             # Wie groß muss die Stichprobe sein?
+    - poweranalyse.qmd 
+    - poweranalyse_erweitert.qmd            # Wie groß muss die Stichprobe sein?
     - randomisierung.qmd           # Wie teile ich die Stichprobe ein?
     - aufgaben.qmd  
     
