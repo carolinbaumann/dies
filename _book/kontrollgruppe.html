@@ -383,9 +383,7 @@ function checkAnswerKG() {
   if (!selected) return;
   
   const selectedValue = parseInt(selected.value);
-  const isCorrect = selectedValue === currentQuestion
-
-KG.richtig;
+  const isCorrect = selectedValue === currentQuestionKG.richtig;
   
   const feedback = document.getElementById('feedback-kg');
   if (isCorrect) {

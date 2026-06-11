@@ -37,72 +37,72 @@
   {
     "objectID": "theorie.html",
     "href": "theorie.html",
-    "title": "3  Bedrohungen der internen Validität",
+    "title": "2  Bedrohungen der internen Validität",
     "section": "",
     "text": "In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann."
   },
   {
     "objectID": "theorie.html#unklare-zeitliche-abfolge",
     "href": "theorie.html#unklare-zeitliche-abfolge",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.1 1. Unklare zeitliche Abfolge",
-    "text": "3.1 1. Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.1 Unklare zeitliche Abfolge",
+    "text": "2.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
   },
   {
     "objectID": "theorie.html#selektionseffekte",
     "href": "theorie.html#selektionseffekte",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.2 2. Selektionseffekte",
-    "text": "3.2 2. Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.2 Selektionseffekte",
+    "text": "2.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#externe-zeitliche-einflüsse",
     "href": "theorie.html#externe-zeitliche-einflüsse",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.3 3. Externe zeitliche Einflüsse",
-    "text": "3.3 3. Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.3 Externe zeitliche Einflüsse",
+    "text": "2.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "theorie.html#reifungsprozesse",
     "href": "theorie.html#reifungsprozesse",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.4 4. Reifungsprozesse",
-    "text": "3.4 4. Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.4 Reifungsprozesse",
+    "text": "2.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
   },
   {
     "objectID": "theorie.html#statistische-regressionseffekte",
     "href": "theorie.html#statistische-regressionseffekte",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.5 5. Statistische Regressionseffekte",
-    "text": "3.5 5. Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.5 Statistische Regressionseffekte",
+    "text": "2.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#experimentelle-mortalität",
     "href": "theorie.html#experimentelle-mortalität",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.6 6. Experimentelle Mortalität",
-    "text": "3.6 6. Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.6 Experimentelle Mortalität",
+    "text": "2.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "theorie.html#testübung",
     "href": "theorie.html#testübung",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.7 7. Testübung",
-    "text": "3.7 7. Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.7 Testübung",
+    "text": "2.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#mangelnde-instrumentelle-reliabilität",
     "href": "theorie.html#mangelnde-instrumentelle-reliabilität",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.8 8. Mangelnde instrumentelle Reliabilität",
-    "text": "3.8 8. Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.8 Mangelnde instrumentelle Reliabilität",
+    "text": "2.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
   },
   {
     "objectID": "theorie.html#kombination-mehrerer-bedrohungen",
     "href": "theorie.html#kombination-mehrerer-bedrohungen",
-    "title": "3  Bedrohungen der internen Validität",
-    "section": "3.9 9. Kombination mehrerer Bedrohungen",
-    "text": "3.9 9. Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
+    "title": "2  Bedrohungen der internen Validität",
+    "section": "2.9 Kombination mehrerer Bedrohungen",
+    "text": "2.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
   },
   {
     "objectID": "aufgaben.html",
