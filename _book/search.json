@@ -7,34 +7,6 @@
     "text": "Dieses Quarto-Book enthält eine wiederholbare Multiple-Choice-Übung zur internen Validität im Kontext schreibdidaktischer Interventionsstudien.\nDie Aufgabe auf der nächsten Seite zieht bei jedem Klick eine neue Frage aus einem Fragenpool. Nach Auswahl einer Antwort erhalten die Lernenden direkt eine kurze Rückmeldung.\n\n\nDie Teilnehmenden sollen typische Bedrohungen der internen Validität an schreibdidaktischen Beispielen erkennen und erklären können."
   },
   {
-    "objectID": "design.html",
-    "href": "design.html",
-    "title": "2  Experimentelles Design",
-    "section": "",
-    "text": "In diesem Kapitel beschäftigen wir uns mit dem experimentellen Design und den grundlegenden Prinzipien der Versuchsplanung."
-  },
-  {
-    "objectID": "design.html#arten-von-designs",
-    "href": "design.html#arten-von-designs",
-    "title": "2  Experimentelles Design",
-    "section": "2.2 Arten von Designs",
-    "text": "2.2 Arten von Designs\n\n2.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n2.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
-  },
-  {
-    "objectID": "design.html#wichtige-designprinzipien",
-    "href": "design.html#wichtige-designprinzipien",
-    "title": "2  Experimentelles Design",
-    "section": "2.3 Wichtige Designprinzipien",
-    "text": "2.3 Wichtige Designprinzipien\n\nRandomisierung: Zufällige Zuteilung zu Bedingungen\nKontrolle: Konstanthaltung von Störvariablen\nReplikation: Wiederholung unter gleichen Bedingungen"
-  },
-  {
-    "objectID": "design.html#beispiel",
-    "href": "design.html#beispiel",
-    "title": "2  Experimentelles Design",
-    "section": "2.4 Beispiel",
-    "text": "2.4 Beispiel\nEin einfaches experimentelles Design könnte folgendermaßen aussehen:\n\nUV (unabhängige Variable): Trainingsmethode (A vs. B)\nAV (abhängige Variable): Lernleistung\nDesign: Zwischen-Subjekt-Design mit Randomisierung"
-  },
-  {
     "objectID": "theorie.html",
     "href": "theorie.html",
     "title": "2  Bedrohungen der internen Validität",
@@ -105,39 +77,32 @@
     "text": "2.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
   },
   {
-    "objectID": "aufgaben.html",
-    "href": "aufgaben.html",
-    "title": "8  Wiederholbare MC-Übung",
+    "objectID": "design.html",
+    "href": "design.html",
+    "title": "3  Experimentelles Design",
     "section": "",
-    "text": "Neue Aufgabe\n\n\n\n\nAntwort prüfen"
+    "text": "In diesem Kapitel beschäftigen wir uns mit dem experimentellen Design und den grundlegenden Prinzipien der Versuchsplanung."
   },
   {
-    "objectID": "stichprobe.html",
-    "href": "stichprobe.html",
-    "title": "5  Stichprobenziehung",
-    "section": "",
-    "text": "Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird."
+    "objectID": "design.html#arten-von-designs",
+    "href": "design.html#arten-von-designs",
+    "title": "3  Experimentelles Design",
+    "section": "3.2 Arten von Designs",
+    "text": "3.2 Arten von Designs\n\n3.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n3.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
   },
   {
-    "objectID": "stichprobe.html#ziele-der-stichprobenziehung",
-    "href": "stichprobe.html#ziele-der-stichprobenziehung",
-    "title": "5  Stichprobenziehung",
-    "section": "5.2 Ziele der Stichprobenziehung",
-    "text": "5.2 Ziele der Stichprobenziehung\n\nRepräsentativität für die Grundgesamtheit\nÖkonomische Durchführbarkeit\nGeneralisierbarkeit der Ergebnisse"
+    "objectID": "design.html#wichtige-designprinzipien",
+    "href": "design.html#wichtige-designprinzipien",
+    "title": "3  Experimentelles Design",
+    "section": "3.3 Wichtige Designprinzipien",
+    "text": "3.3 Wichtige Designprinzipien\n\nRandomisierung: Zufällige Zuteilung zu Bedingungen\nKontrolle: Konstanthaltung von Störvariablen\nReplikation: Wiederholung unter gleichen Bedingungen"
   },
   {
-    "objectID": "stichprobe.html#stichprobenarten",
-    "href": "stichprobe.html#stichprobenarten",
-    "title": "5  Stichprobenziehung",
-    "section": "5.3 Stichprobenarten",
-    "text": "5.3 Stichprobenarten\n\n5.3.1 Zufallsstichproben (Probabilistische Stichproben)\n\n5.3.1.1 Einfache Zufallsstichprobe\nJedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.\n\n\n5.3.1.2 Geschichtete Stichprobe\nDie Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.\n\n\n5.3.1.3 Klumpenstichprobe\nNatürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.\n\n\n\n5.3.2 Nicht-Zufallsstichproben\n\n5.3.2.1 Gelegenheitsstichprobe\nAuswahl nach Verfügbarkeit und Erreichbarkeit.\n\n\n5.3.2.2 Quota-Stichprobe\nAuswahl nach vorgegebenen Quoten für bestimmte Merkmale."
-  },
-  {
-    "objectID": "stichprobe.html#stichprobengröße",
-    "href": "stichprobe.html#stichprobengröße",
-    "title": "5  Stichprobenziehung",
-    "section": "5.4 Stichprobengröße",
-    "text": "5.4 Stichprobengröße\nDie benötigte Stichprobengröße hängt ab von:\n\nGewünschter statistischer Power (üblicherweise .80)\nErwarteter Effektgröße\nSignifikanzniveau (üblicherweise α = .05)\nVariabilität in der Population"
+    "objectID": "design.html#beispiel",
+    "href": "design.html#beispiel",
+    "title": "3  Experimentelles Design",
+    "section": "3.4 Beispiel",
+    "text": "3.4 Beispiel\nEin einfaches experimentelles Design könnte folgendermaßen aussehen:\n\nUV (unabhängige Variable): Trainingsmethode (A vs. B)\nAV (abhängige Variable): Lernleistung\nDesign: Zwischen-Subjekt-Design mit Randomisierung"
   },
   {
     "objectID": "kontrollgruppe.html",
@@ -189,6 +154,76 @@
     "text": "4.7 Übungsaufgabe\nTesten Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
   },
   {
+    "objectID": "stichprobe.html",
+    "href": "stichprobe.html",
+    "title": "5  Stichprobenziehung",
+    "section": "",
+    "text": "Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird."
+  },
+  {
+    "objectID": "stichprobe.html#ziele-der-stichprobenziehung",
+    "href": "stichprobe.html#ziele-der-stichprobenziehung",
+    "title": "5  Stichprobenziehung",
+    "section": "5.2 Ziele der Stichprobenziehung",
+    "text": "5.2 Ziele der Stichprobenziehung\n\nRepräsentativität für die Grundgesamtheit\nÖkonomische Durchführbarkeit\nGeneralisierbarkeit der Ergebnisse"
+  },
+  {
+    "objectID": "stichprobe.html#stichprobenarten",
+    "href": "stichprobe.html#stichprobenarten",
+    "title": "5  Stichprobenziehung",
+    "section": "5.3 Stichprobenarten",
+    "text": "5.3 Stichprobenarten\n\n5.3.1 Zufallsstichproben (Probabilistische Stichproben)\n\n5.3.1.1 Einfache Zufallsstichprobe\nJedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.\n\n\n5.3.1.2 Geschichtete Stichprobe\nDie Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.\n\n\n5.3.1.3 Klumpenstichprobe\nNatürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.\n\n\n\n5.3.2 Nicht-Zufallsstichproben\n\n5.3.2.1 Gelegenheitsstichprobe\nAuswahl nach Verfügbarkeit und Erreichbarkeit.\n\n\n5.3.2.2 Quota-Stichprobe\nAuswahl nach vorgegebenen Quoten für bestimmte Merkmale."
+  },
+  {
+    "objectID": "stichprobe.html#stichprobengröße",
+    "href": "stichprobe.html#stichprobengröße",
+    "title": "5  Stichprobenziehung",
+    "section": "5.4 Stichprobengröße",
+    "text": "5.4 Stichprobengröße\nDie benötigte Stichprobengröße hängt ab von:\n\nGewünschter statistischer Power (üblicherweise .80)\nErwarteter Effektgröße\nSignifikanzniveau (üblicherweise α = .05)\nVariabilität in der Population"
+  },
+  {
+    "objectID": "poweranalyse.html",
+    "href": "poweranalyse.html",
+    "title": "6  Poweranalyse für t-Tests",
+    "section": "",
+    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html",
+    "href": "poweranalyse_erweitert.html",
+    "title": "7  Poweranalyse für t-Tests",
+    "section": "",
+    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#warum-sind-poweranalysen-wichtig",
+    "href": "poweranalyse_erweitert.html#warum-sind-poweranalysen-wichtig",
+    "title": "7  Poweranalyse für t-Tests",
+    "section": "7.2 Warum sind Poweranalysen wichtig?",
+    "text": "7.2 Warum sind Poweranalysen wichtig?\nPoweranalysen gehören zu den wichtigsten Schritten bei der Studienplanung. Sie helfen dabei, die Stichprobengröße so festzulegen, dass wissenschaftliche Fragestellungen mit ausreichender statistischer Sicherheit untersucht werden können.\n\n7.2.1 Nutzen einer Poweranalyse\n\nVermeidung zu kleiner Stichproben, die vorhandene Effekte übersehen.\nVermeidung unnötig großer Stichproben, die Zeit, Geld und Ressourcen verschwenden.\nTransparente Begründung der geplanten Stichprobengröße.\nErfüllung wissenschaftlicher und ethischer Anforderungen bei Studien.\n\nOhne Poweranalyse besteht die Gefahr, dass eine Studie zwar durchgeführt wird, aber keine aussagekräftigen Ergebnisse liefern kann."
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#was-bedeutet-statistische-power",
+    "href": "poweranalyse_erweitert.html#was-bedeutet-statistische-power",
+    "title": "7  Poweranalyse für t-Tests",
+    "section": "7.3 Was bedeutet statistische Power?",
+    "text": "7.3 Was bedeutet statistische Power?\nDie statistische Power beschreibt die Wahrscheinlichkeit, einen tatsächlich existierenden Effekt als statistisch signifikant zu erkennen.\n\nPower = 0,80 (80 %) bedeutet: Wenn der Effekt tatsächlich existiert, wird er in 80 % vergleichbarer Studien entdeckt.\nβ (Beta) = 1 − Power ist die Wahrscheinlichkeit eines Fehlers 2. Art.\nBei einer Power von 0,80 beträgt β = 0,20. In diesem Fall würden 20 % der Studien einen vorhandenen Effekt übersehen.\n\nTypische Zielwerte:\n\n\n\nPower\nInterpretation\n\n\n\n\n0,70\nMindestanforderung in explorativen Studien\n\n\n0,80\nHäufig verwendeter Standard\n\n\n0,90\nHohe Sicherheit für konfirmatorische Studien\n\n\n0,95\nSehr hohe Sicherheit, erfordert meist größere Stichproben"
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#wie-wird-eine-poweranalyse-berechnet",
+    "href": "poweranalyse_erweitert.html#wie-wird-eine-poweranalyse-berechnet",
+    "title": "7  Poweranalyse für t-Tests",
+    "section": "7.4 Wie wird eine Poweranalyse berechnet?",
+    "text": "7.4 Wie wird eine Poweranalyse berechnet?\nEine Poweranalyse basiert auf vier zentralen Größen:\n\nEffektgröße (d)\nSignifikanzniveau (α)\nPower (1−β)\nStichprobengröße (N)\n\nSind drei dieser Größen bekannt, kann die vierte berechnet werden.\n\n7.4.1 Zusammenhang der Parameter\n\nGrößere Effektgrößen benötigen weniger Teilnehmende.\nHöhere gewünschte Power erfordert größere Stichproben.\nKleinere Alpha-Niveaus (z. B. 0,01 statt 0,05) erfordern größere Stichproben.\nUngleich große Gruppen erhöhen meist den Stichprobenbedarf.\n\n\n\n7.4.2 Formel für den unabhängigen t-Test\nFür eine vereinfachte a-priori-Poweranalyse kann die erforderliche Stichprobengröße näherungsweise mit folgender Formel berechnet werden:\n[ n = ]\nDabei gilt:\n\n(z_{/2}): kritischer z-Wert für das gewählte Alpha-Niveau\n(z_{}): z-Wert der gewünschten Power\n(d): Cohen’s d\n\nDas interaktive Tool verwendet dieselbe Grundidee und berücksichtigt zusätzlich unterschiedliche Gruppengrößen."
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#konsequenzen-einer-zu-geringen-power",
+    "href": "poweranalyse_erweitert.html#konsequenzen-einer-zu-geringen-power",
+    "title": "7  Poweranalyse für t-Tests",
+    "section": "7.5 Konsequenzen einer zu geringen Power",
+    "text": "7.5 Konsequenzen einer zu geringen Power\nStudien mit geringer Power haben mehrere Nachteile:\n\nReale Effekte werden häufig übersehen.\nErgebnisse schwanken stärker zwischen Studien.\nGefundene Effekte werden tendenziell überschätzt.\nDie Reproduzierbarkeit wissenschaftlicher Befunde sinkt.\n\nAus diesem Grund wird in vielen Fachgebieten eine Power von mindestens 0,80 empfohlen."
+  },
+  {
     "objectID": "randomisierung.html",
     "href": "randomisierung.html",
     "title": "8  Randomisierung",
@@ -238,17 +273,10 @@
     "text": "8.7 Überprüfung der Randomisierung\nNach der Randomisierung sollten die Gruppen auf Baseline-Merkmale verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:\n\nDemografische Merkmale (Alter, Geschlecht)\nRelevante Vortestleistungen\nMotivationale Variablen\n\nDies geschieht typischerweise durch:\n\nDeskriptive Statistiken (Mittelwerte, Standardabweichungen)\nStatistische Tests (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!\n\n\n\n\n\n\n\nZur Interpretation von Baseline-Tests\n\n\n\nSignifikante Unterschiede bei Baseline-Vergleichen bedeuten nicht, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung."
   },
   {
-    "objectID": "Poweranalyse.html",
-    "href": "Poweranalyse.html",
-    "title": "6  Poweranalyse für t-Tests",
+    "objectID": "aufgaben.html",
+    "href": "aufgaben.html",
+    "title": "9  Wiederholbare MC-Übung",
     "section": "",
-    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
-  },
-  {
-    "objectID": "poweranalyse.html",
-    "href": "poweranalyse.html",
-    "title": "6  Poweranalyse für t-Tests",
-    "section": "",
-    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+    "text": "Neue Aufgabe\n\n\n\n\nAntwort prüfen"
   }
 ]
