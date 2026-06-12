@@ -223,6 +223,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#formel-für-den-unabhängigen-t-test" id="toc-formel-für-den-unabhängigen-t-test" class="nav-link" data-scroll-target="#formel-für-den-unabhängigen-t-test"> <span class="header-section-number">7.4.2</span> Formel für den unabhängigen t-Test</a></li>
   </ul></li>
   <li><a href="#konsequenzen-einer-zu-geringen-power" id="toc-konsequenzen-einer-zu-geringen-power" class="nav-link" data-scroll-target="#konsequenzen-einer-zu-geringen-power"> <span class="header-section-number">7.5</span> Konsequenzen einer zu geringen Power</a></li>
+  <li><a href="#zusammenhänge-verstehen-poweranalyse-und-stichprobengröße" id="toc-zusammenhänge-verstehen-poweranalyse-und-stichprobengröße" class="nav-link" data-scroll-target="#zusammenhänge-verstehen-poweranalyse-und-stichprobengröße"> <span class="header-section-number">8</span> Zusammenhänge verstehen: Poweranalyse und Stichprobengröße</a></li>
   </ul>
 </nav>
     </div>
@@ -498,6 +499,194 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Die Reproduzierbarkeit wissenschaftlicher Befunde sinkt.</li>
 </ul>
 <p>Aus diesem Grund wird in vielen Fachgebieten eine Power von mindestens 0,80 empfohlen.</p>
+</section>
+<section id="zusammenhänge-verstehen-poweranalyse-und-stichprobengröße" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Zusammenhänge verstehen: Poweranalyse und Stichprobengröße</h1>
+<p>Klicken Sie auf <strong>Neue Aufgabe</strong>, lesen Sie das beschriebene Planungsszenario und identifizieren Sie, wie sich die Änderung auf die erforderliche Stichprobengröße auswirkt.</p>
+<div id="quiz-container" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+<button id="new-question" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Neue Aufgabe</button>
+<p id="scenario" style="margin-top: 1rem;">
+</p>
+<form id="answers" style="margin-top: 1rem;">
+</form>
+<button id="check-answer" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">Antwort prüfen</button>
+<div id="feedback" style="margin-top: 1rem; font-weight: 600;">
+
+</div>
+</div>
+<script>
+const questions = [
+  {
+    scenario: "Eine Studie erwartet einen sehr großen Effekt des Trainingsprogramms. Alle anderen Parameter bleiben gleich.",
+    options: [
+      "Die erforderliche Stichprobengröße sinkt.",
+      "Die erforderliche Stichprobengröße steigt.",
+      "Die Alpha-Fehlerwahrscheinlichkeit steigt automatisch.",
+      "Die Power wird automatisch kleiner."
+    ],
+    correct: 0,
+    explanation: "Richtig: Größere Effekte lassen sich leichter statistisch entdecken. Deshalb werden weniger Teilnehmende benötigt."
+  },
+  {
+    scenario: "Eine Forscherin möchte die Power von 0,80 auf 0,90 erhöhen.",
+    options: [
+      "Die Studie benötigt weniger Teilnehmende.",
+      "Die Studie benötigt mehr Teilnehmende.",
+      "Die Effektgröße wird dadurch größer.",
+      "Das Alpha-Niveau muss automatisch steigen."
+    ],
+    correct: 1,
+    explanation: "Richtig: Eine höhere Power bedeutet eine höhere Wahrscheinlichkeit, einen vorhandenen Effekt zu entdecken. Dafür braucht man meist größere Stichproben."
+  },
+  {
+    scenario: "Ein Forschungsteam senkt das Alpha-Niveau von 0,05 auf 0,01.",
+    options: [
+      "Die Stichprobengröße muss meist größer werden.",
+      "Die Stichprobengröße kann deutlich kleiner werden.",
+      "Die Power steigt automatisch.",
+      "Die Effektgröße verändert sich automatisch."
+    ],
+    correct: 0,
+    explanation: "Richtig: Ein kleineres Alpha-Niveau ist strenger. Um trotzdem Effekte entdecken zu können, werden meist mehr Teilnehmende benötigt."
+  },
+  {
+    scenario: "Eine Studie plant zwei gleich große Gruppen mit jeweils 50 Personen. Nun soll eine Gruppe deutlich kleiner sein als die andere.",
+    options: [
+      "Ungleich große Gruppen erhöhen meist den Stichprobenbedarf.",
+      "Ungleich große Gruppen senken immer den Stichprobenbedarf.",
+      "Das Alpha-Niveau wird dadurch automatisch kleiner.",
+      "Die Effektgröße wird dadurch automatisch größer."
+    ],
+    correct: 0,
+    explanation: "Richtig: Ungleich große Gruppen sind statistisch meist weniger effizient. Deshalb steigt der Stichprobenbedarf häufig."
+  },
+  {
+    scenario: "Ein erwarteter Effekt wird nach einer Vorstudie kleiner eingeschätzt als ursprünglich angenommen.",
+    options: [
+      "Die Studie benötigt eher mehr Teilnehmende.",
+      "Die Studie benötigt eher weniger Teilnehmende.",
+      "Die Power ist dann automatisch 1,00.",
+      "Das Alpha-Niveau spielt dann keine Rolle mehr."
+    ],
+    correct: 0,
+    explanation: "Richtig: Kleinere Effekte sind schwerer nachzuweisen. Deshalb braucht man größere Stichproben."
+  },
+  {
+    scenario: "Eine Studie soll mit sehr hoher Sicherheit einen vorhandenen Effekt entdecken. Das Forschungsteam setzt die gewünschte Power auf 0,95.",
+    options: [
+      "Das reduziert den Stichprobenbedarf deutlich.",
+      "Das erhöht den Stichprobenbedarf deutlich.",
+      "Das macht die Effektgröße größer.",
+      "Das ersetzt die Poweranalyse."
+    ],
+    correct: 1,
+    explanation: "Richtig: Sehr hohe Power erfordert meist deutlich größere Stichproben."
+  },
+  {
+    scenario: "Ein Team vergleicht zwei Planungen: In Planung A beträgt α = 0,05, in Planung B α = 0,01. Effektgröße und Power bleiben gleich.",
+    options: [
+      "Planung B benötigt meist mehr Teilnehmende.",
+      "Planung B benötigt meist weniger Teilnehmende.",
+      "Beide Planungen benötigen immer exakt gleich viele Teilnehmende.",
+      "Planung A hat automatisch eine größere Effektgröße."
+    ],
+    correct: 0,
+    explanation: "Richtig: α = 0,01 ist strenger als α = 0,05. Deshalb steigt bei gleicher Power meist der Stichprobenbedarf."
+  },
+  {
+    scenario: "Eine Studie erwartet einen kleinen Effekt, wählt eine hohe Power und setzt ein strenges Alpha-Niveau.",
+    options: [
+      "Diese Kombination führt typischerweise zu einem hohen Stichprobenbedarf.",
+      "Diese Kombination führt typischerweise zu einem sehr kleinen Stichprobenbedarf.",
+      "Die Gruppengröße ist dann irrelevant.",
+      "Eine Poweranalyse ist dann nicht mehr möglich."
+    ],
+    correct: 0,
+    explanation: "Richtig: Kleine Effekte, hohe Power und strenge Alpha-Niveaus erhöhen gemeinsam den Stichprobenbedarf."
+  }
+];
+
+let currentQuestion = null;
+let lastIndex = -1;
+
+function shuffle(arr) {
+  const shuffled = arr.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function showQuestion() {
+  let index;
+  do {
+    index = Math.floor(Math.random() * questions.length);
+  } while (questions.length > 1 && index === lastIndex);
+  lastIndex = index;
+
+  const q = questions[index];
+  const withIndex = q.options.map((text, i) => ({text, i}));
+  const shuffled = shuffle(withIndex);
+  currentQuestion = {...q, shuffled};
+
+  document.getElementById("scenario").textContent = q.scenario;
+  document.getElementById("feedback").textContent = "";
+
+  const form = document.getElementById("answers");
+  form.innerHTML = "";
+
+  shuffled.forEach((opt, idx) => {
+    const div = document.createElement("div");
+    div.style.display = "flex";
+    div.style.alignItems = "flex-start";
+    div.style.margin = ".5rem 0";
+
+    const inp = document.createElement("input");
+    inp.type = "radio";
+    inp.name = "answer";
+    inp.id = "ans" + idx;
+    inp.value = opt.i;
+    inp.style.marginTop = "0.25rem";
+    inp.style.flexShrink = "0";
+
+    const lbl = document.createElement("label");
+    lbl.htmlFor = "ans" + idx;
+    lbl.textContent = opt.text;
+    lbl.style.marginLeft = ".5rem";
+    lbl.style.flex = "1";
+
+    div.appendChild(inp);
+    div.appendChild(lbl);
+    form.appendChild(div);
+  });
+}
+
+function checkAnswer() {
+  const selected = document.querySelector('input[name="answer"]:checked');
+  if (!selected) {
+    alert("Bitte wählen Sie eine Antwort aus.");
+    return;
+  }
+
+  const idx = parseInt(selected.value, 10);
+  const fb = document.getElementById("feedback");
+
+  if (idx === currentQuestion.correct) {
+    fb.textContent = "✓ " + currentQuestion.explanation;
+    fb.style.color = "green";
+  } else {
+    const feedbackText = currentQuestion.explanation.replace(/^Richtig:/, "Falsch:");
+    fb.textContent = "✗ " + feedbackText;
+    fb.style.color = "red";
+  }
+}
+
+document.getElementById("new-question").addEventListener("click", showQuestion);
+document.getElementById("check-answer").addEventListener("click", checkAnswer);
+
+showQuestion();
+</script>
 
 
 </section>
