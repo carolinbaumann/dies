@@ -1,9 +1,37 @@
-# Einstieg
+---
+title: "Interventionsstudien sinnvoll planen"
+format:
+  html:
+    toc: true
+    toc-title: "Inhalt"
+    smooth-scroll: true
+---
 
-Dieses Quarto-Book enthält eine wiederholbare Multiple-Choice-Übung zur internen Validität im Kontext schreibdidaktischer Interventionsstudien.
+# Begleitmaterial zum Workshop
 
-Die Aufgabe auf der nächsten Seite zieht bei jedem Klick eine neue Frage aus einem Fragenpool. Nach Auswahl einer Antwort erhalten die Lernenden direkt eine kurze Rückmeldung.
+Diese Website ist **kein Lehrbuch**, sondern eine kompakte Begleitung zum Workshop im Rahmen der [Sommerschule der didaktisch-empirischen Schreibforschung 2026](https://www.ph-karlsruhe.de/forschen/konferenzen-und-tagungen/sommerschule-der-didaktisch-empirischen-schreibforschung-2026).
 
-## Lernziel
+Sie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient dazu, wesentliche Überlegungen zur Planung von Interventionsstudien strukturiert festzuhalten. Die Materialien können zur Vorbereitung, zur Wiederholung und zur Vertiefung genutzt werden.
 
-Die Teilnehmenden sollen typische Bedrohungen der internen Validität an schreibdidaktischen Beispielen erkennen und erklären können.
+::: {.callout-note title="Hinweis"}
+Die Website ersetzt weder die gemeinsame Diskussion im Workshop noch die vertiefende Auseinandersetzung mit Methodenliteratur. Sie versteht sich als Orientierungshilfe und Arbeitsgrundlage.
+:::
+
+## Schwerpunkt des Workshops
+
+Im Mittelpunkt steht zunächst die Frage, wie **Interventionsstudien sinnvoll geplant** werden können.
+
+Der Workshop richtet sich an Teilnehmende, die sich in der Planungsphase einer Interventionsstudie befinden. Er bietet eine kompakte Einführung in zentrale Fragen des Studiendesigns und der Datenerhebung.
+
+Gemeinsam erarbeiten wir,
+
+- wie Forschungsfragen in geeignete Untersuchungsdesigns übersetzt werden,
+- welche Rolle Vergleichs- und Kontrollgruppen spielen,
+- wie Messzeitpunkte sinnvoll angelegt werden,
+- welche typischen Herausforderungen bei der Planung von Erhebungen auftreten,
+- und welche Folgen diese Entscheidungen für die spätere Auswertung haben.
+
+
+::: {.callout-tip title="Arbeitsprinzip"}
+Nutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben.
+:::

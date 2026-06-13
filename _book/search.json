@@ -2,79 +2,79 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Mein Projekt",
+    "title": "Interventionsstudien sinnvoll planen",
     "section": "",
-    "text": "Dieses Quarto-Book enthält eine wiederholbare Multiple-Choice-Übung zur internen Validität im Kontext schreibdidaktischer Interventionsstudien.\nDie Aufgabe auf der nächsten Seite zieht bei jedem Klick eine neue Frage aus einem Fragenpool. Nach Auswahl einer Antwort erhalten die Lernenden direkt eine kurze Rückmeldung.\n\n\nDie Teilnehmenden sollen typische Bedrohungen der internen Validität an schreibdidaktischen Beispielen erkennen und erklären können."
+    "text": "Diese Website ist kein Lehrbuch, sondern eine kompakte Begleitung zum Workshop im Rahmen der Sommerschule der didaktisch-empirischen Schreibforschung 2026.\nSie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient dazu, wesentliche Überlegungen zur Planung von Interventionsstudien strukturiert festzuhalten. Die Materialien können zur Vorbereitung, zur Wiederholung und zur Vertiefung genutzt werden.\n\n\n\n\n\n\nNote\n\n\n\nDie Website ersetzt weder die gemeinsame Diskussion im Workshop noch die vertiefende Auseinandersetzung mit Methodenliteratur. Sie versteht sich als Orientierungshilfe und Arbeitsgrundlage.\n\n\n\n\nIm Mittelpunkt steht zunächst die Frage, wie Interventionsstudien sinnvoll geplant werden können.\nDer Workshop richtet sich an Teilnehmende, die sich in der Planungsphase einer Interventionsstudie befinden. Er bietet eine kompakte Einführung in zentrale Fragen des Studiendesigns und der Datenerhebung.\nGemeinsam erarbeiten wir,\n\nwie Forschungsfragen in geeignete Untersuchungsdesigns übersetzt werden,\nwelche Rolle Vergleichs- und Kontrollgruppen spielen,\nwie Messzeitpunkte sinnvoll angelegt werden,\nwelche typischen Herausforderungen bei der Planung von Erhebungen auftreten,\nund welche Folgen diese Entscheidungen für die spätere Auswertung haben.\n\n\n\n\n\n\n\nTip\n\n\n\nNutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben."
   },
   {
     "objectID": "theorie.html",
     "href": "theorie.html",
-    "title": "2  Bedrohungen der internen Validität",
+    "title": "3  Bedrohungen der internen Validität",
     "section": "",
     "text": "In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann."
   },
   {
     "objectID": "theorie.html#unklare-zeitliche-abfolge",
     "href": "theorie.html#unklare-zeitliche-abfolge",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.1 Unklare zeitliche Abfolge",
-    "text": "2.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.1 Unklare zeitliche Abfolge",
+    "text": "3.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
   },
   {
     "objectID": "theorie.html#selektionseffekte",
     "href": "theorie.html#selektionseffekte",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.2 Selektionseffekte",
-    "text": "2.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.2 Selektionseffekte",
+    "text": "3.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#externe-zeitliche-einflüsse",
     "href": "theorie.html#externe-zeitliche-einflüsse",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.3 Externe zeitliche Einflüsse",
-    "text": "2.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.3 Externe zeitliche Einflüsse",
+    "text": "3.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "theorie.html#reifungsprozesse",
     "href": "theorie.html#reifungsprozesse",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.4 Reifungsprozesse",
-    "text": "2.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.4 Reifungsprozesse",
+    "text": "3.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
   },
   {
     "objectID": "theorie.html#statistische-regressionseffekte",
     "href": "theorie.html#statistische-regressionseffekte",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.5 Statistische Regressionseffekte",
-    "text": "2.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.5 Statistische Regressionseffekte",
+    "text": "3.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#experimentelle-mortalität",
     "href": "theorie.html#experimentelle-mortalität",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.6 Experimentelle Mortalität",
-    "text": "2.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.6 Experimentelle Mortalität",
+    "text": "3.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "theorie.html#testübung",
     "href": "theorie.html#testübung",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.7 Testübung",
-    "text": "2.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.7 Testübung",
+    "text": "3.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "theorie.html#mangelnde-instrumentelle-reliabilität",
     "href": "theorie.html#mangelnde-instrumentelle-reliabilität",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.8 Mangelnde instrumentelle Reliabilität",
-    "text": "2.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.8 Mangelnde instrumentelle Reliabilität",
+    "text": "3.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
   },
   {
     "objectID": "theorie.html#kombination-mehrerer-bedrohungen",
     "href": "theorie.html#kombination-mehrerer-bedrohungen",
-    "title": "2  Bedrohungen der internen Validität",
-    "section": "2.9 Kombination mehrerer Bedrohungen",
-    "text": "2.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
+    "title": "3  Bedrohungen der internen Validität",
+    "section": "3.9 Kombination mehrerer Bedrohungen",
+    "text": "3.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
   },
   {
     "objectID": "design.html",
@@ -191,37 +191,37 @@
   {
     "objectID": "poweranalyse_erweitert.html",
     "href": "poweranalyse_erweitert.html",
-    "title": "7  Poweranalyse für t-Tests",
+    "title": "6  Wozu dient eine Poweranalyse?",
     "section": "",
-    "text": "Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\n\n\n\nDie Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.\nWichtige Begriffe: - α (Alpha): Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀) - Power (1-β): Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken - Effektgröße (d): Standardisierte Differenz zwischen den Gruppen"
+    "text": "Eine Poweranalyse hilft dabei, die erforderliche Stichprobengröße für eine Studie zu bestimmen. Ziel ist es, einen tatsächlich vorhandenen Effekt mit ausreichender Wahrscheinlichkeit zu entdecken.\nSie unterstützt damit eine begründete Studienplanung:"
   },
   {
     "objectID": "poweranalyse_erweitert.html#warum-sind-poweranalysen-wichtig",
     "href": "poweranalyse_erweitert.html#warum-sind-poweranalysen-wichtig",
-    "title": "7  Poweranalyse für t-Tests",
-    "section": "7.2 Warum sind Poweranalysen wichtig?",
-    "text": "7.2 Warum sind Poweranalysen wichtig?\nPoweranalysen gehören zu den wichtigsten Schritten bei der Studienplanung. Sie helfen dabei, die Stichprobengröße so festzulegen, dass wissenschaftliche Fragestellungen mit ausreichender statistischer Sicherheit untersucht werden können.\n\n7.2.1 Nutzen einer Poweranalyse\n\nVermeidung zu kleiner Stichproben, die vorhandene Effekte übersehen.\nVermeidung unnötig großer Stichproben, die Zeit, Geld und Ressourcen verschwenden.\nTransparente Begründung der geplanten Stichprobengröße.\nErfüllung wissenschaftlicher und ethischer Anforderungen bei Studien.\n\nOhne Poweranalyse besteht die Gefahr, dass eine Studie zwar durchgeführt wird, aber keine aussagekräftigen Ergebnisse liefern kann."
+    "title": "6  Poweranalyse",
+    "section": "6.1 Warum sind Poweranalysen wichtig?",
+    "text": "6.1 Warum sind Poweranalysen wichtig?\nPoweranalysen gehören zu den wichtigsten Schritten bei der Studienplanung. Sie helfen dabei, die Stichprobengröße so festzulegen, dass wissenschaftliche Fragestellungen mit ausreichender statistischer Sicherheit untersucht werden können.\n\n6.1.1 Nutzen einer Poweranalyse\n\nVermeidung zu kleiner Stichproben, die vorhandene Effekte übersehen.\nVermeidung unnötig großer Stichproben, die Zeit, Geld und Ressourcen verschwenden.\nTransparente Begründung der geplanten Stichprobengröße.\nErfüllung wissenschaftlicher und ethischer Anforderungen bei Studien.\n\nOhne Poweranalyse besteht die Gefahr, dass eine Studie zwar durchgeführt wird, aber keine aussagekräftigen Ergebnisse liefern kann."
   },
   {
     "objectID": "poweranalyse_erweitert.html#was-bedeutet-statistische-power",
     "href": "poweranalyse_erweitert.html#was-bedeutet-statistische-power",
-    "title": "7  Poweranalyse für t-Tests",
-    "section": "7.3 Was bedeutet statistische Power?",
-    "text": "7.3 Was bedeutet statistische Power?\nDie statistische Power beschreibt die Wahrscheinlichkeit, einen tatsächlich existierenden Effekt als statistisch signifikant zu erkennen.\n\nPower = 0,80 (80 %) bedeutet: Wenn der Effekt tatsächlich existiert, wird er in 80 % vergleichbarer Studien entdeckt.\nβ (Beta) = 1 − Power ist die Wahrscheinlichkeit eines Fehlers 2. Art.\nBei einer Power von 0,80 beträgt β = 0,20. In diesem Fall würden 20 % der Studien einen vorhandenen Effekt übersehen.\n\nTypische Zielwerte:\n\n\n\nPower\nInterpretation\n\n\n\n\n0,70\nMindestanforderung in explorativen Studien\n\n\n0,80\nHäufig verwendeter Standard\n\n\n0,90\nHohe Sicherheit für konfirmatorische Studien\n\n\n0,95\nSehr hohe Sicherheit, erfordert meist größere Stichproben"
+    "title": "6  Wozu dient eine Poweranalyse?",
+    "section": "6.2 Was bedeutet statistische Power?",
+    "text": "6.2 Was bedeutet statistische Power?\nEine Power von 0,80 bedeutet: Wenn der angenommene Effekt tatsächlich existiert, wird er in 80 % vergleichbarer Studien als statistisch signifikant erkannt.\nDie Gegenwahrscheinlichkeit ist der Fehler 2. Art:\n[ beta = 1 - Power ]\nBei einer Power von 0,80 beträgt (beta = 0,20). In 20 % vergleichbarer Studien würde ein tatsächlich vorhandener Effekt übersehen.\nTypische Zielwerte sind:\n\n\n\nPower\nEinordnung\n\n\n\n\n0,80\nhäufig verwendeter Mindeststandard\n\n\n0,90\nhöhere Sicherheit, meist größere Stichprobe\n\n\n0,95\nsehr hohe Sicherheit, deutlich größerer Stichprobenbedarf\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nDer passende Zielwert hängt vom Forschungsziel, vom Risiko eines übersehenen Effekts und von den verfügbaren Ressourcen ab. Eine Power von 0,80 ist eine häufig verwendete Konvention, aber kein allgemeingültiges Naturgesetz."
   },
   {
     "objectID": "poweranalyse_erweitert.html#wie-wird-eine-poweranalyse-berechnet",
     "href": "poweranalyse_erweitert.html#wie-wird-eine-poweranalyse-berechnet",
-    "title": "7  Poweranalyse für t-Tests",
-    "section": "7.4 Wie wird eine Poweranalyse berechnet?",
-    "text": "7.4 Wie wird eine Poweranalyse berechnet?\nEine Poweranalyse basiert auf vier zentralen Größen:\n\nEffektgröße (d)\nSignifikanzniveau (α)\nPower (1−β)\nStichprobengröße (N)\n\nSind drei dieser Größen bekannt, kann die vierte berechnet werden.\n\n7.4.1 Zusammenhang der Parameter\n\nGrößere Effektgrößen benötigen weniger Teilnehmende.\nHöhere gewünschte Power erfordert größere Stichproben.\nKleinere Alpha-Niveaus (z. B. 0,01 statt 0,05) erfordern größere Stichproben.\nUngleich große Gruppen erhöhen meist den Stichprobenbedarf.\n\n\n\n7.4.2 Formel für den unabhängigen t-Test\nFür eine vereinfachte a-priori-Poweranalyse kann die erforderliche Stichprobengröße näherungsweise mit folgender Formel berechnet werden:\n[ n = ]\nDabei gilt:\n\n(z_{/2}): kritischer z-Wert für das gewählte Alpha-Niveau\n(z_{}): z-Wert der gewünschten Power\n(d): Cohen’s d\n\nDas interaktive Tool verwendet dieselbe Grundidee und berücksichtigt zusätzlich unterschiedliche Gruppengrößen."
+    "title": "6  Poweranalyse",
+    "section": "6.3 Wie wird eine Poweranalyse berechnet?",
+    "text": "6.3 Wie wird eine Poweranalyse berechnet?\nEine Poweranalyse basiert auf vier zentralen Größen:\n\nEffektgröße (d)\nSignifikanzniveau (α)\nPower (1−β)\nStichprobengröße (N)\n\nSind drei dieser Größen bekannt, kann die vierte berechnet werden.\n\n6.3.1 Zusammenhang der Parameter\n\nGrößere Effektgrößen benötigen weniger Teilnehmende.\nHöhere gewünschte Power erfordert größere Stichproben.\nKleinere Alpha-Niveaus (z. B. 0,01 statt 0,05) erfordern größere Stichproben.\nUngleich große Gruppen erhöhen meist den Stichprobenbedarf."
   },
   {
     "objectID": "poweranalyse_erweitert.html#konsequenzen-einer-zu-geringen-power",
     "href": "poweranalyse_erweitert.html#konsequenzen-einer-zu-geringen-power",
-    "title": "7  Poweranalyse für t-Tests",
-    "section": "7.5 Konsequenzen einer zu geringen Power",
-    "text": "7.5 Konsequenzen einer zu geringen Power\nStudien mit geringer Power haben mehrere Nachteile:\n\nReale Effekte werden häufig übersehen.\nErgebnisse schwanken stärker zwischen Studien.\nGefundene Effekte werden tendenziell überschätzt.\nDie Reproduzierbarkeit wissenschaftlicher Befunde sinkt.\n\nAus diesem Grund wird in vielen Fachgebieten eine Power von mindestens 0,80 empfohlen."
+    "title": "6  Poweranalyse",
+    "section": "6.4 Konsequenzen einer zu geringen Power",
+    "text": "6.4 Konsequenzen einer zu geringen Power\nStudien mit geringer Power haben mehrere Nachteile:\n\nReale Effekte werden häufig übersehen.\nErgebnisse schwanken stärker zwischen Studien.\nGefundene Effekte werden tendenziell überschätzt.\nDie Reproduzierbarkeit wissenschaftlicher Befunde sinkt.\n\nAus diesem Grund wird in vielen Fachgebieten eine Power von mindestens 0,80 empfohlen."
   },
   {
     "objectID": "randomisierung.html",
@@ -278,5 +278,187 @@
     "title": "9  Wiederholbare MC-Übung",
     "section": "",
     "text": "Neue Aufgabe\n\n\n\n\nAntwort prüfen"
+  },
+  {
+    "objectID": "theorie_einstieg.html",
+    "href": "theorie_einstieg.html",
+    "title": "2  Theoretische Fundierung und Literaturrecherche",
+    "section": "",
+    "text": "Empirische Forschung in der Deutschdidaktik beginnt nicht mit der Datenerhebung, sondern mit einer gründlichen Literaturrecherche und einer klaren theoretischen Verankerung. Erst wenn bekannt ist, was bereits erforscht wurde, welche Begriffe zentral sind und welche Modelle das Forschungsfeld strukturieren, lässt sich eine tragfähige Forschungsfrage entwickeln.\n\n\n\n\n\n\nTip\n\n\n\nDie Methode ist nicht der Ausgangspunkt der Forschung. Gute Forschung beginnt mit Theorie, Begriffsklärung und Forschungsstand. Die Methode folgt aus der Forschungsfrage.\n\n\n\n\nEine gute Literaturrecherche hilft dabei,\n\nzentrale Theorien, Modelle und Begriffe zu verstehen,\nden aktuellen Forschungsstand zu erfassen,\nForschungslücken oder offene Fragen zu identifizieren,\ndie eigene Untersuchung fachlich zu begründen,\ngeeignete Methoden und Instrumente auszuwählen.\n\nGerade in der Deutschdidaktik ist das wichtig, weil Forschungsfragen häufig an komplexe Gegenstände gebunden sind: Lesen, Schreiben, Sprache, Literatur, Medien, Unterricht, Lernprozesse und Kompetenzentwicklung. Ohne theoretische Fundierung bleibt unklar, was genau untersucht wird und warum die Untersuchung relevant ist.\n\n\n\nDie folgende Grafik zeigt den idealtypischen Weg von der Literaturrecherche bis zur empirischen Untersuchung.\n\n\n\n\nflowchart TD\n  A[\"Literaturrecherche\"] --> B[\"Forschungsstand verstehen\"]\n  B --> C[\"Theoretische Verankerung\"]\n  C --> D[\"Zentrale Begriffe klären\"]\n  D --> E[\"Forschungslücke bestimmen\"]\n  E --> F[\"Forschungsfrage formulieren\"]\n  F --> G[\"Hypothesen oder Erwartungen ableiten\"]\n  G --> H[\"Untersuchungsdesign auswählen\"]\n  H --> I[\"Datenerhebung und Analyse planen\"]\n\n  classDef start fill:#e8f1ff,stroke:#4f79b8,stroke-width:1px,color:#111;\n  classDef theory fill:#fff4dd,stroke:#c78d21,stroke-width:1px,color:#111;\n  classDef method fill:#eaf7ea,stroke:#4c9a4c,stroke-width:1px,color:#111;\n\n  class A,B start;\n  class C,D,E,F,G theory;\n  class H,I method;\n\n\n\n\n\n\n\n\n\n\n\nDie Teilnehmenden können ihre eigene Forschungsidee mit diesen Fragen prüfen:\n\n\n\n\n\n\n\nBereich\nLeitfrage\n\n\n\n\nForschungsstand\nWas weiß die Forschung bereits zu meinem Thema?\n\n\nTheorie\nWelche Modelle oder Konzepte erklären den Gegenstand?\n\n\nBegriffe\nWelche zentralen Begriffe müssen präzise definiert werden?\n\n\nForschungslücke\nWas ist bisher unklar, umstritten oder wenig untersucht?\n\n\nForschungsfrage\nWelche präzise Frage ergibt sich daraus?\n\n\nMethode\nWelche Methode passt wirklich zu dieser Frage?\n\n\n\n\n\n\nEine allgemeine Idee wie „kreatives Schreiben untersuchen“ ist noch keine Forschungsfrage. Erst durch Literaturrecherche und theoretische Verankerung wird daraus ein bearbeitbares Forschungsvorhaben.\n\n\n\n\n\n\nNote\n\n\n\nUnpräzise Idee:\nHilft kreatives Schreiben?\nTheoretisch verankerte Forschungsfrage:\nInwiefern beeinflusst eine schreibdidaktische Intervention zum kreativen Schreiben die narrative Textqualität von Schüler:innen der Jahrgangsstufe 7?\n\n\nDie zweite Formulierung benennt den Gegenstand, die Zielgruppe, den theoretisch-didaktischen Bezug und ein mögliches Kriterium der Untersuchung. Dadurch wird sichtbar, welche Literatur benötigt wird und welche Methode sinnvoll sein könnte.\n\n\n\n\nGute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete Frage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand."
+  },
+  {
+    "objectID": "theorie_beginn.html",
+    "href": "theorie_beginn.html",
+    "title": "2  Theorie zuerst",
+    "section": "",
+    "text": "Empirische Forschung beginnt nicht mit der Datenerhebung, sondern mit einer gründlichen Literaturrecherche und einer klaren theoretischen Verankerung. Erst wenn bekannt ist, was bereits erforscht wurde, welche Begriffe zentral sind und welche Modelle das Forschungsfeld strukturieren, lässt sich eine tragfähige Forschungsfrage entwickeln."
+  },
+  {
+    "objectID": "theorie_beginn.html#warum-literaturrecherche-der-erste-schritt-ist",
+    "href": "theorie_beginn.html#warum-literaturrecherche-der-erste-schritt-ist",
+    "title": "2  Theorie zuerst",
+    "section": "2.1 Warum Literaturrecherche der erste Schritt ist",
+    "text": "2.1 Warum Literaturrecherche der erste Schritt ist\nEine gute Literaturrecherche hilft dabei,\n\nzentrale Theorien, Modelle und Begriffe zu verstehen,\nden aktuellen Forschungsstand zu erfassen,\nForschungslücken oder offene Fragen zu identifizieren,\ndie eigene Untersuchung fachlich zu begründen,\ngeeignete Methoden und Instrumente auszuwählen.\n\nGerade in der Deutschdidaktik ist das wichtig, weil Forschungsfragen häufig an komplexe Gegenstände gebunden sind: Lesen, Schreiben, Sprache, Literatur, Medien, Unterricht, Lernprozesse und Kompetenzentwicklung. Ohne theoretische Fundierung bleibt unklar, was genau untersucht wird und warum die Untersuchung relevant ist."
+  },
+  {
+    "objectID": "theorie_beginn.html#von-der-theorie-zur-untersuchung",
+    "href": "theorie_beginn.html#von-der-theorie-zur-untersuchung",
+    "title": "2  Theorie zuerst",
+    "section": "2.2 Von der Theorie zur Untersuchung",
+    "text": "2.2 Von der Theorie zur Untersuchung\nDie folgende Grafik zeigt den idealtypischen Weg von der Literaturrecherche bis zur empirischen Untersuchung.\n\n\n\n\nflowchart TD\n  A[\"Literaturrecherche\"] --> B[\"Forschungsstand verstehen\"]\n  B --> C[\"Theoretische Verankerung\"]\n  C --> D[\"Zentrale Begriffe klären\"]\n  D --> E[\"Forschungslücke bestimmen\"]\n  E --> F[\"Forschungsfrage formulieren\"]\n  F --> G[\"Hypothesen oder Erwartungen ableiten\"]\n  G --> H[\"Untersuchungsdesign auswählen\"]\n  H --> I[\"Datenerhebung und Analyse planen\"]\n\n  classDef start fill:#e8f1ff,stroke:#4f79b8,stroke-width:1px,color:#111;\n  classDef theory fill:#fff4dd,stroke:#c78d21,stroke-width:1px,color:#111;\n  classDef method fill:#eaf7ea,stroke:#4c9a4c,stroke-width:1px,color:#111;\n\n  class A,B start;\n  class C,D,E,F,G theory;\n  class H,I method;"
+  },
+  {
+    "objectID": "theorie_beginn.html#leitfragen-für-die-erste-arbeitsphase",
+    "href": "theorie_beginn.html#leitfragen-für-die-erste-arbeitsphase",
+    "title": "2  Theorie zuerst",
+    "section": "2.2 Leitfragen für die erste Arbeitsphase",
+    "text": "2.2 Leitfragen für die erste Arbeitsphase\n\n\n\n\n\n\n\nBereich\nLeitfrage\n\n\n\n\nForschungsstand\nWas weiß die Forschung bereits zu meinem Thema?\n\n\nTheorie\nWelche Modelle oder Konzepte erklären den Gegenstand?\n\n\nBegriffe\nWelche zentralen Begriffe müssen präzise definiert werden?\n\n\nForschungslücke\nWas ist bisher unklar, umstritten oder wenig untersucht?\n\n\nForschungsfrage\nWelche präzise Frage ergibt sich daraus?\n\n\nMethode\nWelche Methode passt wirklich zu dieser Frage?"
+  },
+  {
+    "objectID": "theorie_beginn.html#von-der-forschungsidee-zur-forschungsfrage",
+    "href": "theorie_beginn.html#von-der-forschungsidee-zur-forschungsfrage",
+    "title": "2  Theorie zuerst",
+    "section": "2.3 Von der Forschungsidee zur Forschungsfrage",
+    "text": "2.3 Von der Forschungsidee zur Forschungsfrage\nEine allgemeine Idee wie „kreatives Schreiben untersuchen“ ist noch keine Forschungsfrage. Eine tragfähige Forschungsfrage entsteht erst, wenn der Gegenstand mithilfe von Theorie und Forschungsstand eingegrenzt wird.\nDabei sollte deutlich werden,\n\nwelcher Gegenstand untersucht wird,\nbei welcher Zielgruppe die Untersuchung stattfindet,\nwelche Bedingungen oder Einflussfaktoren betrachtet werden,\nwelches Ergebnis oder Phänomen im Mittelpunkt steht,\nund gegebenenfalls in welchem Kontext oder Zeitraum die Untersuchung erfolgt.\n\n\n\n\n\n\n\nTip\n\n\n\nKann aus der Forschungsfrage unmittelbar abgeleitet werden, welche Daten erhoben werden müssen und bei wem diese Daten erhoben werden sollen?\n\n\n\n2.3.1 Schrittweise Präzisierung\nAm Anfang steht häufig ein breites Themenfeld. Dieses wird schrittweise zu einer empirisch bearbeitbaren Frage verdichtet.\n\n\n\n\n\n\n\nEntwicklungsstufe\nBeispiel\n\n\n\n\nThemenfeld\nSchreiben im Deutschunterricht\n\n\nThematische Eingrenzung\nFeedback beim argumentierenden Schreiben\n\n\nTheoretischer Fokus\nWirkung von Peer-Feedback auf die Überarbeitung von Texten\n\n\nZielgruppe und Kontext\nSchüler:innen der Jahrgangsstufe 8 im Deutschunterricht\n\n\nForschungsfrage\nWie verändert strukturiertes Peer-Feedback die Qualität der Textüberarbeitung bei argumentierenden Schülertexten in Jahrgangsstufe 8?\n\n\n\nDie Forschungsfrage ist damit enger als das Ausgangsthema. Gleichzeitig bleibt sie offen genug, um empirisch untersucht zu werden."
+  },
+  {
+    "objectID": "theorie_beginn.html#qualitätsmerkmale-einer-guten-forschungsfrage",
+    "href": "theorie_beginn.html#qualitätsmerkmale-einer-guten-forschungsfrage",
+    "title": "2  Theorie zuerst",
+    "section": "2.4 Qualitätsmerkmale einer guten Forschungsfrage",
+    "text": "2.4 Qualitätsmerkmale einer guten Forschungsfrage\nEine gute Forschungsfrage ist\n\npräzise: Die zentralen Begriffe sind eindeutig oder theoretisch definierbar.\nbegrenzt: Die Frage lässt sich mit den verfügbaren Ressourcen bearbeiten.\nempirisch untersuchbar: Es können passende Daten erhoben und ausgewertet werden.\ntheoretisch begründet: Die Frage ergibt sich aus Modellen, Begriffen oder bisherigen Befunden.\nfachlich relevant: Ihre Beantwortung trägt zum Verständnis eines deutschdidaktischen Problems bei.\nmethodisch offen: Die Methode wird aus der Frage abgeleitet und nicht bereits unreflektiert vorgegeben.\n\n\n\n\n\n\n\nWarnung\n\n\n\nSehr breite Fragen wirken zunächst interessant, bleiben aber empirisch kaum bearbeitbar. „Wie kann man den Deutschunterricht verbessern?“ enthält weder einen klaren Gegenstand noch eine Zielgruppe oder ein überprüfbares Kriterium."
+  },
+  {
+    "objectID": "theorie_beginn.html#beispiele-aus-verschiedenen-bereichen",
+    "href": "theorie_beginn.html#beispiele-aus-verschiedenen-bereichen",
+    "title": "2  Theorie zuerst",
+    "section": "2.5 Beispiele aus verschiedenen Bereichen",
+    "text": "2.5 Beispiele aus verschiedenen Bereichen\n\n2.5.1 Schreibdidaktik\nZu allgemein:\nHilft kreatives Schreiben?\nPräziser:\nInwiefern beeinflusst eine sechswöchige Intervention zum kreativen Schreiben die narrative Textqualität von Schüler:innen der Jahrgangsstufe 7?\nMögliche Konkretisierung:\nWie verändert eine sechswöchige Intervention mit Schreibimpulsen und Überarbeitungsphasen die narrative Kohärenz in Texten von Schüler:innen der Jahrgangsstufe 7?\nHier wird aus dem breiten Konzept „Textqualität“ ein genaueres Merkmal: die narrative Kohärenz.\n\n\n2.5.2 Lesedidaktik\nZu allgemein:\nWie kann Lesekompetenz gefördert werden?\nPräziser:\nWelche Wirkung hat das wiederholte laute Lesen auf die Leseflüssigkeit von Schüler:innen der Jahrgangsstufe 5?\nVergleichende Variante:\nUnterscheidet sich die Entwicklung der Leseflüssigkeit zwischen Schüler:innen, die wiederholt laut lesen, und Schüler:innen, die dieselben Texte still lesen?\n\n\n2.5.3 Literaturdidaktik\nZu allgemein:\nWas bringt Literaturunterricht?\nPräziser:\nWie beeinflusst ein literarisches Unterrichtsgespräch die Fähigkeit von Schüler:innen der Jahrgangsstufe 9, unterschiedliche Perspektiven einer literarischen Figur zu rekonstruieren?\nExplorative Variante:\nWelche Formen des Perspektivverstehens zeigen Schüler:innen der Jahrgangsstufe 9 in literarischen Unterrichtsgesprächen zu einer Kurzgeschichte?\n\n\n2.5.4 Sprachdidaktik\nZu allgemein:\nWie lernen Schüler:innen Grammatik?\nPräziser:\nWie verändert die Arbeit mit Satzbauplänen die Fähigkeit von Schüler:innen der Jahrgangsstufe 6, Satzglieder in eigenen Texten zu variieren?\nZusammenhangsfrage:\nWelcher Zusammenhang besteht zwischen dem expliziten Wissen über Satzglieder und der syntaktischen Variation in Schülertexten der Jahrgangsstufe 6?\n\n\n2.5.5 Mediendidaktik\nZu allgemein:\nSind digitale Medien im Deutschunterricht sinnvoll?\nPräziser:\nWie beeinflusst digitales kollaboratives Schreiben die Anzahl und Qualität inhaltlicher Überarbeitungen in argumentierenden Texten von Schüler:innen der Jahrgangsstufe 8?\nVergleichende Variante:\nUnterscheidet sich die Qualität des Peer-Feedbacks zwischen digital kommentierten und handschriftlich kommentierten Schülertexten?"
+  },
+  {
+    "objectID": "theorie_beginn.html#unterschiedliche-typen-von-forschungsfragen",
+    "href": "theorie_beginn.html#unterschiedliche-typen-von-forschungsfragen",
+    "title": "2  Theorie zuerst",
+    "section": "2.6 Unterschiedliche Typen von Forschungsfragen",
+    "text": "2.6 Unterschiedliche Typen von Forschungsfragen\nDie Form der Forschungsfrage hängt davon ab, welches Erkenntnisinteresse verfolgt wird.\n\n\n\n\n\n\n\n\nFragetyp\nErkenntnisinteresse\nBeispiel\n\n\n\n\nDeskriptiv\nEin Phänomen beschreiben\nWelche Strategien nutzen Schüler:innen beim Überarbeiten argumentierender Texte?\n\n\nExplorativ\nEin wenig erforschtes Feld erschließen\nWelche Schwierigkeiten berichten Lehrkräfte beim Einsatz literarischer Gespräche?\n\n\nZusammenhangsorientiert\nBeziehungen zwischen Merkmalen untersuchen\nWelcher Zusammenhang besteht zwischen Lesemotivation und Textverständnis?\n\n\nVergleichend\nGruppen oder Bedingungen vergleichen\nUnterscheidet sich die Textqualität nach individuellem und kollaborativem Schreiben?\n\n\nWirkungsorientiert\nEffekte einer Maßnahme untersuchen\nWelche Wirkung hat Peer-Feedback auf die Qualität der Textüberarbeitung?\n\n\nEntwicklungsorientiert\nVeränderungen über die Zeit untersuchen\nWie entwickelt sich die Argumentationskompetenz im Verlauf eines Schuljahres?\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFormulierungen wie „bewirkt“, „führt zu“ oder „hat einen Effekt auf“ enthalten einen kausalen Anspruch. Für solche Fragen braucht es ein Untersuchungsdesign, das alternative Erklärungen möglichst gut kontrolliert."
+  },
+  {
+    "objectID": "theorie_beginn.html#forschungsfrage-und-methode-aufeinander-abstimmen",
+    "href": "theorie_beginn.html#forschungsfrage-und-methode-aufeinander-abstimmen",
+    "title": "2  Theorie zuerst",
+    "section": "2.5 Forschungsfrage und Methode aufeinander abstimmen",
+    "text": "2.5 Forschungsfrage und Methode aufeinander abstimmen\nDie Forschungsfrage legt nahe, welche Art von Daten benötigt wird.\n\n\n\n\n\n\n\nForschungsfrage\nPassende Daten oder Zugänge\n\n\n\n\nWelche Strategien nutzen Schüler:innen beim Schreiben?\nSchreibprozessdaten, Beobachtungen, Interviews, Lautes Denken\n\n\nUnterscheiden sich zwei Unterrichtsformen hinsichtlich der Textqualität?\nVergleichbare Textprodukte, Bewertungsraster, Gruppenvergleich\n\n\nWie erleben Lehrkräfte ein neues Unterrichtskonzept?\nLeitfadengestützte Interviews oder Gruppendiskussionen\n\n\nVerändert eine Intervention die Leseflüssigkeit?\nPrä- und Postmessungen, möglichst mit Vergleichsgruppe\n\n\nWie entwickelt sich eine Kompetenz über die Zeit?\nMehrere Messzeitpunkte oder längsschnittliche Daten\n\n\n\nDie Methode beantwortet daher nicht die Frage, was interessant ist. Sie beantwortet die Frage, wie eine theoretisch begründete Forschungsfrage untersucht werden kann."
+  },
+  {
+    "objectID": "theorie_beginn.html#kleine-prüfroutine-für-eigene-forschungsfragen",
+    "href": "theorie_beginn.html#kleine-prüfroutine-für-eigene-forschungsfragen",
+    "title": "2  Theorie zuerst",
+    "section": "2.6 Kleine Prüfroutine für eigene Forschungsfragen",
+    "text": "2.6 Kleine Prüfroutine für eigene Forschungsfragen\nVor der Planung der Datenerhebung sollte die Forschungsfrage mit fünf Fragen geprüft werden:\n\nWelche zentralen Begriffe müssen theoretisch definiert werden?\nWelche Zielgruppe und welcher Kontext werden untersucht?\nWelche Daten wären zur Beantwortung tatsächlich erforderlich?\nIst die Frage mit der verfügbaren Zeit und Stichprobe bearbeitbar?\nWelchen Beitrag leistet die Antwort für die Deutschdidaktik?"
+  },
+  {
+    "objectID": "theorie_beginn.html#merksatz",
+    "href": "theorie_beginn.html#merksatz",
+    "title": "2  Theorie zuerst",
+    "section": "2.7 Merksatz",
+    "text": "2.7 Merksatz\n\nGute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand."
+  },
+  {
+    "objectID": "validität.html",
+    "href": "validität.html",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "",
+    "text": "In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann."
+  },
+  {
+    "objectID": "validität.html#unklare-zeitliche-abfolge",
+    "href": "validität.html#unklare-zeitliche-abfolge",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.1 Unklare zeitliche Abfolge",
+    "text": "8.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
+  },
+  {
+    "objectID": "validität.html#selektionseffekte",
+    "href": "validität.html#selektionseffekte",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.2 Selektionseffekte",
+    "text": "8.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#externe-zeitliche-einflüsse",
+    "href": "validität.html#externe-zeitliche-einflüsse",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.3 Externe zeitliche Einflüsse",
+    "text": "8.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#reifungsprozesse",
+    "href": "validität.html#reifungsprozesse",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.4 Reifungsprozesse",
+    "text": "8.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#statistische-regressionseffekte",
+    "href": "validität.html#statistische-regressionseffekte",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.5 Statistische Regressionseffekte",
+    "text": "8.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#experimentelle-mortalität",
+    "href": "validität.html#experimentelle-mortalität",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.6 Experimentelle Mortalität",
+    "text": "8.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#testübung",
+    "href": "validität.html#testübung",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.7 Testübung",
+    "text": "8.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+  },
+  {
+    "objectID": "validität.html#mangelnde-instrumentelle-reliabilität",
+    "href": "validität.html#mangelnde-instrumentelle-reliabilität",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.8 Mangelnde instrumentelle Reliabilität",
+    "text": "8.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
+  },
+  {
+    "objectID": "validität.html#kombination-mehrerer-bedrohungen",
+    "href": "validität.html#kombination-mehrerer-bedrohungen",
+    "title": "8  Bedrohungen der internen Validität",
+    "section": "8.9 Kombination mehrerer Bedrohungen",
+    "text": "8.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#interaktive-poweranalyse",
+    "href": "poweranalyse_erweitert.html#interaktive-poweranalyse",
+    "title": "6  Wozu dient eine Poweranalyse?",
+    "section": "7.1 Interaktive Poweranalyse",
+    "text": "7.1 Interaktive Poweranalyse\nMit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n7.1.1 Interpretation der Effektgröße\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt (Standard)\nd = 0.8: Großer Effekt\n\nKlicken Sie auf Neue Aufgabe, lesen Sie das beschriebene Planungsszenario und identifizieren Sie, wie sich die Änderung auf die erforderliche Stichprobengröße auswirkt.\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#zentrale-größen",
+    "href": "poweranalyse_erweitert.html#zentrale-größen",
+    "title": "6  Wozu dient eine Poweranalyse?",
+    "section": "6.1 Zentrale Größen",
+    "text": "6.1 Zentrale Größen\nEine Poweranalyse verbindet vier Größen miteinander:\n\nEffektgröße\nBeschreibt, wie stark ein erwarteter Unterschied oder Zusammenhang ausfällt. Beim Vergleich zweier Gruppen wird häufig Cohen’s (d) verwendet.\nSignifikanzniveau (alpha)\nGibt an, wie hoch die akzeptierte Wahrscheinlichkeit für einen Fehler 1. Art ist, also für das fälschliche Ablehnen der Nullhypothese.\nPower (1-beta)\nBeschreibt die Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt statistisch zu erkennen.\nStichprobengröße (N)\nGibt an, wie viele Personen für die Untersuchung benötigt werden.\n\nSind drei dieser Größen festgelegt, kann die vierte bestimmt werden."
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#folgen-einer-zu-geringen-power",
+    "href": "poweranalyse_erweitert.html#folgen-einer-zu-geringen-power",
+    "title": "6  Wozu dient eine Poweranalyse?",
+    "section": "6.3 Folgen einer zu geringen Power",
+    "text": "6.3 Folgen einer zu geringen Power\nStudien mit geringer Power haben mehrere Probleme:\n\nTatsächlich vorhandene Effekte werden häufiger übersehen.\nErgebnisse fallen von Studie zu Studie instabiler aus.\nStatistisch signifikante Effekte werden tendenziell überschätzt.\nDie Reproduzierbarkeit der Befunde sinkt.\n\nDie Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemeinsam mit Forschungsfrage, Design und Auswertungsstrategie geplant werden."
+  },
+  {
+    "objectID": "poweranalyse_erweitert.html#beispiel-poweranalyse-t-test",
+    "href": "poweranalyse_erweitert.html#beispiel-poweranalyse-t-test",
+    "title": "6  Wozu dient eine Poweranalyse?",
+    "section": "7.1 Beispiel: Poweranalyse t-Test",
+    "text": "7.1 Beispiel: Poweranalyse t-Test\nMit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n7.1.1 Interpretation der Effektgröße\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt\nd = 0.8: Großer Effekt\n\nKlicken Sie auf Neue Aufgabe, lesen Sie das beschriebene Planungsszenario und identifizieren Sie, wie sich die Änderung auf die erforderliche Stichprobengröße auswirkt.\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
   }
 ]

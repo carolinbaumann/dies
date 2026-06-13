@@ -2,17 +2,17 @@ project:
   type: book
 
 book:
-  title: "Mein Projekt"
-  author: "Dein Name"
+  title: "Interventionsstudien sinnvoll planen"
+  author: "Carolin Baumann"
   chapters:
-    - index.qmd                    # Einleitung
-    - theorie.qmd                  # Theoretische Grundlagen
+    - index.qmd   
+    - theorie_beginn.qmd                 # Einleitung
     - design.qmd                   # Experimentelles Design
     - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
     - stichprobe.qmd               # Stichprobenziehung
-    - poweranalyse.qmd 
     - poweranalyse_erweitert.qmd            # Wie groß muss die Stichprobe sein?
-    - randomisierung.qmd           # Wie teile ich die Stichprobe ein?
+    - randomisierung.qmd   
+    - validität.qmd        # Wie teile ich die Stichprobe ein?
     - aufgaben.qmd  
     
 format:

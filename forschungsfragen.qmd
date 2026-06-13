@@ -1,0 +1,144 @@
+---
+title: "Forschungsfragen präzisieren"
+format:
+  html:
+    toc: false
+---
+
+# Wiederholbare Übung: Forschungsfragen präzisieren
+
+Klicken Sie auf **Neue Aufgabe**. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte.
+
+Achten Sie dabei besonders auf Untersuchungsgegenstand, Zielgruppe, Zielvariable, Intervention und Vergleichsbedingung.
+
+```{=html}
+<div id="fr-quiz" style="border:1px solid #ddd;border-radius:12px;padding:1.2rem;margin-top:1rem;">
+  <button id="fr-new" type="button" style="padding:.6rem 1rem;border-radius:8px;border:1px solid #777;cursor:pointer;">
+    Neue Aufgabe
+  </button>
+
+  <div id="fr-area" style="margin-top:1rem;font-size:.9rem;font-weight:700;text-transform:uppercase;color:#555;"></div>
+
+  <p id="fr-general" style="margin-top:.4rem;font-size:1.2rem;font-weight:650;"></p>
+
+  <div style="margin-top:1rem;padding:.8rem 1rem;background:#f7f7f7;border-left:4px solid #777;">
+    Formulieren Sie zunächst selbst eine präzisere Forschungsfrage.
+  </div>
+
+  <button id="fr-toggle" type="button" style="margin-top:1rem;padding:.6rem 1rem;border-radius:8px;border:1px solid #777;cursor:pointer;">
+    Mögliche Konkretisierungen anzeigen
+  </button>
+
+  <div id="fr-solution" hidden style="margin-top:1rem;padding-top:1rem;border-top:1px solid #ddd;">
+    <h4 style="margin-bottom:.3rem;">Präzisere Forschungsfrage</h4>
+    <p id="fr-precise"></p>
+
+    <h4 id="fr-variant-heading" style="margin-bottom:.3rem;"></h4>
+    <p id="fr-variant"></p>
+
+    <h4 style="margin-bottom:.3rem;">Warum ist diese Fassung präziser?</h4>
+    <p id="fr-explanation"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const questions = [
+    {
+      area: "Schreibdidaktik",
+      general: "Hilft kreatives Schreiben?",
+      precise: "Inwiefern beeinflusst eine sechswöchige Intervention zum kreativen Schreiben die narrative Textqualität von Schüler:innen der Jahrgangsstufe 7?",
+      variantLabel: "Mögliche Konkretisierung",
+      variant: "Wie verändert eine sechswöchige Intervention mit Schreibimpulsen und Überarbeitungsphasen die narrative Kohärenz in Texten von Schüler:innen der Jahrgangsstufe 7?",
+      explanation: "Das breite Konzept „Textqualität“ wird auf ein genauer bestimmtes Merkmal eingegrenzt: die narrative Kohärenz. Zusätzlich werden Intervention, Dauer und Zielgruppe benannt."
+    },
+    {
+      area: "Lesedidaktik",
+      general: "Wie kann Lesekompetenz gefördert werden?",
+      precise: "Welche Wirkung hat das wiederholte laute Lesen auf die Leseflüssigkeit von Schüler:innen der Jahrgangsstufe 5?",
+      variantLabel: "Vergleichende Variante",
+      variant: "Unterscheidet sich die Entwicklung der Leseflüssigkeit zwischen Schüler:innen, die wiederholt laut lesen, und Schüler:innen, die dieselben Texte still lesen?",
+      explanation: "Die allgemeine Lesekompetenz wird auf Leseflüssigkeit eingegrenzt. Die vergleichende Variante benennt zusätzlich zwei klar unterscheidbare Bedingungen."
+    },
+    {
+      area: "Literaturdidaktik",
+      general: "Was bringt Literaturunterricht?",
+      precise: "Wie beeinflusst ein literarisches Unterrichtsgespräch die Fähigkeit von Schüler:innen der Jahrgangsstufe 9, unterschiedliche Perspektiven einer literarischen Figur zu rekonstruieren?",
+      variantLabel: "Explorative Variante",
+      variant: "Welche Formen des Perspektivverstehens zeigen Schüler:innen der Jahrgangsstufe 9 in literarischen Unterrichtsgesprächen zu einer Kurzgeschichte?",
+      explanation: "Der Gegenstand „Literaturunterricht“ wird auf ein bestimmtes Unterrichtsformat und eine konkrete Fähigkeit bezogen. Die explorative Variante fragt offen nach beobachtbaren Formen des Perspektivverstehens."
+    },
+    {
+      area: "Sprachdidaktik",
+      general: "Wie lernen Schüler:innen Grammatik?",
+      precise: "Wie verändert die Arbeit mit Satzbauplänen die Fähigkeit von Schüler:innen der Jahrgangsstufe 6, Satzglieder in eigenen Texten zu variieren?",
+      variantLabel: "Zusammenhangsfrage",
+      variant: "Welcher Zusammenhang besteht zwischen dem expliziten Wissen über Satzglieder und der syntaktischen Variation in Schülertexten der Jahrgangsstufe 6?",
+      explanation: "Statt allgemein nach Grammatiklernen zu fragen, werden eine konkrete Lernaktivität und ein beobachtbares Ergebnis benannt. Die Zusammenhangsfrage untersucht keine Intervention, sondern die Beziehung zweier Merkmale."
+    },
+    {
+      area: "Mediendidaktik",
+      general: "Sind digitale Medien im Deutschunterricht sinnvoll?",
+      precise: "Wie beeinflusst digitales kollaboratives Schreiben die Anzahl und Qualität inhaltlicher Überarbeitungen in argumentierenden Texten von Schüler:innen der Jahrgangsstufe 8?",
+      variantLabel: "Vergleichende Variante",
+      variant: "Unterscheidet sich die Qualität des Peer-Feedbacks zwischen digital kommentierten und handschriftlich kommentierten Schülertexten?",
+      explanation: "Der unscharfe Begriff „sinnvoll“ wird durch messbare Merkmale ersetzt. Die vergleichende Variante stellt zwei Feedbackbedingungen direkt gegenüber."
+    }
+  ];
+
+  let lastIndex = -1;
+
+  const area = document.getElementById("fr-area");
+  const general = document.getElementById("fr-general");
+  const precise = document.getElementById("fr-precise");
+  const variantHeading = document.getElementById("fr-variant-heading");
+  const variant = document.getElementById("fr-variant");
+  const explanation = document.getElementById("fr-explanation");
+  const solution = document.getElementById("fr-solution");
+  const toggleButton = document.getElementById("fr-toggle");
+  const newButton = document.getElementById("fr-new");
+
+  function showNewQuestion() {
+    let index;
+    do {
+      index = Math.floor(Math.random() * questions.length);
+    } while (questions.length > 1 && index === lastIndex);
+
+    lastIndex = index;
+    const question = questions[index];
+
+    area.textContent = question.area;
+    general.textContent = question.general;
+    precise.textContent = question.precise;
+    variantHeading.textContent = question.variantLabel;
+    variant.textContent = question.variant;
+    explanation.textContent = question.explanation;
+
+    solution.hidden = true;
+    toggleButton.textContent = "Mögliche Konkretisierungen anzeigen";
+    toggleButton.setAttribute("aria-expanded", "false");
+  }
+
+  function toggleSolution() {
+    solution.hidden = !solution.hidden;
+
+    if (solution.hidden) {
+      toggleButton.textContent = "Mögliche Konkretisierungen anzeigen";
+      toggleButton.setAttribute("aria-expanded", "false");
+    } else {
+      toggleButton.textContent = "Beispiele ausblenden";
+      toggleButton.setAttribute("aria-expanded", "true");
+    }
+  }
+
+  newButton.addEventListener("click", showNewQuestion);
+  toggleButton.addEventListener("click", toggleSolution);
+
+  showNewQuestion();
+})();
+</script>
+```
+
+::: {.callout-tip title="Hinweis"}
+Die eingeblendeten Formulierungen sind mögliche Lösungen. Andere Forschungsfragen können ebenfalls tragfähig sein, wenn Gegenstand, Zielgruppe, zentrale Merkmale und Untersuchungslogik klar bestimmt sind.
+:::

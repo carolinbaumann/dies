@@ -1,9 +1,72 @@
----
-title: "Poweranalyse für t-Tests"
-format: html
----
+## Wozu dient eine Poweranalyse?
 
-## Interaktive Poweranalyse
+Eine Poweranalyse hilft dabei, die erforderliche Stichprobengröße für eine Studie zu bestimmen. Ziel ist es, einen tatsächlich vorhandenen Effekt mit ausreichender Wahrscheinlichkeit zu entdecken.
+
+Sie unterstützt damit eine begründete Studienplanung:
+
+- Zu kleine Stichproben können reale Effekte übersehen.
+- Unnötig große Stichproben verbrauchen zusätzliche Zeit und Ressourcen.
+- Die geplante Stichprobengröße wird transparent und methodisch nachvollziehbar begründet.
+
+## Zentrale Größen
+
+Eine Poweranalyse verbindet vier Größen miteinander:
+
+1. **Effektgröße**  
+   Beschreibt, wie stark ein erwarteter Unterschied oder Zusammenhang ausfällt. Beim Vergleich zweier Gruppen wird häufig Cohen's \(d\) verwendet.
+
+2. **Signifikanzniveau \(alpha\)**  
+   Gibt an, wie hoch die akzeptierte Wahrscheinlichkeit für einen Fehler 1. Art ist, also für das fälschliche Ablehnen der Nullhypothese.
+
+3. **Power \(1-beta\)**  
+   Beschreibt die Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt statistisch zu erkennen.
+
+4. **Stichprobengröße \(N\)**  
+   Gibt an, wie viele Personen für die Untersuchung benötigt werden.
+
+Sind drei dieser Größen festgelegt, kann die vierte bestimmt werden.
+
+## Was bedeutet statistische Power?
+
+Eine Power von **0,80** bedeutet: Wenn der angenommene Effekt tatsächlich existiert, wird er in 80 % vergleichbarer Studien als statistisch signifikant erkannt.
+
+Die Gegenwahrscheinlichkeit ist der Fehler 2. Art:
+
+\[
+beta = 1 - 	Power
+\]
+
+Bei einer Power von 0,80 beträgt \(beta = 0,20\). In 20 % vergleichbarer Studien würde ein tatsächlich vorhandener Effekt übersehen.
+
+Typische Zielwerte sind:
+
+| Power | Einordnung |
+|---|---|
+| 0,80 | häufig verwendeter Mindeststandard |
+| 0,90 | höhere Sicherheit, meist größere Stichprobe |
+| 0,95 | sehr hohe Sicherheit, deutlich größerer Stichprobenbedarf |
+
+::: {.callout-note title="Einordnung"}
+Der passende Zielwert hängt vom Forschungsziel, vom Risiko eines übersehenen Effekts und von den verfügbaren Ressourcen ab. Eine Power von 0,80 ist eine häufig verwendete Konvention, aber kein allgemeingültiges Naturgesetz.
+:::
+
+
+## Folgen einer zu geringen Power
+
+Studien mit geringer Power haben mehrere Probleme:
+
+- Tatsächlich vorhandene Effekte werden häufiger übersehen.
+- Ergebnisse fallen von Studie zu Studie instabiler aus.
+- Statistisch signifikante Effekte werden tendenziell überschätzt.
+- Die Reproduzierbarkeit der Befunde sinkt.
+
+Die Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemeinsam mit Forschungsfrage, Design und Auswertungsstrategie geplant werden.
+
+
+
+# Zusammenhänge verstehen
+
+## Beispiel: Poweranalyse t-Test
 
 Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.
 
@@ -104,96 +167,8 @@ html`
 ### Interpretation der Effektgröße
 
 - **d = 0.2**: Kleiner Effekt
-- **d = 0.5**: Mittlerer Effekt (Standard)
+- **d = 0.5**: Mittlerer Effekt
 - **d = 0.8**: Großer Effekt
-
-### Hintergrund
-
-Die Poweranalyse berechnet die Mindeststichprobengröße, um einen Effekt mit der gewünschten Wahrscheinlichkeit (Power) zu entdecken.
-
-**Wichtige Begriffe:**
-- **α (Alpha)**: Wahrscheinlichkeit eines Fehlers 1. Art (fälschliches Ablehnen von H₀)
-- **Power (1-β)**: Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt zu entdecken
-- **Effektgröße (d)**: Standardisierte Differenz zwischen den Gruppen
-
-
-## Warum sind Poweranalysen wichtig?
-
-Poweranalysen gehören zu den wichtigsten Schritten bei der Studienplanung. Sie helfen dabei, die Stichprobengröße so festzulegen, dass wissenschaftliche Fragestellungen mit ausreichender statistischer Sicherheit untersucht werden können.
-
-### Nutzen einer Poweranalyse
-
-- Vermeidung zu kleiner Stichproben, die vorhandene Effekte übersehen.
-- Vermeidung unnötig großer Stichproben, die Zeit, Geld und Ressourcen verschwenden.
-- Transparente Begründung der geplanten Stichprobengröße.
-- Erfüllung wissenschaftlicher und ethischer Anforderungen bei Studien.
-
-Ohne Poweranalyse besteht die Gefahr, dass eine Studie zwar durchgeführt wird, aber keine aussagekräftigen Ergebnisse liefern kann.
-
-## Was bedeutet statistische Power?
-
-Die statistische Power beschreibt die Wahrscheinlichkeit, einen tatsächlich existierenden Effekt als statistisch signifikant zu erkennen.
-
-- **Power = 0,80 (80 %)** bedeutet: Wenn der Effekt tatsächlich existiert, wird er in 80 % vergleichbarer Studien entdeckt.
-- **β (Beta) = 1 − Power** ist die Wahrscheinlichkeit eines Fehlers 2. Art.
-- Bei einer Power von 0,80 beträgt β = 0,20. In diesem Fall würden 20 % der Studien einen vorhandenen Effekt übersehen.
-
-Typische Zielwerte:
-
-| Power | Interpretation |
-|---------|---------------|
-| 0,70 | Mindestanforderung in explorativen Studien |
-| 0,80 | Häufig verwendeter Standard |
-| 0,90 | Hohe Sicherheit für konfirmatorische Studien |
-| 0,95 | Sehr hohe Sicherheit, erfordert meist größere Stichproben |
-
-## Wie wird eine Poweranalyse berechnet?
-
-Eine Poweranalyse basiert auf vier zentralen Größen:
-
-1. **Effektgröße (d)**
-2. **Signifikanzniveau (α)**
-3. **Power (1−β)**
-4. **Stichprobengröße (N)**
-
-Sind drei dieser Größen bekannt, kann die vierte berechnet werden.
-
-### Zusammenhang der Parameter
-
-- Größere Effektgrößen benötigen weniger Teilnehmende.
-- Höhere gewünschte Power erfordert größere Stichproben.
-- Kleinere Alpha-Niveaus (z. B. 0,01 statt 0,05) erfordern größere Stichproben.
-- Ungleich große Gruppen erhöhen meist den Stichprobenbedarf.
-
-### Formel für den unabhängigen t-Test
-
-Für eine vereinfachte a-priori-Poweranalyse kann die erforderliche Stichprobengröße näherungsweise mit folgender Formel berechnet werden:
-
-\[
-n = \frac{(z_{\alpha/2} + z_{\beta})^2 \cdot 2}{d^2}
-\]
-
-Dabei gilt:
-
-- \(z_{\alpha/2}\): kritischer z-Wert für das gewählte Alpha-Niveau
-- \(z_{\beta}\): z-Wert der gewünschten Power
-- \(d\): Cohen's d
-
-Das interaktive Tool verwendet dieselbe Grundidee und berücksichtigt zusätzlich unterschiedliche Gruppengrößen.
-
-## Konsequenzen einer zu geringen Power
-
-Studien mit geringer Power haben mehrere Nachteile:
-
-- Reale Effekte werden häufig übersehen.
-- Ergebnisse schwanken stärker zwischen Studien.
-- Gefundene Effekte werden tendenziell überschätzt.
-- Die Reproduzierbarkeit wissenschaftlicher Befunde sinkt.
-
-Aus diesem Grund wird in vielen Fachgebieten eine Power von mindestens 0,80 empfohlen.
-
-
-# Zusammenhänge verstehen: Poweranalyse und Stichprobengröße
 
 Klicken Sie auf **Neue Aufgabe**, lesen Sie das beschriebene Planungsszenario und identifizieren Sie, wie sich die Änderung auf die erforderliche Stichprobengröße auswirkt.
 
