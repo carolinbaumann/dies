@@ -1,25 +1,16 @@
 ---
-title: "Messzeitpunkte in Interventionsstudien"
-author: "Projekt: Experimentelle Designs"
-date: "`r Sys.Date()`"
-format: html
-execute:
-  echo: true
-  warning: false
-  error: false
+title: "Messzeitpunkte"
 ---
-
-# Einleitung
 
 Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. Interventionsstudien sind per Definition experimentell oder mindestens quasiexperimentell — Messzeitpunkte bestimmen, welche Validitätsbedrohungen adressiert werden können.
 
-# Warum Messzeitpunkte wichtig sind
+## Warum Messzeitpunkte wichtig sind
 
 - Bestimmen kausale Inferenz: Baseline vs. Follow‑up ist Voraussetzung, um Veränderung zu messen.  
 - Trennen von Reifung, Geschichte und Interventionseffekt.  
 - Beeinflussen Power, Bias durch Missing Data und Sensitivität für zeitlich verzögerte Effekte.
 
-# Typische Messschemata
+## Typische Messschemata
 
 - One‑Shot / Posttest only: X O  
   - Vorteil: einfach; Nachteil: keine Basislinie, keine kausale Aussage.
@@ -34,7 +25,7 @@ Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral fü
 - Intensive Longitudinal / EMA: hohe Messfrequenz (täglich/stündlich)  
   - Gut für Prozesse, kurzfristige Effekte, intraindividuelle Variabilität.
 
-# Praktische Empfehlungen zur Auswahl von Messzeitpunkten
+## Praktische Empfehlungen zur Auswahl von Messzeitpunkten
 
 - Primäres Outcome zuerst definieren; Messzeitpunkte an erwarteter Wirkmechanik ausrichten.  
 - Mindestens eine valide Baseline (O1) vor Beginn der Intervention.  
@@ -45,13 +36,10 @@ Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral fü
 - Missing‑Data‑Plan (Imputation, Sensitivitätsanalysen) vorab festlegen.  
 - Dokumentation: Messpläne, Analysepläne und Hierarchie der Outcomes vorregistrieren.
 
-# Hinweise zu gemischten Designs
-
-Gemischte Designs (mixed methods) kombinieren experimentelle/quasiexperimentelle Komponenten mit qualitativen oder Beobachtungsanteilen. Dokumentieren Sie, welche Teile randomisiert sind, und behandeln Sie quantitative und qualitative Messzeitpunkte getrennt in Analyseplänen.
-
-# Beispiele — Simulationen und Visualisierungen
+## Beispiele — Simulationen und Visualisierungen
 
 ```{r}
+#| label: messzeitpunkte-simulation
 # Simulations‑Beispiele für typische Messschemata
 set.seed(123)
 library(dplyr)
@@ -121,7 +109,7 @@ its_plot <- ggplot(its_df, aes(x = time, y = y)) +
 list(rct_plot = rct_plot, multi_plot = multi_plot, its_plot = its_plot)
 ```
 
-# Kurze Checkliste für Doktoranden
+## Kurze Checkliste für Doktoranden
 
 - Definieren: primäres Outcome + kausales Modell.  
 - Baseline sicherstellen; Follow‑ups an Wirkmechanik anpassen.  
@@ -133,5 +121,3 @@ list(rct_plot = rct_plot, multi_plot = multi_plot, its_plot = its_plot)
 
 - Shadish, Cook & Campbell — Experimental and Quasi‑Experimental Designs.  
 - Bernal, Cummins & Gasparrini — Interrupted time series regression for public health interventions.
-
-```
