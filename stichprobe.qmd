@@ -48,6 +48,215 @@ Dieses Vorgehen ist praktikabel, kann aber zu Verzerrungen führen. Teilnehmende
 
 Eine Gelegenheitsstichprobe ist deshalb nicht grundsätzlich ungeeignet. Entscheidend ist, ihre Grenzen transparent zu beschreiben.
 
+### Übungsaufgabe: Randomisierungseinheit bestimmen
+
+Bearbeiten Sie die Aufgabe und wählen Sie die am besten geeignete Randomisierungseinheit aus. Mit **„Neue Aufgabe“** können Sie die Übung wiederholen.
+
+```{=html}
+<div id="quiz-randomisierungseinheit"
+     style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+
+  <p id="question-randomisierungseinheit"
+     style="font-weight: 600; margin-bottom: 1rem;">
+  </p>
+
+  <form id="answers-randomisierungseinheit"></form>
+
+  <div style="display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem;">
+
+    <button id="check-randomisierungseinheit"
+            type="button"
+            style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+      Antwort prüfen
+    </button>
+
+    <button id="new-randomisierungseinheit"
+            type="button"
+            style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+      Neue Aufgabe
+    </button>
+
+  </div>
+
+  <div id="feedback-randomisierungseinheit"
+       aria-live="polite"
+       style="margin-top: 1rem;">
+  </div>
+
+</div>
+
+<script>
+(function () {
+  var questions = [
+    {
+      question:
+        "In einer Schule nehmen 80 Schüler:innen aus verschiedenen Klassen an einem digitalen Training teil. " +
+        "Die Durchführung erfolgt einzeln außerhalb des Unterrichts. " +
+        "Welche Randomisierungseinheit ist am geeignetsten?",
+      correctAnswer: "Einzelne Schüler:innen",
+      explanation:
+        "Das Training wird individuell durchgeführt. Deshalb können einzelne Schüler:innen " +
+        "den Untersuchungsbedingungen zugewiesen werden. Dies setzt voraus, dass ein Austausch " +
+        "zwischen den Bedingungen die Ergebnisse nicht wesentlich beeinflusst."
+    },
+    {
+      question:
+        "Ein Unterrichtsprogramm wird von Lehrkräften im regulären Klassenunterricht durchgeführt. " +
+        "Alle Schüler:innen einer Klasse erhalten dieselbe Bedingung. " +
+        "Welche Randomisierungseinheit ist am geeignetsten?",
+      correctAnswer: "Klassen",
+      explanation:
+        "Die Intervention findet im gemeinsamen Klassenunterricht statt. Deshalb werden ganze Klassen " +
+        "den Untersuchungsbedingungen zugewiesen. So erhalten alle Schüler:innen innerhalb einer Klasse " +
+        "dieselbe Bedingung."
+    },
+    {
+      question:
+        "Das gesamte Kollegium einer Schule wird geschult und soll das neue Förderkonzept im Schulalltag umsetzen. " +
+        "Welche Randomisierungseinheit ist am geeignetsten?",
+      correctAnswer: "Schulen",
+      explanation:
+        "Die Intervention betrifft das gesamte Kollegium und den Schulalltag. Deshalb werden ganze Schulen " +
+        "den Untersuchungsbedingungen zugewiesen."
+    }
+  ];
+
+  var answerOptions = [
+    "Einzelne Schüler:innen",
+    "Klassen",
+    "Schulen"
+  ];
+
+  var questionElement =
+    document.getElementById("question-randomisierungseinheit");
+
+  var answersElement =
+    document.getElementById("answers-randomisierungseinheit");
+
+  var feedbackElement =
+    document.getElementById("feedback-randomisierungseinheit");
+
+  var checkButton =
+    document.getElementById("check-randomisierungseinheit");
+
+  var newButton =
+    document.getElementById("new-randomisierungseinheit");
+
+  if (
+    !questionElement ||
+    !answersElement ||
+    !feedbackElement ||
+    !checkButton ||
+    !newButton
+  ) {
+    console.error("Die HTML-Elemente des Quiz wurden nicht gefunden.");
+    return;
+  }
+
+  var currentQuestion = null;
+  var previousQuestionIndex = -1;
+
+  function shuffle(array) {
+    var shuffled = array.slice();
+
+    for (var i = shuffled.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temporary = shuffled[i];
+      shuffled[i] = shuffled[j];
+      shuffled[j] = temporary;
+    }
+
+    return shuffled;
+  }
+
+  function chooseQuestionIndex() {
+    var newIndex;
+
+    do {
+      newIndex = Math.floor(Math.random() * questions.length);
+    } while (
+      questions.length > 1 &&
+      newIndex === previousQuestionIndex
+    );
+
+    previousQuestionIndex = newIndex;
+    return newIndex;
+  }
+
+  function loadQuestion() {
+    var questionIndex = chooseQuestionIndex();
+    var shuffledOptions = shuffle(answerOptions);
+
+    currentQuestion = questions[questionIndex];
+
+    questionElement.textContent = currentQuestion.question;
+    answersElement.innerHTML = "";
+    feedbackElement.innerHTML = "";
+
+    shuffledOptions.forEach(function (option, index) {
+      var label = document.createElement("label");
+      var radio = document.createElement("input");
+
+      label.style.display = "block";
+      label.style.marginBottom = ".6rem";
+      label.style.padding = ".65rem";
+      label.style.border = "1px solid #e2e2e2";
+      label.style.borderRadius = "7px";
+      label.style.cursor = "pointer";
+
+      radio.type = "radio";
+      radio.name = "answer-randomisierungseinheit";
+      radio.value = option;
+      radio.id = "randomisierung-option-" + index;
+
+      label.appendChild(radio);
+      label.appendChild(document.createTextNode(" " + option));
+      answersElement.appendChild(label);
+    });
+  }
+
+  function checkAnswer() {
+    var selected = document.querySelector(
+      'input[name="answer-randomisierungseinheit"]:checked'
+    );
+
+    if (!selected) {
+      feedbackElement.innerHTML =
+        '<div style="background-color:#fff3cd;border:1px solid #ffe69c;' +
+        'padding:15px;border-radius:5px;color:#664d03;">' +
+        'Bitte wählen Sie zuerst eine Antwort aus.' +
+        '</div>';
+      return;
+    }
+
+    if (selected.value === currentQuestion.correctAnswer) {
+      feedbackElement.innerHTML =
+        '<div style="background-color:#d1e7dd;border:1px solid #badbcc;' +
+        'padding:15px;border-radius:5px;color:#0f5132;">' +
+        '<p style="margin-top:0;"><strong>✓ Richtig</strong></p>' +
+        '<p style="margin-bottom:0;">' +
+        currentQuestion.explanation +
+        '</p></div>';
+    } else {
+      feedbackElement.innerHTML =
+        '<div style="background-color:#f8d7da;border:1px solid #f5c2c7;' +
+        'padding:15px;border-radius:5px;color:#842029;">' +
+        '<p style="margin-top:0;"><strong>✗ Noch nicht richtig</strong></p>' +
+        '<p><strong>Richtige Antwort:</strong> ' +
+        currentQuestion.correctAnswer +
+        '</p><p style="margin-bottom:0;">' +
+        currentQuestion.explanation +
+        '</p></div>';
+    }
+  }
+
+  checkButton.onclick = checkAnswer;
+  newButton.onclick = loadQuestion;
+
+  loadQuestion();
+})();
+</script>
+```
 
 ## Ausfälle im Studienverlauf
 

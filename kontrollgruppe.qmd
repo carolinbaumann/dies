@@ -4,7 +4,7 @@ title: "Kontrollgruppen"
 
 ## Was ist eine Kontrollgruppe?
 
-Eine Kontrollgruppe ist eine Vergleichsgruppe in einem Experiment, die nicht der experimentellen Intervention ausgesetzt wird. Sie dient als Baseline zur Bewertung der Effekte einer didaktischen Maßnahme.
+Eine Kontroll- oder Vergleichsgruppe bildet die Bedingung ab, mit der die Intervention verglichen wird. Sie kann keine zusätzliche Maßnahme, regulären Unterricht, eine Wartelistenbedingung oder eine alternative Intervention erhalten.
 
 ## Zweck von Kontrollgruppen
 
@@ -123,7 +123,7 @@ const questionsKG = [
     frage: "Warum ist eine Kontrollgruppe in didaktischen Experimenten wichtig?",
     optionen: [
       "Um die Stichprobe zu vergrößern",
-      "Um Kausalschlüsse über die Wirkung der Intervention zu ermöglichen",
+      "Um einen geeigneten Vergleich für die Abschätzung des Interventionseffekts zu schaffen.",
       "Um Kosten zu reduzieren",
       "Um die Schüler zu motivieren"
     ],
@@ -131,7 +131,7 @@ const questionsKG = [
     erklaerung: "Die Kontrollgruppe ermöglicht es, Unterschiede kausal auf die Intervention zurückzuführen und nicht auf andere Faktoren."
   },
   {
-    frage: "Eine Studie vergleicht zwei Schreibfördermethoden. Die Experimentalgruppe arbeitet prozessorientiert, die Kontrollgruppe traditionell. Welche Art von Kontrollgruppe ist das?",
+    frage: "Eine Studie vergleicht zwei Schreibfördermethoden. Die Experimentalgruppe arbeitet prozessorientiert. Die Kontrollgruppe erhält im gleichen zeitlichen Umfang ein festgelegtes alternatives Schreibprogramm. Welche Art von Kontrollgruppe ist das?",
     optionen: [
       "Keine-Behandlung-Kontrollgruppe",
       "Placebo-Kontrollgruppe",
@@ -142,7 +142,7 @@ const questionsKG = [
     erklaerung: "Eine aktive Kontrollgruppe erhält eine alternative Behandlung (hier: traditionelle Methode) statt keiner Behandlung."
   },
   {
-    frage: "Bei der Auswertung eines Leseförderexperiments soll das unterschiedliche Ausgangsniveau der Gruppen statistisch kontrolliert werden. Welches Verfahren ist geeignet?",
+    frage: "Bei der Auswertung eines Leseförderexperiments soll das unterschiedliche Ausgangsniveau der Gruppen statistisch kontrolliert werden. Welches der folgenden einfachen Analyseverfahren eignet sich bei zwei unabhängigen Gruppen und einem kontinuierlichen Posttestwert?",
     optionen: [
       "Chi-Quadrat-Test",
       "ANCOVA (mit Pretest als Kovariate)",

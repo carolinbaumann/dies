@@ -33,7 +33,7 @@ Stellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, währ
 
 ## Interaktives Tool: Randomisierung durchführen
 
-Mit diesem Tool können Sie eine einfache Randomisierung für Ihre eigene Studie simulieren.
+Dieses Beispiel dient ausschließlich zur Illustration der grundlegenden Zusammenhänge. Für Prä-Post-Designs, mehrere Messzeitpunkte, Cluster-Randomisierung, ungleiche Gruppengrößen oder hierarchische Daten ist eine designspezifische Poweranalyse erforderlich.
 
 ```{ojs}
 //| echo: false

@@ -16,7 +16,7 @@ Eine Poweranalyse verbindet vier Größen miteinander:
    Beschreibt, wie stark ein erwarteter Unterschied oder Zusammenhang ausfällt. Beim Vergleich zweier Gruppen wird häufig Cohen's \(d\) verwendet.
 
 2. **Signifikanzniveau \(alpha\)**  
-   Gibt an, wie hoch die akzeptierte Wahrscheinlichkeit für einen Fehler 1. Art ist, also für das fälschliche Ablehnen der Nullhypothese.
+ Das Signifikanzniveau α bezeichnet die langfristige Wahrscheinlichkeit, die Nullhypothese abzulehnen, obwohl sie gilt, sofern das Testverfahren und seine Annahmen eingehalten werden.
 
 3. **Power \(1-beta\)**  
    Beschreibt die Wahrscheinlichkeit, einen tatsächlich vorhandenen Effekt statistisch zu erkennen.
@@ -64,11 +64,9 @@ Die Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemei
 
 
 
-# Zusammenhänge verstehen
+# Zusammenhänge verstehen am Beispiel: Poweranalyse t-Test
 
-## Beispiel: Poweranalyse t-Test
-
-Mit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.
+Dieses Beispiel dient ausschließlich zur Illustration der grundlegenden Zusammenhänge. Für Prä-Post-Designs, mehrere Messzeitpunkte, Cluster-Randomisierung, ungleiche Gruppengrößen oder hierarchische Daten ist eine designspezifische Poweranalyse erforderlich.
 
 ```{ojs}
 //| echo: false

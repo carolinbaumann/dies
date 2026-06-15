@@ -2,7 +2,7 @@
 title: "Messzeitpunkte"
 ---
 
-Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. Interventionsstudien sind per Definition experimentell oder mindestens quasiexperimentell — Messzeitpunkte bestimmen, welche Validitätsbedrohungen adressiert werden können.
+Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. 
 
 ## Warum Messzeitpunkte wichtig sind
 
@@ -109,7 +109,104 @@ its_plot <- ggplot(its_df, aes(x = time, y = y)) +
 list(rct_plot = rct_plot, multi_plot = multi_plot, its_plot = its_plot)
 ```
 
-## Kurze Checkliste für Doktoranden
+
+## Übungsaufgabe: Messzeitpunkte
+
+Testen Sie Ihr Wissen mit dieser Single-Choice-Aufgabe:
+
+<div id="quiz-messzeitpunkte" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+
+<p id="question-messzeitpunkte" style="font-weight: 600;">
+Eine Studie untersucht ein achtwöchiges Lesetraining. Die Forschenden möchten prüfen, ob die Wirkung auch drei Monate nach Ende des Trainings bestehen bleibt. Welcher Messzeitpunkt ist dafür erforderlich?
+</p>
+
+<form id="answers-messzeitpunkte" style="margin-top: 1rem;">
+
+<label style="display: block; margin-bottom: .5rem;">
+<input type="radio" name="answer-messzeitpunkte" value="0">
+ Eine zusätzliche Messung während der Intervention
+</label>
+
+<label style="display: block; margin-bottom: .5rem;">
+<input type="radio" name="answer-messzeitpunkte" value="1">
+ Eine Follow-up-Messung drei Monate nach Ende der Intervention
+</label>
+
+<label style="display: block; margin-bottom: .5rem;">
+<input type="radio" name="answer-messzeitpunkte" value="2">
+ Eine zweite Baseline-Messung vor Beginn der Intervention
+</label>
+
+<label style="display: block; margin-bottom: .5rem;">
+<input type="radio" name="answer-messzeitpunkte" value="3">
+ Eine Messung ausschließlich direkt nach Ende der Intervention
+</label>
+
+</form>
+
+<button id="check-answer-messzeitpunkte"
+        type="button"
+        style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+Antwort prüfen
+</button>
+
+<div id="feedback-messzeitpunkte"
+     style="margin-top: 1rem; font-weight: 600;">
+</div>
+
+</div>
+
+```{=html}
+<script>
+(function () {
+  const correctAnswer = 1;
+
+  const explanation =
+    "Eine Follow-up-Messung nach Abschluss der Intervention zeigt, " +
+    "ob ein beobachteter Effekt über den unmittelbaren Posttest hinaus bestehen bleibt. " +
+    "Eine Messung direkt nach der Intervention erfasst dagegen vor allem den kurzfristigen Effekt.";
+
+  const button = document.getElementById("check-answer-messzeitpunkte");
+  const feedback = document.getElementById("feedback-messzeitpunkte");
+
+  button.addEventListener("click", function () {
+    const selected = document.querySelector(
+      'input[name="answer-messzeitpunkte"]:checked'
+    );
+
+    if (!selected) {
+      feedback.innerHTML =
+        '<div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px;">' +
+        '<p style="color: #856404; margin: 0;">Bitte wählen Sie zuerst eine Antwort aus.</p>' +
+        '</div>';
+      return;
+    }
+
+    const selectedValue = Number(selected.value);
+
+    if (selectedValue === correctAnswer) {
+      feedback.innerHTML =
+        '<div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 5px;">' +
+        '<h4 style="color: #155724;">✓ RICHTIG!</h4>' +
+        '<p style="color: #155724;"><strong>Erklärung:</strong> ' +
+        explanation +
+        '</p></div>';
+    } else {
+      feedback.innerHTML =
+        '<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 5px;">' +
+        '<h4 style="color: #721c24;">✗ FALSCH!</h4>' +
+        '<p style="color: #721c24;"><strong>Die richtige Antwort ist:</strong> ' +
+        'Eine Follow-up-Messung drei Monate nach Ende der Intervention.</p>' +
+        '<p style="color: #721c24;"><strong>Erklärung:</strong> ' +
+        explanation +
+        '</p></div>';
+    }
+  });
+})();
+</script>
+```
+
+## Kurze Checkliste für Promovierende
 
 - Definieren: primäres Outcome + kausales Modell.  
 - Baseline sicherstellen; Follow‑ups an Wirkmechanik anpassen.  
