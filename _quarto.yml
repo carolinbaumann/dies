@@ -5,13 +5,16 @@ book:
   title: "Interventionsstudien sinnvoll planen"
   author: "Carolin Baumann"
   chapters:
-    - index.qmd   
-    - theorie_beginn.qmd                 # Einleitung
+    - index.qmd                     # Einleitung
+    - theorie_beginn.qmd   
+    - design_einfuehrung.qmd   
+    - messzeitpunkte.qmd          
     - design.qmd                   # Experimentelles Design
     - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
     - stichprobe.qmd               # Stichprobenziehung
     - poweranalyse_erweitert.qmd            # Wie groß muss die Stichprobe sein?
-    - randomisierung.qmd   
+    - randomisierung.qmd  
+    - ethische richtlinien.qmd 
     - validität.qmd        # Wie teile ich die Stichprobe ein?
     - aufgaben.qmd  
     

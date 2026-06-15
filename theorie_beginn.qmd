@@ -116,7 +116,7 @@ Vor der Planung der Datenerhebung sollte die Forschungsfrage mit fünf Fragen ge
 
 # Forschungsfragen präzisieren
 
-Klicken Sie auf **Neue Aufgabe**. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte.
+Klicken Sie auf **Neue Aufgabe**. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte. Hier ist natürlich für die eigentlich benötigte Recherchearbeit keine Zeit, insofern dürfen Sie ausnahmesweise ein bisschen kreativ sein.
 
 Achten Sie dabei besonders auf Untersuchungsgegenstand, Zielgruppe, Zielvariable, Intervention und Vergleichsbedingung.
 

@@ -1,10 +1,27 @@
 ---
-title: "Experimentelles Design"
+title: "Design"
 ---
 
-## Überblick
+# Hinweis — Interventionsstudien sind (quasi‑)experimentell
 
-In diesem Kapitel beschäftigen wir uns mit dem experimentellen Design und den grundlegenden Prinzipien der Versuchsplanung.
+Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen.
+
+## Auswahl von AV und UV
+
+Wählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.
+
+- Primäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.
+- Operationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).
+- Validität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.
+- Skalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).
+- Zeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).
+- UV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.
+- Kontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.
+- Stichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.
+- Missing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).
+
+Kurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten.
+
 
 ## Arten von Designs
 
@@ -32,16 +49,3 @@ Bei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentel
 - Mögliche Übungseffekte
 - Ermüdungseffekte
 
-## Wichtige Designprinzipien
-
-1. **Randomisierung**: Zufällige Zuteilung zu Bedingungen
-2. **Kontrolle**: Konstanthaltung von Störvariablen
-3. **Replikation**: Wiederholung unter gleichen Bedingungen
-
-## Beispiel
-
-Ein einfaches experimentelles Design könnte folgendermaßen aussehen:
-
-- **UV (unabhängige Variable)**: Trainingsmethode (A vs. B)
-- **AV (abhängige Variable)**: Lernleistung
-- **Design**: Zwischen-Subjekt-Design mit Randomisierung
