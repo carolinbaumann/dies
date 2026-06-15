@@ -1,0 +1,57 @@
+---
+title: "Implementation und Interventionstreue"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+Eine Intervention kann nur dann sinnvoll bewertet werden, wenn bekannt ist, **wie sie tatsächlich umgesetzt wurde**.
+
+::: {.callout-tip}
+## Leitfrage
+
+Wurde die Intervention so durchgeführt, wie sie geplant war?
+:::
+
+## Was sollte beschrieben werden?
+
+- Inhalte und Ziele
+- Anzahl und Dauer der Einheiten
+- verwendete Materialien
+- Qualifikation der Durchführenden
+- zulässige Anpassungen
+
+## Dimensionen der Interventionstreue
+
+- **Adhärenz:** Wurden die vorgesehenen Inhalte umgesetzt?
+- **Dosis:** Wie viele Einheiten fanden tatsächlich statt?
+- **Qualität:** Wie gut wurde die Intervention durchgeführt?
+- **Teilnahme:** Wie regelmäßig und aktiv nahmen die Teilnehmenden teil?
+- **Abgrenzung:** Unterschied sich die Intervention klar von der Kontrollbedingung?
+
+## Erfassung der Umsetzung
+
+Geeignet sind beispielsweise:
+
+- Durchführungsprotokolle
+- Checklisten
+- Anwesenheitslisten
+- Beobachtungen
+- Befragungen der Durchführenden
+- Audio- oder Videoaufzeichnungen
+
+## Umgang mit Abweichungen
+
+Abweichungen sollten transparent dokumentiert und unterschieden werden in:
+
+- geplante Anpassungen
+- organisatorisch bedingte Änderungen
+- Verletzungen des Interventionsprotokolls
+
+::: {.callout-note}
+## Merksatz
+
+Ohne Implementationsdaten bleibt unklar, ob eine Intervention unwirksam war oder unzureichend umgesetzt wurde.
+:::

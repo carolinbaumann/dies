@@ -1,0 +1,57 @@
+---
+title: "Messinstrumente und Operationalisierung"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+Eine Forschungsfrage wird erst prüfbar, wenn zentrale Konstrukte **klar operationalisiert** und mit geeigneten Instrumenten erfasst werden.
+
+::: {.callout-tip}
+## Leitfrage
+
+Misst das Instrument tatsächlich das Merkmal, über das später Aussagen gemacht werden sollen?
+:::
+
+## Vom Konstrukt zur Messung
+
+Festgelegt werden sollte:
+
+- welches Konstrukt untersucht wird
+- wie es theoretisch definiert ist
+- mit welchem Indikator es erfasst wird
+- zu welchen Messzeitpunkten gemessen wird
+
+> Das Konstrukt „Lesekompetenz“ kann beispielsweise durch einen standardisierten Lesetest operationalisiert werden.
+
+## Auswahl eines Instruments
+
+Wichtige Kriterien sind:
+
+- **Validität:** Erfasst das Instrument das beabsichtigte Konstrukt?
+- **Reliabilität:** Misst es zuverlässig?
+- **Objektivität:** Ist das Ergebnis möglichst unabhängig von der durchführenden Person?
+- **Sensitivität:** Kann das Instrument Veränderungen abbilden?
+- **Praktikabilität:** Ist der Einsatz im Feld realistisch?
+
+## Bestehendes oder eigenes Instrument?
+
+Bestehende, geprüfte Instrumente sind meist vorzuziehen. Eigene Skalen benötigen eine sorgfältige Entwicklung und Prüfung.
+
+## Mehrere Datenquellen
+
+Je nach Forschungsfrage können kombiniert werden:
+
+- Leistungstests
+- Fragebögen
+- Beobachtungen
+- Prozessdaten
+- Einschätzungen durch Lehrkräfte oder Eltern
+
+::: {.callout-note}
+## Merksatz
+
+Eine präzise Operationalisierung verbindet Theorie, Messinstrument und spätere Interpretation.
+:::

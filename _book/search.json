@@ -352,72 +352,72 @@
   {
     "objectID": "validität.html",
     "href": "validität.html",
-    "title": "11  Bedrohungen der internen Validität",
+    "title": "13  Bedrohungen der internen Validität",
     "section": "",
     "text": "In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann."
   },
   {
     "objectID": "validität.html#unklare-zeitliche-abfolge",
     "href": "validität.html#unklare-zeitliche-abfolge",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.1 Unklare zeitliche Abfolge",
-    "text": "11.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.1 Unklare zeitliche Abfolge",
+    "text": "13.1 Unklare zeitliche Abfolge\nEin kausaler Ursachenfaktor muss zeitlich immer der Wirkung vorgelagert sein. Bei nicht-experimentellen korrelativen Studien, in denen potenzielle Ursachenfaktoren gleichzeitig mit den abhängigen Variablen gemessen werden, kann es bei der kausalen Interpretation zu Fehlern kommen. Die Kausalrichtung könnte verkehrt herum behauptet oder wechselseitige kausale Beeinflussung könnte übersehen werden."
   },
   {
     "objectID": "validität.html#selektionseffekte",
     "href": "validität.html#selektionseffekte",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.2 Selektionseffekte",
-    "text": "11.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.2 Selektionseffekte",
+    "text": "13.2 Selektionseffekte\nUnterscheiden sich die Untersuchungspersonen in den einzelnen Gruppen bereits vor der Behandlung, so können diese bereits bestehenden Unterschiede später fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "validität.html#externe-zeitliche-einflüsse",
     "href": "validität.html#externe-zeitliche-einflüsse",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.3 Externe zeitliche Einflüsse",
-    "text": "11.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.3 Externe zeitliche Einflüsse",
+    "text": "13.3 Externe zeitliche Einflüsse\nGeht das untersuchte Treatment mit anderen, untersuchungsunabhängigen äußeren Veränderungen in den situativen oder Umweltvariablen der Untersuchungspersonen einher, so können letztere fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "validität.html#reifungsprozesse",
     "href": "validität.html#reifungsprozesse",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.4 Reifungsprozesse",
-    "text": "11.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.4 Reifungsprozesse",
+    "text": "13.4 Reifungsprozesse\nDa sich Untersuchungspersonen im Verlauf der Zeit von ganz allein in ihren Zuständen und Merkmalen verändern (z. B. älter, reifer, kränker, gesünder werden), können diese Reifungsprozesse fälschlich als kausale Treatmenteffekte interpretiert werden."
   },
   {
     "objectID": "validität.html#statistische-regressionseffekte",
     "href": "validität.html#statistische-regressionseffekte",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.5 Statistische Regressionseffekte",
-    "text": "11.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.5 Statistische Regressionseffekte",
+    "text": "13.5 Statistische Regressionseffekte\nWerden für eine Studie Personen mit extrem hohen oder extrem niedrigen Merkmalsausprägungen ausgesucht, so ist bei wiederholter Messung automatisch eine Tendenz zur Mitte zu erwarten. Dieser statistische Regressionseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "validität.html#experimentelle-mortalität",
     "href": "validität.html#experimentelle-mortalität",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.6 Experimentelle Mortalität",
-    "text": "11.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.6 Experimentelle Mortalität",
+    "text": "13.6 Experimentelle Mortalität\nIm Verlaufe einer Studie fallen immer wieder Untersuchungspersonen aus. Wenn ein Vorher-Nachher-Vergleich nicht auf derselben Gruppe basiert, sondern aus der Nachher-Gruppe selektiv bestimmte Personen herausgefallen sind, kann dieser Mortalitätseffekt fälschlich als kausaler Treatmenteffekt interpretiert werden."
   },
   {
     "objectID": "validität.html#testübung",
     "href": "validität.html#testübung",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.7 Testübung",
-    "text": "11.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.7 Testübung",
+    "text": "13.7 Testübung\nWird im Zuge einer Studie mehrfach dasselbe Messinstrument eingesetzt, kann die Erfahrung mit dem Instrument das Antwortverhalten der Untersuchungspersonen verändern. Dieser Testübungseffekt kann fälschlich als kausale Treatmentwirkung interpretiert werden."
   },
   {
     "objectID": "validität.html#mangelnde-instrumentelle-reliabilität",
     "href": "validität.html#mangelnde-instrumentelle-reliabilität",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.8 Mangelnde instrumentelle Reliabilität",
-    "text": "11.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.8 Mangelnde instrumentelle Reliabilität",
+    "text": "13.8 Mangelnde instrumentelle Reliabilität\nIm Verlaufe der Zeit kann sich die Qualität eines Messinstrumentes verändern, so dass Messwertunterschiede entstehen, die fälschlich als kausale Treatmentwirkung interpretiert werden können."
   },
   {
     "objectID": "validität.html#kombination-mehrerer-bedrohungen",
     "href": "validität.html#kombination-mehrerer-bedrohungen",
-    "title": "11  Bedrohungen der internen Validität",
-    "section": "11.9 Kombination mehrerer Bedrohungen",
-    "text": "11.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
+    "title": "13  Bedrohungen der internen Validität",
+    "section": "13.9 Kombination mehrerer Bedrohungen",
+    "text": "13.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
   },
   {
     "objectID": "aufgaben.html",
@@ -579,5 +579,75 @@
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
     "section": "3.8 Analyseplan (vorregistriert)",
     "text": "3.8 Analyseplan (vorregistriert)\n\nPrimäre Analyse (Intention-to-treat vs. per-protocol).\nModelltyp (lineare Modelle, gemischte Modelle, Cluster).\nUmgang mit fehlenden Daten."
+  },
+  {
+    "objectID": "implementation.html",
+    "href": "implementation.html",
+    "title": "10  Implementation und Interventionstreue",
+    "section": "",
+    "text": "Eine Intervention kann nur dann sinnvoll bewertet werden, wenn bekannt ist, wie sie tatsächlich umgesetzt wurde."
+  },
+  {
+    "objectID": "implementation.html#was-sollte-beschrieben-werden",
+    "href": "implementation.html#was-sollte-beschrieben-werden",
+    "title": "10  Implementation und Interventionstreue",
+    "section": "10.1 Was sollte beschrieben werden?",
+    "text": "10.1 Was sollte beschrieben werden?\n\nInhalte und Ziele\nAnzahl und Dauer der Einheiten\nverwendete Materialien\nQualifikation der Durchführenden\nzulässige Anpassungen"
+  },
+  {
+    "objectID": "implementation.html#dimensionen-der-interventionstreue",
+    "href": "implementation.html#dimensionen-der-interventionstreue",
+    "title": "10  Implementation und Interventionstreue",
+    "section": "10.2 Dimensionen der Interventionstreue",
+    "text": "10.2 Dimensionen der Interventionstreue\n\nAdhärenz: Wurden die vorgesehenen Inhalte umgesetzt?\nDosis: Wie viele Einheiten fanden tatsächlich statt?\nQualität: Wie gut wurde die Intervention durchgeführt?\nTeilnahme: Wie regelmäßig und aktiv nahmen die Teilnehmenden teil?\nAbgrenzung: Unterschied sich die Intervention klar von der Kontrollbedingung?"
+  },
+  {
+    "objectID": "implementation.html#erfassung-der-umsetzung",
+    "href": "implementation.html#erfassung-der-umsetzung",
+    "title": "10  Implementation und Interventionstreue",
+    "section": "10.3 Erfassung der Umsetzung",
+    "text": "10.3 Erfassung der Umsetzung\nGeeignet sind beispielsweise:\n\nDurchführungsprotokolle\nChecklisten\nAnwesenheitslisten\nBeobachtungen\nBefragungen der Durchführenden\nAudio- oder Videoaufzeichnungen"
+  },
+  {
+    "objectID": "implementation.html#umgang-mit-abweichungen",
+    "href": "implementation.html#umgang-mit-abweichungen",
+    "title": "10  Implementation und Interventionstreue",
+    "section": "10.4 Umgang mit Abweichungen",
+    "text": "10.4 Umgang mit Abweichungen\nAbweichungen sollten transparent dokumentiert und unterschieden werden in:\n\ngeplante Anpassungen\norganisatorisch bedingte Änderungen\nVerletzungen des Interventionsprotokolls\n\n\n\n\n\n\n\nMerksatz\n\n\n\nOhne Implementationsdaten bleibt unklar, ob eine Intervention unwirksam war oder unzureichend umgesetzt wurde."
+  },
+  {
+    "objectID": "operationalisierung.html",
+    "href": "operationalisierung.html",
+    "title": "11  Messinstrumente und Operationalisierung",
+    "section": "",
+    "text": "Eine Forschungsfrage wird erst prüfbar, wenn zentrale Konstrukte klar operationalisiert und mit geeigneten Instrumenten erfasst werden."
+  },
+  {
+    "objectID": "operationalisierung.html#vom-konstrukt-zur-messung",
+    "href": "operationalisierung.html#vom-konstrukt-zur-messung",
+    "title": "11  Messinstrumente und Operationalisierung",
+    "section": "11.1 Vom Konstrukt zur Messung",
+    "text": "11.1 Vom Konstrukt zur Messung\nFestgelegt werden sollte:\n\nwelches Konstrukt untersucht wird\nwie es theoretisch definiert ist\nmit welchem Indikator es erfasst wird\nzu welchen Messzeitpunkten gemessen wird\n\n\nDas Konstrukt „Lesekompetenz“ kann beispielsweise durch einen standardisierten Lesetest operationalisiert werden."
+  },
+  {
+    "objectID": "operationalisierung.html#auswahl-eines-instruments",
+    "href": "operationalisierung.html#auswahl-eines-instruments",
+    "title": "11  Messinstrumente und Operationalisierung",
+    "section": "11.2 Auswahl eines Instruments",
+    "text": "11.2 Auswahl eines Instruments\nWichtige Kriterien sind:\n\nValidität: Erfasst das Instrument das beabsichtigte Konstrukt?\nReliabilität: Misst es zuverlässig?\nObjektivität: Ist das Ergebnis möglichst unabhängig von der durchführenden Person?\nSensitivität: Kann das Instrument Veränderungen abbilden?\nPraktikabilität: Ist der Einsatz im Feld realistisch?"
+  },
+  {
+    "objectID": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
+    "href": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
+    "title": "11  Messinstrumente und Operationalisierung",
+    "section": "11.3 Bestehendes oder eigenes Instrument?",
+    "text": "11.3 Bestehendes oder eigenes Instrument?\nBestehende, geprüfte Instrumente sind meist vorzuziehen. Eigene Skalen benötigen eine sorgfältige Entwicklung und Prüfung."
+  },
+  {
+    "objectID": "operationalisierung.html#mehrere-datenquellen",
+    "href": "operationalisierung.html#mehrere-datenquellen",
+    "title": "11  Messinstrumente und Operationalisierung",
+    "section": "11.4 Mehrere Datenquellen",
+    "text": "11.4 Mehrere Datenquellen\nJe nach Forschungsfrage können kombiniert werden:\n\nLeistungstests\nFragebögen\nBeobachtungen\nProzessdaten\nEinschätzungen durch Lehrkräfte oder Eltern\n\n\n\n\n\n\n\nMerksatz\n\n\n\nEine präzise Operationalisierung verbindet Theorie, Messinstrument und spätere Interpretation."
   }
 ]
