@@ -1,79 +1,44 @@
 
 # Entscheidungsfelder für Versuchsdesigns
 
+## 1. Forschungsfrage und Zielvariable
+- Präzisiere die kausale Fragestellung.
+- Definiere die primäre Outcome-Messung 
 
-
-Diese Seite listet kompakt die zentralen Punkte auf, die vor Planung und Durchführung eines Experiments oder Quasi-Experiments entschieden werden müssen. Später können für Messzeitpunkte, Kontrollgruppen und Stichprobe je eigene Seiten entstehen.
-
-# 1. Forschungsfrage und Zielvariable
-- Präzisiere die kausale Fragestellung (Was ist die Treatment-Variable?).
-- Definiere die primäre Outcome-Messung (Messniveau, Reliabilität, Validität).
-- Sekundäre Outcomes und mögliche Nebenwirkungen benennen.
-
-# 2. Kausales Modell und Annahmen
+## 2. Kausales Modell und Annahmen
 - Welche kausalen Pfade werden angenommen (Mediator, Moderator)?
 - Wichtige Störvariablen (Confounder) identifizieren.
-- Annahmen, die für Kausalität nötig sind (Ignorability, Stable Unit Treatment Value Assumption).
 
-# 3. Vergleichsstruktur / Kontrollgruppe
+## 3. Vergleichsstruktur / Kontrollgruppe
 - Welcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)
-- Randomisiert vs. nicht-randomisiert — Vor- und Nachteile.
-- Matching, Regression-Adjustment, Differenz-in-Differenzen als Alternativen.
 
-# 4. Randomisierung und Zuteilung
-- Ebene der Randomisierung (Individuen, Klassen, Schulen, Regionen).
-- Zufallsverfahren (stratifiziert, block-randomisiert, cluster-randomisiert).
-- Umgang mit Verstößen gegen Zuteilung (Noncompliance, Attrition).
+## 4. Randomisierung 
 
-# 5. Messzeitpunkte & Follow-up
-- Baseline(s), Messung unmittelbar nach Intervention, Mittelfristig/langfristig.
+## 5. Messzeitpunkte & Follow-up
 - Anzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken.
-- Blindung der Messzeitpunkte (wer weiß was wann?).
 
-# 6. Stichprobe & Power
+## 6. Stichprobe & Power
 - Populationsdefinition und Einschlusskriterien.
-- Stichprobengröße und Poweranalyse (Effektgröße, α, β, Cluster-Design-Effekte).
+- Stichprobengröße und Poweranalyse 
 - Erwartete Dropout-Rate kalkulieren.
 
-# 7. Messinstrumente und Validität
+## 7. Messinstrumente und Validität
 - Auswahl existierender validierter Instrumente vs. Eigenentwicklung.
-- Test-Retest, Interrater-Reliabilität, Messfehler-Strategien.
-- Operationalisierung (Skalenniveau, Normierung).
-
-# 8. Interne Kontrolle & Bias-Quellen
-- Systematische Selektion, Regression zur Mitte, Testeffekte, Historieneffekte.
-- Maßnahmen zur Minimierung (randomisierte Zuteilung, Kontrollgruppe, Prä-/Postmessungen, Placebo).
+- Operationalisierung
 
 # 9. Analyseplan (vorregistriert)
 - Primäre Analyse (Intention-to-treat vs. per-protocol).
-- Modelltyp (lineare Modelle, gemischte Modelle, robuste SEs für Cluster).
-- Umgang mit fehlenden Daten (MI, IPW, Sensitivitätsanalysen).
-- Multiples Testen / Adjustierung für Sekundäranalyse.
+- Modelltyp (lineare Modelle, gemischte Modelle, Cluster).
+- Umgang mit fehlenden Daten.
 
-# 10. Implementations- und Durchführungsfragen
+## 10. Implementations- und Durchführungsfragen
 - Standardisierung der Intervention; Schulung der Durchführenden.
 - Protokoll für Protokollabweichungen und Adhärenzmessung.
 - Dokumentation und Datenmanagement (Metadaten, Codebook).
 
-# 11. Ethische, rechtliche und praktische Aspekte
+## 11. Ethische, rechtliche und praktische Aspekte
 - Einwilligung, Datenschutz, Risiken und Nutzen.
 - Ressourcen, Zeitplan, Budget.
-- Stakeholder-Kommunikation.
 
-# 12. Externe Validität & Generalisierbarkeit
-- Stichproben- vs. Populationsrepräsentativität.
-- Transferierbarkeit der Befunde auf andere Kontexte.
 
-# 13. Reporting und Reproduzierbarkeit
-- Vorregistrierung (z. B. OSF), Offenlegung von Daten und Code.
-- Replikations-/Sensitivitätsanalysen planen.
-- Transparente Dokumentation aller Entscheidungen.
 
-# Abschluss-Checkliste (Kurz)
-- Forschungsfrage klar? ✓
-- Primäre Outcome definiert? ✓
-- Kontroll-/Vergleichsstruktur gewählt? ✓
-- Randomisierung / Zuweisungskonzept? ✓
-- Messzeitpunkte & Stichprobe geplant? ✓
-- Analyseplan vorregistriert? ✓
-- Ethische Genehmigungen & Ressourcen? ✓

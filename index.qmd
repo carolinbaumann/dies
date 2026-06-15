@@ -7,8 +7,6 @@ format:
     smooth-scroll: true
 ---
 
-# Begleitmaterial zum Workshop
-
 Diese Website ist **kein Lehrbuch**, sondern eine kompakte Begleitung zum Workshop im Rahmen der [Sommerschule der didaktisch-empirischen Schreibforschung 2026](https://www.ph-karlsruhe.de/forschen/konferenzen-und-tagungen/sommerschule-der-didaktisch-empirischen-schreibforschung-2026).
 
 Sie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient dazu, wesentliche Überlegungen zur Planung von Interventionsstudien strukturiert festzuhalten. Die Materialien können zur Vorbereitung, zur Wiederholung und zur Vertiefung genutzt werden.

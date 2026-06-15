@@ -3,7 +3,7 @@ project:
 
 book:
   title: "Interventionsstudien sinnvoll planen"
-  author: "Carolin Baumann"
+  author: "Carolin Baumann & Cora Parrisius"
   chapters:
     - index.qmd                     # Einleitung
     - theorie_beginn.qmd   

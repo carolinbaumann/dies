@@ -12,7 +12,7 @@ execute:
 Empirische Forschung beginnt nicht mit der Datenerhebung, sondern mit einer **gründlichen Literaturrecherche** und einer **klaren theoretischen Verankerung**. Erst wenn bekannt ist, was bereits erforscht wurde, welche Begriffe zentral sind und welche Modelle das Forschungsfeld strukturieren, lässt sich eine tragfähige Forschungsfrage entwickeln.
 
 ::: {.callout-tip title="Zentrale Botschaft"}
-Die Methode ist nicht der Ausgangspunkt der Forschung. Gute Forschung beginnt mit Theorie, Begriffsklärung und Forschungsstand. Die Methode folgt aus der Forschungsfrage.
+> Gute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand.
 :::
 
 ## Warum Literaturrecherche der erste Schritt ist
@@ -85,36 +85,7 @@ Eine gute Forschungsfrage ist
 Sehr breite Fragen wirken zunächst interessant, bleiben aber empirisch kaum bearbeitbar. „Wie kann man den Deutschunterricht verbessern?“ enthält weder einen klaren Gegenstand noch eine Zielgruppe oder ein überprüfbares Kriterium.
 :::
 
-
-## Forschungsfrage und Methode aufeinander abstimmen
-
-Die Forschungsfrage legt nahe, welche Art von Daten benötigt wird.
-
-| Forschungsfrage | Passende Daten oder Zugänge |
-|---|---|
-| Welche Strategien nutzen Schüler:innen beim Schreiben? | Schreibprozessdaten, Beobachtungen, Interviews, Lautes Denken |
-| Unterscheiden sich zwei Unterrichtsformen hinsichtlich der Textqualität? | Vergleichbare Textprodukte, Bewertungsraster, Gruppenvergleich |
-| Wie erleben Lehrkräfte ein neues Unterrichtskonzept? | Leitfadengestützte Interviews oder Gruppendiskussionen |
-| Verändert eine Intervention die Leseflüssigkeit? | Prä- und Postmessungen, möglichst mit Vergleichsgruppe |
-| Wie entwickelt sich eine Kompetenz über die Zeit? | Mehrere Messzeitpunkte oder längsschnittliche Daten |
-
-Die Methode beantwortet daher nicht die Frage, was interessant ist. Sie beantwortet die Frage, **wie eine theoretisch begründete Forschungsfrage untersucht werden kann**.
-
-## Kleine Prüfroutine für eigene Forschungsfragen
-
-Vor der Planung der Datenerhebung sollte die Forschungsfrage mit fünf Fragen geprüft werden:
-
-1. Welche zentralen Begriffe müssen theoretisch definiert werden?
-2. Welche Zielgruppe und welcher Kontext werden untersucht?
-3. Welche Daten wären zur Beantwortung tatsächlich erforderlich?
-4. Ist die Frage mit der verfügbaren Zeit und Stichprobe bearbeitbar?
-5. Welchen Beitrag leistet die Antwort für die Deutschdidaktik?
-
-## Merksatz
-
-> Gute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand.
-
-# Forschungsfragen präzisieren
+## Übung: Forschungsfragen präzisieren
 
 Klicken Sie auf **Neue Aufgabe**. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte. Hier ist natürlich für die eigentlich benötigte Recherchearbeit keine Zeit, insofern dürfen Sie ausnahmesweise ein bisschen kreativ sein.
 
