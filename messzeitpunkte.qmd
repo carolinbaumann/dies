@@ -213,8 +213,3 @@ Antwort prüfen
 - Power & Messwiederholungen planen.  
 - Missing‑Data‑Strategie und Präregistrierung.  
 - Bei Mixed/Quasi‑Designs explizit dokumentieren, welche Komponenten kausal identifiziert werden können.
-
-# Referenzen und weiterführende Literatur
-
-- Shadish, Cook & Campbell — Experimental and Quasi‑Experimental Designs.  
-- Bernal, Cummins & Gasparrini — Interrupted time series regression for public health interventions.

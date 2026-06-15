@@ -64,7 +64,7 @@ Die Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemei
 
 
 
-# Zusammenhänge verstehen am Beispiel: Poweranalyse t-Test
+## Zusammenhänge verstehen am Beispiel: Poweranalyse t-Test
 
 Dieses Beispiel dient ausschließlich zur Illustration der grundlegenden Zusammenhänge. Für Prä-Post-Designs, mehrere Messzeitpunkte, Cluster-Randomisierung, ungleiche Gruppengrößen oder hierarchische Daten ist eine designspezifische Poweranalyse erforderlich.
 
