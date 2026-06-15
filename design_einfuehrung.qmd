@@ -1,9 +1,6 @@
----
-title: "Entscheidungsfelder für Versuchsdesigns"
-author: "Autor"
-format: html
-toc: true
----
+
+# Entscheidungsfelder für Versuchsdesigns
+
 
 
 Diese Seite listet kompakt die zentralen Punkte auf, die vor Planung und Durchführung eines Experiments oder Quasi-Experiments entschieden werden müssen. Später können für Messzeitpunkte, Kontrollgruppen und Stichprobe je eigene Seiten entstehen.
