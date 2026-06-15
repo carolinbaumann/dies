@@ -1,44 +1,83 @@
 ---
 title: "Stichprobenziehung"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
 ---
 
-## Grundlagen der Stichprobenziehung
+Die Stichprobe bestimmt, **für wen die Ergebnisse einer Studie aussagekräftig sind**. In schulischen Interventionsstudien werden häufig nicht einzelne Personen unabhängig voneinander ausgewählt, sondern ganze Schulen, Klassen oder Kurse.
 
-Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird.
+::: {.callout-tip}
+## Leitfrage
 
-## Ziele der Stichprobenziehung
+Passt die untersuchte Stichprobe zu den Personen, Schulen und Kontexten, auf die sich die Schlussfolgerungen beziehen sollen?
+:::
 
-- Repräsentativität für die Grundgesamtheit
-- Ökonomische Durchführbarkeit
-- Generalisierbarkeit der Ergebnisse
+Die **Grundgesamtheit** umfasst alle Personen oder Gruppen, über die eine Studie Aussagen treffen möchte. Die **Stichprobe** ist der tatsächlich untersuchte Teil dieser Grundgesamtheit.
 
-## Stichprobenarten
 
-### Zufallsstichproben (Probabilistische Stichproben)
+Vor der Rekrutierung sollte die Zielgruppe möglichst genau beschrieben werden, etwa nach:
 
-#### Einfache Zufallsstichprobe
-Jedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.
+- Schulart und Klassenstufe,
+- Region oder Einzugsgebiet,
+- sprachlichen oder fachlichen Voraussetzungen,
+- Ein- und Ausschlusskriterien,
+- relevanten Merkmalen von Schulen und Klassen.
 
-#### Geschichtete Stichprobe
-Die Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.
+## Wie wird die Stichprobe gewonnen?
 
-#### Klumpenstichprobe
-Natürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.
+### Zufällige Auswahl
 
-### Nicht-Zufallsstichproben
+Bei einer Zufallsstichprobe besitzt jede Einheit eine bekannte Auswahlwahrscheinlichkeit. Das stärkt die Übertragbarkeit der Ergebnisse, ist im schulischen Alltag aber oft schwer umzusetzen.
 
-#### Gelegenheitsstichprobe
-Auswahl nach Verfügbarkeit und Erreichbarkeit.
+Typische Verfahren sind:
 
-#### Quota-Stichprobe
-Auswahl nach vorgegebenen Quoten für bestimmte Merkmale.
+- **Einfache Zufallsstichprobe:** Einzelne Personen werden zufällig ausgewählt.
+- **Geschichtete Stichprobe:** Zunächst werden Gruppen gebildet, etwa nach Schulart oder Region. Anschließend wird innerhalb dieser Gruppen gezogen.
+- **Klumpenstichprobe:** Ganze Schulen oder Klassen werden ausgewählt.
 
-## Stichprobengröße
+Für schulische Studien ist die Klumpenstichprobe besonders relevant, weil Interventionen häufig auf Klassen- oder Schulebene stattfinden.
 
-Die benötigte Stichprobengröße hängt ab von:
+### Auswahl nach Verfügbarkeit
 
-- Gewünschter statistischer Power (üblicherweise .80)
-- Erwarteter Effektgröße
-- Signifikanzniveau (üblicherweise α = .05)
-- Variabilität in der Population
+Häufig nehmen Schulen oder Klassen teil, die erreichbar und zur Kooperation bereit sind. Das ist eine **Gelegenheitsstichprobe**.
 
+Dieses Vorgehen ist praktikabel, kann aber zu Verzerrungen führen. Teilnehmende Schulen unterscheiden sich möglicherweise von Schulen, die eine Teilnahme ablehnen, etwa hinsichtlich Ausstattung, Motivation oder Vorerfahrung.
+
+Eine Gelegenheitsstichprobe ist deshalb nicht grundsätzlich ungeeignet. Entscheidend ist, ihre Grenzen transparent zu beschreiben.
+
+
+## Ausfälle im Studienverlauf
+
+Auch nach Studienbeginn kann sich die Stichprobe verändern. Einzelne Schüler:innen, Klassen oder Schulen nehmen möglicherweise nicht bis zum Ende teil. Solche Ausfälle werden als **Dropout** oder **Attrition** bezeichnet.
+
+Besonders relevant ist, ob Ausfälle systematisch auftreten, etwa häufiger in einer Studienbedingung oder bei stärker belasteten Teilnehmenden. Dann kann sich die verbleibende Stichprobe von der ursprünglich rekrutierten Stichprobe unterscheiden.
+
+Dokumentiert werden sollten:
+
+- Umfang und Zeitpunkt der Ausfälle,
+- bekannte Gründe,
+- Unterschiede zwischen den Studienbedingungen,
+- Unterschiede zwischen ausgeschiedenen und verbleibenden Teilnehmenden.
+
+Die Berücksichtigung erwarteter Ausfälle bei der Fallzahlplanung gehört in das Kapitel zur Poweranalyse.
+
+## Was sollte berichtet werden?
+
+Eine nachvollziehbare Studienbeschreibung enthält mindestens:
+
+- die angestrebte Grundgesamtheit,
+- die Rekrutierungswege,
+- Ein- und Ausschlusskriterien,
+- die Anzahl angefragter und teilnehmender Schulen, Klassen und Personen,
+- bekannte Gründe für Ablehnung oder Ausschluss,
+- Ausfälle im Studienverlauf,
+- wichtige Merkmale der endgültigen Stichprobe.
+
+::: {.callout-note}
+## Merksatz
+
+Die Qualität einer Stichprobe zeigt sich nicht nur an ihrer Größe, sondern vor allem daran, wie sie gewonnen wurde und für welche Zielgruppe Aussagen beansprucht werden.
+:::

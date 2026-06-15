@@ -172,7 +172,7 @@
     "href": "stichprobe.html",
     "title": "7  Stichprobenziehung",
     "section": "",
-    "text": "Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird."
+    "text": "Die Stichprobe bestimmt, für wen die Ergebnisse einer Studie aussagekräftig sind. In schulischen Interventionsstudien werden häufig nicht einzelne Personen unabhängig voneinander ausgewählt, sondern ganze Schulen, Klassen oder Kurse.\nDie Grundgesamtheit umfasst alle Personen oder Gruppen, über die eine Studie Aussagen treffen möchte. Die Stichprobe ist der tatsächlich untersuchte Teil dieser Grundgesamtheit.\nVor der Rekrutierung sollte die Zielgruppe möglichst genau beschrieben werden, etwa nach:"
   },
   {
     "objectID": "stichprobe.html#ziele-der-stichprobenziehung",
@@ -444,57 +444,57 @@
     "objectID": "design_einfuehrung.html#kausales-modell-und-annahmen",
     "href": "design_einfuehrung.html#kausales-modell-und-annahmen",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.2 2. Kausales Modell und Annahmen",
-    "text": "3.2 2. Kausales Modell und Annahmen\n\nWelche kausalen Pfade werden angenommen (Mediator, Moderator)?\nWichtige Störvariablen (Confounder) identifizieren."
+    "section": "3.2 Kausales Modell und Annahmen",
+    "text": "3.2 Kausales Modell und Annahmen\n\nWelche kausalen Pfade werden angenommen (Mediator, Moderator)?\nWichtige Störvariablen (Confounder) identifizieren."
   },
   {
     "objectID": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
     "href": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.3 3. Vergleichsstruktur / Kontrollgruppe",
-    "text": "3.3 3. Vergleichsstruktur / Kontrollgruppe\n\nWelcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)"
+    "section": "3.3 Vergleichsstruktur / Kontrollgruppe",
+    "text": "3.3 Vergleichsstruktur / Kontrollgruppe\n\nWelcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)"
   },
   {
     "objectID": "design_einfuehrung.html#randomisierung",
     "href": "design_einfuehrung.html#randomisierung",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.4 4. Randomisierung",
-    "text": "3.4 4. Randomisierung"
+    "section": "3.4 Randomisierung",
+    "text": "3.4 Randomisierung"
   },
   {
     "objectID": "design_einfuehrung.html#messzeitpunkte-follow-up",
     "href": "design_einfuehrung.html#messzeitpunkte-follow-up",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.5 5. Messzeitpunkte & Follow-up",
-    "text": "3.5 5. Messzeitpunkte & Follow-up\n\nAnzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken."
+    "section": "3.5 Messzeitpunkte & Follow-up",
+    "text": "3.5 Messzeitpunkte & Follow-up\n\nAnzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken."
   },
   {
     "objectID": "design_einfuehrung.html#stichprobe-power",
     "href": "design_einfuehrung.html#stichprobe-power",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.6 6. Stichprobe & Power",
-    "text": "3.6 6. Stichprobe & Power\n\nPopulationsdefinition und Einschlusskriterien.\nStichprobengröße und Poweranalyse\nErwartete Dropout-Rate kalkulieren."
+    "section": "3.6 Stichprobe & Power",
+    "text": "3.6 Stichprobe & Power\n\nPopulationsdefinition und Einschlusskriterien.\nStichprobengröße und Poweranalyse\nErwartete Dropout-Rate kalkulieren."
   },
   {
     "objectID": "design_einfuehrung.html#messinstrumente-und-validität",
     "href": "design_einfuehrung.html#messinstrumente-und-validität",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.7 7. Messinstrumente und Validität",
-    "text": "3.7 7. Messinstrumente und Validität\n\nAuswahl existierender validierter Instrumente vs. Eigenentwicklung.\nOperationalisierung"
+    "section": "3.7 Messinstrumente und Validität",
+    "text": "3.7 Messinstrumente und Validität\n\nAuswahl existierender validierter Instrumente vs. Eigenentwicklung.\nOperationalisierung"
   },
   {
     "objectID": "design_einfuehrung.html#implementations--und-durchführungsfragen",
     "href": "design_einfuehrung.html#implementations--und-durchführungsfragen",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "4.1 10. Implementations- und Durchführungsfragen",
-    "text": "4.1 10. Implementations- und Durchführungsfragen\n\nStandardisierung der Intervention; Schulung der Durchführenden.\nProtokoll für Protokollabweichungen und Adhärenzmessung.\nDokumentation und Datenmanagement (Metadaten, Codebook)."
+    "section": "3.9 Implementations- und Durchführungsfragen",
+    "text": "3.9 Implementations- und Durchführungsfragen\n\nStandardisierung der Intervention; Schulung der Durchführenden.\nProtokoll für Protokollabweichungen und Adhärenzmessung.\nDokumentation und Datenmanagement (Metadaten, Codebook)."
   },
   {
     "objectID": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
     "href": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "4.2 11. Ethische, rechtliche und praktische Aspekte",
-    "text": "4.2 11. Ethische, rechtliche und praktische Aspekte\n\nEinwilligung, Datenschutz, Risiken und Nutzen.\nRessourcen, Zeitplan, Budget."
+    "section": "3.10 Ethische, rechtliche und praktische Aspekte",
+    "text": "3.10 Ethische, rechtliche und praktische Aspekte\n\nEinwilligung, Datenschutz, Risiken und Nutzen.\nRessourcen, Zeitplan, Budget."
   },
   {
     "objectID": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
@@ -530,5 +530,54 @@
     "title": "10  Ethische Richtlinien",
     "section": "10.6 Kurzcheckliste",
     "text": "10.6 Kurzcheckliste\nDie Punkte können direkt im Browser abgehakt werden. Der Stand wird lokal auf dem jeweiligen Gerät gespeichert.\n\n Die Teilnahme ist freiwillig und verständlich erklärt.\n Teilnehmende können ohne Nachteile abbrechen.\n Minderjährige werden angemessen beteiligt.\n Es werden nur notwendige Daten erhoben.\n Speicherung, Zugriff und Löschung sind geregelt.\n Belastungen und Benachteiligungen sind minimiert.\n Die Behandlung der Kontrollgruppe ist vertretbar.\n Alle erforderlichen Genehmigungen liegen vor.\n\nCheckliste zurücksetzen\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nFür die konkrete Planung gelten die aktuellen Vorgaben der eigenen Hochschule, der zuständigen Behörden und der Datenschutzgesetzgebung. Diese Übersicht bietet eine Orientierung und ersetzt keine rechtliche oder institutionelle Prüfung."
+  },
+  {
+    "objectID": "stichprobe.html#grundgesamtheit-und-stichprobe",
+    "href": "stichprobe.html#grundgesamtheit-und-stichprobe",
+    "title": "7  Stichprobenziehung",
+    "section": "7.1 Grundgesamtheit und Stichprobe",
+    "text": "7.1 Grundgesamtheit und Stichprobe\nDie Grundgesamtheit umfasst alle Personen oder Gruppen, über die eine Studie Aussagen treffen möchte. Die Stichprobe ist der tatsächlich untersuchte Teil dieser Grundgesamtheit.\nBeispiel:\n\nUntersucht werden soll eine neue Leseförderung für Schüler:innen der fünften Klasse.\nDie Grundgesamtheit könnten alle Fünftklässler:innen einer Region sein.\nDie Stichprobe besteht aus den Klassen, die tatsächlich teilnehmen.\n\nVor der Rekrutierung sollte die Zielgruppe möglichst genau beschrieben werden, etwa nach:\n\nSchulart und Klassenstufe,\nRegion oder Einzugsgebiet,\nsprachlichen oder fachlichen Voraussetzungen,\nEin- und Ausschlusskriterien,\nrelevanten Merkmalen von Schulen und Klassen."
+  },
+  {
+    "objectID": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
+    "href": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
+    "title": "7  Stichprobenziehung",
+    "section": "7.1 Wie wird die Stichprobe gewonnen?",
+    "text": "7.1 Wie wird die Stichprobe gewonnen?\n\n7.1.1 Zufällige Auswahl\nBei einer Zufallsstichprobe besitzt jede Einheit eine bekannte Auswahlwahrscheinlichkeit. Das stärkt die Übertragbarkeit der Ergebnisse, ist im schulischen Alltag aber oft schwer umzusetzen.\nTypische Verfahren sind:\n\nEinfache Zufallsstichprobe: Einzelne Personen werden zufällig ausgewählt.\nGeschichtete Stichprobe: Zunächst werden Gruppen gebildet, etwa nach Schulart oder Region. Anschließend wird innerhalb dieser Gruppen gezogen.\nKlumpenstichprobe: Ganze Schulen oder Klassen werden ausgewählt.\n\nFür schulische Studien ist die Klumpenstichprobe besonders relevant, weil Interventionen häufig auf Klassen- oder Schulebene stattfinden.\n\n\n7.1.2 Auswahl nach Verfügbarkeit\nHäufig nehmen Schulen oder Klassen teil, die erreichbar und zur Kooperation bereit sind. Das ist eine Gelegenheitsstichprobe.\nDieses Vorgehen ist praktikabel, kann aber zu Verzerrungen führen. Teilnehmende Schulen unterscheiden sich möglicherweise von Schulen, die eine Teilnahme ablehnen, etwa hinsichtlich Ausstattung, Motivation oder Vorerfahrung.\nEine Gelegenheitsstichprobe ist deshalb nicht grundsätzlich ungeeignet. Entscheidend ist, ihre Grenzen transparent zu beschreiben."
+  },
+  {
+    "objectID": "stichprobe.html#auswahl-und-zuweisung-unterscheiden",
+    "href": "stichprobe.html#auswahl-und-zuweisung-unterscheiden",
+    "title": "7  Stichprobenziehung",
+    "section": "7.3 Auswahl und Zuweisung unterscheiden",
+    "text": "7.3 Auswahl und Zuweisung unterscheiden\nZwei Entscheidungen müssen getrennt betrachtet werden:\n\nAuswahl: Wer nimmt an der Studie teil?\nZuweisung: Wer erhält die Intervention und wer gehört zur Kontrollgruppe?\n\nEine zufällige Zuweisung verbessert die interne Validität. Sie macht eine selektiv gewonnene Stichprobe jedoch nicht automatisch repräsentativ."
+  },
+  {
+    "objectID": "stichprobe.html#typische-verzerrungen",
+    "href": "stichprobe.html#typische-verzerrungen",
+    "title": "7  Stichprobenziehung",
+    "section": "7.4 Typische Verzerrungen",
+    "text": "7.4 Typische Verzerrungen\nMögliche Probleme bei der Stichprobenziehung sind:\n\nbesonders motivierte Schulen nehmen häufiger teil,\nbestimmte Schularten oder Regionen fehlen,\neinzelne Schüler:innen nehmen wegen fehlender Einwilligungen nicht teil,\norganisatorische Gründe führen zum Ausschluss von Klassen oder Schulen,\nTeilnehmende brechen die Studie vorzeitig ab.\n\nSolche Prozesse sollten dokumentiert und bei der Interpretation berücksichtigt werden."
+  },
+  {
+    "objectID": "stichprobe.html#ausfälle-im-studienverlauf",
+    "href": "stichprobe.html#ausfälle-im-studienverlauf",
+    "title": "7  Stichprobenziehung",
+    "section": "7.2 Ausfälle im Studienverlauf",
+    "text": "7.2 Ausfälle im Studienverlauf\nAuch nach Studienbeginn kann sich die Stichprobe verändern. Einzelne Schüler:innen, Klassen oder Schulen nehmen möglicherweise nicht bis zum Ende teil. Solche Ausfälle werden als Dropout oder Attrition bezeichnet.\nBesonders relevant ist, ob Ausfälle systematisch auftreten, etwa häufiger in einer Studienbedingung oder bei stärker belasteten Teilnehmenden. Dann kann sich die verbleibende Stichprobe von der ursprünglich rekrutierten Stichprobe unterscheiden.\nDokumentiert werden sollten:\n\nUmfang und Zeitpunkt der Ausfälle,\nbekannte Gründe,\nUnterschiede zwischen den Studienbedingungen,\nUnterschiede zwischen ausgeschiedenen und verbleibenden Teilnehmenden.\n\nDie Berücksichtigung erwarteter Ausfälle bei der Fallzahlplanung gehört in das Kapitel zur Poweranalyse."
+  },
+  {
+    "objectID": "stichprobe.html#was-sollte-berichtet-werden",
+    "href": "stichprobe.html#was-sollte-berichtet-werden",
+    "title": "7  Stichprobenziehung",
+    "section": "7.3 Was sollte berichtet werden?",
+    "text": "7.3 Was sollte berichtet werden?\nEine nachvollziehbare Studienbeschreibung enthält mindestens:\n\ndie angestrebte Grundgesamtheit,\ndie Rekrutierungswege,\nEin- und Ausschlusskriterien,\ndie Anzahl angefragter und teilnehmender Schulen, Klassen und Personen,\nbekannte Gründe für Ablehnung oder Ausschluss,\nAusfälle im Studienverlauf,\nwichtige Merkmale der endgültigen Stichprobe.\n\n\n\n\n\n\n\nMerksatz\n\n\n\nDie Qualität einer Stichprobe zeigt sich nicht nur an ihrer Größe, sondern vor allem daran, wie sie gewonnen wurde und für welche Zielgruppe Aussagen beansprucht werden."
+  },
+  {
+    "objectID": "design_einfuehrung.html#analyseplan-vorregistriert",
+    "href": "design_einfuehrung.html#analyseplan-vorregistriert",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.8 Analyseplan (vorregistriert)",
+    "text": "3.8 Analyseplan (vorregistriert)\n\nPrimäre Analyse (Intention-to-treat vs. per-protocol).\nModelltyp (lineare Modelle, gemischte Modelle, Cluster).\nUmgang mit fehlenden Daten."
   }
 ]

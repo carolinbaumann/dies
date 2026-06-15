@@ -8,15 +8,14 @@ book:
     - index.qmd                     # Einleitung
     - theorie_beginn.qmd   
     - design_einfuehrung.qmd   
-    - messzeitpunkte.qmd          
+    - messzeitpunkte.qmd          #Messzeitpunkte
     - design.qmd                   # Experimentelles Design
     - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
     - stichprobe.qmd               # Stichprobenziehung
     - poweranalyse_erweitert.qmd            # Wie groß muss die Stichprobe sein?
-    - randomisierung.qmd  
+    - randomisierung.qmd  # Wie teile ich die Stichprobe ein?
     - ethische_richtlinien.qmd 
-    - validität.qmd        # Wie teile ich die Stichprobe ein?
-    - aufgaben.qmd  
+    - validität.qmd        
     
 format:
   html:

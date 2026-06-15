@@ -1,0 +1,44 @@
+---
+title: "Stichprobenziehung"
+---
+
+## Grundlagen der Stichprobenziehung
+
+Eine Stichprobe ist eine Teilmenge der Grundgesamtheit, die für eine Untersuchung ausgewählt wird.
+
+## Ziele der Stichprobenziehung
+
+- Repräsentativität für die Grundgesamtheit
+- Ökonomische Durchführbarkeit
+- Generalisierbarkeit der Ergebnisse
+
+## Stichprobenarten
+
+### Zufallsstichproben (Probabilistische Stichproben)
+
+#### Einfache Zufallsstichprobe
+Jedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.
+
+#### Geschichtete Stichprobe
+Die Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.
+
+#### Klumpenstichprobe
+Natürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.
+
+### Nicht-Zufallsstichproben
+
+#### Gelegenheitsstichprobe
+Auswahl nach Verfügbarkeit und Erreichbarkeit.
+
+#### Quota-Stichprobe
+Auswahl nach vorgegebenen Quoten für bestimmte Merkmale.
+
+## Stichprobengröße
+
+Die benötigte Stichprobengröße hängt ab von:
+
+- Gewünschter statistischer Power (üblicherweise .80)
+- Erwarteter Effektgröße
+- Signifikanzniveau (üblicherweise α = .05)
+- Variabilität in der Population
+
