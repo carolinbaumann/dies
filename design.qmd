@@ -2,8 +2,6 @@
 title: "Design"
 ---
 
-# Hinweis — Interventionsstudien sind (quasi‑)experimentell
-
 Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen.
 
 ## Auswahl von AV und UV

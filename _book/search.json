@@ -114,9 +114,9 @@
   {
     "objectID": "design.html",
     "href": "design.html",
-    "title": "5  Design",
+    "title": "4  Design",
     "section": "",
-    "text": "Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen.\n\n\nWählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.\n\nPrimäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.\nOperationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).\nValidität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.\nSkalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).\nZeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).\nUV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.\nKontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.\nStichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.\nMissing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).\n\nKurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten.\n\n\n\n\n\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
+    "text": "Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen."
   },
   {
     "objectID": "kontrollgruppe.html",
@@ -649,5 +649,19 @@
     "title": "11  Messinstrumente und Operationalisierung",
     "section": "11.4 Mehrere Datenquellen",
     "text": "11.4 Mehrere Datenquellen\nJe nach Forschungsfrage können kombiniert werden:\n\nLeistungstests\nFragebögen\nBeobachtungen\nProzessdaten\nEinschätzungen durch Lehrkräfte oder Eltern\n\n\n\n\n\n\n\nMerksatz\n\n\n\nEine präzise Operationalisierung verbindet Theorie, Messinstrument und spätere Interpretation."
+  },
+  {
+    "objectID": "design.html#auswahl-von-av-und-uv",
+    "href": "design.html#auswahl-von-av-und-uv",
+    "title": "4  Design",
+    "section": "4.1 Auswahl von AV und UV",
+    "text": "4.1 Auswahl von AV und UV\nWählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.\n\nPrimäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.\nOperationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).\nValidität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.\nSkalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).\nZeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).\nUV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.\nKontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.\nStichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.\nMissing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).\n\nKurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten."
+  },
+  {
+    "objectID": "design.html#arten-von-designs",
+    "href": "design.html#arten-von-designs",
+    "title": "4  Design",
+    "section": "4.2 Arten von Designs",
+    "text": "4.2 Arten von Designs\n\n4.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n4.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
   }
 ]
