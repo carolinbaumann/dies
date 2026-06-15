@@ -7,7 +7,7 @@ book:
   chapters:
     - index.qmd                     # Einleitung
     - theorie_beginn.qmd   
-    - design_einfuehrung.qmd   
+    - entscheidungsfelder.qmd   
     - design.qmd                   # Experimentelles Design
     - kontrollgruppe.qmd           # Kontrollgruppen (gehört zu Design)
     - randomisierung.qmd  # Wie teile ich die Stichprobe ein?

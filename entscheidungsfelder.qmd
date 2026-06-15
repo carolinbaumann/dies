@@ -1,0 +1,73 @@
+---
+title: "Entscheidungsfelder"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+---
+
+Vor Beginn einer Interventionsstudie müssen einige grundlegende Entscheidungen getroffen werden. Diese Seite dient als **kurzer Wegweiser** zu den folgenden Kapiteln.
+
+::: {.callout-tip}
+## Ausgangspunkt
+
+Eine gute Planung verbindet Forschungsfrage, Wirkannahme, Vergleichsbedingung und Messung zu einem konsistenten Studiendesign.
+:::
+
+## 1. Was soll untersucht werden?
+
+Formulieren Sie eine klare Forschungsfrage und bestimmen Sie:
+
+- die Zielgruppe
+- die Intervention
+- die Vergleichsbedingung
+- das zentrale Ergebnismerkmal
+
+Die theoretische Wirkannahme erklärt, **warum** die Intervention eine Veränderung bewirken sollte.
+
+## 2. Wie soll verglichen werden?
+
+Legen Sie fest, welches Design zur Forschungsfrage passt:
+
+- Prä-Post-Design
+- Parallelgruppendesign
+- randomisiertes oder quasiexperimentelles Design
+- individuelle oder clusterbasierte Zuweisung
+
+Weiterführend: [Design](design.qmd), [Kontrollgruppen](kontrollgruppe.qmd) und [Randomisierung](randomisierung.qmd).
+
+## 3. Wer nimmt teil?
+
+Bestimmen Sie:
+
+- die angestrebte Grundgesamtheit
+- Ein- und Ausschlusskriterien
+- Rekrutierungswege
+- die Auswahl von Schulen, Klassen oder Personen
+
+Weiterführend: [Stichprobenziehung](stichprobe.qmd) und [Poweranalyse](poweranalyse_erweitert.qmd).
+
+## 4. Was wird wann gemessen?
+
+Definieren Sie das primäre Outcome und wählen Sie geeignete Instrumente. Danach werden die Messzeitpunkte festgelegt.
+
+Weiterführend: [Messinstrumente und Operationalisierung](operationalisierung.qmd) und [Messzeitpunkte](messzeitpunkte.qmd).
+
+## 5. Wie wird die Durchführung abgesichert?
+
+Planen Sie:
+
+- standardisierte Abläufe
+- Schulung der Durchführenden
+- Erfassung der Interventionstreue
+- Dokumentation von Abweichungen
+- ethische und datenschutzrechtliche Anforderungen
+
+Weiterführend: [Implementation](implementation.qmd) und [Ethische Richtlinien](ethische_richtlinien.qmd).
+
+::: {.callout-note}
+## Merksatz
+
+Die einzelnen Entscheidungen sollten zusammenpassen. Ein aufwendiges Design kann Schwächen bei Theorie, Messung oder Durchführung nicht ausgleichen.
+:::

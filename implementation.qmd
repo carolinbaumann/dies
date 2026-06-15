@@ -1,5 +1,5 @@
 ---
-title: "Implementation und Interventionstreue"
+title: "Implementation"
 format:
   html:
     toc: true

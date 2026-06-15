@@ -7,6 +7,13 @@
     "text": "Diese Website ist kein Lehrbuch, sondern eine kompakte Begleitung zum Workshop im Rahmen der Sommerschule der didaktisch-empirischen Schreibforschung 2026.\nSie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient dazu, wesentliche Überlegungen zur Planung von Interventionsstudien strukturiert festzuhalten. Die Materialien können zur Vorbereitung, zur Wiederholung und zur Vertiefung genutzt werden."
   },
   {
+    "objectID": "index.html#schwerpunkt-des-workshops",
+    "href": "index.html#schwerpunkt-des-workshops",
+    "title": "Interventionsstudien sinnvoll planen",
+    "section": "0.1 Schwerpunkt des Workshops",
+    "text": "0.1 Schwerpunkt des Workshops\nIm Mittelpunkt steht zunächst die Frage, wie Interventionsstudien sinnvoll geplant werden können.\nDer Workshop richtet sich an Teilnehmende, die sich in der Planungsphase einer Interventionsstudie befinden. Er bietet eine kompakte Einführung in zentrale Fragen des Studiendesigns und der Datenerhebung.\nGemeinsam erarbeiten wir,\n\nwie Forschungsfragen in geeignete Untersuchungsdesigns übersetzt werden,\nwelche Rolle Vergleichs- und Kontrollgruppen spielen,\nwie Messzeitpunkte sinnvoll angelegt werden,\nwelche typischen Herausforderungen bei der Planung von Erhebungen auftreten,\nund welche Folgen diese Entscheidungen für die spätere Auswertung haben.\n\n\n\n\n\n\n\nTip\n\n\n\nNutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben."
+  },
+  {
     "objectID": "theorie_beginn.html",
     "href": "theorie_beginn.html",
     "title": "2  Theorie zuerst",
@@ -42,74 +49,53 @@
     "text": "2.4 Qualitätsmerkmale einer guten Forschungsfrage\nEine gute Forschungsfrage ist\n\npräzise: Die zentralen Begriffe sind eindeutig oder theoretisch definierbar.\nbegrenzt: Die Frage lässt sich mit den verfügbaren Ressourcen bearbeiten.\nempirisch untersuchbar: Es können passende Daten erhoben und ausgewertet werden.\ntheoretisch begründet: Die Frage ergibt sich aus Modellen, Begriffen oder bisherigen Befunden.\nfachlich relevant: Ihre Beantwortung trägt zum Verständnis eines deutschdidaktischen Problems bei.\nmethodisch offen: Die Methode wird aus der Frage abgeleitet und nicht bereits unreflektiert vorgegeben.\n\n\n\n\n\n\n\nWarnung\n\n\n\nSehr breite Fragen wirken zunächst interessant, bleiben aber empirisch kaum bearbeitbar. „Wie kann man den Deutschunterricht verbessern?“ enthält weder einen klaren Gegenstand noch eine Zielgruppe oder ein überprüfbares Kriterium."
   },
   {
-    "objectID": "theorie_beginn.html#forschungsfrage-und-methode-aufeinander-abstimmen",
-    "href": "theorie_beginn.html#forschungsfrage-und-methode-aufeinander-abstimmen",
+    "objectID": "theorie_beginn.html#übung-forschungsfragen-präzisieren",
+    "href": "theorie_beginn.html#übung-forschungsfragen-präzisieren",
     "title": "2  Theorie zuerst",
-    "section": "2.5 Forschungsfrage und Methode aufeinander abstimmen",
-    "text": "2.5 Forschungsfrage und Methode aufeinander abstimmen\nDie Forschungsfrage legt nahe, welche Art von Daten benötigt wird.\n\n\n\n\n\n\n\nForschungsfrage\nPassende Daten oder Zugänge\n\n\n\n\nWelche Strategien nutzen Schüler:innen beim Schreiben?\nSchreibprozessdaten, Beobachtungen, Interviews, Lautes Denken\n\n\nUnterscheiden sich zwei Unterrichtsformen hinsichtlich der Textqualität?\nVergleichbare Textprodukte, Bewertungsraster, Gruppenvergleich\n\n\nWie erleben Lehrkräfte ein neues Unterrichtskonzept?\nLeitfadengestützte Interviews oder Gruppendiskussionen\n\n\nVerändert eine Intervention die Leseflüssigkeit?\nPrä- und Postmessungen, möglichst mit Vergleichsgruppe\n\n\nWie entwickelt sich eine Kompetenz über die Zeit?\nMehrere Messzeitpunkte oder längsschnittliche Daten\n\n\n\nDie Methode beantwortet daher nicht die Frage, was interessant ist. Sie beantwortet die Frage, wie eine theoretisch begründete Forschungsfrage untersucht werden kann."
+    "section": "2.5 Übung: Forschungsfragen präzisieren",
+    "text": "2.5 Übung: Forschungsfragen präzisieren\nKlicken Sie auf Neue Aufgabe. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte. Hier ist natürlich für die eigentlich benötigte Recherchearbeit keine Zeit, insofern dürfen Sie ausnahmesweise ein bisschen kreativ sein.\nAchten Sie dabei besonders auf Untersuchungsgegenstand, Zielgruppe, Zielvariable, Intervention und Vergleichsbedingung.\n\n  \n    Neue Aufgabe\n  \n\n  \n\n  \n\n  \n    Formulieren Sie zunächst selbst eine präzisere Forschungsfrage.\n  \n\n  \n    Mögliche Konkretisierungen anzeigen\n  \n\n  \n    Präzisere Forschungsfrage\n    \n\n    \n    \n\n    Warum ist diese Fassung präziser?\n    \n  \n\n\n\n\n\n\n\n\n\nTip\n\n\n\nDie eingeblendeten Formulierungen sind mögliche Lösungen. Andere Forschungsfragen können ebenfalls tragfähig sein, wenn Gegenstand, Zielgruppe, zentrale Merkmale und Untersuchungslogik klar bestimmt sind."
   },
   {
-    "objectID": "theorie_beginn.html#kleine-prüfroutine-für-eigene-forschungsfragen",
-    "href": "theorie_beginn.html#kleine-prüfroutine-für-eigene-forschungsfragen",
-    "title": "2  Theorie zuerst",
-    "section": "2.6 Kleine Prüfroutine für eigene Forschungsfragen",
-    "text": "2.6 Kleine Prüfroutine für eigene Forschungsfragen\nVor der Planung der Datenerhebung sollte die Forschungsfrage mit fünf Fragen geprüft werden:\n\nWelche zentralen Begriffe müssen theoretisch definiert werden?\nWelche Zielgruppe und welcher Kontext werden untersucht?\nWelche Daten wären zur Beantwortung tatsächlich erforderlich?\nIst die Frage mit der verfügbaren Zeit und Stichprobe bearbeitbar?\nWelchen Beitrag leistet die Antwort für die Deutschdidaktik?"
-  },
-  {
-    "objectID": "theorie_beginn.html#merksatz",
-    "href": "theorie_beginn.html#merksatz",
-    "title": "2  Theorie zuerst",
-    "section": "2.7 Merksatz",
-    "text": "2.7 Merksatz\n\nGute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand."
-  },
-  {
-    "objectID": "design_einfuehrung.html",
-    "href": "design_einfuehrung.html",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "objectID": "entscheidungsfelder.html",
+    "href": "entscheidungsfelder.html",
+    "title": "3  Entscheidungsfelder",
     "section": "",
-    "text": "Präzisiere die kausale Fragestellung.\nDefiniere die primäre Outcome-Messung"
+    "text": "Vor Beginn einer Interventionsstudie müssen einige grundlegende Entscheidungen getroffen werden. Diese Seite dient als kurzer Wegweiser zu den folgenden Kapiteln."
   },
   {
-    "objectID": "messzeitpunkte.html",
-    "href": "messzeitpunkte.html",
-    "title": "4  Messzeitpunkte",
-    "section": "",
-    "text": "Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. Interventionsstudien sind per Definition experimentell oder mindestens quasiexperimentell — Messzeitpunkte bestimmen, welche Validitätsbedrohungen adressiert werden können."
+    "objectID": "entscheidungsfelder.html#was-soll-untersucht-werden",
+    "href": "entscheidungsfelder.html#was-soll-untersucht-werden",
+    "title": "3  Entscheidungsfelder",
+    "section": "3.1 1. Was soll untersucht werden?",
+    "text": "3.1 1. Was soll untersucht werden?\nFormulieren Sie eine klare Forschungsfrage und bestimmen Sie:\n\ndie Zielgruppe\ndie Intervention\ndie Vergleichsbedingung\ndas zentrale Ergebnismerkmal\n\nDie theoretische Wirkannahme erklärt, warum die Intervention eine Veränderung bewirken sollte."
   },
   {
-    "objectID": "messzeitpunkte.html#warum-messzeitpunkte-wichtig-sind",
-    "href": "messzeitpunkte.html#warum-messzeitpunkte-wichtig-sind",
-    "title": "4  Messzeitpunkte",
-    "section": "4.1 Warum Messzeitpunkte wichtig sind",
-    "text": "4.1 Warum Messzeitpunkte wichtig sind\n\nBestimmen kausale Inferenz: Baseline vs. Follow‑up ist Voraussetzung, um Veränderung zu messen.\n\nTrennen von Reifung, Geschichte und Interventionseffekt.\n\nBeeinflussen Power, Bias durch Missing Data und Sensitivität für zeitlich verzögerte Effekte."
+    "objectID": "entscheidungsfelder.html#wie-soll-verglichen-werden",
+    "href": "entscheidungsfelder.html#wie-soll-verglichen-werden",
+    "title": "3  Entscheidungsfelder",
+    "section": "3.2 2. Wie soll verglichen werden?",
+    "text": "3.2 2. Wie soll verglichen werden?\nLegen Sie fest, welches Design zur Forschungsfrage passt:\n\nPrä-Post-Design\nParallelgruppendesign\nrandomisiertes oder quasiexperimentelles Design\nindividuelle oder clusterbasierte Zuweisung\n\nWeiterführend: Design, Kontrollgruppen und Randomisierung."
   },
   {
-    "objectID": "messzeitpunkte.html#typische-messschemata",
-    "href": "messzeitpunkte.html#typische-messschemata",
-    "title": "4  Messzeitpunkte",
-    "section": "4.2 Typische Messschemata",
-    "text": "4.2 Typische Messschemata\n\nOne‑Shot / Posttest only: X O\n\nVorteil: einfach; Nachteil: keine Basislinie, keine kausale Aussage.\n\nPretest‑Posttest (one‑group): O1 X O2\n\nVorteil: Veränderung sichtbar; Nachteil: History, Maturation, Regression zur Mitte.\n\nPretest‑Posttest mit Kontrollgruppe / RCT: R O1 X O2 / R O1 O2\n\nVorteil: Starke interne Validität bei Randomisierung.\n\nMehrfache Follow‑ups: O1 X O2 O3 …\n\nErmöglichen Trajektorienanalyse, Verzögerungseffekte, Nachhaltigkeit.\n\nInterrupted Time Series (ITS): viele Messzeitpunkte vor und nach der Intervention\n\nGut zur Erkennung plötzlicher Veränderungen und Trends.\n\nIntensive Longitudinal / EMA: hohe Messfrequenz (täglich/stündlich)\n\nGut für Prozesse, kurzfristige Effekte, intraindividuelle Variabilität."
+    "objectID": "entscheidungsfelder.html#wer-nimmt-teil",
+    "href": "entscheidungsfelder.html#wer-nimmt-teil",
+    "title": "3  Entscheidungsfelder",
+    "section": "3.3 3. Wer nimmt teil?",
+    "text": "3.3 3. Wer nimmt teil?\nBestimmen Sie:\n\ndie angestrebte Grundgesamtheit\nEin- und Ausschlusskriterien\nRekrutierungswege\ndie Auswahl von Schulen, Klassen oder Personen\n\nWeiterführend: Stichprobenziehung und Poweranalyse."
   },
   {
-    "objectID": "messzeitpunkte.html#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten",
-    "href": "messzeitpunkte.html#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten",
-    "title": "4  Messzeitpunkte",
-    "section": "4.3 Praktische Empfehlungen zur Auswahl von Messzeitpunkten",
-    "text": "4.3 Praktische Empfehlungen zur Auswahl von Messzeitpunkten\n\nPrimäres Outcome zuerst definieren; Messzeitpunkte an erwarteter Wirkmechanik ausrichten.\n\nMindestens eine valide Baseline (O1) vor Beginn der Intervention.\n\nBei erwarteter Verzögerung mindestens ein späteres Follow‑up (O3+).\n\nITS: ≥8–12 Messungen vor und ≥8–12 nach Intervention empfohlen, wenn möglich.\n\nIntensive Designs: Balance zwischen Belastung der Teilnehmenden und Informationsgehalt.\n\nPowerplanung basierend auf Effektgröße der primären AV und Messwiederholungen (Cluster/Repeated‑Measures berücksichtigen).\n\nMissing‑Data‑Plan (Imputation, Sensitivitätsanalysen) vorab festlegen.\n\nDokumentation: Messpläne, Analysepläne und Hierarchie der Outcomes vorregistrieren."
+    "objectID": "entscheidungsfelder.html#was-wird-wann-gemessen",
+    "href": "entscheidungsfelder.html#was-wird-wann-gemessen",
+    "title": "3  Entscheidungsfelder",
+    "section": "3.4 4. Was wird wann gemessen?",
+    "text": "3.4 4. Was wird wann gemessen?\nDefinieren Sie das primäre Outcome und wählen Sie geeignete Instrumente. Danach werden die Messzeitpunkte festgelegt.\nWeiterführend: Messinstrumente und Operationalisierung und Messzeitpunkte."
   },
   {
-    "objectID": "messzeitpunkte.html#beispiele-simulationen-und-visualisierungen",
-    "href": "messzeitpunkte.html#beispiele-simulationen-und-visualisierungen",
-    "title": "4  Messzeitpunkte",
-    "section": "4.4 Beispiele — Simulationen und Visualisierungen",
-    "text": "4.4 Beispiele — Simulationen und Visualisierungen\n\n\n$rct_plot\n\n\n\n\n\n\n$multi_plot\n\n\n\n\n\n\n$its_plot"
-  },
-  {
-    "objectID": "messzeitpunkte.html#kurze-checkliste-für-doktoranden",
-    "href": "messzeitpunkte.html#kurze-checkliste-für-doktoranden",
-    "title": "4  Messzeitpunkte",
-    "section": "4.5 Kurze Checkliste für Doktoranden",
-    "text": "4.5 Kurze Checkliste für Doktoranden\n\nDefinieren: primäres Outcome + kausales Modell.\n\nBaseline sicherstellen; Follow‑ups an Wirkmechanik anpassen.\n\nPower & Messwiederholungen planen.\n\nMissing‑Data‑Strategie und Präregistrierung.\n\nBei Mixed/Quasi‑Designs explizit dokumentieren, welche Komponenten kausal identifiziert werden können."
+    "objectID": "entscheidungsfelder.html#wie-wird-die-durchführung-abgesichert",
+    "href": "entscheidungsfelder.html#wie-wird-die-durchführung-abgesichert",
+    "title": "3  Entscheidungsfelder",
+    "section": "3.5 5. Wie wird die Durchführung abgesichert?",
+    "text": "3.5 5. Wie wird die Durchführung abgesichert?\nPlanen Sie:\n\nstandardisierte Abläufe\nSchulung der Durchführenden\nErfassung der Interventionstreue\nDokumentation von Abweichungen\nethische und datenschutzrechtliche Anforderungen\n\nWeiterführend: Implementation und Ethische Richtlinien.\n\n\n\n\n\n\nMerksatz\n\n\n\nDie einzelnen Entscheidungen sollten zusammenpassen. Ein aufwendiges Design kann Schwächen bei Theorie, Messung oder Durchführung nicht ausgleichen."
   },
   {
     "objectID": "design.html",
@@ -119,53 +105,116 @@
     "text": "Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen."
   },
   {
+    "objectID": "design.html#auswahl-von-av-und-uv",
+    "href": "design.html#auswahl-von-av-und-uv",
+    "title": "4  Design",
+    "section": "4.1 Auswahl von AV und UV",
+    "text": "4.1 Auswahl von AV und UV\nWählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.\n\nPrimäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.\nOperationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).\nValidität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.\nSkalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).\nZeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).\nUV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.\nKontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.\nStichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.\nMissing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).\n\nKurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten."
+  },
+  {
+    "objectID": "design.html#arten-von-designs",
+    "href": "design.html#arten-von-designs",
+    "title": "4  Design",
+    "section": "4.2 Arten von Designs",
+    "text": "4.2 Arten von Designs\n\n4.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n4.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
+  },
+  {
     "objectID": "kontrollgruppe.html",
     "href": "kontrollgruppe.html",
-    "title": "6  Kontrollgruppen",
+    "title": "5  Kontrollgruppen",
     "section": "",
     "text": "Eine Kontrollgruppe ist eine Vergleichsgruppe in einem Experiment, die nicht der experimentellen Intervention ausgesetzt wird. Sie dient als Baseline zur Bewertung der Effekte einer didaktischen Maßnahme."
   },
   {
     "objectID": "kontrollgruppe.html#zweck-von-kontrollgruppen",
     "href": "kontrollgruppe.html#zweck-von-kontrollgruppen",
-    "title": "6  Kontrollgruppen",
-    "section": "6.2 Zweck von Kontrollgruppen",
-    "text": "6.2 Zweck von Kontrollgruppen\n\nKausalschlüsse ermöglichen: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden\nAlternativerklärungen ausschließen: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse\nBaseline etablieren: Referenzwert für den Lernzuwachs"
+    "title": "5  Kontrollgruppen",
+    "section": "5.2 Zweck von Kontrollgruppen",
+    "text": "5.2 Zweck von Kontrollgruppen\n\nKausalschlüsse ermöglichen: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden\nAlternativerklärungen ausschließen: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse\nBaseline etablieren: Referenzwert für den Lernzuwachs"
   },
   {
     "objectID": "kontrollgruppe.html#arten-von-kontrollgruppen-in-der-deutschdidaktik",
     "href": "kontrollgruppe.html#arten-von-kontrollgruppen-in-der-deutschdidaktik",
-    "title": "6  Kontrollgruppen",
-    "section": "6.3 Arten von Kontrollgruppen in der Deutschdidaktik",
-    "text": "6.3 Arten von Kontrollgruppen in der Deutschdidaktik\n\n6.3.1 Keine-Behandlung-Kontrollgruppe\nErhält keinen speziellen Förderunterricht, sondern regulären Unterricht.\nBeispiel: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.\n\n\n6.3.2 Placebo-Kontrollgruppe\nErhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.\nBeispiel: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.\n\n\n6.3.3 Warteliste-Kontrollgruppe\nErhält die Fördermaßnahme zeitverzögert nach Abschluss der Studie.\nBeispiel: Die Kontrollgruppe erhält das Schreibförderprogramm im nächsten Halbjahr.\n\n\n6.3.4 Aktive Kontrollgruppe\nErhält eine alternative, etablierte Fördermethode zum Vergleich.\nBeispiel: Vergleich zweier Lesefördermethoden - Lautleseverfahren vs. Vielleseverfahren."
+    "title": "5  Kontrollgruppen",
+    "section": "5.3 Arten von Kontrollgruppen in der Deutschdidaktik",
+    "text": "5.3 Arten von Kontrollgruppen in der Deutschdidaktik\n\n5.3.1 Keine-Behandlung-Kontrollgruppe\nErhält keinen speziellen Förderunterricht, sondern regulären Unterricht.\nBeispiel: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.\n\n\n5.3.2 Placebo-Kontrollgruppe\nErhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.\nBeispiel: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.\n\n\n5.3.3 Warteliste-Kontrollgruppe\nErhält die Fördermaßnahme zeitverzögert nach Abschluss der Studie.\nBeispiel: Die Kontrollgruppe erhält das Schreibförderprogramm im nächsten Halbjahr.\n\n\n5.3.4 Aktive Kontrollgruppe\nErhält eine alternative, etablierte Fördermethode zum Vergleich.\nBeispiel: Vergleich zweier Lesefördermethoden - Lautleseverfahren vs. Vielleseverfahren."
   },
   {
     "objectID": "kontrollgruppe.html#beispiele-aus-der-deutschdidaktik",
     "href": "kontrollgruppe.html#beispiele-aus-der-deutschdidaktik",
-    "title": "6  Kontrollgruppen",
-    "section": "6.4 Beispiele aus der Deutschdidaktik",
-    "text": "6.4 Beispiele aus der Deutschdidaktik\n\n6.4.1 Leseförderung\nForschungsfrage: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?\n\nExperimentalgruppe: 3x wöchentlich 20 Min. Lautlese-Tandem\nKontrollgruppe: Regulärer Leseunterricht\nMessung: Lesetest vorher/nachher\n\n\n\n6.4.2 Schreibförderung\nForschungsfrage: Steigert prozessorientiertes Schreiben die Textqualität?\n\nExperimentalgruppe: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen\nKontrollgruppe: Traditioneller Aufsatzunterricht\nMessung: Textqualität nach standardisierten Kriterien\n\n\n\n6.4.3 Rechtschreibförderung\nForschungsfrage: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?\n\nExperimentalgruppe: Strategietraining (Wortbausteine, Ableitungen)\nKontrollgruppe: Regellernen und Übungen\nMessung: Rechtschreibtest"
+    "title": "5  Kontrollgruppen",
+    "section": "5.4 Beispiele aus der Deutschdidaktik",
+    "text": "5.4 Beispiele aus der Deutschdidaktik\n\n5.4.1 Leseförderung\nForschungsfrage: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?\n\nExperimentalgruppe: 3x wöchentlich 20 Min. Lautlese-Tandem\nKontrollgruppe: Regulärer Leseunterricht\nMessung: Lesetest vorher/nachher\n\n\n\n5.4.2 Schreibförderung\nForschungsfrage: Steigert prozessorientiertes Schreiben die Textqualität?\n\nExperimentalgruppe: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen\nKontrollgruppe: Traditioneller Aufsatzunterricht\nMessung: Textqualität nach standardisierten Kriterien\n\n\n\n5.4.3 Rechtschreibförderung\nForschungsfrage: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?\n\nExperimentalgruppe: Strategietraining (Wortbausteine, Ableitungen)\nKontrollgruppe: Regellernen und Übungen\nMessung: Rechtschreibtest"
   },
   {
     "objectID": "kontrollgruppe.html#wichtige-überlegungen-im-schulkontext",
     "href": "kontrollgruppe.html#wichtige-überlegungen-im-schulkontext",
-    "title": "6  Kontrollgruppen",
-    "section": "6.5 Wichtige Überlegungen im Schulkontext",
-    "text": "6.5 Wichtige Überlegungen im Schulkontext\n\n6.5.1 Praktische Herausforderungen\n\nKlassenverbände: Oft Zuweisung ganzer Klassen statt einzelner Schüler\nUnterrichtsrealität: Kontrollbedingung muss im regulären Unterricht umsetzbar sein\nLehrpersonen: Verschiedene Lehrkräfte können Ergebnisse beeinflussen\n\n\n\n6.5.2 Ethische Aspekte\n\nIst es vertretbar, einer Gruppe eine potenziell wirksame Förderung vorzuenthalten?\nWarteliste-Design als Lösung: Alle erhalten die Förderung, nur zeitversetzt"
+    "title": "5  Kontrollgruppen",
+    "section": "5.5 Wichtige Überlegungen im Schulkontext",
+    "text": "5.5 Wichtige Überlegungen im Schulkontext\n\n5.5.1 Praktische Herausforderungen\n\nKlassenverbände: Oft Zuweisung ganzer Klassen statt einzelner Schüler\nUnterrichtsrealität: Kontrollbedingung muss im regulären Unterricht umsetzbar sein\nLehrpersonen: Verschiedene Lehrkräfte können Ergebnisse beeinflussen\n\n\n\n5.5.2 Ethische Aspekte\n\nIst es vertretbar, einer Gruppe eine potenziell wirksame Förderung vorzuenthalten?\nWarteliste-Design als Lösung: Alle erhalten die Förderung, nur zeitversetzt"
   },
   {
     "objectID": "kontrollgruppe.html#häufige-probleme",
     "href": "kontrollgruppe.html#häufige-probleme",
-    "title": "6  Kontrollgruppen",
-    "section": "6.6 Häufige Probleme",
-    "text": "6.6 Häufige Probleme\n\nDropout: Schüler wechseln die Schule oder fehlen bei Nachtestung\nDiffusion: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)\nKompensation: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung\nDemoralisation: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt"
+    "title": "5  Kontrollgruppen",
+    "section": "5.6 Häufige Probleme",
+    "text": "5.6 Häufige Probleme\n\nDropout: Schüler wechseln die Schule oder fehlen bei Nachtestung\nDiffusion: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)\nKompensation: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung\nDemoralisation: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt"
   },
   {
     "objectID": "kontrollgruppe.html#übungsaufgabe",
     "href": "kontrollgruppe.html#übungsaufgabe",
-    "title": "6  Kontrollgruppen",
-    "section": "6.7 Übungsaufgabe",
-    "text": "6.7 Übungsaufgabe\nTesten Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
+    "title": "5  Kontrollgruppen",
+    "section": "5.7 Übungsaufgabe",
+    "text": "5.7 Übungsaufgabe\nTesten Sie Ihr Wissen mit dieser Multiple-Choice-Aufgabe:\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
+  },
+  {
+    "objectID": "randomisierung.html",
+    "href": "randomisierung.html",
+    "title": "6  Randomisierung",
+    "section": "",
+    "text": "Randomisierung bezeichnet die zufällige Zuweisung von Untersuchungsteilnehmenden zu den verschiedenen Untersuchungsbedingungen einer Studie, beispielsweise einer Experimental- und einer Kontrollgruppe. Sie stellt ein zentrales Merkmal experimenteller Forschungsdesigns dar und dient dazu, systematische Unterschiede zwischen den Gruppen zu minimieren.\nDurch die zufällige Gruppenzuweisung werden sowohl bekannte Merkmale (z. B. Vorwissen, Motivation oder Alter) als auch unbekannte Einflussfaktoren im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.\n\n\n\n\n\n\nWichtig zu beachten\n\n\n\nRandomisierung garantiert keine identischen Gruppen. Insbesondere bei kleinen Stichproben können weiterhin Unterschiede zwischen den Gruppen auftreten. Ihr entscheidender Vorteil besteht jedoch darin, dass diese Unterschiede nicht systematisch durch den Forschungsprozess erzeugt werden.\n\n\nRandomisierung trägt somit wesentlich zur internen Validität einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen."
+  },
+  {
+    "objectID": "randomisierung.html#zentrale-funktionen-der-randomisierung",
+    "href": "randomisierung.html#zentrale-funktionen-der-randomisierung",
+    "title": "6  Randomisierung",
+    "section": "6.2 Zentrale Funktionen der Randomisierung",
+    "text": "6.2 Zentrale Funktionen der Randomisierung\n\nReduktion systematischer Verzerrungen (Bias): Durch zufällige Zuweisung werden systematische Fehler vermieden\nHerstellung vergleichbarer Untersuchungsgruppen: Gruppen sind im Erwartungswert ähnlich\nKontrolle bekannter und unbekannter Einflussfaktoren: Auch nicht gemessene Merkmale werden ausgeglichen\nErhöhung der internen Validität: Kausale Schlussfolgerungen werden plausibler\nVerbesserung der Voraussetzungen für kausale Interpretationen: Interventionseffekte lassen sich besser identifizieren"
+  },
+  {
+    "objectID": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
+    "href": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
+    "title": "6  Randomisierung",
+    "section": "6.3 Beispiel aus der Deutschdidaktik",
+    "text": "6.3 Beispiel aus der Deutschdidaktik\nBei der Evaluation einer Lesefördermaßnahme oder einer Intervention zur Schreibförderung soll durch Randomisierung sichergestellt werden, dass Unterschiede zwischen den Gruppen möglichst nicht bereits vor Beginn der Maßnahme bestehen. Dadurch können Leistungsunterschiede nach der Intervention plausibler auf die Maßnahme selbst zurückgeführt werden.\nStellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, während eine Vergleichsklasse regulären Unterricht erhält. Ohne Randomisierung könnte die Lehrkraft unbewusst die leistungsstärkere Klasse für das Programm auswählen – die späteren Unterschiede wären dann nicht eindeutig dem Programm zuzuschreiben."
+  },
+  {
+    "objectID": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
+    "href": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
+    "title": "6  Randomisierung",
+    "section": "6.4 Interaktives Tool: Randomisierung durchführen",
+    "text": "6.4 Interaktives Tool: Randomisierung durchführen\nMit diesem Tool können Sie eine einfache Randomisierung für Ihre eigene Studie simulieren.\n\nviewof n_participants = Inputs.range([10, 200], {\n  value: 40,\n  step: 1,\n  label: \"Anzahl Teilnehmende\"\n})\n\nviewof n_groups = Inputs.range([2, 4], {\n  value: 2,\n  step: 1,\n  label: \"Anzahl Gruppen\"\n})\n\nviewof group_names = Inputs.text({\n  label: \"Gruppennamen (durch Komma getrennt)\",\n  value: \"Experimentalgruppe, Kontrollgruppe\",\n  placeholder: \"Gruppe 1, Gruppe 2, ...\"\n})\n\nviewof do_randomize = Inputs.button(\"Randomisierung durchführen\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction randomizeParticipants(n, groups) {\n  const groupList = groups.split(',').map(g => g.trim()).slice(0, n_groups);\n  \n  // Erstelle Array von Teilnehmer-IDs\n  const participants = Array.from({length: n}, (_, i) => i + 1);\n  \n  // Fisher-Yates Shuffle\n  for (let i = participants.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [participants[i], participants[j]] = [participants[j], participants[i]];\n  }\n  \n  // Weise Gruppen zu\n  const assignments = participants.map((id, index) => ({\n    id: id,\n    group: groupList[index % groupList.length]\n  }));\n  \n  // Zähle Gruppengröße\n  const groupCounts = {};\n  groupList.forEach(g => groupCounts[g] = 0);\n  assignments.forEach(a => groupCounts[a.group]++);\n  \n  return { assignments, groupCounts, groupList };\n}\n\n// Führe Randomisierung durch\nrandomization = {\n  do_randomize; // Abhängigkeit vom Button\n  return randomizeParticipants(n_participants, group_names);\n}\n\n// Zeige Ergebnisse\nhtml`\n<div style=\"background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;\">\n  <h3 style=\"color: #2c3e50; margin-top: 0;\">📋 Randomisierungsergebnis</h3>\n  \n  ${randomization.groupList.map(group => {\n    const count = randomization.groupCounts[group];\n    const percentage = ((count / n_participants) * 100).toFixed(1);\n    const barWidth = (count / n_participants) * 100;\n    \n    return `\n      <div style=\"margin: 15px 0;\">\n        <div style=\"display: flex; justify-content: space-between; margin-bottom: 5px;\">\n          <strong>${group}</strong>\n          <span>${count} Personen (${percentage}%)</span>\n        </div>\n        <div style=\"background: #e9ecef; border-radius: 10px; overflow: hidden; height: 30px;\">\n          <div style=\"background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); \n                      width: ${barWidth}%; height: 100%; \n                      transition: width 0.3s ease;\n                      display: flex; align-items: center; justify-content: center;\n                      color: white; font-weight: bold;\">\n            ${count > 0 ? count : ''}\n          </div>\n        </div>\n      </div>\n    `;\n  }).join('')}\n  \n  <div style=\"margin-top: 25px; padding: 15px; \n              background: #e3f2fd; border-left: 4px solid #2196f3; border-radius: 5px;\">\n    <p style=\"margin: 0; color: #1565c0;\">\n      <strong>💡 Hinweis:</strong> Jedes Mal, wenn Sie \"Randomisierung durchführen\" klicken, \n      wird eine neue zufällige Zuweisung erstellt. Beachten Sie, wie die Gruppengröße leicht \n      variieren kann, besonders wenn die Teilnehmerzahl nicht durch die Anzahl der Gruppen teilbar ist.\n    </p>\n  </div>\n</div>\n`"
+  },
+  {
+    "objectID": "randomisierung.html#randomisierungsliste-herunterladen",
+    "href": "randomisierung.html#randomisierungsliste-herunterladen",
+    "title": "6  Randomisierung",
+    "section": "6.5 Randomisierungsliste herunterladen",
+    "text": "6.5 Randomisierungsliste herunterladen\n\ncsv_content = {\n  const header = \"Teilnehmer_ID,Gruppe\\n\";\n  const rows = randomization.assignments\n    .map(a => `${a.id},${a.group}`)\n    .join('\\n');\n  return header + rows;\n}\n\nhtml`\n<div style=\"margin: 20px 0;\">\n  <a href=\"${'data:text/csv;charset=utf-8,' + encodeURIComponent(csv_content)}\" \n     download=\"randomisierung.csv\"\n     style=\"display: inline-block; background: #28a745; color: white; \n            padding: 12px 24px; text-decoration: none; border-radius: 6px;\n            font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);\">\n    📥 Randomisierungsliste als CSV herunterladen\n  </a>\n</div>\n`"
+  },
+  {
+    "objectID": "randomisierung.html#arten-der-randomisierung",
+    "href": "randomisierung.html#arten-der-randomisierung",
+    "title": "6  Randomisierung",
+    "section": "6.6 Arten der Randomisierung",
+    "text": "6.6 Arten der Randomisierung\n\n6.6.1 Einfache Randomisierung\nBei der einfachen Randomisierung wird jede Person unabhängig mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen (z. B. durch Münzwurf oder Zufallszahlengenerator).\nVorteil: Einfach durchzuführen\nNachteil: Bei kleinen Stichproben können ungleiche Gruppengrößen entstehen\n\n\n6.6.2 Block-Randomisierung\nBei der Block-Randomisierung werden Teilnehmende in Blöcken randomisiert, um gleiche Gruppengrößen zu garantieren.\nBeispiel: Bei 40 Personen und 2 Gruppen werden 4 Blöcke mit je 10 Personen gebildet. In jedem Block werden 5 Personen der Experimental- und 5 der Kontrollgruppe zugewiesen.\n\n\n6.6.3 Stratifizierte Randomisierung\nBei der stratifizierten Randomisierung werden Teilnehmende zunächst nach wichtigen Merkmalen (z. B. Geschlecht, Alter, Vorwissen) in Schichten (Strata) eingeteilt und dann innerhalb jeder Schicht randomisiert.\nVorteil: Gewährleistet Gleichverteilung wichtiger Kovariaten"
+  },
+  {
+    "objectID": "randomisierung.html#überprüfung-der-randomisierung",
+    "href": "randomisierung.html#überprüfung-der-randomisierung",
+    "title": "6  Randomisierung",
+    "section": "6.7 Überprüfung der Randomisierung",
+    "text": "6.7 Überprüfung der Randomisierung\nNach der Randomisierung sollten die Gruppen auf Baseline-Merkmale verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:\n\nDemografische Merkmale (Alter, Geschlecht)\nRelevante Vortestleistungen\nMotivationale Variablen\n\nDies geschieht typischerweise durch:\n\nDeskriptive Statistiken (Mittelwerte, Standardabweichungen)\nStatistische Tests (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!\n\n\n\n\n\n\n\nZur Interpretation von Baseline-Tests\n\n\n\nSignifikante Unterschiede bei Baseline-Vergleichen bedeuten nicht, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung."
   },
   {
     "objectID": "stichprobe.html",
@@ -175,25 +224,25 @@
     "text": "Die Stichprobe bestimmt, für wen die Ergebnisse einer Studie aussagekräftig sind. In schulischen Interventionsstudien werden häufig nicht einzelne Personen unabhängig voneinander ausgewählt, sondern ganze Schulen, Klassen oder Kurse.\nDie Grundgesamtheit umfasst alle Personen oder Gruppen, über die eine Studie Aussagen treffen möchte. Die Stichprobe ist der tatsächlich untersuchte Teil dieser Grundgesamtheit.\nVor der Rekrutierung sollte die Zielgruppe möglichst genau beschrieben werden, etwa nach:"
   },
   {
-    "objectID": "stichprobe.html#ziele-der-stichprobenziehung",
-    "href": "stichprobe.html#ziele-der-stichprobenziehung",
+    "objectID": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
+    "href": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
     "title": "7  Stichprobenziehung",
-    "section": "7.2 Ziele der Stichprobenziehung",
-    "text": "7.2 Ziele der Stichprobenziehung\n\nRepräsentativität für die Grundgesamtheit\nÖkonomische Durchführbarkeit\nGeneralisierbarkeit der Ergebnisse"
+    "section": "7.1 Wie wird die Stichprobe gewonnen?",
+    "text": "7.1 Wie wird die Stichprobe gewonnen?\n\n7.1.1 Zufällige Auswahl\nBei einer Zufallsstichprobe besitzt jede Einheit eine bekannte Auswahlwahrscheinlichkeit. Das stärkt die Übertragbarkeit der Ergebnisse, ist im schulischen Alltag aber oft schwer umzusetzen.\nTypische Verfahren sind:\n\nEinfache Zufallsstichprobe: Einzelne Personen werden zufällig ausgewählt.\nGeschichtete Stichprobe: Zunächst werden Gruppen gebildet, etwa nach Schulart oder Region. Anschließend wird innerhalb dieser Gruppen gezogen.\nKlumpenstichprobe: Ganze Schulen oder Klassen werden ausgewählt.\n\nFür schulische Studien ist die Klumpenstichprobe besonders relevant, weil Interventionen häufig auf Klassen- oder Schulebene stattfinden.\n\n\n7.1.2 Auswahl nach Verfügbarkeit\nHäufig nehmen Schulen oder Klassen teil, die erreichbar und zur Kooperation bereit sind. Das ist eine Gelegenheitsstichprobe.\nDieses Vorgehen ist praktikabel, kann aber zu Verzerrungen führen. Teilnehmende Schulen unterscheiden sich möglicherweise von Schulen, die eine Teilnahme ablehnen, etwa hinsichtlich Ausstattung, Motivation oder Vorerfahrung.\nEine Gelegenheitsstichprobe ist deshalb nicht grundsätzlich ungeeignet. Entscheidend ist, ihre Grenzen transparent zu beschreiben."
   },
   {
-    "objectID": "stichprobe.html#stichprobenarten",
-    "href": "stichprobe.html#stichprobenarten",
+    "objectID": "stichprobe.html#ausfälle-im-studienverlauf",
+    "href": "stichprobe.html#ausfälle-im-studienverlauf",
     "title": "7  Stichprobenziehung",
-    "section": "7.3 Stichprobenarten",
-    "text": "7.3 Stichprobenarten\n\n7.3.1 Zufallsstichproben (Probabilistische Stichproben)\n\n7.3.1.1 Einfache Zufallsstichprobe\nJedes Element der Grundgesamtheit hat die gleiche Wahrscheinlichkeit, ausgewählt zu werden.\n\n\n7.3.1.2 Geschichtete Stichprobe\nDie Grundgesamtheit wird in Schichten unterteilt, aus denen dann zufällig gezogen wird.\n\n\n7.3.1.3 Klumpenstichprobe\nNatürliche Gruppen (Klumpen) werden zufällig ausgewählt und vollständig untersucht.\n\n\n\n7.3.2 Nicht-Zufallsstichproben\n\n7.3.2.1 Gelegenheitsstichprobe\nAuswahl nach Verfügbarkeit und Erreichbarkeit.\n\n\n7.3.2.2 Quota-Stichprobe\nAuswahl nach vorgegebenen Quoten für bestimmte Merkmale."
+    "section": "7.2 Ausfälle im Studienverlauf",
+    "text": "7.2 Ausfälle im Studienverlauf\nAuch nach Studienbeginn kann sich die Stichprobe verändern. Einzelne Schüler:innen, Klassen oder Schulen nehmen möglicherweise nicht bis zum Ende teil. Solche Ausfälle werden als Dropout oder Attrition bezeichnet.\nBesonders relevant ist, ob Ausfälle systematisch auftreten, etwa häufiger in einer Studienbedingung oder bei stärker belasteten Teilnehmenden. Dann kann sich die verbleibende Stichprobe von der ursprünglich rekrutierten Stichprobe unterscheiden.\nDokumentiert werden sollten:\n\nUmfang und Zeitpunkt der Ausfälle,\nbekannte Gründe,\nUnterschiede zwischen den Studienbedingungen,\nUnterschiede zwischen ausgeschiedenen und verbleibenden Teilnehmenden.\n\nDie Berücksichtigung erwarteter Ausfälle bei der Fallzahlplanung gehört in das Kapitel zur Poweranalyse."
   },
   {
-    "objectID": "stichprobe.html#stichprobengröße",
-    "href": "stichprobe.html#stichprobengröße",
+    "objectID": "stichprobe.html#was-sollte-berichtet-werden",
+    "href": "stichprobe.html#was-sollte-berichtet-werden",
     "title": "7  Stichprobenziehung",
-    "section": "7.4 Stichprobengröße",
-    "text": "7.4 Stichprobengröße\nDie benötigte Stichprobengröße hängt ab von:\n\nGewünschter statistischer Power (üblicherweise .80)\nErwarteter Effektgröße\nSignifikanzniveau (üblicherweise α = .05)\nVariabilität in der Population"
+    "section": "7.3 Was sollte berichtet werden?",
+    "text": "7.3 Was sollte berichtet werden?\nEine nachvollziehbare Studienbeschreibung enthält mindestens:\n\ndie angestrebte Grundgesamtheit,\ndie Rekrutierungswege,\nEin- und Ausschlusskriterien,\ndie Anzahl angefragter und teilnehmender Schulen, Klassen und Personen,\nbekannte Gründe für Ablehnung oder Ausschluss,\nAusfälle im Studienverlauf,\nwichtige Merkmale der endgültigen Stichprobe.\n\n\n\n\n\n\n\nMerksatz\n\n\n\nDie Qualität einer Stichprobe zeigt sich nicht nur an ihrer Größe, sondern vor allem daran, wie sie gewonnen wurde und für welche Zielgruppe Aussagen beansprucht werden."
   },
   {
     "objectID": "poweranalyse_erweitert.html",
@@ -231,123 +280,165 @@
     "text": "9.1 Beispiel: Poweranalyse t-Test\nMit diesem Tool können Sie die erforderliche Stichprobengröße für einen unabhängigen t-Test berechnen.\n\nviewof effect_size = Inputs.range([0.1, 2.0], {\n  value: 0.5, \n  step: 0.1, \n  label: \"Effektgröße (Cohen's d)\"\n})\n\nviewof alpha = Inputs.range([0.01, 0.15], {\n  value: 0.05, \n  step: 0.01, \n  label: \"Signifikanzniveau (α)\"\n})\n\nviewof power = Inputs.range([0.5, 0.99], {\n  value: 0.8, \n  step: 0.05, \n  label: \"Gewünschte Power (1-β)\"\n})\n\nviewof ratio = Inputs.range([0.5, 3.0], {\n  value: 1.0, \n  step: 0.1, \n  label: \"Verhältnis Gruppe 2 / Gruppe 1\"\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njstat = require(\"jstat@1.9.6\")\n\nfunction calculateSampleSize(d, alpha, power, ratio) {\n  // Z-Werte für zweiseitigen Test\n  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);\n  const z_beta = jstat.normal.inv(power, 0, 1);\n  \n  // Formel für Stichprobengröße bei ungleichen Gruppengrößen\n  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);\n  const n2 = n1 * ratio;\n  \n  return {\n    n1: Math.ceil(n1),\n    n2: Math.ceil(n2),\n    total: Math.ceil(n1 + n2)\n  };\n}\n\nsample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)\n\nhtml`\n<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); \n            color: white; padding: 30px; border-radius: 12px; \n            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;\">\n  <h3 style=\"margin-top: 0; font-size: 24px;\">📊 Erforderliche Stichprobengröße</h3>\n  \n  <div style=\"background: rgba(255,255,255,0.15); padding: 20px; \n              border-radius: 8px; backdrop-filter: blur(10px);\">\n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 1 (n₁):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n1}</span> \n      Teilnehmer\n    </div>\n    \n    <div style=\"font-size: 20px; margin: 15px 0;\">\n      <strong>Gruppe 2 (n₂):</strong> \n      <span style=\"font-size: 32px; font-weight: bold;\">${sample_sizes.n2}</span> \n      Teilnehmer\n    </div>\n    \n    <hr style=\"border-color: rgba(255,255,255,0.3); margin: 20px 0;\">\n    \n    <div style=\"font-size: 22px; margin: 15px 0;\">\n      <strong>Gesamt (N):</strong> \n      <span style=\"font-size: 36px; font-weight: bold;\">${sample_sizes.total}</span> \n      Teilnehmer\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 15px; \n              background: rgba(0,0,0,0.2); border-radius: 8px;\">\n    <p style=\"margin: 5px 0; font-size: 14px;\">\n      <strong>Parameter:</strong> \n      Effektgröße d = ${effect_size.toFixed(2)} | \n      α = ${alpha.toFixed(3)} | \n      Power = ${power.toFixed(2)} | \n      Verhältnis = ${ratio.toFixed(1)}:1\n    </p>\n  </div>\n</div>\n`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9.1.1 Interpretation der Effektgröße\n\nd = 0.2: Kleiner Effekt\nd = 0.5: Mittlerer Effekt\nd = 0.8: Großer Effekt\n\nKlicken Sie auf Neue Aufgabe, lesen Sie das beschriebene Planungsszenario und identifizieren Sie, wie sich die Änderung auf die erforderliche Stichprobengröße auswirkt.\n\nNeue Aufgabe\n\n\n\n\nAntwort prüfen"
   },
   {
-    "objectID": "randomisierung.html",
-    "href": "randomisierung.html",
-    "title": "9  Randomisierung",
+    "objectID": "operationalisierung.html",
+    "href": "operationalisierung.html",
+    "title": "9  Messinstrumente und Operationalisierung",
     "section": "",
-    "text": "Randomisierung bezeichnet die zufällige Zuweisung von Untersuchungsteilnehmenden zu den verschiedenen Untersuchungsbedingungen einer Studie, beispielsweise einer Experimental- und einer Kontrollgruppe. Sie stellt ein zentrales Merkmal experimenteller Forschungsdesigns dar und dient dazu, systematische Unterschiede zwischen den Gruppen zu minimieren.\nDurch die zufällige Gruppenzuweisung werden sowohl bekannte Merkmale (z. B. Vorwissen, Motivation oder Alter) als auch unbekannte Einflussfaktoren im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.\n\n\n\n\n\n\nWichtig zu beachten\n\n\n\nRandomisierung garantiert keine identischen Gruppen. Insbesondere bei kleinen Stichproben können weiterhin Unterschiede zwischen den Gruppen auftreten. Ihr entscheidender Vorteil besteht jedoch darin, dass diese Unterschiede nicht systematisch durch den Forschungsprozess erzeugt werden.\n\n\nRandomisierung trägt somit wesentlich zur internen Validität einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen."
+    "text": "Eine Forschungsfrage wird erst prüfbar, wenn zentrale Konstrukte klar operationalisiert und mit geeigneten Instrumenten erfasst werden."
   },
   {
-    "objectID": "randomisierung.html#zentrale-funktionen-der-randomisierung",
-    "href": "randomisierung.html#zentrale-funktionen-der-randomisierung",
-    "title": "9  Randomisierung",
-    "section": "9.2 Zentrale Funktionen der Randomisierung",
-    "text": "9.2 Zentrale Funktionen der Randomisierung\n\nReduktion systematischer Verzerrungen (Bias): Durch zufällige Zuweisung werden systematische Fehler vermieden\nHerstellung vergleichbarer Untersuchungsgruppen: Gruppen sind im Erwartungswert ähnlich\nKontrolle bekannter und unbekannter Einflussfaktoren: Auch nicht gemessene Merkmale werden ausgeglichen\nErhöhung der internen Validität: Kausale Schlussfolgerungen werden plausibler\nVerbesserung der Voraussetzungen für kausale Interpretationen: Interventionseffekte lassen sich besser identifizieren"
+    "objectID": "operationalisierung.html#vom-konstrukt-zur-messung",
+    "href": "operationalisierung.html#vom-konstrukt-zur-messung",
+    "title": "9  Messinstrumente und Operationalisierung",
+    "section": "9.1 Vom Konstrukt zur Messung",
+    "text": "9.1 Vom Konstrukt zur Messung\nFestgelegt werden sollte:\n\nwelches Konstrukt untersucht wird\nwie es theoretisch definiert ist\nmit welchem Indikator es erfasst wird\nzu welchen Messzeitpunkten gemessen wird\n\n\nDas Konstrukt „Lesekompetenz“ kann beispielsweise durch einen standardisierten Lesetest operationalisiert werden."
   },
   {
-    "objectID": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
-    "href": "randomisierung.html#beispiel-aus-der-deutschdidaktik",
-    "title": "9  Randomisierung",
-    "section": "9.3 Beispiel aus der Deutschdidaktik",
-    "text": "9.3 Beispiel aus der Deutschdidaktik\nBei der Evaluation einer Lesefördermaßnahme oder einer Intervention zur Schreibförderung soll durch Randomisierung sichergestellt werden, dass Unterschiede zwischen den Gruppen möglichst nicht bereits vor Beginn der Maßnahme bestehen. Dadurch können Leistungsunterschiede nach der Intervention plausibler auf die Maßnahme selbst zurückgeführt werden.\nStellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, während eine Vergleichsklasse regulären Unterricht erhält. Ohne Randomisierung könnte die Lehrkraft unbewusst die leistungsstärkere Klasse für das Programm auswählen – die späteren Unterschiede wären dann nicht eindeutig dem Programm zuzuschreiben."
+    "objectID": "operationalisierung.html#auswahl-eines-instruments",
+    "href": "operationalisierung.html#auswahl-eines-instruments",
+    "title": "9  Messinstrumente und Operationalisierung",
+    "section": "9.2 Auswahl eines Instruments",
+    "text": "9.2 Auswahl eines Instruments\nWichtige Kriterien sind:\n\nValidität: Erfasst das Instrument das beabsichtigte Konstrukt?\nReliabilität: Misst es zuverlässig?\nObjektivität: Ist das Ergebnis möglichst unabhängig von der durchführenden Person?\nSensitivität: Kann das Instrument Veränderungen abbilden?\nPraktikabilität: Ist der Einsatz im Feld realistisch?"
   },
   {
-    "objectID": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
-    "href": "randomisierung.html#interaktives-tool-randomisierung-durchführen",
-    "title": "9  Randomisierung",
-    "section": "9.4 Interaktives Tool: Randomisierung durchführen",
-    "text": "9.4 Interaktives Tool: Randomisierung durchführen\nMit diesem Tool können Sie eine einfache Randomisierung für Ihre eigene Studie simulieren.\n\nviewof n_participants = Inputs.range([10, 200], {\n  value: 40,\n  step: 1,\n  label: \"Anzahl Teilnehmende\"\n})\n\nviewof n_groups = Inputs.range([2, 4], {\n  value: 2,\n  step: 1,\n  label: \"Anzahl Gruppen\"\n})\n\nviewof group_names = Inputs.text({\n  label: \"Gruppennamen (durch Komma getrennt)\",\n  value: \"Experimentalgruppe, Kontrollgruppe\",\n  placeholder: \"Gruppe 1, Gruppe 2, ...\"\n})\n\nviewof do_randomize = Inputs.button(\"Randomisierung durchführen\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction randomizeParticipants(n, groups) {\n  const groupList = groups.split(',').map(g => g.trim()).slice(0, n_groups);\n  \n  // Erstelle Array von Teilnehmer-IDs\n  const participants = Array.from({length: n}, (_, i) => i + 1);\n  \n  // Fisher-Yates Shuffle\n  for (let i = participants.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [participants[i], participants[j]] = [participants[j], participants[i]];\n  }\n  \n  // Weise Gruppen zu\n  const assignments = participants.map((id, index) => ({\n    id: id,\n    group: groupList[index % groupList.length]\n  }));\n  \n  // Zähle Gruppengröße\n  const groupCounts = {};\n  groupList.forEach(g => groupCounts[g] = 0);\n  assignments.forEach(a => groupCounts[a.group]++);\n  \n  return { assignments, groupCounts, groupList };\n}\n\n// Führe Randomisierung durch\nrandomization = {\n  do_randomize; // Abhängigkeit vom Button\n  return randomizeParticipants(n_participants, group_names);\n}\n\n// Zeige Ergebnisse\nhtml`\n<div style=\"background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;\">\n  <h3 style=\"color: #2c3e50; margin-top: 0;\">📋 Randomisierungsergebnis</h3>\n  \n  ${randomization.groupList.map(group => {\n    const count = randomization.groupCounts[group];\n    const percentage = ((count / n_participants) * 100).toFixed(1);\n    const barWidth = (count / n_participants) * 100;\n    \n    return `\n      <div style=\"margin: 15px 0;\">\n        <div style=\"display: flex; justify-content: space-between; margin-bottom: 5px;\">\n          <strong>${group}</strong>\n          <span>${count} Personen (${percentage}%)</span>\n        </div>\n        <div style=\"background: #e9ecef; border-radius: 10px; overflow: hidden; height: 30px;\">\n          <div style=\"background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); \n                      width: ${barWidth}%; height: 100%; \n                      transition: width 0.3s ease;\n                      display: flex; align-items: center; justify-content: center;\n                      color: white; font-weight: bold;\">\n            ${count > 0 ? count : ''}\n          </div>\n        </div>\n      </div>\n    `;\n  }).join('')}\n  \n  <div style=\"margin-top: 25px; padding: 15px; \n              background: #e3f2fd; border-left: 4px solid #2196f3; border-radius: 5px;\">\n    <p style=\"margin: 0; color: #1565c0;\">\n      <strong>💡 Hinweis:</strong> Jedes Mal, wenn Sie \"Randomisierung durchführen\" klicken, \n      wird eine neue zufällige Zuweisung erstellt. Beachten Sie, wie die Gruppengröße leicht \n      variieren kann, besonders wenn die Teilnehmerzahl nicht durch die Anzahl der Gruppen teilbar ist.\n    </p>\n  </div>\n</div>\n`"
+    "objectID": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
+    "href": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
+    "title": "9  Messinstrumente und Operationalisierung",
+    "section": "9.3 Bestehendes oder eigenes Instrument?",
+    "text": "9.3 Bestehendes oder eigenes Instrument?\nBestehende, geprüfte Instrumente sind meist vorzuziehen. Eigene Skalen benötigen eine sorgfältige Entwicklung und Prüfung."
   },
   {
-    "objectID": "randomisierung.html#randomisierungsliste-herunterladen",
-    "href": "randomisierung.html#randomisierungsliste-herunterladen",
-    "title": "9  Randomisierung",
-    "section": "9.5 Randomisierungsliste herunterladen",
-    "text": "9.5 Randomisierungsliste herunterladen\n\ncsv_content = {\n  const header = \"Teilnehmer_ID,Gruppe\\n\";\n  const rows = randomization.assignments\n    .map(a => `${a.id},${a.group}`)\n    .join('\\n');\n  return header + rows;\n}\n\nhtml`\n<div style=\"margin: 20px 0;\">\n  <a href=\"${'data:text/csv;charset=utf-8,' + encodeURIComponent(csv_content)}\" \n     download=\"randomisierung.csv\"\n     style=\"display: inline-block; background: #28a745; color: white; \n            padding: 12px 24px; text-decoration: none; border-radius: 6px;\n            font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);\">\n    📥 Randomisierungsliste als CSV herunterladen\n  </a>\n</div>\n`"
+    "objectID": "operationalisierung.html#mehrere-datenquellen",
+    "href": "operationalisierung.html#mehrere-datenquellen",
+    "title": "9  Messinstrumente und Operationalisierung",
+    "section": "9.4 Mehrere Datenquellen",
+    "text": "9.4 Mehrere Datenquellen\nJe nach Forschungsfrage können kombiniert werden:\n\nLeistungstests\nFragebögen\nBeobachtungen\nProzessdaten\nEinschätzungen durch Lehrkräfte oder Eltern\n\n\n\n\n\n\n\nMerksatz\n\n\n\nEine präzise Operationalisierung verbindet Theorie, Messinstrument und spätere Interpretation."
   },
   {
-    "objectID": "randomisierung.html#arten-der-randomisierung",
-    "href": "randomisierung.html#arten-der-randomisierung",
-    "title": "9  Randomisierung",
-    "section": "9.6 Arten der Randomisierung",
-    "text": "9.6 Arten der Randomisierung\n\n9.6.1 Einfache Randomisierung\nBei der einfachen Randomisierung wird jede Person unabhängig mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen (z. B. durch Münzwurf oder Zufallszahlengenerator).\nVorteil: Einfach durchzuführen\nNachteil: Bei kleinen Stichproben können ungleiche Gruppengrößen entstehen\n\n\n9.6.2 Block-Randomisierung\nBei der Block-Randomisierung werden Teilnehmende in Blöcken randomisiert, um gleiche Gruppengrößen zu garantieren.\nBeispiel: Bei 40 Personen und 2 Gruppen werden 4 Blöcke mit je 10 Personen gebildet. In jedem Block werden 5 Personen der Experimental- und 5 der Kontrollgruppe zugewiesen.\n\n\n9.6.3 Stratifizierte Randomisierung\nBei der stratifizierten Randomisierung werden Teilnehmende zunächst nach wichtigen Merkmalen (z. B. Geschlecht, Alter, Vorwissen) in Schichten (Strata) eingeteilt und dann innerhalb jeder Schicht randomisiert.\nVorteil: Gewährleistet Gleichverteilung wichtiger Kovariaten"
+    "objectID": "messzeitpunkte.html",
+    "href": "messzeitpunkte.html",
+    "title": "10  Messzeitpunkte",
+    "section": "",
+    "text": "Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. Interventionsstudien sind per Definition experimentell oder mindestens quasiexperimentell — Messzeitpunkte bestimmen, welche Validitätsbedrohungen adressiert werden können."
   },
   {
-    "objectID": "randomisierung.html#überprüfung-der-randomisierung",
-    "href": "randomisierung.html#überprüfung-der-randomisierung",
-    "title": "9  Randomisierung",
-    "section": "9.7 Überprüfung der Randomisierung",
-    "text": "9.7 Überprüfung der Randomisierung\nNach der Randomisierung sollten die Gruppen auf Baseline-Merkmale verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:\n\nDemografische Merkmale (Alter, Geschlecht)\nRelevante Vortestleistungen\nMotivationale Variablen\n\nDies geschieht typischerweise durch:\n\nDeskriptive Statistiken (Mittelwerte, Standardabweichungen)\nStatistische Tests (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!\n\n\n\n\n\n\n\nZur Interpretation von Baseline-Tests\n\n\n\nSignifikante Unterschiede bei Baseline-Vergleichen bedeuten nicht, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung."
+    "objectID": "messzeitpunkte.html#warum-messzeitpunkte-wichtig-sind",
+    "href": "messzeitpunkte.html#warum-messzeitpunkte-wichtig-sind",
+    "title": "10  Messzeitpunkte",
+    "section": "10.1 Warum Messzeitpunkte wichtig sind",
+    "text": "10.1 Warum Messzeitpunkte wichtig sind\n\nBestimmen kausale Inferenz: Baseline vs. Follow‑up ist Voraussetzung, um Veränderung zu messen.\n\nTrennen von Reifung, Geschichte und Interventionseffekt.\n\nBeeinflussen Power, Bias durch Missing Data und Sensitivität für zeitlich verzögerte Effekte."
+  },
+  {
+    "objectID": "messzeitpunkte.html#typische-messschemata",
+    "href": "messzeitpunkte.html#typische-messschemata",
+    "title": "10  Messzeitpunkte",
+    "section": "10.2 Typische Messschemata",
+    "text": "10.2 Typische Messschemata\n\nOne‑Shot / Posttest only: X O\n\nVorteil: einfach; Nachteil: keine Basislinie, keine kausale Aussage.\n\nPretest‑Posttest (one‑group): O1 X O2\n\nVorteil: Veränderung sichtbar; Nachteil: History, Maturation, Regression zur Mitte.\n\nPretest‑Posttest mit Kontrollgruppe / RCT: R O1 X O2 / R O1 O2\n\nVorteil: Starke interne Validität bei Randomisierung.\n\nMehrfache Follow‑ups: O1 X O2 O3 …\n\nErmöglichen Trajektorienanalyse, Verzögerungseffekte, Nachhaltigkeit.\n\nInterrupted Time Series (ITS): viele Messzeitpunkte vor und nach der Intervention\n\nGut zur Erkennung plötzlicher Veränderungen und Trends.\n\nIntensive Longitudinal / EMA: hohe Messfrequenz (täglich/stündlich)\n\nGut für Prozesse, kurzfristige Effekte, intraindividuelle Variabilität."
+  },
+  {
+    "objectID": "messzeitpunkte.html#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten",
+    "href": "messzeitpunkte.html#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten",
+    "title": "10  Messzeitpunkte",
+    "section": "10.3 Praktische Empfehlungen zur Auswahl von Messzeitpunkten",
+    "text": "10.3 Praktische Empfehlungen zur Auswahl von Messzeitpunkten\n\nPrimäres Outcome zuerst definieren; Messzeitpunkte an erwarteter Wirkmechanik ausrichten.\n\nMindestens eine valide Baseline (O1) vor Beginn der Intervention.\n\nBei erwarteter Verzögerung mindestens ein späteres Follow‑up (O3+).\n\nITS: ≥8–12 Messungen vor und ≥8–12 nach Intervention empfohlen, wenn möglich.\n\nIntensive Designs: Balance zwischen Belastung der Teilnehmenden und Informationsgehalt.\n\nPowerplanung basierend auf Effektgröße der primären AV und Messwiederholungen (Cluster/Repeated‑Measures berücksichtigen).\n\nMissing‑Data‑Plan (Imputation, Sensitivitätsanalysen) vorab festlegen.\n\nDokumentation: Messpläne, Analysepläne und Hierarchie der Outcomes vorregistrieren."
+  },
+  {
+    "objectID": "messzeitpunkte.html#beispiele-simulationen-und-visualisierungen",
+    "href": "messzeitpunkte.html#beispiele-simulationen-und-visualisierungen",
+    "title": "10  Messzeitpunkte",
+    "section": "10.4 Beispiele — Simulationen und Visualisierungen",
+    "text": "10.4 Beispiele — Simulationen und Visualisierungen\n\n\n$rct_plot\n\n\n\n\n\n\n$multi_plot\n\n\n\n\n\n\n$its_plot"
+  },
+  {
+    "objectID": "messzeitpunkte.html#kurze-checkliste-für-doktoranden",
+    "href": "messzeitpunkte.html#kurze-checkliste-für-doktoranden",
+    "title": "10  Messzeitpunkte",
+    "section": "10.5 Kurze Checkliste für Doktoranden",
+    "text": "10.5 Kurze Checkliste für Doktoranden\n\nDefinieren: primäres Outcome + kausales Modell.\n\nBaseline sicherstellen; Follow‑ups an Wirkmechanik anpassen.\n\nPower & Messwiederholungen planen.\n\nMissing‑Data‑Strategie und Präregistrierung.\n\nBei Mixed/Quasi‑Designs explizit dokumentieren, welche Komponenten kausal identifiziert werden können."
+  },
+  {
+    "objectID": "implementation.html",
+    "href": "implementation.html",
+    "title": "11  Implementation",
+    "section": "",
+    "text": "Eine Intervention kann nur dann sinnvoll bewertet werden, wenn bekannt ist, wie sie tatsächlich umgesetzt wurde."
+  },
+  {
+    "objectID": "implementation.html#was-sollte-beschrieben-werden",
+    "href": "implementation.html#was-sollte-beschrieben-werden",
+    "title": "11  Implementation",
+    "section": "11.1 Was sollte beschrieben werden?",
+    "text": "11.1 Was sollte beschrieben werden?\n\nInhalte und Ziele\nAnzahl und Dauer der Einheiten\nverwendete Materialien\nQualifikation der Durchführenden\nzulässige Anpassungen"
+  },
+  {
+    "objectID": "implementation.html#dimensionen-der-interventionstreue",
+    "href": "implementation.html#dimensionen-der-interventionstreue",
+    "title": "11  Implementation",
+    "section": "11.2 Dimensionen der Interventionstreue",
+    "text": "11.2 Dimensionen der Interventionstreue\n\nAdhärenz: Wurden die vorgesehenen Inhalte umgesetzt?\nDosis: Wie viele Einheiten fanden tatsächlich statt?\nQualität: Wie gut wurde die Intervention durchgeführt?\nTeilnahme: Wie regelmäßig und aktiv nahmen die Teilnehmenden teil?\nAbgrenzung: Unterschied sich die Intervention klar von der Kontrollbedingung?"
+  },
+  {
+    "objectID": "implementation.html#erfassung-der-umsetzung",
+    "href": "implementation.html#erfassung-der-umsetzung",
+    "title": "11  Implementation",
+    "section": "11.3 Erfassung der Umsetzung",
+    "text": "11.3 Erfassung der Umsetzung\nGeeignet sind beispielsweise:\n\nDurchführungsprotokolle\nChecklisten\nAnwesenheitslisten\nBeobachtungen\nBefragungen der Durchführenden\nAudio- oder Videoaufzeichnungen"
+  },
+  {
+    "objectID": "implementation.html#umgang-mit-abweichungen",
+    "href": "implementation.html#umgang-mit-abweichungen",
+    "title": "11  Implementation",
+    "section": "11.4 Umgang mit Abweichungen",
+    "text": "11.4 Umgang mit Abweichungen\nAbweichungen sollten transparent dokumentiert und unterschieden werden in:\n\ngeplante Anpassungen\norganisatorisch bedingte Änderungen\nVerletzungen des Interventionsprotokolls\n\n\n\n\n\n\n\nMerksatz\n\n\n\nOhne Implementationsdaten bleibt unklar, ob eine Intervention unwirksam war oder unzureichend umgesetzt wurde."
   },
   {
     "objectID": "ethische_richtlinien.html",
     "href": "ethische_richtlinien.html",
-    "title": "10  Ethische Richtlinien",
+    "title": "12  Ethische Richtlinien",
     "section": "",
     "text": "Ethische Fragen gehören von Beginn an zur Planung einer Interventionsstudie. Besonders bei schulischen Untersuchungen tragen Forschende Verantwortung gegenüber Schüler:innen, Eltern, Lehrkräften und Schulen."
   },
   {
-    "objectID": "ethische_richtlinien.html#zentrale-ethische-prinzipien",
-    "href": "ethische_richtlinien.html#zentrale-ethische-prinzipien",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.2 Zentrale ethische Prinzipien",
-    "text": "10.2 Zentrale ethische Prinzipien\n\n10.2.1 Freiwilligkeit\nDie Teilnahme an einer Studie muss freiwillig sein. Eine Ablehnung oder ein späterer Abbruch dürfen keine Nachteile nach sich ziehen.\nIm schulischen Kontext sollte klar kommuniziert werden:\n\nDie Teilnahme ist freiwillig.\nEine Nichtteilnahme hat keine negativen Folgen.\nDie Teilnahme kann jederzeit beendet werden.\nUnterrichtliche Leistungen und Noten bleiben davon unberührt.\n\n\n\n10.2.2 Informierte Einwilligung\nTeilnehmende müssen verstehen können,\n\nworum es in der Studie geht,\nwas von ihnen erwartet wird,\nwelche Daten erhoben werden,\nwie lange die Teilnahme dauert,\nwelche möglichen Belastungen entstehen,\nwie die Daten verarbeitet werden,\nund an wen sie sich bei Fragen wenden können.\n\nDie Informationen sollten verständlich, altersangemessen und möglichst knapp formuliert sein.\nBei minderjährigen Teilnehmenden sind in der Regel sowohl die Zustimmung der Erziehungsberechtigten als auch die altersangemessene Zustimmung der Schüler:innen selbst zu berücksichtigen. Die konkreten formalen Anforderungen sollten mit der zuständigen Hochschule, Schule, Schulbehörde oder Ethikkommission geklärt werden.\n\n\n10.2.3 Widerruf und Abbruch\nEine Einwilligung muss widerrufbar sein. Der Widerruf sollte so einfach möglich sein wie die Einwilligung selbst.\nBereits in der Planung sollte geklärt werden:\n\nBis zu welchem Zeitpunkt können Daten gelöscht werden?\nWelche Daten lassen sich nach einer Anonymisierung nicht mehr zuordnen?\nWie wird ein Abbruch dokumentiert?\nWer ist die zuständige Kontaktperson?"
+    "objectID": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
+    "href": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
+    "title": "12  Ethische Richtlinien",
+    "section": "12.1 Freiwilligkeit und informierte Einwilligung",
+    "text": "12.1 Freiwilligkeit und informierte Einwilligung\nDie Teilnahme muss freiwillig sein. Eine Ablehnung oder ein Abbruch dürfen keine Nachteile für Unterricht, Förderung oder Benotung verursachen.\nTeilnehmende sollten in verständlicher und altersangemessener Form erfahren:\n\nworum es in der Studie geht,\nwas von ihnen erwartet wird,\nwelche Daten erhoben werden,\nwelche Belastungen entstehen können,\nwie die Daten verwendet werden,\nwie sie ihre Teilnahme beenden können,\nund an wen sie sich bei Fragen wenden können.\n\nBei Minderjährigen sind in der Regel die Zustimmung der Erziehungsberechtigten und die altersangemessene Zustimmung der Schüler:innen erforderlich. Auch bei einer Zustimmung der Eltern sollte der erkennbare Wille des Kindes oder Jugendlichen berücksichtigt werden."
   },
   {
     "objectID": "ethische_richtlinien.html#schutz-vor-belastungen-und-benachteiligungen",
     "href": "ethische_richtlinien.html#schutz-vor-belastungen-und-benachteiligungen",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.2 Schutz vor Belastungen und Benachteiligungen",
-    "text": "10.2 Schutz vor Belastungen und Benachteiligungen\nZeitliche, emotionale und leistungsbezogene Belastungen sollten möglichst gering bleiben und in einem angemessenen Verhältnis zum Erkenntnisgewinn stehen.\nBesonders zu prüfen sind:\n\nzeitlicher Aufwand und Leistungsdruck,\nsensible oder potenziell beschämende Aufgaben,\ndie Sichtbarkeit individueller Schwächen,\nmögliche Nachteile für Kontrollgruppen,\nsowie der Umgang mit unerwarteten Belastungen.\n\nLehrkräfte sollten keinen Druck zur Teilnahme ausüben. Einwilligungen sollten außerhalb von Prüfungs- und Bewertungssituationen eingeholt werden."
+    "title": "12  Ethische Richtlinien",
+    "section": "12.2 Schutz vor Belastungen und Benachteiligungen",
+    "text": "12.2 Schutz vor Belastungen und Benachteiligungen\nZeitliche, emotionale und leistungsbezogene Belastungen sollten möglichst gering bleiben und in einem angemessenen Verhältnis zum Erkenntnisgewinn stehen.\nBesonders zu prüfen sind:\n\nzeitlicher Aufwand und Leistungsdruck,\nsensible oder potenziell beschämende Aufgaben,\ndie Sichtbarkeit individueller Schwächen,\nmögliche Nachteile für Kontrollgruppen,\nsowie der Umgang mit unerwarteten Belastungen.\n\nLehrkräfte sollten keinen Druck zur Teilnahme ausüben. Einwilligungen sollten außerhalb von Prüfungs- und Bewertungssituationen eingeholt werden."
   },
   {
-    "objectID": "ethische_richtlinien.html#datenschutz-und-datenminimierung",
-    "href": "ethische_richtlinien.html#datenschutz-und-datenminimierung",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.4 Datenschutz und Datenminimierung",
-    "text": "10.4 Datenschutz und Datenminimierung\nEs sollten nur diejenigen personenbezogenen Daten erhoben werden, die für die Beantwortung der Forschungsfrage tatsächlich erforderlich sind.\nWichtige Entscheidungen betreffen:\n\nWelche personenbezogenen Daten werden erhoben?\nWelche Daten können pseudonymisiert oder anonymisiert werden?\nWer erhält Zugriff auf Zuordnungsschlüssel?\nWo und wie lange werden die Daten gespeichert?\nWie werden Dateien übertragen und gesichert?\nWann werden Daten gelöscht oder archiviert?\nDürfen Daten für spätere Forschungsprojekte nachgenutzt werden?\n\n\n10.4.1 Anonymisierung und Pseudonymisierung\nAnonymisierte Daten können keiner Person mehr zugeordnet werden.\nPseudonymisierte Daten werden durch einen Code gekennzeichnet. Eine Zuordnung bleibt über einen getrennt aufbewahrten Schlüssel möglich.\nFür viele schulische Studien ist zunächst eine Pseudonymisierung erforderlich, etwa um Prä- und Posttestdaten zusammenzuführen. Der Zuordnungsschlüssel sollte getrennt von den Forschungsdaten, besonders geschützt und nur für einen begrenzten Personenkreis zugänglich gespeichert werden.\n\n\n10.4.2 Datensparsamkeit\nFür jede Variable sollte geprüft werden:\n\nWird diese Information wirklich benötigt, um die Forschungsfrage zu beantworten?\n\nDaten, die lediglich vorsorglich erhoben werden, erhöhen den Aufwand und das Datenschutzrisiko."
+    "objectID": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
+    "href": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
+    "title": "12  Ethische Richtlinien",
+    "section": "12.3 Datenschutz und Datensparsamkeit",
+    "text": "12.3 Datenschutz und Datensparsamkeit\nEs sollten nur Daten erhoben werden, die für die Forschungsfrage tatsächlich erforderlich sind.\nVor Beginn der Studie muss geklärt sein:\n\nwelche personenbezogenen Daten benötigt werden,\nwer Zugriff auf die Daten erhält,\nwo und wie lange sie gespeichert werden,\nwie sie geschützt und übertragen werden,\nwann sie gelöscht oder archiviert werden,\nund ob eine spätere Nachnutzung vorgesehen ist.\n\nAnonymisierte Daten lassen sich keiner Person mehr zuordnen. Bei pseudonymisierten Daten bleibt eine Zuordnung über einen getrennt aufbewahrten Schlüssel möglich. Dies ist beispielsweise erforderlich, wenn Prä- und Posttestdaten miteinander verbunden werden sollen.\n\n\n\n\n\n\nLeitfrage\n\n\n\nFür jede Variable sollte gefragt werden: Wird diese Information wirklich zur Beantwortung der Forschungsfrage benötigt?"
   },
   {
-    "objectID": "ethische_richtlinien.html#minderjährige-und-schulische-abhängigkeiten",
-    "href": "ethische_richtlinien.html#minderjährige-und-schulische-abhängigkeiten",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.5 Minderjährige und schulische Abhängigkeiten",
-    "text": "10.5 Minderjährige und schulische Abhängigkeiten\nForschung mit Schüler:innen erfordert besondere Sensibilität. Minderjährige sollten entsprechend ihrem Alter und Verständnis aktiv informiert und beteiligt werden.\nAuch bei vorliegender Zustimmung der Erziehungsberechtigten sollte eine Teilnahme gegen den erkennbaren Willen eines Kindes oder Jugendlichen vermieden werden.\nZusätzlich ist zu bedenken:\n\nLehrkräfte sollten keinen Druck zur Teilnahme ausüben.\nEinwilligungen sollten nicht in Prüfungssituationen eingeholt werden.\nTeilnehmende und Nichtteilnehmende benötigen eine angemessene Beschäftigung.\nDie Forschung darf schulische Machtverhältnisse nicht ausnutzen.\nIndividuelle Ergebnisse sollten nicht unkontrolliert an Lehrkräfte oder Eltern weitergegeben werden."
+    "objectID": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
+    "href": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
+    "title": "12  Ethische Richtlinien",
+    "section": "12.4 Kontrollgruppen und wissenschaftliche Integrität",
+    "text": "12.4 Kontrollgruppen und wissenschaftliche Integrität\nKontrollgruppen müssen fachlich und ethisch vertretbar behandelt werden. Zu prüfen ist insbesondere, ob ihnen eine hilfreiche Förderung vorenthalten wird und ob die Intervention später angeboten werden kann.\nAuch die Berichterstattung gehört zur ethischen Verantwortung. Vorgehen, Abweichungen und Ergebnisse sollten nachvollziehbar dokumentiert werden. Einzelne Personen, Klassen und Schulen dürfen durch Veröffentlichungen nicht identifizierbar werden."
   },
   {
-    "objectID": "ethische_richtlinien.html#kontrollgruppen-und-faire-behandlung",
-    "href": "ethische_richtlinien.html#kontrollgruppen-und-faire-behandlung",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.6 Kontrollgruppen und faire Behandlung",
-    "text": "10.6 Kontrollgruppen und faire Behandlung\nKontroll- und Vergleichsgruppen sind methodisch wichtig, können aber ethische Fragen aufwerfen.\nZu klären ist:\n\nWird einer Gruppe eine potenziell hilfreiche Förderung vorenthalten?\nErhält die Kontrollgruppe regulären Unterricht oder eine alternative Maßnahme?\nKann die Intervention später auch der Kontrollgruppe angeboten werden?\nIst die Vergleichsbedingung fachlich und zeitlich zumutbar?\nWerden alle Gruppen transparent über den Ablauf informiert?\n\nEine Wartelistenkontrollgruppe kann sinnvoll sein, wenn die Intervention nach Abschluss der Datenerhebung auch der zunächst wartenden Gruppe angeboten wird. Diese Lösung passt jedoch nicht zu jeder Forschungsfrage und jeder schulischen Situation."
+    "objectID": "ethische_richtlinien.html#genehmigungen",
+    "href": "ethische_richtlinien.html#genehmigungen",
+    "title": "12  Ethische Richtlinien",
+    "section": "12.5 Genehmigungen",
+    "text": "12.5 Genehmigungen\nJe nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein. Relevante Anlaufstellen sind unter anderem:\n\nEthikkommissionen,\nDatenschutzbeauftragte,\nSchulleitungen,\nSchulaufsicht oder Ministerien,\nsowie beteiligte Forschungseinrichtungen.\n\nEin Ethikvotum ersetzt weder die datenschutzrechtliche Prüfung noch schulrechtliche Genehmigungen. Die notwendigen Verfahren sollten frühzeitig begonnen werden."
   },
   {
-    "objectID": "ethische_richtlinien.html#transparenz-und-wissenschaftliche-integrität",
-    "href": "ethische_richtlinien.html#transparenz-und-wissenschaftliche-integrität",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.7 Transparenz und wissenschaftliche Integrität",
-    "text": "10.7 Transparenz und wissenschaftliche Integrität\nEthische Verantwortung betrifft auch den Umgang mit den Ergebnissen.\nDazu gehören:\n\neine nachvollziehbare Dokumentation des Vorgehens,\ndie Offenlegung relevanter Abweichungen vom Studienplan,\nein ehrlicher Umgang mit fehlenden oder unerwarteten Ergebnissen,\nder Schutz vor selektiver Berichterstattung,\neine angemessene Autor:innenschaft,\nund die sichere Aufbewahrung der Forschungsdaten.\n\nErgebnisse sollten so berichtet werden, dass einzelne Personen, Klassen oder Schulen nicht unbeabsichtigt identifizierbar werden."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#ethikvotum-und-genehmigungen",
-    "href": "ethische_richtlinien.html#ethikvotum-und-genehmigungen",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.8 Ethikvotum und Genehmigungen",
-    "text": "10.8 Ethikvotum und Genehmigungen\nJe nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein.\nMögliche Anlaufstellen sind:\n\ndie Ethikkommission der eigenen Hochschule,\nDatenschutzbeauftragte,\ndie Schulleitung,\nSchulträger oder Schulaufsicht,\nzuständige Ministerien oder Behörden,\nsowie Kooperationspartner:innen im Forschungsprojekt.\n\nEin Ethikvotum ersetzt keine datenschutzrechtliche Prüfung und keine schulrechtliche Genehmigung. Umgekehrt bedeutet eine organisatorische Genehmigung nicht automatisch, dass alle ethischen Fragen geklärt sind.\n\n\n\n\n\n\nTip\n\n\n\nGenehmigungs- und Einwilligungsverfahren können viel Zeit beanspruchen. Sie sollten daher bereits in der frühen Planungsphase berücksichtigt werden."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#checkliste-für-die-planung",
-    "href": "ethische_richtlinien.html#checkliste-für-die-planung",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.9 Checkliste für die Planung",
-    "text": "10.9 Checkliste für die Planung\nVor Beginn der Datenerhebung sollte geklärt sein:\n\nIst die Forschungsfrage den erwarteten Aufwand und die Belastung wert?\nIst die Teilnahme tatsächlich freiwillig?\nSind Informationen und Einwilligungen verständlich formuliert?\nWurden Minderjährige altersangemessen beteiligt?\nIst ein Widerruf ohne Nachteile möglich?\nWerden nur notwendige Daten erhoben?\nSind Speicherung, Zugriff und Löschung geregelt?\nSind Pseudonymisierung oder Anonymisierung geplant?\nSind mögliche Belastungen und Benachteiligungen minimiert?\nIst die Behandlung der Kontrollgruppe vertretbar?\nLiegen alle erforderlichen Genehmigungen vor?\nIst geklärt, wie Ergebnisse veröffentlicht und Daten archiviert werden?"
-  },
-  {
-    "objectID": "ethische_richtlinien.html#weiterführende-orientierung",
-    "href": "ethische_richtlinien.html#weiterführende-orientierung",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.10 Weiterführende Orientierung",
-    "text": "10.10 Weiterführende Orientierung\nFür die konkrete Studienplanung sollten die jeweils aktuellen Vorgaben der eigenen Hochschule und der zuständigen Behörden geprüft werden.\nHilfreiche übergeordnete Bezugspunkte sind:\n\nder Kodex der Deutschen Forschungsgemeinschaft zur guten wissenschaftlichen Praxis,\nder Ethikkodex der Deutschen Gesellschaft für Erziehungswissenschaft,\ndie Datenschutz-Grundverordnung,\nsowie die Datenschutz- und Forschungsvorgaben der eigenen Institution.\n\nDie vorliegende Seite bietet eine Orientierung für die Studienplanung. Sie ersetzt keine rechtliche Beratung und keine Prüfung durch die zuständigen Stellen."
+    "objectID": "ethische_richtlinien.html#kurzcheckliste",
+    "href": "ethische_richtlinien.html#kurzcheckliste",
+    "title": "12  Ethische Richtlinien",
+    "section": "12.6 Kurzcheckliste",
+    "text": "12.6 Kurzcheckliste\nDie Punkte können direkt im Browser abgehakt werden. Der Stand wird lokal auf dem jeweiligen Gerät gespeichert.\n\n Die Teilnahme ist freiwillig und verständlich erklärt.\n Teilnehmende können ohne Nachteile abbrechen.\n Minderjährige werden angemessen beteiligt.\n Es werden nur notwendige Daten erhoben.\n Speicherung, Zugriff und Löschung sind geregelt.\n Belastungen und Benachteiligungen sind minimiert.\n Die Behandlung der Kontrollgruppe ist vertretbar.\n Alle erforderlichen Genehmigungen liegen vor.\n\nCheckliste zurücksetzen\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nFür die konkrete Planung gelten die aktuellen Vorgaben der eigenen Hochschule, der zuständigen Behörden und der Datenschutzgesetzgebung. Diese Übersicht bietet eine Orientierung und ersetzt keine rechtliche oder institutionelle Prüfung."
   },
   {
     "objectID": "validität.html",
@@ -418,250 +509,5 @@
     "title": "13  Bedrohungen der internen Validität",
     "section": "13.9 Kombination mehrerer Bedrohungen",
     "text": "13.9 Kombination mehrerer Bedrohungen\nDie acht vorgenannten Bedrohungen der internen Validität können auch in Kombination wirksam sein und dabei additiv oder in anderer Weise zusammenwirken."
-  },
-  {
-    "objectID": "aufgaben.html",
-    "href": "aufgaben.html",
-    "title": "12  Wiederholbare MC-Übung",
-    "section": "",
-    "text": "Neue Aufgabe\n\n\n\n\nAntwort prüfen"
-  },
-  {
-    "objectID": "index.html#schwerpunkt-des-workshops",
-    "href": "index.html#schwerpunkt-des-workshops",
-    "title": "Interventionsstudien sinnvoll planen",
-    "section": "0.1 Schwerpunkt des Workshops",
-    "text": "0.1 Schwerpunkt des Workshops\nIm Mittelpunkt steht zunächst die Frage, wie Interventionsstudien sinnvoll geplant werden können.\nDer Workshop richtet sich an Teilnehmende, die sich in der Planungsphase einer Interventionsstudie befinden. Er bietet eine kompakte Einführung in zentrale Fragen des Studiendesigns und der Datenerhebung.\nGemeinsam erarbeiten wir,\n\nwie Forschungsfragen in geeignete Untersuchungsdesigns übersetzt werden,\nwelche Rolle Vergleichs- und Kontrollgruppen spielen,\nwie Messzeitpunkte sinnvoll angelegt werden,\nwelche typischen Herausforderungen bei der Planung von Erhebungen auftreten,\nund welche Folgen diese Entscheidungen für die spätere Auswertung haben.\n\n\n\n\n\n\n\nTip\n\n\n\nNutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben."
-  },
-  {
-    "objectID": "theorie_beginn.html#übung-forschungsfragen-präzisieren",
-    "href": "theorie_beginn.html#übung-forschungsfragen-präzisieren",
-    "title": "2  Theorie zuerst",
-    "section": "2.5 Übung: Forschungsfragen präzisieren",
-    "text": "2.5 Übung: Forschungsfragen präzisieren\nKlicken Sie auf Neue Aufgabe. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte. Hier ist natürlich für die eigentlich benötigte Recherchearbeit keine Zeit, insofern dürfen Sie ausnahmesweise ein bisschen kreativ sein.\nAchten Sie dabei besonders auf Untersuchungsgegenstand, Zielgruppe, Zielvariable, Intervention und Vergleichsbedingung.\n\n  \n    Neue Aufgabe\n  \n\n  \n\n  \n\n  \n    Formulieren Sie zunächst selbst eine präzisere Forschungsfrage.\n  \n\n  \n    Mögliche Konkretisierungen anzeigen\n  \n\n  \n    Präzisere Forschungsfrage\n    \n\n    \n    \n\n    Warum ist diese Fassung präziser?\n    \n  \n\n\n\n\n\n\n\n\n\nTip\n\n\n\nDie eingeblendeten Formulierungen sind mögliche Lösungen. Andere Forschungsfragen können ebenfalls tragfähig sein, wenn Gegenstand, Zielgruppe, zentrale Merkmale und Untersuchungslogik klar bestimmt sind."
-  },
-  {
-    "objectID": "design_einfuehrung.html#kausales-modell-und-annahmen",
-    "href": "design_einfuehrung.html#kausales-modell-und-annahmen",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.2 Kausales Modell und Annahmen",
-    "text": "3.2 Kausales Modell und Annahmen\n\nWelche kausalen Pfade werden angenommen (Mediator, Moderator)?\nWichtige Störvariablen (Confounder) identifizieren."
-  },
-  {
-    "objectID": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
-    "href": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.3 Vergleichsstruktur / Kontrollgruppe",
-    "text": "3.3 Vergleichsstruktur / Kontrollgruppe\n\nWelcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)"
-  },
-  {
-    "objectID": "design_einfuehrung.html#randomisierung",
-    "href": "design_einfuehrung.html#randomisierung",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.4 Randomisierung",
-    "text": "3.4 Randomisierung"
-  },
-  {
-    "objectID": "design_einfuehrung.html#messzeitpunkte-follow-up",
-    "href": "design_einfuehrung.html#messzeitpunkte-follow-up",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.5 Messzeitpunkte & Follow-up",
-    "text": "3.5 Messzeitpunkte & Follow-up\n\nAnzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken."
-  },
-  {
-    "objectID": "design_einfuehrung.html#stichprobe-power",
-    "href": "design_einfuehrung.html#stichprobe-power",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.6 Stichprobe & Power",
-    "text": "3.6 Stichprobe & Power\n\nPopulationsdefinition und Einschlusskriterien.\nStichprobengröße und Poweranalyse\nErwartete Dropout-Rate kalkulieren."
-  },
-  {
-    "objectID": "design_einfuehrung.html#messinstrumente-und-validität",
-    "href": "design_einfuehrung.html#messinstrumente-und-validität",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.7 Messinstrumente und Validität",
-    "text": "3.7 Messinstrumente und Validität\n\nAuswahl existierender validierter Instrumente vs. Eigenentwicklung.\nOperationalisierung"
-  },
-  {
-    "objectID": "design_einfuehrung.html#implementations--und-durchführungsfragen",
-    "href": "design_einfuehrung.html#implementations--und-durchführungsfragen",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.9 Implementations- und Durchführungsfragen",
-    "text": "3.9 Implementations- und Durchführungsfragen\n\nStandardisierung der Intervention; Schulung der Durchführenden.\nProtokoll für Protokollabweichungen und Adhärenzmessung.\nDokumentation und Datenmanagement (Metadaten, Codebook)."
-  },
-  {
-    "objectID": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
-    "href": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.10 Ethische, rechtliche und praktische Aspekte",
-    "text": "3.10 Ethische, rechtliche und praktische Aspekte\n\nEinwilligung, Datenschutz, Risiken und Nutzen.\nRessourcen, Zeitplan, Budget."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
-    "href": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.1 Freiwilligkeit und informierte Einwilligung",
-    "text": "10.1 Freiwilligkeit und informierte Einwilligung\nDie Teilnahme muss freiwillig sein. Eine Ablehnung oder ein Abbruch dürfen keine Nachteile für Unterricht, Förderung oder Benotung verursachen.\nTeilnehmende sollten in verständlicher und altersangemessener Form erfahren:\n\nworum es in der Studie geht,\nwas von ihnen erwartet wird,\nwelche Daten erhoben werden,\nwelche Belastungen entstehen können,\nwie die Daten verwendet werden,\nwie sie ihre Teilnahme beenden können,\nund an wen sie sich bei Fragen wenden können.\n\nBei Minderjährigen sind in der Regel die Zustimmung der Erziehungsberechtigten und die altersangemessene Zustimmung der Schüler:innen erforderlich. Auch bei einer Zustimmung der Eltern sollte der erkennbare Wille des Kindes oder Jugendlichen berücksichtigt werden."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
-    "href": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.3 Datenschutz und Datensparsamkeit",
-    "text": "10.3 Datenschutz und Datensparsamkeit\nEs sollten nur Daten erhoben werden, die für die Forschungsfrage tatsächlich erforderlich sind.\nVor Beginn der Studie muss geklärt sein:\n\nwelche personenbezogenen Daten benötigt werden,\nwer Zugriff auf die Daten erhält,\nwo und wie lange sie gespeichert werden,\nwie sie geschützt und übertragen werden,\nwann sie gelöscht oder archiviert werden,\nund ob eine spätere Nachnutzung vorgesehen ist.\n\nAnonymisierte Daten lassen sich keiner Person mehr zuordnen. Bei pseudonymisierten Daten bleibt eine Zuordnung über einen getrennt aufbewahrten Schlüssel möglich. Dies ist beispielsweise erforderlich, wenn Prä- und Posttestdaten miteinander verbunden werden sollen.\n\n\n\n\n\n\nLeitfrage\n\n\n\nFür jede Variable sollte gefragt werden: Wird diese Information wirklich zur Beantwortung der Forschungsfrage benötigt?"
-  },
-  {
-    "objectID": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
-    "href": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.4 Kontrollgruppen und wissenschaftliche Integrität",
-    "text": "10.4 Kontrollgruppen und wissenschaftliche Integrität\nKontrollgruppen müssen fachlich und ethisch vertretbar behandelt werden. Zu prüfen ist insbesondere, ob ihnen eine hilfreiche Förderung vorenthalten wird und ob die Intervention später angeboten werden kann.\nAuch die Berichterstattung gehört zur ethischen Verantwortung. Vorgehen, Abweichungen und Ergebnisse sollten nachvollziehbar dokumentiert werden. Einzelne Personen, Klassen und Schulen dürfen durch Veröffentlichungen nicht identifizierbar werden."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#genehmigungen",
-    "href": "ethische_richtlinien.html#genehmigungen",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.5 Genehmigungen",
-    "text": "10.5 Genehmigungen\nJe nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein. Relevante Anlaufstellen sind unter anderem:\n\nEthikkommissionen,\nDatenschutzbeauftragte,\nSchulleitungen,\nSchulaufsicht oder Ministerien,\nsowie beteiligte Forschungseinrichtungen.\n\nEin Ethikvotum ersetzt weder die datenschutzrechtliche Prüfung noch schulrechtliche Genehmigungen. Die notwendigen Verfahren sollten frühzeitig begonnen werden."
-  },
-  {
-    "objectID": "ethische_richtlinien.html#kurzcheckliste",
-    "href": "ethische_richtlinien.html#kurzcheckliste",
-    "title": "10  Ethische Richtlinien",
-    "section": "10.6 Kurzcheckliste",
-    "text": "10.6 Kurzcheckliste\nDie Punkte können direkt im Browser abgehakt werden. Der Stand wird lokal auf dem jeweiligen Gerät gespeichert.\n\n Die Teilnahme ist freiwillig und verständlich erklärt.\n Teilnehmende können ohne Nachteile abbrechen.\n Minderjährige werden angemessen beteiligt.\n Es werden nur notwendige Daten erhoben.\n Speicherung, Zugriff und Löschung sind geregelt.\n Belastungen und Benachteiligungen sind minimiert.\n Die Behandlung der Kontrollgruppe ist vertretbar.\n Alle erforderlichen Genehmigungen liegen vor.\n\nCheckliste zurücksetzen\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nFür die konkrete Planung gelten die aktuellen Vorgaben der eigenen Hochschule, der zuständigen Behörden und der Datenschutzgesetzgebung. Diese Übersicht bietet eine Orientierung und ersetzt keine rechtliche oder institutionelle Prüfung."
-  },
-  {
-    "objectID": "stichprobe.html#grundgesamtheit-und-stichprobe",
-    "href": "stichprobe.html#grundgesamtheit-und-stichprobe",
-    "title": "7  Stichprobenziehung",
-    "section": "7.1 Grundgesamtheit und Stichprobe",
-    "text": "7.1 Grundgesamtheit und Stichprobe\nDie Grundgesamtheit umfasst alle Personen oder Gruppen, über die eine Studie Aussagen treffen möchte. Die Stichprobe ist der tatsächlich untersuchte Teil dieser Grundgesamtheit.\nBeispiel:\n\nUntersucht werden soll eine neue Leseförderung für Schüler:innen der fünften Klasse.\nDie Grundgesamtheit könnten alle Fünftklässler:innen einer Region sein.\nDie Stichprobe besteht aus den Klassen, die tatsächlich teilnehmen.\n\nVor der Rekrutierung sollte die Zielgruppe möglichst genau beschrieben werden, etwa nach:\n\nSchulart und Klassenstufe,\nRegion oder Einzugsgebiet,\nsprachlichen oder fachlichen Voraussetzungen,\nEin- und Ausschlusskriterien,\nrelevanten Merkmalen von Schulen und Klassen."
-  },
-  {
-    "objectID": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
-    "href": "stichprobe.html#wie-wird-die-stichprobe-gewonnen",
-    "title": "7  Stichprobenziehung",
-    "section": "7.1 Wie wird die Stichprobe gewonnen?",
-    "text": "7.1 Wie wird die Stichprobe gewonnen?\n\n7.1.1 Zufällige Auswahl\nBei einer Zufallsstichprobe besitzt jede Einheit eine bekannte Auswahlwahrscheinlichkeit. Das stärkt die Übertragbarkeit der Ergebnisse, ist im schulischen Alltag aber oft schwer umzusetzen.\nTypische Verfahren sind:\n\nEinfache Zufallsstichprobe: Einzelne Personen werden zufällig ausgewählt.\nGeschichtete Stichprobe: Zunächst werden Gruppen gebildet, etwa nach Schulart oder Region. Anschließend wird innerhalb dieser Gruppen gezogen.\nKlumpenstichprobe: Ganze Schulen oder Klassen werden ausgewählt.\n\nFür schulische Studien ist die Klumpenstichprobe besonders relevant, weil Interventionen häufig auf Klassen- oder Schulebene stattfinden.\n\n\n7.1.2 Auswahl nach Verfügbarkeit\nHäufig nehmen Schulen oder Klassen teil, die erreichbar und zur Kooperation bereit sind. Das ist eine Gelegenheitsstichprobe.\nDieses Vorgehen ist praktikabel, kann aber zu Verzerrungen führen. Teilnehmende Schulen unterscheiden sich möglicherweise von Schulen, die eine Teilnahme ablehnen, etwa hinsichtlich Ausstattung, Motivation oder Vorerfahrung.\nEine Gelegenheitsstichprobe ist deshalb nicht grundsätzlich ungeeignet. Entscheidend ist, ihre Grenzen transparent zu beschreiben."
-  },
-  {
-    "objectID": "stichprobe.html#auswahl-und-zuweisung-unterscheiden",
-    "href": "stichprobe.html#auswahl-und-zuweisung-unterscheiden",
-    "title": "7  Stichprobenziehung",
-    "section": "7.3 Auswahl und Zuweisung unterscheiden",
-    "text": "7.3 Auswahl und Zuweisung unterscheiden\nZwei Entscheidungen müssen getrennt betrachtet werden:\n\nAuswahl: Wer nimmt an der Studie teil?\nZuweisung: Wer erhält die Intervention und wer gehört zur Kontrollgruppe?\n\nEine zufällige Zuweisung verbessert die interne Validität. Sie macht eine selektiv gewonnene Stichprobe jedoch nicht automatisch repräsentativ."
-  },
-  {
-    "objectID": "stichprobe.html#typische-verzerrungen",
-    "href": "stichprobe.html#typische-verzerrungen",
-    "title": "7  Stichprobenziehung",
-    "section": "7.4 Typische Verzerrungen",
-    "text": "7.4 Typische Verzerrungen\nMögliche Probleme bei der Stichprobenziehung sind:\n\nbesonders motivierte Schulen nehmen häufiger teil,\nbestimmte Schularten oder Regionen fehlen,\neinzelne Schüler:innen nehmen wegen fehlender Einwilligungen nicht teil,\norganisatorische Gründe führen zum Ausschluss von Klassen oder Schulen,\nTeilnehmende brechen die Studie vorzeitig ab.\n\nSolche Prozesse sollten dokumentiert und bei der Interpretation berücksichtigt werden."
-  },
-  {
-    "objectID": "stichprobe.html#ausfälle-im-studienverlauf",
-    "href": "stichprobe.html#ausfälle-im-studienverlauf",
-    "title": "7  Stichprobenziehung",
-    "section": "7.2 Ausfälle im Studienverlauf",
-    "text": "7.2 Ausfälle im Studienverlauf\nAuch nach Studienbeginn kann sich die Stichprobe verändern. Einzelne Schüler:innen, Klassen oder Schulen nehmen möglicherweise nicht bis zum Ende teil. Solche Ausfälle werden als Dropout oder Attrition bezeichnet.\nBesonders relevant ist, ob Ausfälle systematisch auftreten, etwa häufiger in einer Studienbedingung oder bei stärker belasteten Teilnehmenden. Dann kann sich die verbleibende Stichprobe von der ursprünglich rekrutierten Stichprobe unterscheiden.\nDokumentiert werden sollten:\n\nUmfang und Zeitpunkt der Ausfälle,\nbekannte Gründe,\nUnterschiede zwischen den Studienbedingungen,\nUnterschiede zwischen ausgeschiedenen und verbleibenden Teilnehmenden.\n\nDie Berücksichtigung erwarteter Ausfälle bei der Fallzahlplanung gehört in das Kapitel zur Poweranalyse."
-  },
-  {
-    "objectID": "stichprobe.html#was-sollte-berichtet-werden",
-    "href": "stichprobe.html#was-sollte-berichtet-werden",
-    "title": "7  Stichprobenziehung",
-    "section": "7.3 Was sollte berichtet werden?",
-    "text": "7.3 Was sollte berichtet werden?\nEine nachvollziehbare Studienbeschreibung enthält mindestens:\n\ndie angestrebte Grundgesamtheit,\ndie Rekrutierungswege,\nEin- und Ausschlusskriterien,\ndie Anzahl angefragter und teilnehmender Schulen, Klassen und Personen,\nbekannte Gründe für Ablehnung oder Ausschluss,\nAusfälle im Studienverlauf,\nwichtige Merkmale der endgültigen Stichprobe.\n\n\n\n\n\n\n\nMerksatz\n\n\n\nDie Qualität einer Stichprobe zeigt sich nicht nur an ihrer Größe, sondern vor allem daran, wie sie gewonnen wurde und für welche Zielgruppe Aussagen beansprucht werden."
-  },
-  {
-    "objectID": "design_einfuehrung.html#analyseplan-vorregistriert",
-    "href": "design_einfuehrung.html#analyseplan-vorregistriert",
-    "title": "3  Entscheidungsfelder für Versuchsdesigns",
-    "section": "3.8 Analyseplan (vorregistriert)",
-    "text": "3.8 Analyseplan (vorregistriert)\n\nPrimäre Analyse (Intention-to-treat vs. per-protocol).\nModelltyp (lineare Modelle, gemischte Modelle, Cluster).\nUmgang mit fehlenden Daten."
-  },
-  {
-    "objectID": "implementation.html",
-    "href": "implementation.html",
-    "title": "10  Implementation und Interventionstreue",
-    "section": "",
-    "text": "Eine Intervention kann nur dann sinnvoll bewertet werden, wenn bekannt ist, wie sie tatsächlich umgesetzt wurde."
-  },
-  {
-    "objectID": "implementation.html#was-sollte-beschrieben-werden",
-    "href": "implementation.html#was-sollte-beschrieben-werden",
-    "title": "10  Implementation und Interventionstreue",
-    "section": "10.1 Was sollte beschrieben werden?",
-    "text": "10.1 Was sollte beschrieben werden?\n\nInhalte und Ziele\nAnzahl und Dauer der Einheiten\nverwendete Materialien\nQualifikation der Durchführenden\nzulässige Anpassungen"
-  },
-  {
-    "objectID": "implementation.html#dimensionen-der-interventionstreue",
-    "href": "implementation.html#dimensionen-der-interventionstreue",
-    "title": "10  Implementation und Interventionstreue",
-    "section": "10.2 Dimensionen der Interventionstreue",
-    "text": "10.2 Dimensionen der Interventionstreue\n\nAdhärenz: Wurden die vorgesehenen Inhalte umgesetzt?\nDosis: Wie viele Einheiten fanden tatsächlich statt?\nQualität: Wie gut wurde die Intervention durchgeführt?\nTeilnahme: Wie regelmäßig und aktiv nahmen die Teilnehmenden teil?\nAbgrenzung: Unterschied sich die Intervention klar von der Kontrollbedingung?"
-  },
-  {
-    "objectID": "implementation.html#erfassung-der-umsetzung",
-    "href": "implementation.html#erfassung-der-umsetzung",
-    "title": "10  Implementation und Interventionstreue",
-    "section": "10.3 Erfassung der Umsetzung",
-    "text": "10.3 Erfassung der Umsetzung\nGeeignet sind beispielsweise:\n\nDurchführungsprotokolle\nChecklisten\nAnwesenheitslisten\nBeobachtungen\nBefragungen der Durchführenden\nAudio- oder Videoaufzeichnungen"
-  },
-  {
-    "objectID": "implementation.html#umgang-mit-abweichungen",
-    "href": "implementation.html#umgang-mit-abweichungen",
-    "title": "10  Implementation und Interventionstreue",
-    "section": "10.4 Umgang mit Abweichungen",
-    "text": "10.4 Umgang mit Abweichungen\nAbweichungen sollten transparent dokumentiert und unterschieden werden in:\n\ngeplante Anpassungen\norganisatorisch bedingte Änderungen\nVerletzungen des Interventionsprotokolls\n\n\n\n\n\n\n\nMerksatz\n\n\n\nOhne Implementationsdaten bleibt unklar, ob eine Intervention unwirksam war oder unzureichend umgesetzt wurde."
-  },
-  {
-    "objectID": "operationalisierung.html",
-    "href": "operationalisierung.html",
-    "title": "11  Messinstrumente und Operationalisierung",
-    "section": "",
-    "text": "Eine Forschungsfrage wird erst prüfbar, wenn zentrale Konstrukte klar operationalisiert und mit geeigneten Instrumenten erfasst werden."
-  },
-  {
-    "objectID": "operationalisierung.html#vom-konstrukt-zur-messung",
-    "href": "operationalisierung.html#vom-konstrukt-zur-messung",
-    "title": "11  Messinstrumente und Operationalisierung",
-    "section": "11.1 Vom Konstrukt zur Messung",
-    "text": "11.1 Vom Konstrukt zur Messung\nFestgelegt werden sollte:\n\nwelches Konstrukt untersucht wird\nwie es theoretisch definiert ist\nmit welchem Indikator es erfasst wird\nzu welchen Messzeitpunkten gemessen wird\n\n\nDas Konstrukt „Lesekompetenz“ kann beispielsweise durch einen standardisierten Lesetest operationalisiert werden."
-  },
-  {
-    "objectID": "operationalisierung.html#auswahl-eines-instruments",
-    "href": "operationalisierung.html#auswahl-eines-instruments",
-    "title": "11  Messinstrumente und Operationalisierung",
-    "section": "11.2 Auswahl eines Instruments",
-    "text": "11.2 Auswahl eines Instruments\nWichtige Kriterien sind:\n\nValidität: Erfasst das Instrument das beabsichtigte Konstrukt?\nReliabilität: Misst es zuverlässig?\nObjektivität: Ist das Ergebnis möglichst unabhängig von der durchführenden Person?\nSensitivität: Kann das Instrument Veränderungen abbilden?\nPraktikabilität: Ist der Einsatz im Feld realistisch?"
-  },
-  {
-    "objectID": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
-    "href": "operationalisierung.html#bestehendes-oder-eigenes-instrument",
-    "title": "11  Messinstrumente und Operationalisierung",
-    "section": "11.3 Bestehendes oder eigenes Instrument?",
-    "text": "11.3 Bestehendes oder eigenes Instrument?\nBestehende, geprüfte Instrumente sind meist vorzuziehen. Eigene Skalen benötigen eine sorgfältige Entwicklung und Prüfung."
-  },
-  {
-    "objectID": "operationalisierung.html#mehrere-datenquellen",
-    "href": "operationalisierung.html#mehrere-datenquellen",
-    "title": "11  Messinstrumente und Operationalisierung",
-    "section": "11.4 Mehrere Datenquellen",
-    "text": "11.4 Mehrere Datenquellen\nJe nach Forschungsfrage können kombiniert werden:\n\nLeistungstests\nFragebögen\nBeobachtungen\nProzessdaten\nEinschätzungen durch Lehrkräfte oder Eltern\n\n\n\n\n\n\n\nMerksatz\n\n\n\nEine präzise Operationalisierung verbindet Theorie, Messinstrument und spätere Interpretation."
-  },
-  {
-    "objectID": "design.html#auswahl-von-av-und-uv",
-    "href": "design.html#auswahl-von-av-und-uv",
-    "title": "4  Design",
-    "section": "4.1 Auswahl von AV und UV",
-    "text": "4.1 Auswahl von AV und UV\nWählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.\n\nPrimäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.\nOperationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).\nValidität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.\nSkalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).\nZeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).\nUV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.\nKontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.\nStichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.\nMissing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).\n\nKurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten."
-  },
-  {
-    "objectID": "design.html#arten-von-designs",
-    "href": "design.html#arten-von-designs",
-    "title": "4  Design",
-    "section": "4.2 Arten von Designs",
-    "text": "4.2 Arten von Designs\n\n4.2.1 Zwischen-Subjekt-Design (Between-Subjects)\nBei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.\nVorteile: - Keine Übungseffekte - Keine Carry-over-Effekte\nNachteile: - Höherer Stichprobenbedarf - Individuelle Unterschiede zwischen Gruppen\n\n\n4.2.2 Innerhalb-Subjekt-Design (Within-Subjects)\nBei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.\nVorteile: - Geringerer Stichprobenbedarf - Kontrolle individueller Unterschiede\nNachteile: - Mögliche Übungseffekte - Ermüdungseffekte"
   }
 ]
