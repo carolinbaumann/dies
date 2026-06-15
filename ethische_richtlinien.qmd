@@ -3,194 +3,182 @@ title: "Ethische Richtlinien"
 format:
   html:
     toc: true
-    toc-title: "Inhalt"
+    toc-depth: 2
+    smooth-scroll: true
+    code-fold: true
 ---
 
-## Warum Forschungsethik zur Studienplanung gehört
+Ethische Fragen gehören von Beginn an zur Planung einer Interventionsstudie. Besonders bei schulischen Untersuchungen tragen Forschende Verantwortung gegenüber Schüler:innen, Eltern, Lehrkräften und Schulen.
 
-Ethische Fragen sollten nicht erst kurz vor der Datenerhebung geklärt werden. Sie gehören von Beginn an zur Planung einer Interventionsstudie.
+::: {.callout-important}
+## Grundsatz
 
-Besonders in schulischen Untersuchungen tragen Forschende Verantwortung gegenüber Schüler:innen, Eltern, Lehrkräften und Schulen. Viele Teilnehmende sind minderjährig und befinden sich in institutionellen Abhängigkeitsverhältnissen.
-
-::: {.callout-note title="Grundgedanke"}
-Eine methodisch überzeugende Studie ist nur dann tragfähig, wenn sie auch ethisch verantwortbar durchgeführt werden kann.
+Eine methodisch überzeugende Studie muss auch ethisch verantwortbar sein.
 :::
 
-## Zentrale ethische Prinzipien
+## Freiwilligkeit und informierte Einwilligung
 
-### Freiwilligkeit
+Die Teilnahme muss freiwillig sein. Eine Ablehnung oder ein Abbruch dürfen keine Nachteile für Unterricht, Förderung oder Benotung verursachen.
 
-Die Teilnahme an einer Studie muss freiwillig sein. Eine Ablehnung oder ein späterer Abbruch dürfen keine Nachteile nach sich ziehen.
-
-Im schulischen Kontext sollte klar kommuniziert werden:
-
-- Die Teilnahme ist freiwillig.
-- Eine Nichtteilnahme hat keine negativen Folgen.
-- Die Teilnahme kann jederzeit beendet werden.
-- Unterrichtliche Leistungen und Noten bleiben davon unberührt.
-
-### Informierte Einwilligung
-
-Teilnehmende müssen verstehen können,
+Teilnehmende sollten in verständlicher und altersangemessener Form erfahren:
 
 - worum es in der Studie geht,
 - was von ihnen erwartet wird,
 - welche Daten erhoben werden,
-- wie lange die Teilnahme dauert,
-- welche möglichen Belastungen entstehen,
-- wie die Daten verarbeitet werden,
+- welche Belastungen entstehen können,
+- wie die Daten verwendet werden,
+- wie sie ihre Teilnahme beenden können,
 - und an wen sie sich bei Fragen wenden können.
 
-Die Informationen sollten verständlich, altersangemessen und möglichst knapp formuliert sein.
-
-Bei minderjährigen Teilnehmenden sind in der Regel sowohl die Zustimmung der Erziehungsberechtigten als auch die altersangemessene Zustimmung der Schüler:innen selbst zu berücksichtigen. Die konkreten formalen Anforderungen sollten mit der zuständigen Hochschule, Schule, Schulbehörde oder Ethikkommission geklärt werden.
-
-### Widerruf und Abbruch
-
-Eine Einwilligung muss widerrufbar sein. Der Widerruf sollte so einfach möglich sein wie die Einwilligung selbst.
-
-Bereits in der Planung sollte geklärt werden:
-
-- Bis zu welchem Zeitpunkt können Daten gelöscht werden?
-- Welche Daten lassen sich nach einer Anonymisierung nicht mehr zuordnen?
-- Wie wird ein Abbruch dokumentiert?
-- Wer ist die zuständige Kontaktperson?
+Bei Minderjährigen sind in der Regel die Zustimmung der Erziehungsberechtigten und die altersangemessene Zustimmung der Schüler:innen erforderlich. Auch bei einer Zustimmung der Eltern sollte der erkennbare Wille des Kindes oder Jugendlichen berücksichtigt werden.
 
 ## Schutz vor Belastungen und Benachteiligungen
 
-Interventionsstudien können zeitliche, emotionale oder leistungsbezogene Belastungen erzeugen. Diese sollten möglichst gering gehalten und gegen den erwarteten Erkenntnisgewinn abgewogen werden.
+Zeitliche, emotionale und leistungsbezogene Belastungen sollten möglichst gering bleiben und in einem angemessenen Verhältnis zum Erkenntnisgewinn stehen.
 
-Zu prüfen ist beispielsweise:
+Besonders zu prüfen sind:
 
-- Ist der zeitliche Aufwand angemessen?
-- Können Aufgaben Überforderung, Beschämung oder Leistungsdruck auslösen?
-- Werden sensible Themen angesprochen?
-- Werden einzelne Schüler:innen oder Gruppen sichtbar als besonders schwach markiert?
-- Entstehen Nachteile für eine Kontrollgruppe?
-- Gibt es Unterstützungsangebote bei unerwarteten Belastungen?
+- zeitlicher Aufwand und Leistungsdruck,
+- sensible oder potenziell beschämende Aufgaben,
+- die Sichtbarkeit individueller Schwächen,
+- mögliche Nachteile für Kontrollgruppen,
+- sowie der Umgang mit unerwarteten Belastungen.
 
-::: {.callout-warning title="Besondere Vorsicht"}
-Bei Video- und Audioaufnahmen, Leistungsdaten, sprachlichen Auffälligkeiten, Förderbedarfen oder anderen sensiblen Informationen ist ein besonders sorgfältiger Umgang erforderlich.
+Lehrkräfte sollten keinen Druck zur Teilnahme ausüben. Einwilligungen sollten außerhalb von Prüfungs- und Bewertungssituationen eingeholt werden.
+
+## Datenschutz und Datensparsamkeit
+
+Es sollten nur Daten erhoben werden, die für die Forschungsfrage tatsächlich erforderlich sind.
+
+Vor Beginn der Studie muss geklärt sein:
+
+- welche personenbezogenen Daten benötigt werden,
+- wer Zugriff auf die Daten erhält,
+- wo und wie lange sie gespeichert werden,
+- wie sie geschützt und übertragen werden,
+- wann sie gelöscht oder archiviert werden,
+- und ob eine spätere Nachnutzung vorgesehen ist.
+
+Anonymisierte Daten lassen sich keiner Person mehr zuordnen. Bei pseudonymisierten Daten bleibt eine Zuordnung über einen getrennt aufbewahrten Schlüssel möglich. Dies ist beispielsweise erforderlich, wenn Prä- und Posttestdaten miteinander verbunden werden sollen.
+
+::: {.callout-tip}
+## Leitfrage
+
+Für jede Variable sollte gefragt werden: Wird diese Information wirklich zur Beantwortung der Forschungsfrage benötigt?
 :::
 
-## Datenschutz und Datenminimierung
+## Kontrollgruppen und wissenschaftliche Integrität
 
-Es sollten nur diejenigen personenbezogenen Daten erhoben werden, die für die Beantwortung der Forschungsfrage tatsächlich erforderlich sind.
+Kontrollgruppen müssen fachlich und ethisch vertretbar behandelt werden. Zu prüfen ist insbesondere, ob ihnen eine hilfreiche Förderung vorenthalten wird und ob die Intervention später angeboten werden kann.
 
-Wichtige Entscheidungen betreffen:
+Auch die Berichterstattung gehört zur ethischen Verantwortung. Vorgehen, Abweichungen und Ergebnisse sollten nachvollziehbar dokumentiert werden. Einzelne Personen, Klassen und Schulen dürfen durch Veröffentlichungen nicht identifizierbar werden.
 
-- Welche personenbezogenen Daten werden erhoben?
-- Welche Daten können pseudonymisiert oder anonymisiert werden?
-- Wer erhält Zugriff auf Zuordnungsschlüssel?
-- Wo und wie lange werden die Daten gespeichert?
-- Wie werden Dateien übertragen und gesichert?
-- Wann werden Daten gelöscht oder archiviert?
-- Dürfen Daten für spätere Forschungsprojekte nachgenutzt werden?
+## Genehmigungen
 
-### Anonymisierung und Pseudonymisierung
+Je nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein. Relevante Anlaufstellen sind unter anderem:
 
-**Anonymisierte Daten** können keiner Person mehr zugeordnet werden.
-
-**Pseudonymisierte Daten** werden durch einen Code gekennzeichnet. Eine Zuordnung bleibt über einen getrennt aufbewahrten Schlüssel möglich.
-
-Für viele schulische Studien ist zunächst eine Pseudonymisierung erforderlich, etwa um Prä- und Posttestdaten zusammenzuführen. Der Zuordnungsschlüssel sollte getrennt von den Forschungsdaten, besonders geschützt und nur für einen begrenzten Personenkreis zugänglich gespeichert werden.
-
-### Datensparsamkeit
-
-Für jede Variable sollte geprüft werden:
-
-> Wird diese Information wirklich benötigt, um die Forschungsfrage zu beantworten?
-
-Daten, die lediglich vorsorglich erhoben werden, erhöhen den Aufwand und das Datenschutzrisiko.
-
-## Minderjährige und schulische Abhängigkeiten
-
-Forschung mit Schüler:innen erfordert besondere Sensibilität. Minderjährige sollten entsprechend ihrem Alter und Verständnis aktiv informiert und beteiligt werden.
-
-Auch bei vorliegender Zustimmung der Erziehungsberechtigten sollte eine Teilnahme gegen den erkennbaren Willen eines Kindes oder Jugendlichen vermieden werden.
-
-Zusätzlich ist zu bedenken:
-
-- Lehrkräfte sollten keinen Druck zur Teilnahme ausüben.
-- Einwilligungen sollten nicht in Prüfungssituationen eingeholt werden.
-- Teilnehmende und Nichtteilnehmende benötigen eine angemessene Beschäftigung.
-- Die Forschung darf schulische Machtverhältnisse nicht ausnutzen.
-- Individuelle Ergebnisse sollten nicht unkontrolliert an Lehrkräfte oder Eltern weitergegeben werden.
-
-## Kontrollgruppen und faire Behandlung
-
-Kontroll- und Vergleichsgruppen sind methodisch wichtig, können aber ethische Fragen aufwerfen.
-
-Zu klären ist:
-
-- Wird einer Gruppe eine potenziell hilfreiche Förderung vorenthalten?
-- Erhält die Kontrollgruppe regulären Unterricht oder eine alternative Maßnahme?
-- Kann die Intervention später auch der Kontrollgruppe angeboten werden?
-- Ist die Vergleichsbedingung fachlich und zeitlich zumutbar?
-- Werden alle Gruppen transparent über den Ablauf informiert?
-
-Eine Wartelistenkontrollgruppe kann sinnvoll sein, wenn die Intervention nach Abschluss der Datenerhebung auch der zunächst wartenden Gruppe angeboten wird. Diese Lösung passt jedoch nicht zu jeder Forschungsfrage und jeder schulischen Situation.
-
-## Transparenz und wissenschaftliche Integrität
-
-Ethische Verantwortung betrifft auch den Umgang mit den Ergebnissen.
-
-Dazu gehören:
-
-- eine nachvollziehbare Dokumentation des Vorgehens,
-- die Offenlegung relevanter Abweichungen vom Studienplan,
-- ein ehrlicher Umgang mit fehlenden oder unerwarteten Ergebnissen,
-- der Schutz vor selektiver Berichterstattung,
-- eine angemessene Autor:innenschaft,
-- und die sichere Aufbewahrung der Forschungsdaten.
-
-Ergebnisse sollten so berichtet werden, dass einzelne Personen, Klassen oder Schulen nicht unbeabsichtigt identifizierbar werden.
-
-## Ethikvotum und Genehmigungen
-
-Je nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein.
-
-Mögliche Anlaufstellen sind:
-
-- die Ethikkommission der eigenen Hochschule,
+- Ethikkommissionen,
 - Datenschutzbeauftragte,
-- die Schulleitung,
-- Schulträger oder Schulaufsicht,
-- zuständige Ministerien oder Behörden,
-- sowie Kooperationspartner:innen im Forschungsprojekt.
+- Schulleitungen,
+- Schulaufsicht oder Ministerien,
+- sowie beteiligte Forschungseinrichtungen.
 
-Ein Ethikvotum ersetzt keine datenschutzrechtliche Prüfung und keine schulrechtliche Genehmigung. Umgekehrt bedeutet eine organisatorische Genehmigung nicht automatisch, dass alle ethischen Fragen geklärt sind.
+Ein Ethikvotum ersetzt weder die datenschutzrechtliche Prüfung noch schulrechtliche Genehmigungen. Die notwendigen Verfahren sollten frühzeitig begonnen werden.
 
-::: {.callout-tip title="Frühzeitig klären"}
-Genehmigungs- und Einwilligungsverfahren können viel Zeit beanspruchen. Sie sollten daher bereits in der frühen Planungsphase berücksichtigt werden.
+## Kurzcheckliste
+
+Die Punkte können direkt im Browser abgehakt werden. Der Stand wird lokal auf dem jeweiligen Gerät gespeichert.
+
+<div class="ethik-checkliste">
+
+<label><input type="checkbox" data-check="freiwilligkeit"> Die Teilnahme ist freiwillig und verständlich erklärt.</label>
+
+<label><input type="checkbox" data-check="abbruch"> Teilnehmende können ohne Nachteile abbrechen.</label>
+
+<label><input type="checkbox" data-check="minderjaehrige"> Minderjährige werden angemessen beteiligt.</label>
+
+<label><input type="checkbox" data-check="datensparsamkeit"> Es werden nur notwendige Daten erhoben.</label>
+
+<label><input type="checkbox" data-check="datenschutz"> Speicherung, Zugriff und Löschung sind geregelt.</label>
+
+<label><input type="checkbox" data-check="belastungen"> Belastungen und Benachteiligungen sind minimiert.</label>
+
+<label><input type="checkbox" data-check="kontrollgruppe"> Die Behandlung der Kontrollgruppe ist vertretbar.</label>
+
+<label><input type="checkbox" data-check="genehmigungen"> Alle erforderlichen Genehmigungen liegen vor.</label>
+
+<button type="button" id="checkliste-reset">Checkliste zurücksetzen</button>
+
+</div>
+
+::: {.callout-note}
+## Hinweis
+
+Für die konkrete Planung gelten die aktuellen Vorgaben der eigenen Hochschule, der zuständigen Behörden und der Datenschutzgesetzgebung. Diese Übersicht bietet eine Orientierung und ersetzt keine rechtliche oder institutionelle Prüfung.
 :::
 
-## Checkliste für die Planung
+<style>
+.ethik-checkliste {
+  display: grid;
+  gap: 0.8rem;
+  margin: 1rem 0 1.5rem 0;
+}
 
-Vor Beginn der Datenerhebung sollte geklärt sein:
+.ethik-checkliste label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 
-- Ist die Forschungsfrage den erwarteten Aufwand und die Belastung wert?
-- Ist die Teilnahme tatsächlich freiwillig?
-- Sind Informationen und Einwilligungen verständlich formuliert?
-- Wurden Minderjährige altersangemessen beteiligt?
-- Ist ein Widerruf ohne Nachteile möglich?
-- Werden nur notwendige Daten erhoben?
-- Sind Speicherung, Zugriff und Löschung geregelt?
-- Sind Pseudonymisierung oder Anonymisierung geplant?
-- Sind mögliche Belastungen und Benachteiligungen minimiert?
-- Ist die Behandlung der Kontrollgruppe vertretbar?
-- Liegen alle erforderlichen Genehmigungen vor?
-- Ist geklärt, wie Ergebnisse veröffentlicht und Daten archiviert werden?
+.ethik-checkliste input[type="checkbox"] {
+  margin-top: 0.25rem;
+  transform: scale(1.2);
+}
 
-## Weiterführende Orientierung
+.ethik-checkliste label:has(input:checked) {
+  opacity: 0.72;
+  text-decoration: line-through;
+}
 
-Für die konkrete Studienplanung sollten die jeweils aktuellen Vorgaben der eigenen Hochschule und der zuständigen Behörden geprüft werden.
+#checkliste-reset {
+  justify-self: start;
+  margin-top: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.4rem;
+  background: var(--bs-body-bg, #fff);
+  color: var(--bs-body-color, #212529);
+  cursor: pointer;
+}
+</style>
 
-Hilfreiche übergeordnete Bezugspunkte sind:
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const storageKey = "ethische-richtlinien-checkliste";
+  const boxes = [...document.querySelectorAll(".ethik-checkliste input[type='checkbox']")];
+  const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
 
-- der Kodex der Deutschen Forschungsgemeinschaft zur guten wissenschaftlichen Praxis,
-- der Ethikkodex der Deutschen Gesellschaft für Erziehungswissenschaft,
-- die Datenschutz-Grundverordnung,
-- sowie die Datenschutz- und Forschungsvorgaben der eigenen Institution.
+  boxes.forEach((box) => {
+    box.checked = Boolean(saved[box.dataset.check]);
 
-Die vorliegende Seite bietet eine Orientierung für die Studienplanung. Sie ersetzt keine rechtliche Beratung und keine Prüfung durch die zuständigen Stellen.
+    box.addEventListener("change", () => {
+      const state = {};
+      boxes.forEach((item) => {
+        state[item.dataset.check] = item.checked;
+      });
+      localStorage.setItem(storageKey, JSON.stringify(state));
+    });
+  });
+
+  document.getElementById("checkliste-reset")?.addEventListener("click", () => {
+    boxes.forEach((box) => {
+      box.checked = false;
+    });
+    localStorage.removeItem(storageKey);
+  });
+});
+</script>

@@ -67,7 +67,7 @@
     "href": "design_einfuehrung.html",
     "title": "3  Entscheidungsfelder für Versuchsdesigns",
     "section": "",
-    "text": "4 1. Forschungsfrage und Zielvariable\n\nPräzisiere die kausale Fragestellung (Was ist die Treatment-Variable?).\nDefiniere die primäre Outcome-Messung (Messniveau, Reliabilität, Validität).\nSekundäre Outcomes und mögliche Nebenwirkungen benennen.\n\n\n\n5 2. Kausales Modell und Annahmen\n\nWelche kausalen Pfade werden angenommen (Mediator, Moderator)?\nWichtige Störvariablen (Confounder) identifizieren.\nAnnahmen, die für Kausalität nötig sind (Ignorability, Stable Unit Treatment Value Assumption).\n\n\n\n6 3. Vergleichsstruktur / Kontrollgruppe\n\nWelcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)\nRandomisiert vs. nicht-randomisiert — Vor- und Nachteile.\nMatching, Regression-Adjustment, Differenz-in-Differenzen als Alternativen.\n\n\n\n7 4. Randomisierung und Zuteilung\n\nEbene der Randomisierung (Individuen, Klassen, Schulen, Regionen).\nZufallsverfahren (stratifiziert, block-randomisiert, cluster-randomisiert).\nUmgang mit Verstößen gegen Zuteilung (Noncompliance, Attrition).\n\n\n\n8 5. Messzeitpunkte & Follow-up\n\nBaseline(s), Messung unmittelbar nach Intervention, Mittelfristig/langfristig.\nAnzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken.\nBlindung der Messzeitpunkte (wer weiß was wann?).\n\n\n\n9 6. Stichprobe & Power\n\nPopulationsdefinition und Einschlusskriterien.\nStichprobengröße und Poweranalyse (Effektgröße, α, β, Cluster-Design-Effekte).\nErwartete Dropout-Rate kalkulieren.\n\n\n\n10 7. Messinstrumente und Validität\n\nAuswahl existierender validierter Instrumente vs. Eigenentwicklung.\nTest-Retest, Interrater-Reliabilität, Messfehler-Strategien.\nOperationalisierung (Skalenniveau, Normierung).\n\n\n\n11 8. Interne Kontrolle & Bias-Quellen\n\nSystematische Selektion, Regression zur Mitte, Testeffekte, Historieneffekte.\nMaßnahmen zur Minimierung (randomisierte Zuteilung, Kontrollgruppe, Prä-/Postmessungen, Placebo).\n\n\n\n12 9. Analyseplan (vorregistriert)\n\nPrimäre Analyse (Intention-to-treat vs. per-protocol).\nModelltyp (lineare Modelle, gemischte Modelle, robuste SEs für Cluster).\nUmgang mit fehlenden Daten (MI, IPW, Sensitivitätsanalysen).\nMultiples Testen / Adjustierung für Sekundäranalyse.\n\n\n\n13 10. Implementations- und Durchführungsfragen\n\nStandardisierung der Intervention; Schulung der Durchführenden.\nProtokoll für Protokollabweichungen und Adhärenzmessung.\nDokumentation und Datenmanagement (Metadaten, Codebook).\n\n\n\n14 11. Ethische, rechtliche und praktische Aspekte\n\nEinwilligung, Datenschutz, Risiken und Nutzen.\nRessourcen, Zeitplan, Budget.\nStakeholder-Kommunikation.\n\n\n\n15 12. Externe Validität & Generalisierbarkeit\n\nStichproben- vs. Populationsrepräsentativität.\nTransferierbarkeit der Befunde auf andere Kontexte.\n\n\n\n16 13. Reporting und Reproduzierbarkeit\n\nVorregistrierung (z. B. OSF), Offenlegung von Daten und Code.\nReplikations-/Sensitivitätsanalysen planen.\nTransparente Dokumentation aller Entscheidungen.\n\n\n\n17 Abschluss-Checkliste (Kurz)\n\nForschungsfrage klar? ✓\nPrimäre Outcome definiert? ✓\nKontroll-/Vergleichsstruktur gewählt? ✓\nRandomisierung / Zuweisungskonzept? ✓\nMesszeitpunkte & Stichprobe geplant? ✓\nAnalyseplan vorregistriert? ✓\nEthische Genehmigungen & Ressourcen? ✓"
+    "text": "Präzisiere die kausale Fragestellung.\nDefiniere die primäre Outcome-Messung"
   },
   {
     "objectID": "messzeitpunkte.html",
@@ -284,7 +284,7 @@
     "href": "ethische_richtlinien.html",
     "title": "10  Ethische Richtlinien",
     "section": "",
-    "text": "Ethische Fragen sollten nicht erst kurz vor der Datenerhebung geklärt werden. Sie gehören von Beginn an zur Planung einer Interventionsstudie.\nBesonders in schulischen Untersuchungen tragen Forschende Verantwortung gegenüber Schüler:innen, Eltern, Lehrkräften und Schulen. Viele Teilnehmende sind minderjährig und befinden sich in institutionellen Abhängigkeitsverhältnissen.\n\n\n\n\n\n\nNote\n\n\n\nEine methodisch überzeugende Studie ist nur dann tragfähig, wenn sie auch ethisch verantwortbar durchgeführt werden kann."
+    "text": "Ethische Fragen gehören von Beginn an zur Planung einer Interventionsstudie. Besonders bei schulischen Untersuchungen tragen Forschende Verantwortung gegenüber Schüler:innen, Eltern, Lehrkräften und Schulen."
   },
   {
     "objectID": "ethische_richtlinien.html#zentrale-ethische-prinzipien",
@@ -297,8 +297,8 @@
     "objectID": "ethische_richtlinien.html#schutz-vor-belastungen-und-benachteiligungen",
     "href": "ethische_richtlinien.html#schutz-vor-belastungen-und-benachteiligungen",
     "title": "10  Ethische Richtlinien",
-    "section": "10.3 Schutz vor Belastungen und Benachteiligungen",
-    "text": "10.3 Schutz vor Belastungen und Benachteiligungen\nInterventionsstudien können zeitliche, emotionale oder leistungsbezogene Belastungen erzeugen. Diese sollten möglichst gering gehalten und gegen den erwarteten Erkenntnisgewinn abgewogen werden.\nZu prüfen ist beispielsweise:\n\nIst der zeitliche Aufwand angemessen?\nKönnen Aufgaben Überforderung, Beschämung oder Leistungsdruck auslösen?\nWerden sensible Themen angesprochen?\nWerden einzelne Schüler:innen oder Gruppen sichtbar als besonders schwach markiert?\nEntstehen Nachteile für eine Kontrollgruppe?\nGibt es Unterstützungsangebote bei unerwarteten Belastungen?\n\n\n\n\n\n\n\nWarning\n\n\n\nBei Video- und Audioaufnahmen, Leistungsdaten, sprachlichen Auffälligkeiten, Förderbedarfen oder anderen sensiblen Informationen ist ein besonders sorgfältiger Umgang erforderlich."
+    "section": "10.2 Schutz vor Belastungen und Benachteiligungen",
+    "text": "10.2 Schutz vor Belastungen und Benachteiligungen\nZeitliche, emotionale und leistungsbezogene Belastungen sollten möglichst gering bleiben und in einem angemessenen Verhältnis zum Erkenntnisgewinn stehen.\nBesonders zu prüfen sind:\n\nzeitlicher Aufwand und Leistungsdruck,\nsensible oder potenziell beschämende Aufgaben,\ndie Sichtbarkeit individueller Schwächen,\nmögliche Nachteile für Kontrollgruppen,\nsowie der Umgang mit unerwarteten Belastungen.\n\nLehrkräfte sollten keinen Druck zur Teilnahme ausüben. Einwilligungen sollten außerhalb von Prüfungs- und Bewertungssituationen eingeholt werden."
   },
   {
     "objectID": "ethische_richtlinien.html#datenschutz-und-datenminimierung",
@@ -439,5 +439,96 @@
     "title": "2  Theorie zuerst",
     "section": "2.5 Übung: Forschungsfragen präzisieren",
     "text": "2.5 Übung: Forschungsfragen präzisieren\nKlicken Sie auf Neue Aufgabe. Lesen Sie die allgemein formulierte Forschungsfrage und überlegen Sie zunächst selbst, wie sie präzisiert werden könnte. Hier ist natürlich für die eigentlich benötigte Recherchearbeit keine Zeit, insofern dürfen Sie ausnahmesweise ein bisschen kreativ sein.\nAchten Sie dabei besonders auf Untersuchungsgegenstand, Zielgruppe, Zielvariable, Intervention und Vergleichsbedingung.\n\n  \n    Neue Aufgabe\n  \n\n  \n\n  \n\n  \n    Formulieren Sie zunächst selbst eine präzisere Forschungsfrage.\n  \n\n  \n    Mögliche Konkretisierungen anzeigen\n  \n\n  \n    Präzisere Forschungsfrage\n    \n\n    \n    \n\n    Warum ist diese Fassung präziser?\n    \n  \n\n\n\n\n\n\n\n\n\nTip\n\n\n\nDie eingeblendeten Formulierungen sind mögliche Lösungen. Andere Forschungsfragen können ebenfalls tragfähig sein, wenn Gegenstand, Zielgruppe, zentrale Merkmale und Untersuchungslogik klar bestimmt sind."
+  },
+  {
+    "objectID": "design_einfuehrung.html#kausales-modell-und-annahmen",
+    "href": "design_einfuehrung.html#kausales-modell-und-annahmen",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.2 2. Kausales Modell und Annahmen",
+    "text": "3.2 2. Kausales Modell und Annahmen\n\nWelche kausalen Pfade werden angenommen (Mediator, Moderator)?\nWichtige Störvariablen (Confounder) identifizieren."
+  },
+  {
+    "objectID": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
+    "href": "design_einfuehrung.html#vergleichsstruktur-kontrollgruppe",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.3 3. Vergleichsstruktur / Kontrollgruppe",
+    "text": "3.3 3. Vergleichsstruktur / Kontrollgruppe\n\nWelcher Vergleich beantwortet die Frage am besten? (No-treatment, active-control, placebo)"
+  },
+  {
+    "objectID": "design_einfuehrung.html#randomisierung",
+    "href": "design_einfuehrung.html#randomisierung",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.4 4. Randomisierung",
+    "text": "3.4 4. Randomisierung"
+  },
+  {
+    "objectID": "design_einfuehrung.html#messzeitpunkte-follow-up",
+    "href": "design_einfuehrung.html#messzeitpunkte-follow-up",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.5 5. Messzeitpunkte & Follow-up",
+    "text": "3.5 5. Messzeitpunkte & Follow-up\n\nAnzahl und Abstand der Messzeitpunkte — Reifung, Geschichte, Saisonalität bedenken."
+  },
+  {
+    "objectID": "design_einfuehrung.html#stichprobe-power",
+    "href": "design_einfuehrung.html#stichprobe-power",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.6 6. Stichprobe & Power",
+    "text": "3.6 6. Stichprobe & Power\n\nPopulationsdefinition und Einschlusskriterien.\nStichprobengröße und Poweranalyse\nErwartete Dropout-Rate kalkulieren."
+  },
+  {
+    "objectID": "design_einfuehrung.html#messinstrumente-und-validität",
+    "href": "design_einfuehrung.html#messinstrumente-und-validität",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "3.7 7. Messinstrumente und Validität",
+    "text": "3.7 7. Messinstrumente und Validität\n\nAuswahl existierender validierter Instrumente vs. Eigenentwicklung.\nOperationalisierung"
+  },
+  {
+    "objectID": "design_einfuehrung.html#implementations--und-durchführungsfragen",
+    "href": "design_einfuehrung.html#implementations--und-durchführungsfragen",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "4.1 10. Implementations- und Durchführungsfragen",
+    "text": "4.1 10. Implementations- und Durchführungsfragen\n\nStandardisierung der Intervention; Schulung der Durchführenden.\nProtokoll für Protokollabweichungen und Adhärenzmessung.\nDokumentation und Datenmanagement (Metadaten, Codebook)."
+  },
+  {
+    "objectID": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
+    "href": "design_einfuehrung.html#ethische-rechtliche-und-praktische-aspekte",
+    "title": "3  Entscheidungsfelder für Versuchsdesigns",
+    "section": "4.2 11. Ethische, rechtliche und praktische Aspekte",
+    "text": "4.2 11. Ethische, rechtliche und praktische Aspekte\n\nEinwilligung, Datenschutz, Risiken und Nutzen.\nRessourcen, Zeitplan, Budget."
+  },
+  {
+    "objectID": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
+    "href": "ethische_richtlinien.html#freiwilligkeit-und-informierte-einwilligung",
+    "title": "10  Ethische Richtlinien",
+    "section": "10.1 Freiwilligkeit und informierte Einwilligung",
+    "text": "10.1 Freiwilligkeit und informierte Einwilligung\nDie Teilnahme muss freiwillig sein. Eine Ablehnung oder ein Abbruch dürfen keine Nachteile für Unterricht, Förderung oder Benotung verursachen.\nTeilnehmende sollten in verständlicher und altersangemessener Form erfahren:\n\nworum es in der Studie geht,\nwas von ihnen erwartet wird,\nwelche Daten erhoben werden,\nwelche Belastungen entstehen können,\nwie die Daten verwendet werden,\nwie sie ihre Teilnahme beenden können,\nund an wen sie sich bei Fragen wenden können.\n\nBei Minderjährigen sind in der Regel die Zustimmung der Erziehungsberechtigten und die altersangemessene Zustimmung der Schüler:innen erforderlich. Auch bei einer Zustimmung der Eltern sollte der erkennbare Wille des Kindes oder Jugendlichen berücksichtigt werden."
+  },
+  {
+    "objectID": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
+    "href": "ethische_richtlinien.html#datenschutz-und-datensparsamkeit",
+    "title": "10  Ethische Richtlinien",
+    "section": "10.3 Datenschutz und Datensparsamkeit",
+    "text": "10.3 Datenschutz und Datensparsamkeit\nEs sollten nur Daten erhoben werden, die für die Forschungsfrage tatsächlich erforderlich sind.\nVor Beginn der Studie muss geklärt sein:\n\nwelche personenbezogenen Daten benötigt werden,\nwer Zugriff auf die Daten erhält,\nwo und wie lange sie gespeichert werden,\nwie sie geschützt und übertragen werden,\nwann sie gelöscht oder archiviert werden,\nund ob eine spätere Nachnutzung vorgesehen ist.\n\nAnonymisierte Daten lassen sich keiner Person mehr zuordnen. Bei pseudonymisierten Daten bleibt eine Zuordnung über einen getrennt aufbewahrten Schlüssel möglich. Dies ist beispielsweise erforderlich, wenn Prä- und Posttestdaten miteinander verbunden werden sollen.\n\n\n\n\n\n\nLeitfrage\n\n\n\nFür jede Variable sollte gefragt werden: Wird diese Information wirklich zur Beantwortung der Forschungsfrage benötigt?"
+  },
+  {
+    "objectID": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
+    "href": "ethische_richtlinien.html#kontrollgruppen-und-wissenschaftliche-integrität",
+    "title": "10  Ethische Richtlinien",
+    "section": "10.4 Kontrollgruppen und wissenschaftliche Integrität",
+    "text": "10.4 Kontrollgruppen und wissenschaftliche Integrität\nKontrollgruppen müssen fachlich und ethisch vertretbar behandelt werden. Zu prüfen ist insbesondere, ob ihnen eine hilfreiche Förderung vorenthalten wird und ob die Intervention später angeboten werden kann.\nAuch die Berichterstattung gehört zur ethischen Verantwortung. Vorgehen, Abweichungen und Ergebnisse sollten nachvollziehbar dokumentiert werden. Einzelne Personen, Klassen und Schulen dürfen durch Veröffentlichungen nicht identifizierbar werden."
+  },
+  {
+    "objectID": "ethische_richtlinien.html#genehmigungen",
+    "href": "ethische_richtlinien.html#genehmigungen",
+    "title": "10  Ethische Richtlinien",
+    "section": "10.5 Genehmigungen",
+    "text": "10.5 Genehmigungen\nJe nach Hochschule, Bundesland, Schulart, Datentyp und Studiendesign können unterschiedliche Genehmigungen erforderlich sein. Relevante Anlaufstellen sind unter anderem:\n\nEthikkommissionen,\nDatenschutzbeauftragte,\nSchulleitungen,\nSchulaufsicht oder Ministerien,\nsowie beteiligte Forschungseinrichtungen.\n\nEin Ethikvotum ersetzt weder die datenschutzrechtliche Prüfung noch schulrechtliche Genehmigungen. Die notwendigen Verfahren sollten frühzeitig begonnen werden."
+  },
+  {
+    "objectID": "ethische_richtlinien.html#kurzcheckliste",
+    "href": "ethische_richtlinien.html#kurzcheckliste",
+    "title": "10  Ethische Richtlinien",
+    "section": "10.6 Kurzcheckliste",
+    "text": "10.6 Kurzcheckliste\nDie Punkte können direkt im Browser abgehakt werden. Der Stand wird lokal auf dem jeweiligen Gerät gespeichert.\n\n Die Teilnahme ist freiwillig und verständlich erklärt.\n Teilnehmende können ohne Nachteile abbrechen.\n Minderjährige werden angemessen beteiligt.\n Es werden nur notwendige Daten erhoben.\n Speicherung, Zugriff und Löschung sind geregelt.\n Belastungen und Benachteiligungen sind minimiert.\n Die Behandlung der Kontrollgruppe ist vertretbar.\n Alle erforderlichen Genehmigungen liegen vor.\n\nCheckliste zurücksetzen\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nFür die konkrete Planung gelten die aktuellen Vorgaben der eigenen Hochschule, der zuständigen Behörden und der Datenschutzgesetzgebung. Diese Übersicht bietet eine Orientierung und ersetzt keine rechtliche oder institutionelle Prüfung."
   }
 ]
