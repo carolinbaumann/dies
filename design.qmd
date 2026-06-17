@@ -1,49 +1,70 @@
 ---
 title: "Design"
+format: html
 ---
 
-Interventionsstudien prüfen die Wirkung einer gezielten Maßnahme und sind daher per Definition experimentell oder mindestens quasiexperimentell. Typische Merkmale: gezielte Manipulation der Intervention, Vergleichs‑/Kontrollgruppe und zeitliche Reihenfolge. Bei echten Experimenten (z. B. randomisierte kontrollierte Studien, RCT) wird Randomisierung eingesetzt um die Kausalinterpretation zu stützen.
+Das **Studiendesign** beschreibt den grundlegenden Aufbau einer Studie. Es legt fest, welche Bedingungen miteinander verglichen werden, wann gemessen wird und wie die Teilnehmenden den Bedingungen zugeordnet werden.
 
-## Auswahl von AV und UV
+Ein geeignetes Design ermöglicht eine möglichst klare Antwort auf die Forschungsfrage.
 
-Wählen Sie abhängige Variable(n) (AV) und unabhängige Variable(n) (UV) strikt nach Forschungsfrage und Kausalmodell; dokumentieren Sie die Entscheidungen im Analyseplan.
+::: {.callout-tip title="Ausgangspunkt"}
+Wählen Sie das Design anhand Ihrer Forschungsfrage – nicht danach, welches Design sich am einfachsten durchführen lässt.
+:::
 
-- Primäres Outcome: Definieren Sie eine einzelne primäre AV (bei Bedarf sekundäre AVs) vorab, um Daten‑Fishing und multiple‑Testing zu vermeiden.
-- Operationalisierung: Beschreiben Sie genau, wie AV und UV gemessen werden (Instrument, Skala, Einheit, Messzeitpunkt).
-- Validität & Reliabilität: Bevorzugen Sie validierte Messinstrumente; führen Sie ggf. Pilotmessungen durch.
-- Skalenniveau → Analysewahl: Nominal/ordinal/metrisch entscheidet über geeignete Verfahren (z. B. Logit, ANOVA, lineare Regression).
-- Zeitliche Reihenfolge: Stellen Sie sicher, dass die UV der AV zeitlich vorausgeht (Baseline‑Messungen, Follow‑ups).
-- UV‑Definition: Bei Interventionen klar zwischen Manipulation (Intervention), Kovariaten und potenziellen Confoundern unterscheiden.
-- Kontrolle von Störfaktoren: Planen Sie Randomisierung, Blockierung oder Adjustierung (Covariate‑Adjustment, Matching, Propensity Scores) je nach Design.
-- Stichprobe & Power: Schätzen Sie die erwartete Effektgröße der primären AV und planen Sie die Stichprobe entsprechend.
-- Missing Data & Messfehler: Beschreiben Sie Imputationsstrategien und Maßnahmen zur Minimierung von Bias (Blinding, objektive Messungen).
+## Häufige Designs
 
-Kurz: AV/UV nicht nach Datenlage wählen — klar vorab definieren, operationalisieren und im Protokoll festhalten.
+### Ein-Gruppen-Prä-Post-Design
 
+Eine Gruppe wird vor und nach der Intervention untersucht.
 
-## Arten von Designs
+**Geeignet für:** erste Erprobungen und Machbarkeitsstudien.
 
-### Zwischen-Subjekt-Design (Between-Subjects)
+**Einschränkung:** Veränderungen können nicht eindeutig auf die Intervention zurückgeführt werden. Auch zeitliche Entwicklungen oder äußere Ereignisse können eine Rolle spielen.
 
-Bei einem Zwischen-Subjekt-Design werden verschiedene Teilnehmergruppen unterschiedlichen Bedingungen zugeordnet.
+### Parallelgruppendesign
 
-**Vorteile:**
-- Keine Übungseffekte
-- Keine Carry-over-Effekte
+Mindestens zwei Gruppen erhalten gleichzeitig unterschiedliche Bedingungen, beispielsweise eine Intervention und regulären Unterricht.
 
-**Nachteile:**
-- Höherer Stichprobenbedarf
-- Individuelle Unterschiede zwischen Gruppen
+**Vorteil:** Die Entwicklungen der Gruppen können direkt verglichen werden.
 
-### Innerhalb-Subjekt-Design (Within-Subjects)
+**Zu beachten:** Die Gruppen sollten zu Beginn möglichst vergleichbar sein.
 
-Bei einem Innerhalb-Subjekt-Design durchlaufen alle Teilnehmer alle experimentellen Bedingungen.
+### Randomisiertes kontrolliertes Design
 
-**Vorteile:**
-- Geringerer Stichprobenbedarf
-- Kontrolle individueller Unterschiede
+Die Teilnehmenden werden nach dem Zufallsprinzip den Bedingungen zugeordnet.
 
-**Nachteile:**
-- Mögliche Übungseffekte
-- Ermüdungseffekte
+**Vorteil:** Randomisierung unterstützt die Vergleichbarkeit der Gruppen und stärkt kausale Schlussfolgerungen.
 
+Weitere Informationen finden Sie in den Kapiteln [Kontrollgruppen](kontrollgruppen.qmd) und [Randomisierung](randomisierung.qmd).
+
+### Clusterdesign
+
+Nicht einzelne Personen, sondern bestehende Gruppen wie Klassen oder Schulen werden zugeordnet.
+
+Ein Clusterdesign ist sinnvoll, wenn eine Intervention im Klassenverband durchgeführt wird oder ein Austausch zwischen den Bedingungen vermieden werden soll.
+
+**Zu beachten:** Personen innerhalb einer Klasse ähneln sich häufig. Dies muss bei Stichprobenplanung und Auswertung berücksichtigt werden.
+
+## Messwiederholung oder unterschiedliche Gruppen?
+
+Bei einer **Messwiederholung** werden dieselben Personen zu mehreren Zeitpunkten untersucht, etwa vor und nach einer Intervention.
+
+Bei einem **Zwischen-Gruppen-Vergleich** werden unterschiedliche Gruppen miteinander verglichen.
+
+Beides kann kombiniert werden: In einem Prä-Post-Kontrollgruppendesign werden mehrere Gruppen jeweils vor und nach der Intervention untersucht.
+
+## Weitere Designs
+
+Für besondere Forschungsfragen kommen unter anderem infrage:
+
+- Crossover-Designs
+- faktorielle Designs
+- längsschnittliche Designs
+- Single-Case-Designs
+- Stepped-Wedge-Designs
+
+Diese Designs erfordern eine weiterführende methodische Planung.
+
+::: {.callout-note title="Merksatz"}
+Ein komplexes Design ist nicht automatisch ein gutes Design. Entscheidend ist, ob Forschungsfrage, Vergleichsbedingung, Zuweisung und Messzeitpunkte zusammenpassen.
+:::

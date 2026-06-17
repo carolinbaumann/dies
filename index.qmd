@@ -15,20 +15,6 @@ Sie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient
 Die Website ersetzt weder die gemeinsame Diskussion im Workshop noch die vertiefende Auseinandersetzung mit Methodenliteratur. Sie versteht sich als Orientierungshilfe und Arbeitsgrundlage.
 :::
 
-## Schwerpunkt des Workshops
-
-Im Mittelpunkt steht zunächst die Frage, wie **Interventionsstudien sinnvoll geplant** werden können.
-
-Der Workshop richtet sich an Teilnehmende, die sich in der Planungsphase einer Interventionsstudie befinden. Er bietet eine kompakte Einführung in zentrale Fragen des Studiendesigns und der Datenerhebung.
-
-Gemeinsam erarbeiten wir,
-
-- wie Forschungsfragen in geeignete Untersuchungsdesigns übersetzt werden,
-- welche Rolle Vergleichs- und Kontrollgruppen spielen,
-- wie Messzeitpunkte sinnvoll angelegt werden,
-- welche typischen Herausforderungen bei der Planung von Erhebungen auftreten,
-- und welche Folgen diese Entscheidungen für die spätere Auswertung haben.
-
 
 ::: {.callout-tip title="Arbeitsprinzip"}
 Nutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben.

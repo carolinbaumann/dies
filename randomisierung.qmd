@@ -9,27 +9,83 @@ Randomisierung bezeichnet die **zufällige Zuweisung von Untersuchungsteilnehmen
 
 Durch die zufällige Gruppenzuweisung werden sowohl **bekannte Merkmale** (z. B. Vorwissen, Motivation oder Alter) als auch **unbekannte Einflussfaktoren** im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.
 
-::: {.callout-important}
-## Wichtig zu beachten
-
-Randomisierung **garantiert keine identischen Gruppen**. Insbesondere bei kleinen Stichproben können weiterhin Unterschiede zwischen den Gruppen auftreten. Ihr entscheidender Vorteil besteht jedoch darin, dass diese Unterschiede nicht systematisch durch den Forschungsprozess erzeugt werden.
-:::
-
 Randomisierung trägt somit wesentlich zur **internen Validität** einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen.
 
 ## Zentrale Funktionen der Randomisierung
 
-- **Reduktion systematischer Verzerrungen (Bias)**: Durch zufällige Zuweisung werden systematische Fehler vermieden
-- **Herstellung vergleichbarer Untersuchungsgruppen**: Gruppen sind im Erwartungswert ähnlich
-- **Kontrolle bekannter und unbekannter Einflussfaktoren**: Auch nicht gemessene Merkmale werden ausgeglichen
-- **Erhöhung der internen Validität**: Kausale Schlussfolgerungen werden plausibler
-- **Verbesserung der Voraussetzungen für kausale Interpretationen**: Interventionseffekte lassen sich besser identifizieren
+Randomisierung soll verhindern, dass die Gruppenzuweisung systematisch von Merkmalen der Teilnehmenden beeinflusst wird. Dadurch werden bekannte und unbekannte Einflussfaktoren im Erwartungswert auf die Gruppen verteilt.
+
+Das stärkt die **interne Validität** und macht kausale Interpretationen plausibler.
 
 ## Beispiel aus der Deutschdidaktik
 
-Bei der Evaluation einer **Lesefördermaßnahme** oder einer **Intervention zur Schreibförderung** soll durch Randomisierung sichergestellt werden, dass Unterschiede zwischen den Gruppen möglichst nicht bereits vor Beginn der Maßnahme bestehen. Dadurch können Leistungsunterschiede nach der Intervention plausibler auf die Maßnahme selbst zurückgeführt werden.
+Eine Studie untersucht ein neues Lesestrategieprogramm. Die Interventionsgruppe arbeitet mit dem Programm, die Kontrollgruppe erhält regulären Unterricht.
 
-Stellen Sie sich vor: Eine Klasse erhält ein neues Lesestrategieprogramm, während eine Vergleichsklasse regulären Unterricht erhält. Ohne Randomisierung könnte die Lehrkraft unbewusst die leistungsstärkere Klasse für das Programm auswählen – die späteren Unterschiede wären dann nicht eindeutig dem Programm zuzuschreiben.
+Werden die Gruppen gezielt ausgewählt, könnte beispielsweise die leistungsstärkere Klasse das neue Programm erhalten. Unterschiede im Abschlusstest wären dann schwer zu interpretieren.
+
+Durch eine zufällige Zuweisung wird diese systematische Auswahl vermieden.
+
+
+## Möglichkeiten der zufälligen Zuweisung
+
+### Einfache Randomisierung
+
+Bei der **einfachen Randomisierung** wird jede Person mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen, zum Beispiel mithilfe eines Zufallszahlengenerators.
+
+**Vorteil:** Das Verfahren ist leicht verständlich und einfach durchzuführen.
+
+**Zu beachten:** Bei kleinen Stichproben können unterschiedlich große oder zufällig ungleiche Gruppen entstehen.
+
+### Cluster-Randomisierung
+
+In schulischen Studien können häufig nicht einzelne Schüler:innen unabhängig voneinander zugewiesen werden. Stattdessen werden ganze **Klassen oder Schulen** zufällig einer Bedingung zugeordnet.
+
+**Beispiel:** Acht Klassen nehmen an einer Studie zur Schreibförderung teil. Vier Klassen werden der neuen Schreibintervention und vier Klassen dem regulären Unterricht zugewiesen.
+
+**Zu beachten:** Schüler:innen innerhalb einer Klasse ähneln sich häufig. Dies muss bei der Stichprobenplanung und Auswertung berücksichtigt werden.
+
+### Stratifizierte Randomisierung
+
+Bei der **stratifizierten Randomisierung** werden Untersuchungseinheiten zunächst anhand eines wichtigen Merkmals gruppiert und anschließend innerhalb dieser Gruppen randomisiert.
+
+So kann beispielsweise sichergestellt werden, dass Klassen mit hohem und niedrigem Vortestniveau auf beide Bedingungen verteilt werden.
+
+::: {.callout-note title="Weitere Verfahren"}
+Zu den weiterführenden Verfahren gehört die **Blockrandomisierung**. Sie wird eingesetzt, um während der Zuweisung ein festgelegtes Verhältnis zwischen den Gruppen zu erhalten.
+:::
+
+## Wenn keine Randomisierung möglich ist
+
+In schulischen Studien können organisatorische Vorgaben eine zufällige Zuweisung verhindern. Dann kann **Matching** helfen, möglichst ähnliche Vergleichsgruppen zu bilden.
+
+Dabei werden Personen, Klassen oder Schulen anhand wichtiger Merkmale einander zugeordnet, zum Beispiel anhand von:
+
+- Vortestleistung
+- Klassenstufe
+- Schulform
+- Klassengröße
+
+Matching kann die Vergleichbarkeit verbessern. Es ersetzt jedoch keine Randomisierung, weil nur bekannte und gemessene Merkmale berücksichtigt werden können.
+
+Weiterführende Verfahren sind beispielsweise Propensity-Score-Matching und die statistische Kontrolle durch Kovariaten.
+
+## Gruppen nach der Randomisierung beschreiben
+
+Nach der Randomisierung sollten die Ausgangsmerkmale der Gruppen **deskriptiv dargestellt** werden, beispielsweise:
+
+- Vortestleistungen
+- Alter oder Klassenstufe
+- weitere für die Forschungsfrage relevante Merkmale
+
+Mittelwerte, Standardabweichungen und Verteilungen zeigen, wie die entstandenen Gruppen zusammengesetzt sind.
+
+::: {.callout-important}
+## Wichtig zu beachten
+Unterschiede zwischen den Gruppen bedeuten nicht automatisch, dass die Randomisierung fehlgeschlagen ist. Gerade bei kleinen Stichproben können zufällige Unterschiede auftreten.
+
+Signifikanztests eignen sich daher nicht als Prüfung, ob eine Randomisierung „erfolgreich“ war. Entscheidend ist, dass die Zuweisung korrekt und ohne vorhersehbare Einflussnahme durchgeführt wurde.
+:::
+
 
 ## Interaktives Tool: Randomisierung durchführen
 
@@ -163,39 +219,3 @@ html`
 `
 ```
 
-## Arten der Randomisierung
-
-### Einfache Randomisierung
-Bei der **einfachen Randomisierung** wird jede Person unabhängig mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen (z. B. durch Münzwurf oder Zufallszahlengenerator).
-
-**Vorteil:** Einfach durchzuführen  
-**Nachteil:** Bei kleinen Stichproben können ungleiche Gruppengrößen entstehen
-
-### Block-Randomisierung
-Bei der **Block-Randomisierung** werden Teilnehmende in Blöcken randomisiert, um gleiche Gruppengrößen zu garantieren.
-
-**Beispiel:** Bei 40 Personen und 2 Gruppen werden 4 Blöcke mit je 10 Personen gebildet. In jedem Block werden 5 Personen der Experimental- und 5 der Kontrollgruppe zugewiesen.
-
-### Stratifizierte Randomisierung
-Bei der **stratifizierten Randomisierung** werden Teilnehmende zunächst nach wichtigen Merkmalen (z. B. Geschlecht, Alter, Vorwissen) in Schichten (Strata) eingeteilt und dann innerhalb jeder Schicht randomisiert.
-
-**Vorteil:** Gewährleistet Gleichverteilung wichtiger Kovariaten
-
-## Überprüfung der Randomisierung
-
-Nach der Randomisierung sollten die Gruppen auf **Baseline-Merkmale** verglichen werden, um zu überprüfen, ob die Zufallszuweisung erfolgreich war:
-
-- Demografische Merkmale (Alter, Geschlecht)
-- Relevante Vortestleistungen
-- Motivationale Variablen
-
-Dies geschieht typischerweise durch:
-
-1. **Deskriptive Statistiken** (Mittelwerte, Standardabweichungen)
-2. **Statistische Tests** (t-Tests, Chi²-Tests) - allerdings mit Vorsicht zu interpretieren!
-
-::: {.callout-note}
-## Zur Interpretation von Baseline-Tests
-
-Signifikante Unterschiede bei Baseline-Vergleichen bedeuten **nicht**, dass die Randomisierung fehlgeschlagen ist. Bei α = 0.05 sind 5% signifikante Ergebnisse rein zufällig zu erwarten. Die Randomisierung bleibt trotzdem die beste Methode zur Gruppenzuweisung.
-:::

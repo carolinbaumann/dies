@@ -28,12 +28,11 @@ Die theoretische Wirkannahme erklärt, **warum** die Intervention eine Veränder
 
 ## 2. Wie soll verglichen werden?
 
-Legen Sie fest, welches Design zur Forschungsfrage passt:
+Legen Sie fest, welches Studiendesign geeignet ist, um die Forschungsfrage zu beantworten:
 
-- Prä-Post-Design
-- Parallelgruppendesign
-- randomisiertes oder quasiexperimentelles Design
-- individuelle oder clusterbasierte Zuweisung
+Welche Vergleichsbedingung wird verwendet?
+Erfolgt die Zuweisung randomisiert oder quasiexperimentell?
+Werden einzelne Personen oder ganze Gruppen zugewiesen?
 
 Weiterführend: [Design](design.qmd), [Kontrollgruppen](kontrollgruppe.qmd) und [Randomisierung](randomisierung.qmd).
 

@@ -12,24 +12,11 @@ execute:
 Empirische Forschung beginnt nicht mit der Datenerhebung, sondern mit einer **gründlichen Literaturrecherche** und einer **klaren theoretischen Verankerung**. Erst wenn bekannt ist, was bereits erforscht wurde, welche Begriffe zentral sind und welche Modelle das Forschungsfeld strukturieren, lässt sich eine tragfähige Forschungsfrage entwickeln.
 
 ::: {.callout-tip title="Zentrale Botschaft"}
-> Gute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage. Diese Frage entsteht aus Literatur, Theorie und Forschungsstand.
+> Gute empirische Forschung entsteht nicht durch eine schnell gewählte Methode, sondern durch eine gut begründete und präzise Forschungsfrage.
 :::
 
-## Warum Literaturrecherche der erste Schritt ist
 
-Eine gute Literaturrecherche hilft dabei,
-
-- zentrale Theorien, Modelle und Begriffe zu verstehen,
-- den aktuellen Forschungsstand zu erfassen,
-- Forschungslücken oder offene Fragen zu identifizieren,
-- die eigene Untersuchung fachlich zu begründen,
-- geeignete Methoden und Instrumente auszuwählen.
-
-Gerade in der Deutschdidaktik ist das wichtig, weil Forschungsfragen häufig an komplexe Gegenstände gebunden sind: Lesen, Schreiben, Sprache, Literatur, Medien, Unterricht, Lernprozesse und Kompetenzentwicklung. Ohne theoretische Fundierung bleibt unklar, **was genau untersucht wird** und **warum die Untersuchung relevant ist**.
-
-## Leitfragen für die erste Arbeitsphase
-
-
+## Leitfragen für die erste Arbeitsphase - Literaturrecherche und Theoriebildung
 | Bereich | Leitfrage |
 |---|---|
 | Forschungsstand | Was weiß die Forschung bereits zu meinem Thema? |
@@ -39,11 +26,14 @@ Gerade in der Deutschdidaktik ist das wichtig, weil Forschungsfragen häufig an 
 | Forschungsfrage | Welche präzise Frage ergibt sich daraus? |
 | Methode | Welche Methode passt wirklich zu dieser Frage? |
 
+
+ Ohne theoretische Fundierung bleibt unklar, **was genau untersucht wird** und **warum die Untersuchung relevant ist**. Eine gut formulierte Forschungsfrage ist die Grundlage für die Auswahl der Methode und die Interpretation der Ergebnisse. Sie sollte nicht erst am Ende des Planungsprozesses entstehen, sondern von Anfang an im Zentrum stehen.
+
 ## Von der Forschungsidee zur Forschungsfrage
 
-Eine allgemeine Idee wie „kreatives Schreiben untersuchen“ ist noch keine Forschungsfrage. Eine tragfähige Forschungsfrage entsteht erst, wenn der Gegenstand mithilfe von Theorie und Forschungsstand eingegrenzt wird.
+Eine allgemeine Idee wie „kreatives Schreiben untersuchen“ ist noch keine Forschungsfrage. 
 
-Dabei sollte deutlich werden,
+Es sollte deutlich werden,
 
 - **welcher Gegenstand** untersucht wird,
 - **bei welcher Zielgruppe** die Untersuchung stattfindet,
