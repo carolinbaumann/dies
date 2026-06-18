@@ -64,7 +64,7 @@ Die Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemei
 
 
 
-## Zusammenhänge verstehen am Beispiel: Poweranalyse t-Test
+## Zusammenhänge verstehen am Beispiel: Vereinfachte Fallzahlplanung t-Test
 
 Dieses Beispiel dient ausschließlich zur Illustration der grundlegenden Zusammenhänge. Für Prä-Post-Designs, mehrere Messzeitpunkte, Cluster-Randomisierung, ungleiche Gruppengrößen oder hierarchische Daten ist eine designspezifische Poweranalyse erforderlich.
 
@@ -84,8 +84,8 @@ viewof alpha = Inputs.range([0.01, 0.15], {
 })
 
 viewof power = Inputs.range([0.5, 0.99], {
-  value: 0.8, 
-  step: 0.05, 
+  value: 0.8,
+  step: 0.01,
   label: "Gewünschte Power (1-β)"
 })
 
@@ -95,68 +95,164 @@ viewof ratio = Inputs.range([0.5, 3.0], {
   label: "Verhältnis Gruppe 2 / Gruppe 1"
 })
 ```
-
-```{ojs}
 //| echo: false
 
+
+```{ojs}
 jstat = require("jstat@1.9.6")
 
-function calculateSampleSize(d, alpha, power, ratio) {
-  // Z-Werte für zweiseitigen Test
-  const z_alpha = jstat.normal.inv(1 - alpha/2, 0, 1);
-  const z_beta = jstat.normal.inv(power, 0, 1);
-  
-  // Formel für Stichprobengröße bei ungleichen Gruppengrößen
-  const n1 = Math.pow((z_alpha + z_beta), 2) * 2 * (1 + 1/ratio) / Math.pow(d, 2);
-  const n2 = n1 * ratio;
-  
+function calculateSampleSize(d, alpha, targetPower, ratio) {
+  // Eingabeprüfung
+  if (!Number.isFinite(d) || d <= 0) {
+    throw new Error("Die Effektgröße d muss größer als 0 sein.");
+  }
+
+  if (!Number.isFinite(alpha) || alpha <= 0 || alpha >= 1) {
+    throw new Error("α muss zwischen 0 und 1 liegen.");
+  }
+
+  if (!Number.isFinite(targetPower) || targetPower <= 0 || targetPower >= 1) {
+    throw new Error("Die Power muss zwischen 0 und 1 liegen.");
+  }
+
+  if (!Number.isFinite(ratio) || ratio <= 0) {
+    throw new Error("Das Gruppenverhältnis muss größer als 0 sein.");
+  }
+
+  // Kritische Z-Werte für einen zweiseitigen Test
+  const zAlpha = jstat.normal.inv(1 - alpha / 2, 0, 1);
+  const zPower = jstat.normal.inv(targetPower, 0, 1);
+
+  /*
+   * Verhältnis:
+   * ratio = n2 / n1
+   *
+   * Normalapproximation für den Vergleich zweier
+   * unabhängiger Mittelwerte bei gemeinsamer Standardabweichung.
+   */
+  const n1Raw =
+    Math.pow(zAlpha + zPower, 2) *
+    (1 + 1 / ratio) /
+    Math.pow(d, 2);
+
+  const n2Raw = ratio * n1Raw;
+
+  // Gruppengrößen jeweils separat aufrunden
+  const n1 = Math.ceil(n1Raw);
+  const n2 = Math.ceil(n2Raw);
+
+  /*
+   * Näherungsweise erreichte Power nach dem Aufrunden.
+   *
+   * Standardfehler der standardisierten Mittelwertsdifferenz:
+   * sqrt(1/n1 + 1/n2)
+   */
+  const noncentrality =
+    d / Math.sqrt(1 / n1 + 1 / n2);
+
+  const achievedPower =
+    jstat.normal.cdf(-zAlpha - noncentrality, 0, 1) +
+    1 - jstat.normal.cdf(zAlpha - noncentrality, 0, 1);
+
   return {
-    n1: Math.ceil(n1),
-    n2: Math.ceil(n2),
-    total: Math.ceil(n1 + n2)
+    n1,
+    n2,
+    total: n1 + n2,
+    achievedPower
   };
 }
 
-sample_sizes = calculateSampleSize(effect_size, alpha, power, ratio)
+sample_sizes = calculateSampleSize(
+  effect_size,
+  alpha,
+  power,
+  ratio
+)
 
 html`
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-            color: white; padding: 30px; border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
-  <h3 style="margin-top: 0; font-size: 24px;">📊 Erforderliche Stichprobengröße</h3>
-  
-  <div style="background: rgba(255,255,255,0.15); padding: 20px; 
-              border-radius: 8px; backdrop-filter: blur(10px);">
+<div style="
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin: 20px 0;
+">
+  <h3 style="margin-top: 0; font-size: 24px;">
+    📊 Erforderliche Stichprobengröße
+  </h3>
+
+  <div style="
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+  ">
     <div style="font-size: 20px; margin: 15px 0;">
-      <strong>Gruppe 1 (n₁):</strong> 
-      <span style="font-size: 32px; font-weight: bold;">${sample_sizes.n1}</span> 
-      Teilnehmer
+      <strong>Gruppe 1 (n₁):</strong>
+      <span style="font-size: 32px; font-weight: bold;">
+        ${sample_sizes.n1}
+      </span>
+      Teilnehmende
     </div>
-    
+
     <div style="font-size: 20px; margin: 15px 0;">
-      <strong>Gruppe 2 (n₂):</strong> 
-      <span style="font-size: 32px; font-weight: bold;">${sample_sizes.n2}</span> 
-      Teilnehmer
+      <strong>Gruppe 2 (n₂):</strong>
+      <span style="font-size: 32px; font-weight: bold;">
+        ${sample_sizes.n2}
+      </span>
+      Teilnehmende
     </div>
-    
-    <hr style="border-color: rgba(255,255,255,0.3); margin: 20px 0;">
-    
+
+    <hr style="
+      border: 0;
+      border-top: 1px solid rgba(255,255,255,0.3);
+      margin: 20px 0;
+    ">
+
     <div style="font-size: 22px; margin: 15px 0;">
-      <strong>Gesamt (N):</strong> 
-      <span style="font-size: 36px; font-weight: bold;">${sample_sizes.total}</span> 
-      Teilnehmer
+      <strong>Gesamt (N):</strong>
+      <span style="font-size: 36px; font-weight: bold;">
+        ${sample_sizes.total}
+      </span>
+      Teilnehmende
     </div>
   </div>
-  
-  <div style="margin-top: 20px; padding: 15px; 
-              background: rgba(0,0,0,0.2); border-radius: 8px;">
+
+  <div style="
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+  ">
     <p style="margin: 5px 0; font-size: 14px;">
-      <strong>Parameter:</strong> 
-      Effektgröße d = ${effect_size.toFixed(2)} | 
-      α = ${alpha.toFixed(3)} | 
-      Power = ${power.toFixed(2)} | 
-      Verhältnis = ${ratio.toFixed(1)}:1
+      <strong>Parameter:</strong>
+      d = ${effect_size.toFixed(2)} |
+      α = ${alpha.toFixed(3)} |
+      gewünschte Power = ${power.toFixed(2)} |
+      Verhältnis n₂:n₁ = ${ratio.toFixed(1)}:1
     </p>
+
+    <p style="margin: 8px 0 5px; font-size: 14px;">
+      <strong>Näherungsweise erreichte Power nach Rundung:</strong>
+      ${sample_sizes.achievedPower.toFixed(3)}
+    </p>
+  </div>
+
+  <div style="
+    margin-top: 16px;
+    padding: 14px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+  ">
+    <strong>Hinweis:</strong>
+    Die Berechnung verwendet eine Normalapproximation für einen
+    zweiseitigen Vergleich zweier unabhängiger Mittelwerte.
+    Eine exakte Berechnung für den t-Test kann geringfügig größere
+    Stichproben ergeben. Prä-Post-, Cluster- und Mehrebenendesigns
+    benötigen eine designspezifische Poweranalyse.
   </div>
 </div>
 `
