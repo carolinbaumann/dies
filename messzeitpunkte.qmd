@@ -1,8 +1,6 @@
 ---
 title: "Messzeitpunkte"
----
-
-Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral für die interne Validität und die kausale Aussagekraft von Interventionsstudien ist. 
+--- 
 
 ## Warum Messzeitpunkte wichtig sind
 
@@ -15,7 +13,7 @@ Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral fü
 - One‑Shot / Posttest only: X O  
   - Vorteil: einfach; Nachteil: keine Basislinie, keine kausale Aussage.
 - Pretest‑Posttest (one‑group): O1 X O2  
-  - Vorteil: Veränderung sichtbar; Nachteil: History, Maturation, Regression zur Mitte.
+  - Vorteil: Veränderung sichtbar; Nachteil: History, Reifung, Regression zur Mitte.
 - Pretest‑Posttest mit Kontrollgruppe / RCT: R O1 X O2 / R O1 O2  
   - Vorteil: Starke interne Validität bei Randomisierung.
 - Mehrfache Follow‑ups: O1 X O2 O3 ...  
@@ -30,7 +28,6 @@ Dieser Abschnitt erklärt kurz, weshalb die Wahl von Messzeitpunkten zentral fü
 - Primäres Outcome zuerst definieren; Messzeitpunkte an erwarteter Wirkmechanik ausrichten.  
 - Mindestens eine valide Baseline (O1) vor Beginn der Intervention.  
 - Bei erwarteter Verzögerung mindestens ein späteres Follow‑up (O3+).  
-- ITS: ≥8–12 Messungen vor und ≥8–12 nach Intervention empfohlen, wenn möglich.  
 - Intensive Designs: Balance zwischen Belastung der Teilnehmenden und Informationsgehalt.  
 - Powerplanung basierend auf Effektgröße der primären AV und Messwiederholungen (Cluster/Repeated‑Measures berücksichtigen).  
 - Missing‑Data‑Plan (Imputation, Sensitivitätsanalysen) vorab festlegen.  

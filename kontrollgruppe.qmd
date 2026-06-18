@@ -4,13 +4,12 @@ title: "Kontrollgruppen"
 
 ## Was ist eine Kontrollgruppe?
 
-Eine Kontroll- oder Vergleichsgruppe bildet die Bedingung ab, mit der die Intervention verglichen wird. Sie kann keine zusätzliche Maßnahme, regulären Unterricht, eine Wartelistenbedingung oder eine alternative Intervention erhalten.
+Eine Kontrollgruppe bildet die Vergleichsbedingung zur Experimentalgruppe. Erst der Vergleich zwischen den Bedingungen ermöglicht es zu prüfen, ob Unterschiede in der abhängigen Variable tatsächlich auf die manipulierte unabhängige Variable zurückzuführen sind und nicht auf andere Einflüsse. Entscheidend ist deshalb, dass sich Experimental- und Kontrollgruppe möglichst nur hinsichtlich der interessierenden Behandlung unterscheiden.
 
 ## Zweck von Kontrollgruppen
 
-- **Kausalschlüsse ermöglichen**: Unterschiede zwischen Experimental- und Kontrollgruppe können auf die didaktische Intervention zurückgeführt werden
-- **Alternativerklärungen ausschließen**: Kontrolle von Störvariablen wie Reifung, Übung oder externe Ereignisse
-- **Baseline etablieren**: Referenzwert für den Lernzuwachs
+- **Kontrollgruppen ermöglichen kausale Vergleiche.**: Eine Veränderung innerhalb einer einzelnen Interventionsgruppe reicht für einen kausalen Schluss nicht aus, weil beispielsweise Reifung, zeitliche Ereignisse oder wiederholtes Testen die Veränderung erklären könnten.
+- **Die Art der Kontrollbedingung bestimmt die Aussage.**: Eine unbehandelte Kontrollgruppe beantwortet eine andere Frage als eine Placebo- oder aktive Kontrollgruppe. Je nachdem lässt sich prüfen, ob eine Intervention besser wirkt als keine Behandlung, als unspezifische Zuwendung oder als eine bereits bestehende Maßnahme.
 
 ## Arten von Kontrollgruppen in der Deutschdidaktik
 

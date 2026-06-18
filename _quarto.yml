@@ -3,7 +3,9 @@ project:
 
 book:
   title: "Interventionsstudien sinnvoll planen"
-  author: "Carolin Baumann & Cora Parrisius"
+  author: 
+    - Carolin Baumann
+    - Cora Parrisius
   chapters:
     - index.qmd                     # Einleitung
     - theorie_beginn.qmd   
@@ -17,7 +19,13 @@ book:
     - messzeitpunkte.qmd          # Messzeitpunkte
     - implementation.qmd          # Wie setze ich die Intervention um?
     - ethische_richtlinien.qmd 
-    - validität.qmd        
+    - validität.qmd
+    - references.qmd    
+
+
+bibliography: ./references.bib
+csl: ./apa.csl
+lang: de    
     
 format:
   html:
@@ -30,3 +38,7 @@ execute:
   message: false
 
 editor: source
+
+
+
+

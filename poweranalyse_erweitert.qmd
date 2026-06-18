@@ -1,4 +1,4 @@
-## Wozu dient eine Poweranalyse?
+## Poweranalyse
 
 Eine Poweranalyse hilft dabei, die erforderliche Stichprobengröße für eine Studie zu bestimmen. Ziel ist es, einen tatsächlich vorhandenen Effekt mit ausreichender Wahrscheinlichkeit zu entdecken.
 

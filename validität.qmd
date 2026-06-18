@@ -1,6 +1,6 @@
 # Bedrohungen der internen Validität
 
-In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann.
+In der Campbell-Tradition werden neun Bedrohungen der internen Validität unterschieden (Cook & Campbell, 1979; [@shadish2002] Shadish et al., 2002). Diese Bedrohungen führen dazu, dass ein statistisch nachgewiesener Zusammenhang zwischen Variablen nicht eindeutig als Ursache-Wirkungs-Zusammenhang interpretiert werden kann.
 
 ## Unklare zeitliche Abfolge
 
