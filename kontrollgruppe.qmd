@@ -36,26 +36,35 @@ Erhält eine alternative, etablierte Fördermethode zum Vergleich.
 
 ## Beispiele aus der Deutschdidaktik
 
-### Leseförderung
-**Forschungsfrage**: Verbessert ein Training der Leseflüssigkeit das Leseverständnis?
+Klicken Sie auf die Reiter, um zwischen den Beispielen zu wechseln.
 
-- **Experimentalgruppe**: 3x wöchentlich 20 Min. Lautlese-Tandem
-- **Kontrollgruppe**: Regulärer Leseunterricht
-- **Messung**: Lesetest vorher/nachher
+::: {.panel-tabset}
+
+### Leseförderung
+
+**Forschungsfrage:** Verbessert ein Training der Leseflüssigkeit das Leseverständnis?
+
+- **Experimentalgruppe:** dreimal wöchentlich 20 Minuten Lautlese-Tandem
+- **Kontrollgruppe:** regulärer Leseunterricht
+- **Messung:** Lesetest vor und nach der Intervention
 
 ### Schreibförderung
-**Forschungsfrage**: Steigert prozessorientiertes Schreiben die Textqualität?
 
-- **Experimentalgruppe**: Schreibprozess mit Planungs-, Schreib- und Überarbeitungsphasen
-- **Kontrollgruppe**: Traditioneller Aufsatzunterricht
-- **Messung**: Textqualität nach standardisierten Kriterien
+**Forschungsfrage:** Steigert prozessorientiertes Schreiben die Textqualität?
+
+- **Experimentalgruppe:** Schreiben mit Planungs-, Schreib- und Überarbeitungsphasen
+- **Kontrollgruppe:** traditioneller Aufsatzunterricht
+- **Messung:** Textqualität anhand standardisierter Kriterien
 
 ### Rechtschreibförderung
-**Forschungsfrage**: Ist strategieorientiertes Rechtschreibtraining effektiver als Regellernen?
 
-- **Experimentalgruppe**: Strategietraining (Wortbausteine, Ableitungen)
-- **Kontrollgruppe**: Regellernen und Übungen
-- **Messung**: Rechtschreibtest
+**Forschungsfrage:** Ist ein strategieorientiertes Rechtschreibtraining effektiver als Regellernen?
+
+- **Experimentalgruppe:** Strategietraining mit Wortbausteinen und Ableitungen
+- **Kontrollgruppe:** Regellernen und Übungen
+- **Messung:** Rechtschreibtest
+
+:::
 
 ## Wichtige Überlegungen im Schulkontext
 

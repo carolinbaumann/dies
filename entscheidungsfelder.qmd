@@ -15,7 +15,7 @@ Vor Beginn einer Interventionsstudie müssen einige grundlegende Entscheidungen 
 Eine gute Planung verbindet Forschungsfrage, Wirkannahme, Vergleichsbedingung und Messung zu einem konsistenten Studiendesign.
 :::
 
-## 1. Was soll untersucht werden?
+## Was soll untersucht werden?
 
 Formulieren Sie eine klare Forschungsfrage und bestimmen Sie:
 
@@ -26,7 +26,7 @@ Formulieren Sie eine klare Forschungsfrage und bestimmen Sie:
 
 Die theoretische Wirkannahme erklärt, **warum** die Intervention eine Veränderung bewirken sollte.
 
-## 2. Wie soll verglichen werden?
+## Wie soll verglichen werden?
 
 Legen Sie fest, welches Studiendesign geeignet ist, um die Forschungsfrage zu beantworten:
 
@@ -36,7 +36,7 @@ Werden einzelne Personen oder ganze Gruppen zugewiesen?
 
 Weiterführend: [Design](design.qmd), [Kontrollgruppen](kontrollgruppe.qmd) und [Randomisierung](randomisierung.qmd).
 
-## 3. Wer nimmt teil?
+## Wer nimmt teil?
 
 Bestimmen Sie:
 
@@ -47,7 +47,7 @@ Bestimmen Sie:
 
 Weiterführend: [Stichprobenziehung](stichprobe.qmd) und [Poweranalyse](poweranalyse_erweitert.qmd).
 
-## 4. Was wird wann gemessen?
+## Was wird wann gemessen?
 
 Definieren Sie das primäre Outcome und wählen Sie geeignete Instrumente. Danach werden die Messzeitpunkte festgelegt.
 

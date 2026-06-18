@@ -11,8 +11,8 @@ Ein geeignetes Design ermöglicht eine möglichst klare Antwort auf die Forschun
 Wählen Sie das Design anhand Ihrer Forschungsfrage – nicht danach, welches Design sich am einfachsten durchführen lässt.
 :::
 
-## Häufige Designs
-
+## Häufige Designvarianten und Designentscheidungen
+Die folgenden Begriffe beschreiben unterschiedliche Aspekte eines Untersuchungsdesigns und können miteinander kombiniert werden.
 ### Ein-Gruppen-Prä-Post-Design
 
 Eine Gruppe wird vor und nach der Intervention untersucht.
@@ -29,7 +29,7 @@ Mindestens zwei Gruppen erhalten gleichzeitig unterschiedliche Bedingungen, beis
 
 **Zu beachten:** Die Gruppen sollten zu Beginn möglichst vergleichbar sein.
 
-### Randomisiertes kontrolliertes Design
+### Randomisiertes kontrollierte Studie
 
 Die Teilnehmenden werden nach dem Zufallsprinzip den Bedingungen zugeordnet.
 
@@ -53,13 +53,13 @@ Bei einem **Zwischen-Gruppen-Vergleich** werden unterschiedliche Gruppen miteina
 
 Beides kann kombiniert werden: In einem Prä-Post-Kontrollgruppendesign werden mehrere Gruppen jeweils vor und nach der Intervention untersucht.
 
-## Weitere Designs
+## Weitere Designformen und zeitliche Anordnungen
 
 Für besondere Forschungsfragen kommen unter anderem infrage:
 
 - Crossover-Designs
 - faktorielle Designs
-- längsschnittliche Designs
+- Löngsschnittdesigns
 - Single-Case-Designs
 - Stepped-Wedge-Designs
 
