@@ -184,8 +184,12 @@ Beispielhafte Referenz: Engzell et al. (2021).
 
 ## Literaturhinweise
 
-- Brown, C. A., & Lilford, R. J. (2006). *The stepped wedge trial design: A systematic review*. BMC Medical Research Methodology, 6, 54.
-- Shadish, W. R., & Sullivan, K. J. (2011). *Characteristics of single-case designs used to assess intervention effects in 2008*. Behavior Research Methods, 43, 971–980.
-- Nagengast et al. (2017): Literaturangabe entsprechend der im jeweiligen Veranstaltungskontext verwendeten Quelle ergänzen.
-- Collins und Lundstedt (2024): Literaturangabe entsprechend der verwendeten Quelle ergänzen.
-- Engzell et al. (2021): Literaturangabe entsprechend der verwendeten Quelle ergänzen.
+- Brown, C. A., & Lilford, R. J. (2006). The stepped wedge trial design: A systematic review. BMC Medical Research Methodology, 6(1), 54. https://doi.org/10.1186/1471-2288-6-54
+
+- Collins, M., & Lundstedt, J. (2024). The effects of more informative grading on student outcomes. Journal of Economic Behavior & Organization, 218, 514–549. https://doi.org/10.1016/j.jebo.2023.12.001
+
+- Engzell, P., Frey, A., & Verhagen, M. D. (2021). Learning loss due to school closures during the COVID-19 pandemic. Proceedings of the National Academy of Sciences, 118(17), e2022376118. https://doi.org/10.1073/pnas.2022376118
+
+- Nagengast, B., Brisson, B., Hulleman, C., Gaspard, H., Häfner, I., & Trautwein, U. (2017). Learning more from educational intervention studies: Estimating complier average causal effects in a relevance intervention. The Journal of Experimental Education. https://doi.org/10.1080/00220973.2017.1289359
+
+- Shadish, W. R., & Sullivan, K. J. (2011). Characteristics of single-case designs used to assess intervention effects in 2008. Behavior Research Methods, 43(4), 971–980. https://doi.org/10.3758/s13428-011-0111-y
