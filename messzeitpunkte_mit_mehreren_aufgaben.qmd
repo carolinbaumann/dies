@@ -1,9 +1,5 @@
 ---
 title: "Messzeitpunkte"
---- 
-
----
-title: "Messzeitpunkte"
 format:
   html:
     toc: true
@@ -331,11 +327,3 @@ Antwort prüfen
 </script>
 ```
 
-
-## Kurze Checkliste für Promovierende
-
-- Definieren: primäres Outcome + kausales Modell.  
-- Baseline sicherstellen; Follow‑ups an Wirkmechanik anpassen.  
-- Power & Messwiederholungen planen.  
-- Missing‑Data‑Strategie und Präregistrierung.  
-- Bei Mixed/Quasi‑Designs explizit dokumentieren, welche Komponenten kausal identifiziert werden können.

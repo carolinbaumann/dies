@@ -11,11 +11,24 @@ Diese Website ist **kein Lehrbuch**, sondern eine kompakte Begleitung zum Worksh
 
 Sie bündelt zentrale Inhalte, Beispiele und Übungen aus dem Workshop und dient dazu, wesentliche Überlegungen zur Planung von Interventionsstudien strukturiert festzuhalten. Die Materialien können zur Vorbereitung, zur Wiederholung und zur Vertiefung genutzt werden.
 
-::: {.callout-note title="Hinweis"}
 Die Website ersetzt weder die gemeinsame Diskussion im Workshop noch die vertiefende Auseinandersetzung mit Methodenliteratur. Sie versteht sich als Orientierungshilfe und Arbeitsgrundlage.
-:::
+
+**Literatur**
+
+Weiterführende Darstellungen zu Forschungsdesigns und Evaluation finden sich
+bei @doering2023 und @schreier2023. 
+Für den Kontext der Bildungsforschung eignet sich außerdem @cohen2018.
 
 
 ::: {.callout-tip title="Arbeitsprinzip"}
 Nutzen Sie die Materialien nicht nur zum Lesen. Übertragen Sie die einzelnen Schritte möglichst direkt auf Ihr eigenes Forschungsvorhaben.
+:::
+
+
+
+::: {.callout-note} 
+## Hinweise und Korrekturen
+Trotz sorgfältiger Prüfung können sich Fehler oder Unklarheiten eingeschlichen haben. Hinweise auf fachliche, sprachliche oder technische Probleme sind daher sehr willkommen.
+
+Bitte senden Sie entsprechende Rückmeldungen per E-Mail an [carolin.baumann(at)ph-karlsruhe.de](mailto:carolin.baumann@ph-karlsruhe.de).
 :::

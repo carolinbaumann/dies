@@ -304,16 +304,14 @@ $its_plot</code></pre>
 </section>
 <section id="übungsaufgabe-messzeitpunkte" class="level2">
 <h2 class="anchored" data-anchor-id="übungsaufgabe-messzeitpunkte">Übungsaufgabe: Messzeitpunkte</h2>
-<p>Testen Sie Ihr Wissen mit dieser Single-Choice-Aufgabe:</p>
+<p>Testen Sie Ihr Wissen mit zufällig ausgewählten Single-Choice-Aufgaben:</p>
 <div id="quiz-messzeitpunkte" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
-<p id="question-messzeitpunkte" style="font-weight: 600;">
-Eine Studie untersucht ein achtwöchiges Lesetraining. Die Forschenden möchten prüfen, ob die Wirkung auch drei Monate nach Ende des Trainings bestehen bleibt. Welcher Messzeitpunkt ist dafür erforderlich?
+<button id="new-question-messzeitpunkte" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+Neue Aufgabe
+</button>
+<p id="question-messzeitpunkte" style="font-weight: 600; margin-top: 1rem;">
 </p>
 <form id="answers-messzeitpunkte" style="margin-top: 1rem;">
-<p><label style="display: block; margin-bottom: .5rem;"> <input type="radio" name="answer-messzeitpunkte" value="0"> Eine zusätzliche Messung während der Intervention </label></p>
-<p><label style="display: block; margin-bottom: .5rem;"> <input type="radio" name="answer-messzeitpunkte" value="1"> Eine Follow-up-Messung drei Monate nach Ende der Intervention </label></p>
-<p><label style="display: block; margin-bottom: .5rem;"> <input type="radio" name="answer-messzeitpunkte" value="2"> Eine zweite Baseline-Messung vor Beginn der Intervention </label></p>
-<p><label style="display: block; margin-bottom: .5rem;"> <input type="radio" name="answer-messzeitpunkte" value="3"> Eine Messung ausschließlich direkt nach Ende der Intervention </label></p>
 </form>
 <button id="check-answer-messzeitpunkte" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
 Antwort prüfen
@@ -324,20 +322,99 @@ Antwort prüfen
 </div>
 <script>
 (function () {
-  const correctAnswer = 1;
+  const questionsMesszeitpunkte = [
+    {
+      frage: "Eine Studie untersucht ein achtwöchiges Lesetraining. Die Forschenden möchten prüfen, ob die Wirkung auch drei Monate nach Ende des Trainings bestehen bleibt. Welcher Messzeitpunkt ist dafür erforderlich?",
+      optionen: [
+        "Eine zusätzliche Messung während der Intervention",
+        "Eine Follow-up-Messung drei Monate nach Ende der Intervention",
+        "Eine zweite Baseline-Messung vor Beginn der Intervention",
+        "Eine Messung ausschließlich direkt nach Ende der Intervention"
+      ],
+      richtig: 1,
+      erklaerung: "Eine Follow-up-Messung drei Monate nach Abschluss der Intervention zeigt, ob ein Effekt über den unmittelbaren Posttest hinaus bestehen bleibt."
+    },
+    {
+      frage: "Welcher Messzeitpunkt ist notwendig, um den Ausgangswert einer Zielvariable vor Beginn einer Intervention zu erfassen?",
+      optionen: [
+        "Eine Baseline-Messung vor Beginn der Intervention",
+        "Eine Follow-up-Messung nach sechs Monaten",
+        "Eine Messung während der Intervention",
+        "Ausschließlich eine Posttestmessung"
+      ],
+      richtig: 0,
+      erklaerung: "Die Baseline-Messung erfasst das Ausgangsniveau vor Beginn der Intervention und bildet die Grundlage für spätere Vergleiche."
+    },
+    {
+      frage: "Eine Intervention soll ihre Wirkung erst einige Wochen nach ihrem Abschluss vollständig entfalten. Wie sollte der Messplan gestaltet werden?",
+      optionen: [
+        "Nur eine Messung direkt zu Beginn",
+        "Nur eine Messung während der Intervention",
+        "Mindestens eine spätere Follow-up-Messung nach dem erwarteten Wirkungseintritt",
+        "Ausschließlich tägliche Messungen vor der Intervention"
+      ],
+      richtig: 2,
+      erklaerung: "Bei verzögert erwarteten Effekten muss mindestens eine Messung nach dem vermuteten Wirkungseintritt vorgesehen werden."
+    },
+    {
+      frage: "Warum können mehrere Messzeitpunkte vor und nach einer Intervention bei einer unterbrochenen Zeitreihe sinnvoll sein?",
+      optionen: [
+        "Sie machen eine Kontrollgruppe grundsätzlich überflüssig",
+        "Sie erlauben die Untersuchung bestehender Trends und möglicher Veränderungen nach Beginn der Intervention",
+        "Sie verhindern automatisch fehlende Daten",
+        "Sie garantieren eine hohe statistische Power"
+      ],
+      richtig: 1,
+      erklaerung: "Mehrere Messungen vor und nach der Intervention ermöglichen es, bestehende Trends zu beschreiben und Veränderungen im Niveau oder Verlauf nach dem Interventionsbeginn zu untersuchen."
+    }
+  ];
 
-  const explanation =
-    "Eine Follow-up-Messung nach Abschluss der Intervention zeigt, " +
-    "ob ein beobachteter Effekt über den unmittelbaren Posttest hinaus bestehen bleibt. " +
-    "Eine Messung direkt nach der Intervention erfasst dagegen vor allem den kurzfristigen Effekt.";
+  let currentQuestionMesszeitpunkte = null;
+  let previousIndexMesszeitpunkte = -1;
 
-  const button = document.getElementById("check-answer-messzeitpunkte");
-  const feedback = document.getElementById("feedback-messzeitpunkte");
+  function loadRandomQuestionMesszeitpunkte() {
+    let index;
 
-  button.addEventListener("click", function () {
+    do {
+      index = Math.floor(Math.random() * questionsMesszeitpunkte.length);
+    } while (
+      questionsMesszeitpunkte.length > 1 &&
+      index === previousIndexMesszeitpunkte
+    );
+
+    previousIndexMesszeitpunkte = index;
+    currentQuestionMesszeitpunkte = questionsMesszeitpunkte[index];
+
+    document.getElementById("question-messzeitpunkte").textContent =
+      currentQuestionMesszeitpunkte.frage;
+
+    const form = document.getElementById("answers-messzeitpunkte");
+    form.innerHTML = "";
+
+    currentQuestionMesszeitpunkte.optionen.forEach(function (option, i) {
+      const label = document.createElement("label");
+      label.style.display = "block";
+      label.style.marginBottom = ".5rem";
+
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "answer-messzeitpunkte";
+      radio.value = i;
+
+      label.appendChild(radio);
+      label.appendChild(document.createTextNode(" " + option));
+      form.appendChild(label);
+    });
+
+    document.getElementById("feedback-messzeitpunkte").innerHTML = "";
+  }
+
+  function checkAnswerMesszeitpunkte() {
     const selected = document.querySelector(
       'input[name="answer-messzeitpunkte"]:checked'
     );
+
+    const feedback = document.getElementById("feedback-messzeitpunkte");
 
     if (!selected) {
       feedback.innerHTML =
@@ -348,25 +425,37 @@ Antwort prüfen
     }
 
     const selectedValue = Number(selected.value);
+    const isCorrect = selectedValue === currentQuestionMesszeitpunkte.richtig;
 
-    if (selectedValue === correctAnswer) {
+    if (isCorrect) {
       feedback.innerHTML =
         '<div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 5px;">' +
         '<h4 style="color: #155724;">✓ RICHTIG!</h4>' +
         '<p style="color: #155724;"><strong>Erklärung:</strong> ' +
-        explanation +
+        currentQuestionMesszeitpunkte.erklaerung +
         '</p></div>';
     } else {
       feedback.innerHTML =
         '<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 5px;">' +
         '<h4 style="color: #721c24;">✗ FALSCH!</h4>' +
         '<p style="color: #721c24;"><strong>Die richtige Antwort ist:</strong> ' +
-        'Eine Follow-up-Messung drei Monate nach Ende der Intervention.</p>' +
+        currentQuestionMesszeitpunkte.optionen[currentQuestionMesszeitpunkte.richtig] +
+        '</p>' +
         '<p style="color: #721c24;"><strong>Erklärung:</strong> ' +
-        explanation +
+        currentQuestionMesszeitpunkte.erklaerung +
         '</p></div>';
     }
-  });
+  }
+
+  document
+    .getElementById("new-question-messzeitpunkte")
+    .addEventListener("click", loadRandomQuestionMesszeitpunkte);
+
+  document
+    .getElementById("check-answer-messzeitpunkte")
+    .addEventListener("click", checkAnswerMesszeitpunkte);
+
+  loadRandomQuestionMesszeitpunkte();
 })();
 </script>
 </section>

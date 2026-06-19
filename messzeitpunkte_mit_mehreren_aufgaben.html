@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.16">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Messzeitpunkte</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/clipboard/clipboard.min.js"></script>
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/quarto.js"></script>
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/popper.min.js"></script>
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/anchor.min.js"></script>
+<link href="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="messzeitpunkte_mit_mehreren_aufgaben_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="messzeitpunkte_mit_mehreren_aufgaben_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="messzeitpunkte_mit_mehreren_aufgaben_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="messzeitpunkte_mit_mehreren_aufgaben_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#warum-messzeitpunkte-wichtig-sind" id="toc-warum-messzeitpunkte-wichtig-sind" class="nav-link active" data-scroll-target="#warum-messzeitpunkte-wichtig-sind">Warum Messzeitpunkte wichtig sind</a></li>
+  <li><a href="#typische-messschemata" id="toc-typische-messschemata" class="nav-link" data-scroll-target="#typische-messschemata">Typische Messschemata</a>
+  <ul class="collapse">
+  <li><a href="#einmalige-messung-nach-der-intervention" id="toc-einmalige-messung-nach-der-intervention" class="nav-link" data-scroll-target="#einmalige-messung-nach-der-intervention">Einmalige Messung nach der Intervention</a></li>
+  <li><a href="#ein-gruppen-prä-post-design" id="toc-ein-gruppen-prä-post-design" class="nav-link" data-scroll-target="#ein-gruppen-prä-post-design">Ein-Gruppen-Prä-Post-Design</a></li>
+  <li><a href="#prä-post-design-mit-kontrollgruppe" id="toc-prä-post-design-mit-kontrollgruppe" class="nav-link" data-scroll-target="#prä-post-design-mit-kontrollgruppe">Prä-Post-Design mit Kontrollgruppe</a></li>
+  <li><a href="#mehrere-nachmessungen" id="toc-mehrere-nachmessungen" class="nav-link" data-scroll-target="#mehrere-nachmessungen">Mehrere Nachmessungen</a></li>
+  <li><a href="#unterbrochene-zeitreihe" id="toc-unterbrochene-zeitreihe" class="nav-link" data-scroll-target="#unterbrochene-zeitreihe">Unterbrochene Zeitreihe</a></li>
+  <li><a href="#intensiv-längsschnittliche-designs" id="toc-intensiv-längsschnittliche-designs" class="nav-link" data-scroll-target="#intensiv-längsschnittliche-designs">Intensiv längsschnittliche Designs</a></li>
+  </ul></li>
+  <li><a href="#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten" id="toc-praktische-empfehlungen-zur-auswahl-von-messzeitpunkten" class="nav-link" data-scroll-target="#praktische-empfehlungen-zur-auswahl-von-messzeitpunkten">Praktische Empfehlungen zur Auswahl von Messzeitpunkten</a></li>
+  <li><a href="#beispiele-simulationen-und-visualisierungen" id="toc-beispiele-simulationen-und-visualisierungen" class="nav-link" data-scroll-target="#beispiele-simulationen-und-visualisierungen">Beispiele — Simulationen und Visualisierungen</a></li>
+  <li><a href="#übungsaufgabe-messzeitpunkte" id="toc-übungsaufgabe-messzeitpunkte" class="nav-link" data-scroll-target="#übungsaufgabe-messzeitpunkte">Übungsaufgabe: Messzeitpunkte</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Messzeitpunkte</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="warum-messzeitpunkte-wichtig-sind" class="level2">
+<h2 class="anchored" data-anchor-id="warum-messzeitpunkte-wichtig-sind">Warum Messzeitpunkte wichtig sind</h2>
+<ul>
+<li>Messzeitpunkte bestimmen, ob Veränderungen über die Zeit erfasst werden können.</li>
+<li>Eine Messung vor der Intervention schafft eine Ausgangsbasis für spätere Vergleiche.</li>
+<li>Mehrere Messzeitpunkte helfen dabei, Veränderungen durch Reifung, zeitgleiche externe Einflüsse und die Intervention voneinander abzugrenzen.</li>
+<li>Anzahl und Lage der Messzeitpunkte können die statistische Power beeinflussen. Entscheidend sind dabei der erwartete zeitliche Wirkverlauf, die Korrelation zwischen wiederholten Messungen, das Analysemodell und das Ausmaß fehlender Daten.</li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body" title="Wichtiger Hinweis">
+<p>Messzeitpunkte allein erlauben noch keine eindeutige Trennung verschiedener Einflussfaktoren. Dafür werden meist zusätzlich eine geeignete Kontrollgruppe oder mehrere Messungen vor und nach der Intervention benötigt.</p>
+</div>
+</div>
+</section>
+<section id="typische-messschemata" class="level2">
+<h2 class="anchored" data-anchor-id="typische-messschemata">Typische Messschemata</h2>
+<section id="einmalige-messung-nach-der-intervention" class="level3">
+<h3 class="anchored" data-anchor-id="einmalige-messung-nach-der-intervention">Einmalige Messung nach der Intervention</h3>
+<p><code>X O</code></p>
+<p>Die Zielvariable wird ausschließlich nach der Intervention erhoben.</p>
+<p><strong>Vorteil:</strong> geringer Erhebungsaufwand.</p>
+<p><strong>Einschränkung:</strong> Veränderungen gegenüber dem Ausgangszustand können nicht bestimmt werden. Ohne geeignete Vergleichsgruppe sind kausale Schlussfolgerungen kaum möglich.</p>
+</section>
+<section id="ein-gruppen-prä-post-design" class="level3">
+<h3 class="anchored" data-anchor-id="ein-gruppen-prä-post-design">Ein-Gruppen-Prä-Post-Design</h3>
+<p><code>O₁ X O₂</code></p>
+<p>Dieselbe Gruppe wird vor und nach der Intervention untersucht.</p>
+<p><strong>Vorteil:</strong> Veränderungen innerhalb der Gruppe werden sichtbar.</p>
+<p><strong>Einschränkung:</strong> Veränderungen können neben der Intervention auch durch Reifung, Regression zur Mitte oder zeitgleiche externe Einflüsse entstanden sein.</p>
+</section>
+<section id="prä-post-design-mit-kontrollgruppe" class="level3">
+<h3 class="anchored" data-anchor-id="prä-post-design-mit-kontrollgruppe">Prä-Post-Design mit Kontrollgruppe</h3>
+<p><code>R O₁ X O₂</code><br>
+<code>R O₁   O₂</code></p>
+<p>Interventions- und Kontrollgruppe werden vor und nach der Intervention untersucht. Bei einer randomisierten Zuweisung steht <code>R</code> für die Randomisierung.</p>
+<p><strong>Vorteil:</strong> Die Veränderung in der Interventionsgruppe kann mit der Veränderung in der Kontrollgruppe verglichen werden. Eine korrekt durchgeführte Randomisierung stärkt die interne Validität.</p>
+</section>
+<section id="mehrere-nachmessungen" class="level3">
+<h3 class="anchored" data-anchor-id="mehrere-nachmessungen">Mehrere Nachmessungen</h3>
+<p><code>O₁ X O₂ O₃ …</code></p>
+<p>Zusätzliche Nachmessungen ermöglichen die Untersuchung von Entwicklungsverläufen, verzögerten Wirkungen und der Nachhaltigkeit von Interventionseffekten.</p>
+</section>
+<section id="unterbrochene-zeitreihe" class="level3">
+<h3 class="anchored" data-anchor-id="unterbrochene-zeitreihe">Unterbrochene Zeitreihe</h3>
+<p><code>O₁ O₂ O₃ O₄ X O₅ O₆ O₇ O₈</code></p>
+<p>Viele Messzeitpunkte vor und nach der Einführung einer Intervention ermöglichen es, bestehende Trends und Veränderungen nach dem Interventionsbeginn zu untersuchen.</p>
+</section>
+<section id="intensiv-längsschnittliche-designs" class="level3">
+<h3 class="anchored" data-anchor-id="intensiv-längsschnittliche-designs">Intensiv längsschnittliche Designs</h3>
+<p>Bei intensiv längsschnittlichen Designs werden Daten in kurzen Abständen erhoben, beispielsweise täglich oder mehrmals pro Tag.</p>
+<p>Diese Designs eignen sich zur Untersuchung kurzfristiger Prozesse, intraindividueller Veränderungen und zeitlich dynamischer Wirkungen.</p>
+</section>
+</section>
+<section id="praktische-empfehlungen-zur-auswahl-von-messzeitpunkten" class="level2">
+<h2 class="anchored" data-anchor-id="praktische-empfehlungen-zur-auswahl-von-messzeitpunkten">Praktische Empfehlungen zur Auswahl von Messzeitpunkten</h2>
+<ul>
+<li>Zunächst das primäre Outcome und den erwarteten Wirkverlauf definieren.</li>
+<li>Mindestens eine geeignete Ausgangsmessung vor Beginn der Intervention einplanen.</li>
+<li>Den Zeitpunkt der Nachmessung an der erwarteten Wirkungsdauer der Intervention ausrichten.</li>
+<li>Bei verzögerten oder längerfristigen Wirkungen zusätzliche Follow-up-Messungen vorsehen.</li>
+<li>Bei häufigen Messungen die Belastung der Teilnehmenden gegen den zusätzlichen Informationsgewinn abwägen.</li>
+<li>In der Powerplanung die Zahl der Messwiederholungen und gegebenenfalls die Clusterstruktur berücksichtigen.</li>
+<li>Den Umgang mit fehlenden Daten und Studienabbrüchen vorab festlegen.</li>
+<li>Messzeitpunkte, Outcomes und geplante Analysen möglichst vor Beginn der Studie dokumentieren oder präregistrieren.</li>
+</ul>
+</section>
+<section id="beispiele-simulationen-und-visualisierungen" class="level2">
+<h2 class="anchored" data-anchor-id="beispiele-simulationen-und-visualisierungen">Beispiele — Simulationen und Visualisierungen</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulations‑Beispiele für typische Messschemata</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1) RCT Prä-Post: Posttestwerte nach Gruppe </span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>n_per_group <span class="ot">&lt;-</span> <span class="dv">40</span> </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>true_effect <span class="ot">&lt;-</span> <span class="dv">8</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>maturation <span class="ot">&lt;-</span> <span class="dv">3</span> </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>rct <span class="ot">&lt;-</span> <span class="fu">tibble</span>( </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span>(<span class="dv">2</span> <span class="sc">*</span> n_per_group), </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">group =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"Interventionsgruppe"</span>, <span class="st">"Kontrollgruppe"</span>), <span class="at">each =</span> n_per_group), </span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">pre =</span> <span class="fu">rnorm</span>(<span class="dv">2</span> <span class="sc">*</span> n_per_group, <span class="at">mean =</span> <span class="dv">50</span>, <span class="at">sd =</span> <span class="dv">10</span>) </span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>( </span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>      <span class="at">post =</span> pre <span class="sc">+</span> </span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>        maturation <span class="sc">+</span> </span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ifelse</span>(group <span class="sc">==</span> <span class="st">"Interventionsgruppe"</span>, true_effect, <span class="dv">0</span>) <span class="sc">+</span> </span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        <span class="fu">rnorm</span>(<span class="dv">2</span> <span class="sc">*</span> n_per_group, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">6</span>) </span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        ) </span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>        rct_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(rct, <span class="fu">aes</span>(<span class="at">x =</span> group, <span class="at">y =</span> post, <span class="at">fill =</span> group)) <span class="sc">+</span> </span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>          <span class="fu">geom_boxplot</span>(<span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span> </span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>          <span class="fu">labs</span>( </span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"Posttestwerte nach Untersuchungsbedingung"</span>, </span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>            <span class="at">subtitle =</span> <span class="st">"Unadjustierte Verteilung der Posttestwerte"</span>, </span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>            <span class="at">x =</span> <span class="st">""</span>, </span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>            <span class="at">y =</span> <span class="st">"Posttestwert"</span> ) <span class="sc">+</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>               <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>               <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="co"># 2) Mehrfache Follow-ups (Trajektorien, Gruppenmittelwerte)</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>ids <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">100</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>multi <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(<span class="at">id =</span> ids, <span class="at">time =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">3</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">group =</span> <span class="fu">ifelse</span>(id <span class="sc">&lt;=</span> <span class="dv">50</span>, <span class="st">"Exp"</span>, <span class="st">"Ctrl"</span>),</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">baseline =</span> <span class="fu">rnorm</span>(<span class="fu">n</span>(), <span class="dv">50</span>, <span class="dv">8</span>),</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Effekt baut über Zeit auf: time = months since baseline</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">effect =</span> <span class="fu">ifelse</span>(group<span class="sc">==</span><span class="st">"Exp"</span>, <span class="fl">0.0</span> <span class="sc">+</span> <span class="dv">4</span> <span class="sc">*</span> (time<span class="sc">&gt;</span><span class="dv">0</span>) <span class="sc">+</span> <span class="dv">2</span> <span class="sc">*</span> (time<span class="sc">&gt;=</span><span class="dv">3</span>), <span class="dv">0</span>),</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> baseline <span class="sc">+</span> effect <span class="sc">+</span> <span class="fu">rnorm</span>(<span class="fu">n</span>(), <span class="dv">0</span>, <span class="dv">5</span>)</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>multi_summary <span class="ot">&lt;-</span> multi <span class="sc">%&gt;%</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(group, time) <span class="sc">%&gt;%</span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_y =</span> <span class="fu">mean</span>(y), <span class="at">.groups =</span> <span class="st">"drop"</span>)</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>multi_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(multi_summary, <span class="fu">aes</span>(<span class="at">x =</span> time, <span class="at">y =</span> mean_y, <span class="at">color =</span> group)) <span class="sc">+</span></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span> <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Mehrfache Follow-ups: Gruppenmittelwerte"</span>, <span class="at">x =</span> <span class="st">"Zeit (Monate)"</span>, <span class="at">y =</span> <span class="st">"Mittelwert Outcome"</span>) <span class="sc">+</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="co"># 3) Interrupted Time Series (Aggregierte Zeitreihe)</span></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>times <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">12</span>, <span class="dv">12</span>) <span class="co"># Monate, intervention bei 0</span></span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>its_df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>  <span class="at">time =</span> times,</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>  <span class="at">baseline_trend =</span> <span class="fl">0.2</span> <span class="sc">*</span> time,</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>  <span class="at">intervention_level =</span> <span class="fu">ifelse</span>(time <span class="sc">&gt;=</span> <span class="dv">0</span>, <span class="dv">6</span>, <span class="dv">0</span>),</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>  <span class="at">noise =</span> <span class="fu">rnorm</span>(<span class="fu">length</span>(times), <span class="dv">0</span>, <span class="dv">1</span>)</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">y =</span> <span class="dv">30</span> <span class="sc">+</span> baseline_trend <span class="sc">+</span> intervention_level <span class="sc">+</span> noise)</span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>its_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(its_df, <span class="fu">aes</span>(<span class="at">x =</span> time, <span class="at">y =</span> y)) <span class="sc">+</span></span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="fl">1.5</span>, <span class="at">y =</span> <span class="fu">max</span>(its_df<span class="sc">$</span>y), <span class="at">label =</span> <span class="st">"Intervention"</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">hjust =</span> <span class="dv">0</span>) <span class="sc">+</span></span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Interrupted Time Series (Aggregiert)"</span>, <span class="at">x =</span> <span class="st">"Monate relativ zur Intervention"</span>, <span class="at">y =</span> <span class="st">"Outcome"</span>) <span class="sc">+</span></span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a><span class="co"># Rückgabe: nützliche Plot‑Objekte für das Quarto‑Dokument</span></span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a><span class="fu">list</span>(<span class="at">rct_plot =</span> rct_plot, <span class="at">multi_plot =</span> multi_plot, <span class="at">its_plot =</span> its_plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$rct_plot</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="messzeitpunkte_mit_mehreren_aufgaben_files/figure-html/messzeitpunkte-simulation-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+$multi_plot</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="messzeitpunkte_mit_mehreren_aufgaben_files/figure-html/messzeitpunkte-simulation-2.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+$its_plot</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="messzeitpunkte_mit_mehreren_aufgaben_files/figure-html/messzeitpunkte-simulation-3.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="übungsaufgabe-messzeitpunkte" class="level2">
+<h2 class="anchored" data-anchor-id="übungsaufgabe-messzeitpunkte">Übungsaufgabe: Messzeitpunkte</h2>
+<p>Testen Sie Ihr Wissen mit zufällig ausgewählten Single-Choice-Aufgaben:</p>
+<div id="quiz-messzeitpunkte" style="border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem; margin-top: 1rem;">
+<button id="new-question-messzeitpunkte" type="button" style="padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+Neue Aufgabe
+</button>
+<p id="question-messzeitpunkte" style="font-weight: 600; margin-top: 1rem;">
+</p>
+<form id="answers-messzeitpunkte" style="margin-top: 1rem;">
+</form>
+<button id="check-answer-messzeitpunkte" type="button" style="margin-top: 1rem; padding: .6rem 1rem; border-radius: 8px; border: 1px solid #777; cursor: pointer;">
+Antwort prüfen
+</button>
+<div id="feedback-messzeitpunkte" style="margin-top: 1rem; font-weight: 600;">
+
+</div>
+</div>
+<script>
+(function () {
+  const questionsMesszeitpunkte = [
+    {
+      frage: "Eine Studie untersucht ein achtwöchiges Lesetraining. Die Forschenden möchten prüfen, ob die Wirkung auch drei Monate nach Ende des Trainings bestehen bleibt. Welcher Messzeitpunkt ist dafür erforderlich?",
+      optionen: [
+        "Eine zusätzliche Messung während der Intervention",
+        "Eine Follow-up-Messung drei Monate nach Ende der Intervention",
+        "Eine zweite Baseline-Messung vor Beginn der Intervention",
+        "Eine Messung ausschließlich direkt nach Ende der Intervention"
+      ],
+      richtig: 1,
+      erklaerung: "Eine Follow-up-Messung drei Monate nach Abschluss der Intervention zeigt, ob ein Effekt über den unmittelbaren Posttest hinaus bestehen bleibt."
+    },
+    {
+      frage: "Welcher Messzeitpunkt ist notwendig, um den Ausgangswert einer Zielvariable vor Beginn einer Intervention zu erfassen?",
+      optionen: [
+        "Eine Baseline-Messung vor Beginn der Intervention",
+        "Eine Follow-up-Messung nach sechs Monaten",
+        "Eine Messung während der Intervention",
+        "Ausschließlich eine Posttestmessung"
+      ],
+      richtig: 0,
+      erklaerung: "Die Baseline-Messung erfasst das Ausgangsniveau vor Beginn der Intervention und bildet die Grundlage für spätere Vergleiche."
+    },
+    {
+      frage: "Eine Intervention soll ihre Wirkung erst einige Wochen nach ihrem Abschluss vollständig entfalten. Wie sollte der Messplan gestaltet werden?",
+      optionen: [
+        "Nur eine Messung direkt zu Beginn",
+        "Nur eine Messung während der Intervention",
+        "Mindestens eine spätere Follow-up-Messung nach dem erwarteten Wirkungseintritt",
+        "Ausschließlich tägliche Messungen vor der Intervention"
+      ],
+      richtig: 2,
+      erklaerung: "Bei verzögert erwarteten Effekten muss mindestens eine Messung nach dem vermuteten Wirkungseintritt vorgesehen werden."
+    },
+    {
+      frage: "Warum können mehrere Messzeitpunkte vor und nach einer Intervention bei einer unterbrochenen Zeitreihe sinnvoll sein?",
+      optionen: [
+        "Sie machen eine Kontrollgruppe grundsätzlich überflüssig",
+        "Sie erlauben die Untersuchung bestehender Trends und möglicher Veränderungen nach Beginn der Intervention",
+        "Sie verhindern automatisch fehlende Daten",
+        "Sie garantieren eine hohe statistische Power"
+      ],
+      richtig: 1,
+      erklaerung: "Mehrere Messungen vor und nach der Intervention ermöglichen es, bestehende Trends zu beschreiben und Veränderungen im Niveau oder Verlauf nach dem Interventionsbeginn zu untersuchen."
+    }
+  ];
+
+  let currentQuestionMesszeitpunkte = null;
+  let previousIndexMesszeitpunkte = -1;
+
+  function loadRandomQuestionMesszeitpunkte() {
+    let index;
+
+    do {
+      index = Math.floor(Math.random() * questionsMesszeitpunkte.length);
+    } while (
+      questionsMesszeitpunkte.length > 1 &&
+      index === previousIndexMesszeitpunkte
+    );
+
+    previousIndexMesszeitpunkte = index;
+    currentQuestionMesszeitpunkte = questionsMesszeitpunkte[index];
+
+    document.getElementById("question-messzeitpunkte").textContent =
+      currentQuestionMesszeitpunkte.frage;
+
+    const form = document.getElementById("answers-messzeitpunkte");
+    form.innerHTML = "";
+
+    currentQuestionMesszeitpunkte.optionen.forEach(function (option, i) {
+      const label = document.createElement("label");
+      label.style.display = "block";
+      label.style.marginBottom = ".5rem";
+
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "answer-messzeitpunkte";
+      radio.value = i;
+
+      label.appendChild(radio);
+      label.appendChild(document.createTextNode(" " + option));
+      form.appendChild(label);
+    });
+
+    document.getElementById("feedback-messzeitpunkte").innerHTML = "";
+  }
+
+  function checkAnswerMesszeitpunkte() {
+    const selected = document.querySelector(
+      'input[name="answer-messzeitpunkte"]:checked'
+    );
+
+    const feedback = document.getElementById("feedback-messzeitpunkte");
+
+    if (!selected) {
+      feedback.innerHTML =
+        '<div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px;">' +
+        '<p style="color: #856404; margin: 0;">Bitte wählen Sie zuerst eine Antwort aus.</p>' +
+        '</div>';
+      return;
+    }
+
+    const selectedValue = Number(selected.value);
+    const isCorrect = selectedValue === currentQuestionMesszeitpunkte.richtig;
+
+    if (isCorrect) {
+      feedback.innerHTML =
+        '<div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 5px;">' +
+        '<h4 style="color: #155724;">✓ RICHTIG!</h4>' +
+        '<p style="color: #155724;"><strong>Erklärung:</strong> ' +
+        currentQuestionMesszeitpunkte.erklaerung +
+        '</p></div>';
+    } else {
+      feedback.innerHTML =
+        '<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 5px;">' +
+        '<h4 style="color: #721c24;">✗ FALSCH!</h4>' +
+        '<p style="color: #721c24;"><strong>Die richtige Antwort ist:</strong> ' +
+        currentQuestionMesszeitpunkte.optionen[currentQuestionMesszeitpunkte.richtig] +
+        '</p>' +
+        '<p style="color: #721c24;"><strong>Erklärung:</strong> ' +
+        currentQuestionMesszeitpunkte.erklaerung +
+        '</p></div>';
+    }
+  }
+
+  document
+    .getElementById("new-question-messzeitpunkte")
+    .addEventListener("click", loadRandomQuestionMesszeitpunkte);
+
+  document
+    .getElementById("check-answer-messzeitpunkte")
+    .addEventListener("click", checkAnswerMesszeitpunkte);
+
+  loadRandomQuestionMesszeitpunkte();
+})();
+</script>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

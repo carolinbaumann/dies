@@ -34,7 +34,7 @@ Mindestens zwei Gruppen erhalten gleichzeitig unterschiedliche Bedingungen, beis
 
 **Zu beachten:** Die Gruppen sollten zu Beginn möglichst vergleichbar sein.
 
-### Randomisiertes kontrollierte Studie
+### Randomisierte kontrollierte Studie
 
 Die Teilnehmenden werden nach dem Zufallsprinzip den Bedingungen zugeordnet.
 
