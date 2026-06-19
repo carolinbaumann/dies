@@ -1,0 +1,191 @@
+---
+title: "Ansätze zur Identifikation kausaler Effekte in den Bildungswissenschaften"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    code-fold: true
+lang: de
+---
+Ergänzung zu https://sammerk.github.io/Pick-Your-Poisson von Samuel Merk
+
+## Vorbemerkung
+
+In empirischen Bildungsstudien besteht häufig das Ziel, nicht nur Zusammenhänge zu beschreiben, sondern **kausale Effekte** zu bestimmen. Eine kausale Aussage beantwortet beispielsweise die Frage:
+
+> Wie hätte sich die Leistung derselben Schülerinnen und Schüler entwickelt, wenn sie die Intervention nicht erhalten hätten?
+
+Dieses kontrafaktische Ergebnis kann für eine Person nicht gleichzeitig beobachtet werden. Die folgenden Forschungsdesigns und statistischen Ansätze versuchen deshalb, eine möglichst glaubwürdige Vergleichssituation herzustellen.
+
+## Cluster-randomisierte Feldstudien mit Wartelistenkontrollgruppe
+
+Bei einer **cluster-randomisierten Studie** werden nicht einzelne Personen, sondern bestehende Gruppen zufällig den Untersuchungsbedingungen zugewiesen. In den Bildungswissenschaften sind solche Cluster typischerweise Klassen, Kurse oder Schulen. Bei einer **Wartelistenkontrollgruppe** erhält die Kontrollgruppe die Intervention erst nach Abschluss der zentralen Wirkungsmessung.
+
+Die Randomisierung soll dafür sorgen, dass sich Interventions- und Kontrollgruppe vor Beginn der Maßnahme im Mittel nicht systematisch unterscheiden. Die Zuweisung ganzer Cluster reduziert außerdem das Risiko, dass sich die Intervention innerhalb einer Klasse von behandelten auf unbehandelte Personen überträgt.
+
+### Beispiel
+
+Untersucht werden soll ein Training zur Förderung der wahrgenommenen Relevanz von Mathematik.
+
+1. 40 Schulklassen nehmen an der Studie teil.
+2. Die Klassen werden zufällig einer Interventions- oder Wartelistenbedingung zugewiesen.
+3. Die Interventionsklassen bearbeiten das Training im ersten Schulhalbjahr.
+4. Die Wartelistenklassen erhalten zunächst regulären Unterricht.
+5. Nach dem ersten Halbjahr werden Motivation und Mathematikleistung beider Gruppen verglichen.
+6. Anschließend erhalten auch die Wartelistenklassen das Training.
+
+```{mermaid}
+flowchart LR
+    A[40 Schulklassen] --> B{Zufällige Zuweisung}
+    B --> C[Intervention sofort]
+    B --> D[Warteliste / Unterricht wie üblich]
+    C --> E[Wirkungsmessung]
+    D --> E
+    E --> F[Intervention für Warteliste]
+```
+
+**Zentrale Stärke:** Die Randomisierung ermöglicht unter geeigneter Durchführung eine vergleichsweise starke kausale Interpretation.
+
+**Wichtige Herausforderung:** Die statistische Analyse muss die Abhängigkeit von Personen innerhalb derselben Klasse oder Schule berücksichtigen, etwa durch Mehrebenenmodelle oder clusterrobuste Standardfehler.
+
+## Nutzung exogener Variation: natürliche Experimente
+
+Bei einem **natürlichen Experiment** entsteht die relevante Variation nicht durch einen Eingriff des Forschungsteams, sondern durch äußere Ereignisse oder institutionelle Regeln. Beispiele sind Reformen, Stichtagsregelungen, regionale Unterschiede bei der Einführung eines Programms oder unerwartete Unterbrechungen des Unterrichts.
+
+Die Variation gilt als **exogen**, wenn sie mit Blick auf die untersuchten Personen hinreichend unabhängig von anderen Ursachen des Ergebnisses ist. Unter dieser Annahme kann sie eine Situation erzeugen, die einer zufälligen Zuweisung ähnelt.
+
+### Beispiel
+
+Ein Bundesland führt ein verpflichtendes Leseförderprogramm ab dem Schuljahr 2026/27 ein, ein strukturell ähnliches Nachbarland jedoch erst ein Jahr später.
+
+Verglichen wird die Entwicklung der Lesekompetenz:
+
+- vor und nach der Einführung des Programms sowie
+- zwischen dem früh und dem später einführenden Bundesland.
+
+
+**Zentrale Stärke:** Kausale Fragestellungen können untersucht werden, obwohl eine experimentelle Zuweisung praktisch oder ethisch nicht möglich ist.
+
+**Wichtige Herausforderung:** Die Glaubwürdigkeit hängt von der konkreten Identifikationsannahme ab. Im Beispiel wäre insbesondere zu begründen, dass beide Regionen ohne die Reform einen parallelen Entwicklungstrend gezeigt hätten.
+
+
+## Stepped-Wedge-Design
+
+Beim **Stepped-Wedge-Design** beginnen alle Cluster in der Kontrollbedingung. Zu mehreren festgelegten Zeitpunkten wechseln einzelne Cluster oder Gruppen von Clustern schrittweise in die Interventionsbedingung. Die Reihenfolge des Wechsels wird idealerweise randomisiert. Am Ende haben alle Cluster die Intervention erhalten.
+
+Das Design eignet sich besonders, wenn eine gleichzeitige Einführung organisatorisch kaum möglich ist oder allen teilnehmenden Einrichtungen die Intervention zugänglich gemacht werden soll.
+
+### Beispiel
+
+Zwölf Schulen sollen ein neues Programm zur formativen Leistungsdiagnostik erhalten. Das Fortbildungsteam kann jeweils nur drei Schulen gleichzeitig betreuen.
+
+| Messzeitpunkt | Schulen 1–3 | Schulen 4–6 | Schulen 7–9 | Schulen 10–12 |
+|---|---|---|---|---|
+| T0 | Kontrolle | Kontrolle | Kontrolle | Kontrolle |
+| T1 | Intervention | Kontrolle | Kontrolle | Kontrolle |
+| T2 | Intervention | Intervention | Kontrolle | Kontrolle |
+| T3 | Intervention | Intervention | Intervention | Kontrolle |
+| T4 | Intervention | Intervention | Intervention | Intervention |
+
+Die Reihenfolge, in der die vier Schulgruppen wechseln, wird zufällig bestimmt. Schülerleistungen oder Unterrichtsmerkmale werden zu allen Messzeitpunkten erhoben.
+
+**Zentrale Stärke:** Die Intervention kann gestaffelt implementiert und dennoch systematisch evaluiert werden; zugleich erhalten schließlich alle Cluster die Maßnahme.
+
+**Wichtige Herausforderung:** Interventionseffekte müssen von allgemeinen Zeittrends getrennt werden. Saisonale Entwicklungen, Übungseffekte oder parallele Reformen können sonst mit dem Interventionseffekt verwechselt werden.
+
+## Single-Case-Interventionsstudien
+
+**Single-Case-Designs** untersuchen Interventionswirkungen anhand eines oder weniger Fälle. Ein Fall kann eine einzelne Person, eine Klasse oder eine andere klar abgegrenzte Einheit sein. Charakteristisch sind wiederholte Messungen vor, während und gegebenenfalls nach einer Intervention.
+
+Der Begriff *Single Case* bedeutet daher nicht zwingend, dass nur eine einzige Messung oder nur eine Person betrachtet wird. Entscheidend ist die intensive längsschnittliche Beobachtung einzelner Fälle.
+
+### Beispiel: ABAB-Design
+
+Untersucht wird, ob ein tägliches Selbstregulationstraining das aufgabenbezogene Verhalten eines Schülers verbessert.
+
+- **A1 – Baseline:** Anteil aufgabenbezogenen Verhaltens ohne Training
+- **B1 – Intervention:** Einführung des Trainings
+- **A2 – Rücknahme:** vorübergehendes Aussetzen des Trainings
+- **B2 – erneute Intervention:** Wiedereinführung des Trainings
+
+```{mermaid}
+flowchart LR
+    A1[A1: Baseline] --> B1[B1: Intervention]
+    B1 --> A2[A2: Rücknahme]
+    A2 --> B2[B2: Intervention]
+```
+
+Steigt das aufgabenbezogene Verhalten wiederholt in den B-Phasen und sinkt es in den A-Phasen, stärkt dieses replizierte Muster die kausale Interpretation.
+
+Weitere Varianten sind Multiple-Baseline-Designs, Alternating-Treatments-Designs und Changing-Criterion-Designs.
+
+**Zentrale Stärke:** Veränderungen können engmaschig erfasst und Interventionen an seltenen oder sehr heterogenen Fällen untersucht werden.
+
+**Wichtige Herausforderung:** Zeittrends, Autokorrelation und die Übertragbarkeit auf andere Personen oder Kontexte müssen sorgfältig berücksichtigt werden. Eine Rücknahme der Intervention ist zudem nicht bei jeder Maßnahme möglich oder ethisch vertretbar.
+
+
+## Matching
+
+Beim Matching werden behandelte und unbehandelte Personen mit möglichst ähnlichen beobachteten Ausgangsmerkmalen verglichen.
+
+### Beispiel
+
+Die Wirkung freiwilliger Nachhilfe soll untersucht werden. Für jede Schülerin und jeden Schüler mit Nachhilfe wird eine Person ohne Nachhilfe gesucht, die hinsichtlich Vorleistung, sozialer Herkunft, Schulform und Motivation möglichst ähnlich ist.
+
+Nach dem Matching werden die späteren Leistungen der beiden Gruppen verglichen.
+
+**Zentrale Annahme:** Alle relevanten gemeinsamen Ursachen von Teilnahme und Ergebnis wurden beobachtet und angemessen berücksichtigt.
+
+## Balancing und Gewichtungsverfahren
+
+Balancing-Verfahren gewichten Beobachtungen so, dass sich die Verteilungen relevanter Kovariaten zwischen den Gruppen möglichst stark ähneln. Dazu zählen beispielsweise:
+
+- inverse Wahrscheinlichkeitsgewichtung,
+- Entropy Balancing und
+- Covariate Balancing Propensity Scores.
+
+### Beispiel
+
+Teilnehmende eines digitalen Förderprogramms stammen häufiger aus leistungsstarken Schulen. Die Fälle werden so gewichtet, dass Interventions- und Vergleichsgruppe anschließend dieselbe Verteilung von Vorleistung, Schulform, sozialer Zusammensetzung und regionalen Merkmalen aufweisen.
+
+**Zentrale Annahme:** Auch hier dürfen keine relevanten unbeobachteten Confounder verbleiben.
+
+## Instrumentelle Variablen
+
+Eine **instrumentelle Variable** beeinflusst die Wahrscheinlichkeit, eine Intervention zu erhalten, wirkt jedoch unter den erforderlichen Annahmen nicht auf anderem Weg auf das Ergebnis.
+
+### Beispiel
+
+Die Entfernung zur nächstgelegenen Schule, die ein bestimmtes Förderprogramm anbietet, beeinflusst die Teilnahme am Programm. Sie könnte als Instrument verwendet werden, sofern:
+
+1. die Entfernung die Teilnahme tatsächlich beeinflusst,
+2. sie keinen direkten Effekt auf die untersuchte Leistung hat und
+3. sie mit keinen unbeobachteten Ursachen der Leistung zusammenhängt.
+
+Der Ansatz nutzt dann den durch das Instrument hervorgerufenen Anteil der Teilnahmevariation zur Effektschätzung.
+
+**Zentrale Stärke:** Instrumentvariablenverfahren können unter geeigneten Bedingungen auch bei unbeobachtetem Confounding kausale Effekte identifizieren.
+
+**Wichtige Herausforderung:** Ein überzeugendes Instrument ist selten. Die Ausschlussrestriktion lässt sich in der Regel nicht vollständig empirisch testen. Häufig bezieht sich der geschätzte Effekt zudem nur auf die Personen, deren Teilnahme durch das Instrument verändert wird.
+
+Beispielhafte Referenz: Engzell et al. (2021).
+
+## Vergleich der Ansätze
+
+| Ansatz | Quelle der Vergleichbarkeit | Typische Analyseeinheit | Besonders geeignet, wenn … | Zentrale Gefährdung |
+|---|---|---|---|---|
+| Cluster-randomisierte Wartelistenstudie | Zufällige Zuweisung von Clustern | Klassen oder Schulen | eine kontrollierte Einführung möglich ist | Kontamination, geringe Clusterzahl, Ausfälle |
+| Natürliches Experiment | Exogene institutionelle oder historische Variation | Personen, Schulen oder Regionen | Randomisierung nicht durchführbar ist | Verletzung der Identifikationsannahmen |
+| Stepped-Wedge-Design | Randomisierte Reihenfolge der gestaffelten Einführung | meist Schulen oder Einrichtungen | die Intervention schrittweise ausgerollt werden muss | Zeittrends und komplexe Modellierung |
+| Single-Case-Design | Wiederholte Phasenvergleiche innerhalb eines Falls | Personen oder einzelne Einheiten | wenige oder stark heterogene Fälle vorliegen | zeitgleiche Veränderungen und geringe Generalisierbarkeit |
+| Matching oder Balancing | Angleichung beobachteter Kovariaten | meist Personen | umfangreiche Beobachtungsdaten verfügbar sind | unbeobachtetes Confounding |
+| Instrumentelle Variablen | Durch ein Instrument erzeugte Variation | Personen oder Aggregate | ein glaubwürdiges Instrument existiert | ungültiges oder schwaches Instrument |
+
+## Literaturhinweise
+
+- Brown, C. A., & Lilford, R. J. (2006). *The stepped wedge trial design: A systematic review*. BMC Medical Research Methodology, 6, 54.
+- Shadish, W. R., & Sullivan, K. J. (2011). *Characteristics of single-case designs used to assess intervention effects in 2008*. Behavior Research Methods, 43, 971–980.
+- Nagengast et al. (2017): Literaturangabe entsprechend der im jeweiligen Veranstaltungskontext verwendeten Quelle ergänzen.
+- Collins und Lundstedt (2024): Literaturangabe entsprechend der verwendeten Quelle ergänzen.
+- Engzell et al. (2021): Literaturangabe entsprechend der verwendeten Quelle ergänzen.

@@ -40,7 +40,7 @@ Die Teilnehmenden werden nach dem Zufallsprinzip den Bedingungen zugeordnet.
 
 **Vorteil:** Randomisierung unterstützt die Vergleichbarkeit der Gruppen und stärkt kausale Schlussfolgerungen.
 
-Weitere Informationen finden Sie in den Kapiteln [Kontrollgruppen](kontrollgruppen.qmd) und [Randomisierung](randomisierung.qmd).
+Weitere Informationen finden Sie in den Kapiteln [Kontrollgruppen](kontrollgruppe.qmd) und [Randomisierung](randomisierung.qmd).
 
 ### Clusterdesign
 

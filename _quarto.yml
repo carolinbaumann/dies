@@ -21,7 +21,7 @@ book:
     - ethische_richtlinien.qmd 
     - validität.qmd
     - references.qmd    
-
+    - ergaenzung_samuel.qmd
 
 bibliography: ./references.bib
 csl: ./apa.csl
