@@ -2,36 +2,85 @@
 title: "Messzeitpunkte"
 --- 
 
+---
+title: "Messzeitpunkte"
+format:
+  html:
+    toc: true
+    number-sections: false
+---
+
 ## Warum Messzeitpunkte wichtig sind
 
-- Bestimmen kausale Inferenz: Baseline vs. Follow‑up ist Voraussetzung, um Veränderung zu messen.  
-- Trennen von Reifung, Geschichte und Interventionseffekt.  
-- Beeinflussen Power, Bias durch Missing Data und Sensitivität für zeitlich verzögerte Effekte.
+- Messzeitpunkte bestimmen, ob Veränderungen über die Zeit erfasst werden können.
+- Eine Messung vor der Intervention schafft eine Ausgangsbasis für spätere Vergleiche.
+- Mehrere Messzeitpunkte helfen dabei, Veränderungen durch Reifung, zeitgleiche externe Einflüsse und die Intervention voneinander abzugrenzen.
+- Anzahl und Lage der Messzeitpunkte können die statistische Power beeinflussen. Entscheidend sind dabei der erwartete zeitliche Wirkverlauf, die Korrelation zwischen wiederholten Messungen, das Analysemodell und das Ausmaß fehlender Daten.
+
+::: {.callout-note title="Wichtiger Hinweis"}
+Messzeitpunkte allein erlauben noch keine eindeutige Trennung verschiedener Einflussfaktoren. Dafür werden meist zusätzlich eine geeignete Kontrollgruppe oder mehrere Messungen vor und nach der Intervention benötigt.
+:::
 
 ## Typische Messschemata
 
-- One‑Shot / Posttest only: X O  
-  - Vorteil: einfach; Nachteil: keine Basislinie, keine kausale Aussage.
-- Pretest‑Posttest (one‑group): O1 X O2  
-  - Vorteil: Veränderung sichtbar; Nachteil: History, Reifung, Regression zur Mitte.
-- Pretest‑Posttest mit Kontrollgruppe / RCT: R O1 X O2 / R O1 O2  
-  - Vorteil: Starke interne Validität bei Randomisierung.
-- Mehrfache Follow‑ups: O1 X O2 O3 ...  
-  - Ermöglichen Trajektorienanalyse, Verzögerungseffekte, Nachhaltigkeit.
-- Interrupted Time Series (ITS): viele Messzeitpunkte vor und nach der Intervention  
-  - Gut zur Erkennung plötzlicher Veränderungen und Trends.
-- Intensive Longitudinal / EMA: hohe Messfrequenz (täglich/stündlich)  
-  - Gut für Prozesse, kurzfristige Effekte, intraindividuelle Variabilität.
+### Einmalige Messung nach der Intervention
+
+`X O`
+
+Die Zielvariable wird ausschließlich nach der Intervention erhoben.
+
+**Vorteil:** geringer Erhebungsaufwand.  
+
+**Einschränkung:** Veränderungen gegenüber dem Ausgangszustand können nicht bestimmt werden. Ohne geeignete Vergleichsgruppe sind kausale Schlussfolgerungen kaum möglich.
+
+### Ein-Gruppen-Prä-Post-Design
+
+`O₁ X O₂`
+
+Dieselbe Gruppe wird vor und nach der Intervention untersucht.
+
+**Vorteil:** Veränderungen innerhalb der Gruppe werden sichtbar.  
+
+**Einschränkung:** Veränderungen können neben der Intervention auch durch Reifung, Regression zur Mitte oder zeitgleiche externe Einflüsse entstanden sein.
+
+### Prä-Post-Design mit Kontrollgruppe
+
+`R O₁ X O₂`  
+`R O₁   O₂`
+
+Interventions- und Kontrollgruppe werden vor und nach der Intervention untersucht. Bei einer randomisierten Zuweisung steht `R` für die Randomisierung.
+
+**Vorteil:** Die Veränderung in der Interventionsgruppe kann mit der Veränderung in der Kontrollgruppe verglichen werden. Eine korrekt durchgeführte Randomisierung stärkt die interne Validität.
+
+### Mehrere Nachmessungen
+
+`O₁ X O₂ O₃ …`
+
+Zusätzliche Nachmessungen ermöglichen die Untersuchung von Entwicklungsverläufen, verzögerten Wirkungen und der Nachhaltigkeit von Interventionseffekten.
+
+### Unterbrochene Zeitreihe
+
+`O₁ O₂ O₃ O₄ X O₅ O₆ O₇ O₈`
+
+Viele Messzeitpunkte vor und nach der Einführung einer Intervention ermöglichen es, bestehende Trends und Veränderungen nach dem Interventionsbeginn zu untersuchen.
+
+### Intensiv längsschnittliche Designs
+
+Bei intensiv längsschnittlichen Designs werden Daten in kurzen Abständen erhoben, beispielsweise täglich oder mehrmals pro Tag.
+
+Diese Designs eignen sich zur Untersuchung kurzfristiger Prozesse, intraindividueller Veränderungen und zeitlich dynamischer Wirkungen.
 
 ## Praktische Empfehlungen zur Auswahl von Messzeitpunkten
 
-- Primäres Outcome zuerst definieren; Messzeitpunkte an erwarteter Wirkmechanik ausrichten.  
-- Mindestens eine valide Baseline (O1) vor Beginn der Intervention.  
-- Bei erwarteter Verzögerung mindestens ein späteres Follow‑up (O3+).  
-- Intensive Designs: Balance zwischen Belastung der Teilnehmenden und Informationsgehalt.  
-- Powerplanung basierend auf Effektgröße der primären AV und Messwiederholungen (Cluster/Repeated‑Measures berücksichtigen).  
-- Missing‑Data‑Plan (Imputation, Sensitivitätsanalysen) vorab festlegen.  
-- Dokumentation: Messpläne, Analysepläne und Hierarchie der Outcomes vorregistrieren.
+- Zunächst das primäre Outcome und den erwarteten Wirkverlauf definieren.
+- Mindestens eine geeignete Ausgangsmessung vor Beginn der Intervention einplanen.
+- Den Zeitpunkt der Nachmessung an der erwarteten Wirkungsdauer der Intervention ausrichten.
+- Bei verzögerten oder längerfristigen Wirkungen zusätzliche Follow-up-Messungen vorsehen.
+- Bei häufigen Messungen die Belastung der Teilnehmenden gegen den zusätzlichen Informationsgewinn abwägen.
+- In der Powerplanung die Zahl der Messwiederholungen und gegebenenfalls die Clusterstruktur berücksichtigen.
+- Den Umgang mit fehlenden Daten und Studienabbrüchen vorab festlegen.
+- Messzeitpunkte, Outcomes und geplante Analysen möglichst vor Beginn der Studie dokumentieren oder präregistrieren.
+
 
 ## Beispiele — Simulationen und Visualisierungen
 
@@ -43,26 +92,32 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# 1) RCT Pre-Post (Boxplot der Veränderungen)
-n_per_group <- 40
-true_effect <- 8
-maturation <- 3
+# 1) RCT Prä-Post: Posttestwerte nach Gruppe 
+n_per_group <- 40 
+true_effect <- 8 
+maturation <- 3 
 
-rct <- tibble(
-  id = 1:(2*n_per_group),
-  group = rep(c("Exp","Ctrl"), each = n_per_group),
-  pre = rnorm(2*n_per_group, mean = 50, sd = 10)
-) %>%
-  mutate(
-    post = pre + maturation + ifelse(group=="Exp", true_effect, 0) + rnorm(2*n_per_group, 0, 6),
-    change = post - pre
-  )
-
-rct_plot <- ggplot(rct, aes(x = group, y = change, fill = group)) +
-  geom_boxplot() +
-  labs(title = "RCT: Veränderung (Post - Pre)", y = "Veränderung", x = "") +
-  theme_minimal() +
-  theme(legend.position = "none")
+rct <- tibble( 
+  id = 1:(2 * n_per_group), 
+  group = rep(c("Interventionsgruppe", "Kontrollgruppe"), each = n_per_group), 
+  pre = rnorm(2 * n_per_group, mean = 50, sd = 10) 
+  ) %>% 
+    mutate( 
+      post = pre + 
+        maturation + 
+        ifelse(group == "Interventionsgruppe", true_effect, 0) + 
+        rnorm(2 * n_per_group, mean = 0, sd = 6) 
+        ) 
+        
+        rct_plot <- ggplot(rct, aes(x = group, y = post, fill = group)) + 
+          geom_boxplot(width = 0.6, alpha = 0.7) + 
+          labs( 
+            title = "Posttestwerte nach Untersuchungsbedingung", 
+            subtitle = "Unadjustierte Verteilung der Posttestwerte", 
+            x = "", 
+            y = "Posttestwert" ) +
+               theme_minimal() + 
+               theme(legend.position = "none")
 
 # 2) Mehrfache Follow-ups (Trajektorien, Gruppenmittelwerte)
 ids <- 1:100

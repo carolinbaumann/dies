@@ -36,7 +36,7 @@ Die Gegenwahrscheinlichkeit ist der Fehler 2. Art:
 beta = 1 - 	Power
 \]
 
-Bei einer Power von 0,80 beträgt \(beta = 0,20\). In 20 % vergleichbarer Studien würde ein tatsächlich vorhandener Effekt übersehen.
+Bei einer Power von 0,80 beträgt beta = 0,20. In 20 % vergleichbarer Studien würde ein tatsächlich vorhandener Effekt übersehen.
 
 Typische Zielwerte sind:
 
@@ -57,7 +57,7 @@ Studien mit geringer Power haben mehrere Probleme:
 
 - Tatsächlich vorhandene Effekte werden häufiger übersehen.
 - Ergebnisse fallen von Studie zu Studie instabiler aus.
-- Statistisch signifikante Effekte werden tendenziell überschätzt.
+- Statistisch signifikante Effekte werden tendenziell überschätzt (auch "Type M Error genannt) oder ihr Vorzeichen gar falsch wiedergegeben (auch "Type S Error genannt")
 - Die Reproduzierbarkeit der Befunde sinkt.
 
 Die Poweranalyse sollte deshalb bereits vor der Datenerhebung erfolgen und gemeinsam mit Forschungsfrage, Design und Auswertungsstrategie geplant werden.

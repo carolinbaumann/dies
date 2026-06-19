@@ -13,13 +13,13 @@ Eine Kontrollgruppe bildet die Vergleichsbedingung zur Experimentalgruppe. Erst 
 
 ## Arten von Kontrollgruppen in der Deutschdidaktik
 
-### Keine-Behandlung-Kontrollgruppe
+### Business-as-Usual-Kontrollgruppe
 Erhält keinen speziellen Förderunterricht, sondern regulären Unterricht.
 
 **Beispiel**: Eine Klasse erhält ein neues Rechtschreibtraining, die Kontrollklasse arbeitet nach dem bisherigen Curriculum.
 
 ### Placebo-Kontrollgruppe
-Erhält eine alternative Aktivität von vergleichbarer Dauer und Intensität.
+Erhält eine alternative Aktivität von vergleichbarer Dauer und Intensität, die jedoch nicht den vermuteten Wirkmechanismus hat.
 
 **Beispiel**: Während die Experimentalgruppe ein strukturiertes Lesefluency-Training erhält, bearbeitet die Kontrollgruppe allgemeine Leseaufgaben ohne spezifische Methodik.
 
@@ -68,7 +68,7 @@ Klicken Sie auf die Reiter, um zwischen den Beispielen zu wechseln.
 ## Wichtige Überlegungen im Schulkontext
 
 ### Praktische Herausforderungen
-- **Klassenverbände**: Oft Zuweisung ganzer Klassen statt einzelner Schüler
+- **Klassenverbände**: Oft Zuweisung ganzer Klassen statt einzelner Schüler:innen
 - **Unterrichtsrealität**: Kontrollbedingung muss im regulären Unterricht umsetzbar sein
 - **Lehrpersonen**: Verschiedene Lehrkräfte können Ergebnisse beeinflussen
 
@@ -79,7 +79,7 @@ Klicken Sie auf die Reiter, um zwischen den Beispielen zu wechseln.
 
 ## Häufige Probleme
 
-- **Dropout**: Schüler wechseln die Schule oder fehlen bei Nachtestung
+- **Dropout**: Schüler:innen wechseln die Schule oder fehlen bei Nachtestung
 - **Diffusion**: Austausch zwischen Experimental- und Kontrollgruppe (z.B. in der Pause)
 - **Kompensation**: Kontrollgruppe erhält aus Fairnessgründen zusätzliche Förderung
 - **Demoralisation**: Kontrollgruppe ist demotiviert, weil sie nicht am Programm teilnimmt

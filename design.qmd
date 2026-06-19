@@ -13,9 +13,12 @@ Wählen Sie das Design anhand Ihrer Forschungsfrage – nicht danach, welches De
 
 ## Häufige Designvarianten und Designentscheidungen
 Die folgenden Begriffe beschreiben unterschiedliche Aspekte eines Untersuchungsdesigns und können miteinander kombiniert werden.
+
 ### Ein-Gruppen-Prä-Post-Design
 
 Eine Gruppe wird vor und nach der Intervention untersucht.
+
+![Ablauf eines Ein-Gruppen-Prä-Post-Designs](images/ein-gruppen-prae-post.svg){fig-align="center" width="100%"}
 
 **Geeignet für:** erste Erprobungen und Machbarkeitsstudien.
 
@@ -24,6 +27,8 @@ Eine Gruppe wird vor und nach der Intervention untersucht.
 ### Parallelgruppendesign
 
 Mindestens zwei Gruppen erhalten gleichzeitig unterschiedliche Bedingungen, beispielsweise eine Intervention und regulären Unterricht.
+
+![Ablauf eines Parallelgruppendesigns](images/parallelgruppendesign.svg){fig-align="center" width="100%"}
 
 **Vorteil:** Die Entwicklungen der Gruppen können direkt verglichen werden.
 
@@ -59,7 +64,7 @@ Für besondere Forschungsfragen kommen unter anderem infrage:
 
 - Crossover-Designs
 - faktorielle Designs
-- Löngsschnittdesigns
+- Längsschnittdesigns
 - Single-Case-Designs
 - Stepped-Wedge-Designs
 

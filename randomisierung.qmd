@@ -5,87 +5,127 @@ format: html
 
 ## Was ist Randomisierung?
 
-Randomisierung bezeichnet die **zufällige Zuweisung von Untersuchungsteilnehmenden** zu den verschiedenen Untersuchungsbedingungen einer Studie, beispielsweise einer Experimental- und einer Kontrollgruppe. Sie stellt ein zentrales Merkmal experimenteller Forschungsdesigns dar und dient dazu, systematische Unterschiede zwischen den Gruppen zu minimieren.
+Randomisierung bezeichnet die **zufällige Zuweisung von Untersuchungseinheiten** zu verschiedenen Untersuchungsbedingungen, beispielsweise zu einer Interventions- und einer Kontrollbedingung. Untersuchungseinheiten können einzelne Personen, aber auch ganze Klassen oder Schulen sein.
 
-Durch die zufällige Gruppenzuweisung werden sowohl **bekannte Merkmale** (z. B. Vorwissen, Motivation oder Alter) als auch **unbekannte Einflussfaktoren** im Erwartungswert gleichmäßig auf die Untersuchungsgruppen verteilt. Auf diese Weise erhöht sich die Wahrscheinlichkeit, dass beobachtete Unterschiede in den Ergebnissen tatsächlich auf die untersuchte Intervention zurückzuführen sind.
+Welche Einheit randomisiert wird, muss zum Forschungsdesign passen:
 
-Randomisierung trägt somit wesentlich zur **internen Validität** einer Studie bei und bildet eine wichtige Grundlage für die Ableitung kausaler Aussagen.
+- Bei einer **Individualrandomisierung** werden einzelne Schüler:innen zugewiesen.
+- Bei einer **Cluster-Randomisierung** werden ganze Klassen oder Schulen zugewiesen.
+
+Durch die zufällige Zuweisung werden bekannte Merkmale, etwa Vorwissen, Motivation oder Alter, und unbekannte Einflussfaktoren im Erwartungswert auf die Untersuchungsbedingungen verteilt. Dadurch sinkt das Risiko systematischer Ausgangsunterschiede.
+
+Randomisierung stärkt die **interne Validität** einer Studie und bildet eine wichtige Grundlage für kausale Schlussfolgerungen. Sie garantiert jedoch nicht, dass kleine Gruppen in allen Merkmalen ausgeglichen sind.
+
+
 
 ## Zentrale Funktionen der Randomisierung
 
-Randomisierung soll verhindern, dass die Gruppenzuweisung systematisch von Merkmalen der Teilnehmenden beeinflusst wird. Dadurch werden bekannte und unbekannte Einflussfaktoren im Erwartungswert auf die Gruppen verteilt.
+Randomisierung soll verhindern, dass die Gruppenzuweisung gezielt oder vorhersehbar von Merkmalen der Untersuchungseinheiten beeinflusst wird. Dadurch werden insbesondere folgende Risiken reduziert:
 
-Das stärkt die **interne Validität** und macht kausale Interpretationen plausibler.
+- systematische Auswahl leistungsstärkerer oder motivierterer Teilnehmender,
+- bewusste oder unbewusste Einflussnahme auf die Zuweisung,
+- Verzerrungen durch bekannte und unbekannte Störvariablen.
+
+Eine überzeugende Randomisierung setzt voraus, dass das Verfahren korrekt durchgeführt, dokumentiert und gegen vorhersehbare Einflussnahme abgesichert wird.
 
 ## Beispiel aus der Deutschdidaktik
 
-Eine Studie untersucht ein neues Lesestrategieprogramm. Die Interventionsgruppe arbeitet mit dem Programm, die Kontrollgruppe erhält regulären Unterricht.
+Eine Studie untersucht ein neues Lesestrategieprogramm. Mehrere Klassen nehmen teil. Ein Teil der Klassen wird zufällig der Interventionsbedingung zugewiesen, die übrigen Klassen der Kontrollbedingung.
 
-Werden die Gruppen gezielt ausgewählt, könnte beispielsweise die leistungsstärkere Klasse das neue Programm erhalten. Unterschiede im Abschlusstest wären dann schwer zu interpretieren.
+![Ablauf der Randomisierung](images/randomisierung.svg){fig-align="center" width="100%"}
 
-Durch eine zufällige Zuweisung wird diese systematische Auswahl vermieden.
+Eine gezielte Zuweisung könnte dazu führen, dass beispielsweise besonders leistungsstarke Klassen das neue Programm erhalten. Unterschiede im Abschlusstest wären dann nur schwer als Wirkung des Programms zu interpretieren. Die zufällige Zuweisung reduziert dieses Risiko.
 
+::: {.callout-warning title="Eine Klasse pro Bedingung reicht nicht aus"}
+Werden nur eine Klasse der Intervention und eine Klasse der Kontrollbedingung zugewiesen, sind **Klasse und Bedingung vollständig miteinander konfundiert**. Ein beobachteter Unterschied kann dann ebenso auf die Lehrkraft, das Klassenklima, das Leistungsniveau oder andere Besonderheiten der Klassen zurückgehen.
+
+Auch eine zufällige Zuweisung von lediglich zwei Klassen löst dieses Problem nicht. Für einen belastbaren Vergleich werden mehrere unabhängig randomisierte Klassen oder Schulen pro Bedingung benötigt.
+:::
 
 ## Möglichkeiten der zufälligen Zuweisung
 
-### Einfache Randomisierung
+### Individualrandomisierung
 
-Bei der **einfachen Randomisierung** wird jede Person mit gleicher Wahrscheinlichkeit einer Gruppe zugewiesen, zum Beispiel mithilfe eines Zufallszahlengenerators.
+Bei der **Individualrandomisierung** wird jede einzelne Person mit einer festgelegten Wahrscheinlichkeit einer Untersuchungsbedingung zugewiesen, zum Beispiel mithilfe eines Zufallszahlengenerators.
 
-**Vorteil:** Das Verfahren ist leicht verständlich und einfach durchzuführen.
+**Beispiel:** Schüler:innen aus mehreren Klassen werden einzeln einer digitalen Übungsbedingung oder einer Vergleichsbedingung zugewiesen.
 
-**Zu beachten:** Bei kleinen Stichproben können unterschiedlich große oder zufällig ungleiche Gruppen entstehen.
+**Vorteil:** Bei ausreichend großer Stichprobe können sich Personenmerkmale gut auf die Bedingungen verteilen.
+
+**Zu beachten:** In schulischen Studien kann die individuelle Zuweisung organisatorisch schwierig sein. Zudem können sich Schüler:innen verschiedener Bedingungen gegenseitig beeinflussen, wenn sie gemeinsam unterrichtet werden.
 
 ### Cluster-Randomisierung
 
-In schulischen Studien können häufig nicht einzelne Schüler:innen unabhängig voneinander zugewiesen werden. Stattdessen werden ganze **Klassen oder Schulen** zufällig einer Bedingung zugeordnet.
+Bei einer **Cluster-Randomisierung** werden bestehende Gruppen, beispielsweise Klassen oder Schulen, als Ganzes zufällig einer Untersuchungsbedingung zugewiesen.
 
 **Beispiel:** Acht Klassen nehmen an einer Studie zur Schreibförderung teil. Vier Klassen werden der neuen Schreibintervention und vier Klassen dem regulären Unterricht zugewiesen.
 
-**Zu beachten:** Schüler:innen innerhalb einer Klasse ähneln sich häufig. Dies muss bei der Stichprobenplanung und Auswertung berücksichtigt werden.
+Die Klasse ist in diesem Fall die **Randomisierungseinheit**. Die einzelnen Schüler:innen sind Beobachtungseinheiten innerhalb dieser Cluster.
+
+::: {.callout-important title="Nicht nur die Zahl der Schüler:innen zählt"}
+Schüler:innen innerhalb derselben Klasse ähneln sich häufig stärker als Schüler:innen aus unterschiedlichen Klassen. Deshalb liefern 100 Schüler:innen aus einer einzigen Klasse nicht dieselbe unabhängige Information wie 100 Schüler:innen aus mehreren Klassen.
+
+Für Planung und Auswertung sind insbesondere die Zahl der randomisierten Klassen oder Schulen und die Ähnlichkeit der Schüler:innen innerhalb dieser Cluster relevant. Die hierarchische Datenstruktur muss statistisch berücksichtigt werden.
+:::
 
 ### Stratifizierte Randomisierung
 
-Bei der **stratifizierten Randomisierung** werden Untersuchungseinheiten zunächst anhand eines wichtigen Merkmals gruppiert und anschließend innerhalb dieser Gruppen randomisiert.
+Bei der **stratifizierten Randomisierung** werden Untersuchungseinheiten zunächst anhand eines wichtigen Merkmals in Teilgruppen eingeteilt und anschließend innerhalb dieser Teilgruppen randomisiert.
 
-So kann beispielsweise sichergestellt werden, dass Klassen mit hohem und niedrigem Vortestniveau auf beide Bedingungen verteilt werden.
+**Beispiel:** Klassen werden anhand ihres mittleren Vortestniveaus in Klassen mit höherem und niedrigerem Ausgangsniveau eingeteilt. Innerhalb beider Gruppen werden die Klassen anschließend zufällig auf Intervention und Kontrolle verteilt.
+
+Die Stratifizierung kann dazu beitragen, dass wichtige Ausgangsmerkmale in beiden Bedingungen vertreten sind. Sie ersetzt jedoch keine ausreichende Zahl von Untersuchungseinheiten.
 
 ::: {.callout-note title="Weitere Verfahren"}
-Zu den weiterführenden Verfahren gehört die **Blockrandomisierung**. Sie wird eingesetzt, um während der Zuweisung ein festgelegtes Verhältnis zwischen den Gruppen zu erhalten.
+Zu den weiterführenden Verfahren gehört die **Blockrandomisierung**. Sie wird eingesetzt, um während der Zuweisung ein festgelegtes Verhältnis zwischen den Bedingungen zu erhalten. Bei wenigen Clustern kommen außerdem eingeschränkte oder paarweise Randomisierungsverfahren infrage; ihre Planung sollte designspezifisch erfolgen.
 :::
+
+## Randomisierungseinheit und Auswertung
+
+Die Einheit der Randomisierung bestimmt, welche Beobachtungen als unabhängig gelten und wie die Daten ausgewertet werden müssen.
+
+| Randomisierung | Randomisierungseinheit | Typische Auswertung |
+|---|---|---|
+| einzelne Schüler:innen | Person | Analyse auf Personenebene |
+| ganze Klassen | Klasse | Mehrebenenmodell oder clusterrobuste Verfahren |
+| ganze Schulen | Schule | Mehrebenenmodell oder clusterrobuste Verfahren |
+
+Wird auf Klassenebene randomisiert, darf die Auswertung die Schüler:innen nicht so behandeln, als wären sie vollständig unabhängig voneinander. Andernfalls werden Standardfehler häufig unterschätzt und Ergebnisse können zu sicher erscheinen.
 
 ## Wenn keine Randomisierung möglich ist
 
-In schulischen Studien können organisatorische Vorgaben eine zufällige Zuweisung verhindern. Dann kann **Matching** helfen, möglichst ähnliche Vergleichsgruppen zu bilden.
+In schulischen Studien können organisatorische oder institutionelle Vorgaben eine zufällige Zuweisung verhindern. Dann handelt es sich um ein **quasi-experimentelles Design**.
 
-Dabei werden Personen, Klassen oder Schulen anhand wichtiger Merkmale einander zugeordnet, zum Beispiel anhand von:
+Matching kann helfen, möglichst ähnliche Vergleichsgruppen zu bilden. Dabei werden Personen, Klassen oder Schulen anhand wichtiger Merkmale einander zugeordnet, zum Beispiel anhand von:
 
-- Vortestleistung
-- Klassenstufe
-- Schulform
-- Klassengröße
+- Vortestleistung,
+- Klassenstufe,
+- Schulform,
+- Klassengröße,
+- sozioökonomischer Zusammensetzung.
 
-Matching kann die Vergleichbarkeit verbessern. Es ersetzt jedoch keine Randomisierung, weil nur bekannte und gemessene Merkmale berücksichtigt werden können.
+Matching kann die Vergleichbarkeit verbessern. Es ersetzt jedoch keine Randomisierung, weil nur bekannte und gemessene Merkmale berücksichtigt werden können. Unbeobachtete Unterschiede können weiterhin die Ergebnisse verzerren.
 
-Weiterführende Verfahren sind beispielsweise Propensity-Score-Matching und die statistische Kontrolle durch Kovariaten.
+Weiterführende Verfahren sind beispielsweise Propensity-Score-Verfahren und die statistische Kontrolle durch Kovariaten.
 
 ## Gruppen nach der Randomisierung beschreiben
 
-Nach der Randomisierung sollten die Ausgangsmerkmale der Gruppen **deskriptiv dargestellt** werden, beispielsweise:
+Nach der Randomisierung sollten die Ausgangsmerkmale der Bedingungen **deskriptiv dargestellt** werden, beispielsweise:
 
-- Vortestleistungen
-- Alter oder Klassenstufe
-- weitere für die Forschungsfrage relevante Merkmale
+- Vortestleistungen,
+- Alter oder Klassenstufe,
+- Klassengröße,
+- weitere für die Forschungsfrage relevante Merkmale.
 
-Mittelwerte, Standardabweichungen und Verteilungen zeigen, wie die entstandenen Gruppen zusammengesetzt sind.
+Mittelwerte, Standardabweichungen und Verteilungen zeigen, wie die entstandenen Gruppen zusammengesetzt sind. Bei Cluster-Randomisierung sollten zusätzlich Merkmale der Klassen oder Schulen beschrieben werden.
 
-::: {.callout-important}
-## Wichtig zu beachten
-Unterschiede zwischen den Gruppen bedeuten nicht automatisch, dass die Randomisierung fehlgeschlagen ist. Gerade bei kleinen Stichproben können zufällige Unterschiede auftreten.
+::: {.callout-important title="Randomisierung nicht nachträglich testen"}
+Unterschiede zwischen den Bedingungen bedeuten nicht automatisch, dass die Randomisierung fehlgeschlagen ist. Gerade bei kleinen Stichproben oder wenigen Clustern können zufällige Unterschiede auftreten.
 
-Signifikanztests eignen sich daher nicht als Prüfung, ob eine Randomisierung „erfolgreich“ war. Entscheidend ist, dass die Zuweisung korrekt und ohne vorhersehbare Einflussnahme durchgeführt wurde.
+Signifikanztests eignen sich daher nicht als Prüfung, ob eine Randomisierung „erfolgreich“ war. Entscheidend ist, dass die Zuweisung korrekt, zufällig und ohne vorhersehbare Einflussnahme durchgeführt wurde. Inhaltlich relevante Ausgangsunterschiede können bei der Auswertung berücksichtigt werden.
 :::
 
+<!--
 
 ## Interaktives Tool: Randomisierung durchführen
 
@@ -93,6 +133,8 @@ Dieses Beispiel dient ausschließlich zur Illustration der grundlegenden Zusamme
 
 ```{ojs}
 //| echo: false
+//| eval: false
+
 
 viewof n_participants = Inputs.range([10, 200], {
   value: 40,
@@ -219,3 +261,4 @@ html`
 `
 ```
 
+-->
